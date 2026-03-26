@@ -1,0 +1,455 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) EasyBuild/2022a
+Processing: TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz
+Atoms in primitive: 20
+Selected Supercell: 2x2x2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1770738020.545961 1716511 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1770738020.571944 1716511 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1770738020.792960 1716511 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770738020.793027 1716511 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770738020.793036 1716511 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1770738020.793043 1716511 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using default supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+MD stability method will use:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Total simulation time: 10.0 ps
+  Supercell size: 2x2x2
+  Equilibration fraction: 0.2
+  Stability assessment thresholds (generous for MLIP fluctuations):
+    Volume fluctuation: ±6.0%
+    RMSD threshold: 1.0 Å
+    RDF correlation: >0.5
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz.cif
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py:143: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+Using head Default out of ['Default']
+MACE calculator initialized.
+
+» MACE relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 8) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 8
+International Symbol: Cm
+Hall Symbol: C -2y
+Point Group: m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/_collections_abc.py:769: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+   Initial energy: -57.070837 eV
+   Initial energy per atom: -2.853542 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:493: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   MACE relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/relax.log
+   MACE relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-2.853542 eV/atom, Volume=1013.546 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-2.853559 eV/atom, Volume=1013.564 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-2.853897 eV/atom, Volume=1014.247 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-2.853905 eV/atom, Volume=1014.281 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-2.854009 eV/atom, Volume=1014.673 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -2.854064 eV/atom
+   Step 1: Initial volume: 1014.844 Å³
+   Step 7: Energy/atom=-2.854093 eV/atom, Volume=1014.859 Å³
+   Step 8: Energy/atom=-2.854098 eV/atom, Volume=1014.803 Å³
+   Step 9: Energy/atom=-2.854102 eV/atom, Volume=1014.743 Å³
+   Step 10: Energy/atom=-2.854112 eV/atom, Volume=1014.616 Å³
+   Step 11: Energy/atom=-2.854129 eV/atom, Volume=1014.416 Å³
+   Step 12: Energy/atom=-2.854151 eV/atom, Volume=1014.183 Å³
+   Step 13: Energy/atom=-2.854166 eV/atom, Volume=1014.060 Å³
+   Step 14: Energy/atom=-2.854173 eV/atom, Volume=1014.051 Å³
+   Step 15: Energy/atom=-2.854178 eV/atom, Volume=1014.050 Å³
+   Step 16: Energy/atom=-2.854186 eV/atom, Volume=1013.995 Å³
+   Step 17: Energy/atom=-2.854199 eV/atom, Volume=1013.803 Å³
+   Step 18: Energy/atom=-2.854213 eV/atom, Volume=1013.461 Å³
+   Step 19: Energy/atom=-2.854221 eV/atom, Volume=1013.175 Å³
+   Step 20: Energy/atom=-2.854224 eV/atom, Volume=1013.053 Å³
+   Step 21: Energy/atom=-2.854228 eV/atom, Volume=1012.961 Å³
+   Step 22: Energy/atom=-2.854235 eV/atom, Volume=1012.778 Å³
+   Step 23: Energy/atom=-2.854249 eV/atom, Volume=1012.416 Å³
+   Step 24: Energy/atom=-2.854270 eV/atom, Volume=1011.854 Å³
+   Step 25: Energy/atom=-2.854287 eV/atom, Volume=1011.388 Å³
+   Step 26: Energy/atom=-2.854293 eV/atom, Volume=1011.289 Å³
+   Step 27: Energy/atom=-2.854295 eV/atom, Volume=1011.342 Å³
+   Step 28: Energy/atom=-2.854297 eV/atom, Volume=1011.405 Å³
+   Step 29: Energy/atom=-2.854302 eV/atom, Volume=1011.496 Å³
+   Step 30: Energy/atom=-2.854312 eV/atom, Volume=1011.567 Å³
+   Step 31: Energy/atom=-2.854328 eV/atom, Volume=1011.530 Å³
+   Step 32: Energy/atom=-2.854342 eV/atom, Volume=1011.348 Å³
+   Step 33: Energy/atom=-2.854349 eV/atom, Volume=1011.174 Å³
+   Step 34: Energy/atom=-2.854354 eV/atom, Volume=1011.075 Å³
+   Step 35: Energy/atom=-2.854363 eV/atom, Volume=1010.989 Å³
+   Step 36: Energy/atom=-2.854380 eV/atom, Volume=1010.925 Å³
+   Step 37: Energy/atom=-2.854410 eV/atom, Volume=1011.003 Å³
+   Step 38: Energy/atom=-2.854442 eV/atom, Volume=1011.363 Å³
+   Step 39: Energy/atom=-2.854460 eV/atom, Volume=1011.804 Å³
+   Step 40: Energy/atom=-2.854466 eV/atom, Volume=1011.969 Å³
+   Step 41: Energy/atom=-2.854469 eV/atom, Volume=1012.014 Å³
+   Step 42: Energy/atom=-2.854476 eV/atom, Volume=1012.082 Å³
+   Step 43: Energy/atom=-2.854491 eV/atom, Volume=1012.181 Å³
+   Step 44: Energy/atom=-2.854515 eV/atom, Volume=1012.309 Å³
+   Step 45: Energy/atom=-2.854538 eV/atom, Volume=1012.399 Å³
+   Step 46: Energy/atom=-2.854548 eV/atom, Volume=1012.402 Å³
+   Step 47: Energy/atom=-2.854552 eV/atom, Volume=1012.366 Å³
+   Step 48: Energy/atom=-2.854556 eV/atom, Volume=1012.328 Å³
+   Step 49: Energy/atom=-2.854564 eV/atom, Volume=1012.278 Å³
+   Step 50: Energy/atom=-2.854578 eV/atom, Volume=1012.241 Å³
+   Step 51: Energy/atom=-2.854595 eV/atom, Volume=1012.265 Å³
+   Step 52: Energy/atom=-2.854606 eV/atom, Volume=1012.352 Å³
+   Step 53: Energy/atom=-2.854610 eV/atom, Volume=1012.421 Å³
+   Step 54: Energy/atom=-2.854613 eV/atom, Volume=1012.457 Å³
+   Step 55: Energy/atom=-2.854618 eV/atom, Volume=1012.493 Å³
+   Step 56: Energy/atom=-2.854627 eV/atom, Volume=1012.509 Å³
+   Step 57: Energy/atom=-2.854639 eV/atom, Volume=1012.469 Å³
+   Step 58: Energy/atom=-2.854647 eV/atom, Volume=1012.381 Å³
+   Step 59: Energy/atom=-2.854650 eV/atom, Volume=1012.325 Å³
+   Step 60: Energy/atom=-2.854651 eV/atom, Volume=1012.307 Å³
+   Step 61: Energy/atom=-2.854652 eV/atom, Volume=1012.289 Å³
+   Step 62: Energy/atom=-2.854656 eV/atom, Volume=1012.261 Å³
+   Step 63: Energy/atom=-2.854661 eV/atom, Volume=1012.224 Å³
+   Step 64: Energy/atom=-2.854668 eV/atom, Volume=1012.197 Å³
+   Step 65: Energy/atom=-2.854673 eV/atom, Volume=1012.199 Å³
+   Step 66: Energy/atom=-2.854674 eV/atom, Volume=1012.214 Å³
+   Step 67: Energy/atom=-2.854674 eV/atom, Volume=1012.222 Å³
+   Step 68: Energy/atom=-2.854674 eV/atom, Volume=1012.229 Å³
+   Step 69: Energy/atom=-2.854676 eV/atom, Volume=1012.233 Å³
+   Step 70: Energy/atom=-2.854677 eV/atom, Volume=1012.223 Å³
+   Step 71: Energy/atom=-2.854680 eV/atom, Volume=1012.187 Å³
+   Step 72: Energy/atom=-2.854681 eV/atom, Volume=1012.144 Å³
+   Step 73: Energy/atom=-2.854681 eV/atom, Volume=1012.123 Å³
+   Step 74: Energy/atom=-2.854681 eV/atom, Volume=1012.116 Å³
+   Step 75: Energy/atom=-2.854682 eV/atom, Volume=1012.108 Å³
+   Step 76: Energy/atom=-2.854682 eV/atom, Volume=1012.094 Å³
+   Step 77: Energy/atom=-2.854683 eV/atom, Volume=1012.075 Å³
+   Step 78: Energy/atom=-2.854684 eV/atom, Volume=1012.062 Å³
+   Step 79: Energy/atom=-2.854684 eV/atom, Volume=1012.058 Å³
+   Step 80: Energy/atom=-2.854685 eV/atom, Volume=1012.057 Å³
+   Step 81: Energy/atom=-2.854685 eV/atom, Volume=1012.053 Å³
+   Step 82: Energy/atom=-2.854686 eV/atom, Volume=1012.038 Å³
+   Step 83: Energy/atom=-2.854687 eV/atom, Volume=1011.998 Å³
+   Step 84: Energy/atom=-2.854688 eV/atom, Volume=1011.930 Å³
+   Step 85: Energy/atom=-2.854689 eV/atom, Volume=1011.877 Å³
+   Step 86: Energy/atom=-2.854689 eV/atom, Volume=1011.864 Å³
+   Step 87: Energy/atom=-2.854690 eV/atom, Volume=1011.865 Å³
+   Step 88: Energy/atom=-2.854690 eV/atom, Volume=1011.867 Å³
+   Step 89: Energy/atom=-2.854690 eV/atom, Volume=1011.863 Å³
+   Step 90: Energy/atom=-2.854692 eV/atom, Volume=1011.832 Å³
+   Step 91: Energy/atom=-2.854694 eV/atom, Volume=1011.733 Å³
+   Step 92: Energy/atom=-2.854699 eV/atom, Volume=1011.485 Å³
+   Step 93: Energy/atom=-2.854700 eV/atom, Volume=1011.454 Å³
+   Step 94: Energy/atom=-2.854701 eV/atom, Volume=1011.543 Å³
+   Step 95: Energy/atom=-2.854701 eV/atom, Volume=1011.511 Å³
+   Step 96: Energy/atom=-2.854702 eV/atom, Volume=1011.482 Å³
+   Step 97: Energy/atom=-2.854703 eV/atom, Volume=1011.441 Å³
+   Step 98: Energy/atom=-2.854705 eV/atom, Volume=1011.426 Å³
+   Step 99: Energy/atom=-2.854708 eV/atom, Volume=1011.481 Å³
+   Step 100: Energy/atom=-2.854710 eV/atom, Volume=1011.579 Å³
+   Step 101: Energy/atom=-2.854711 eV/atom, Volume=1011.631 Å³
+   Step 102: Energy/atom=-2.854711 eV/atom, Volume=1011.645 Å³
+   Step 103: Energy/atom=-2.854711 eV/atom, Volume=1011.661 Å³
+   Step 104: Energy/atom=-2.854711 eV/atom, Volume=1011.687 Å³
+   Step 105: Energy/atom=-2.854712 eV/atom, Volume=1011.721 Å³
+   Step 106: Energy/atom=-2.854712 eV/atom, Volume=1011.746 Å³
+   Step 107: Energy/atom=-2.854713 eV/atom, Volume=1011.746 Å³
+   Step 108: Energy/atom=-2.854713 eV/atom, Volume=1011.735 Å³
+   Step 109: Energy/atom=-2.854713 eV/atom, Volume=1011.724 Å³
+   Step 110: Energy/atom=-2.854713 eV/atom, Volume=1011.714 Å³
+   Step 111: Energy/atom=-2.854714 eV/atom, Volume=1011.715 Å³
+   Step 112: Energy/atom=-2.854714 eV/atom, Volume=1011.739 Å³
+   Step 113: Energy/atom=-2.854714 eV/atom, Volume=1011.775 Å³
+   Step 114: Energy/atom=-2.854715 eV/atom, Volume=1011.795 Å³
+   Step 115: Energy/atom=-2.854715 eV/atom, Volume=1011.803 Å³
+   Step 116: Energy/atom=-2.854715 eV/atom, Volume=1011.810 Å³
+   Step 117: Energy/atom=-2.854715 eV/atom, Volume=1011.816 Å³
+   Step 118: Energy/atom=-2.854716 eV/atom, Volume=1011.810 Å³
+   Step 119: Energy/atom=-2.854717 eV/atom, Volume=1011.776 Å³
+   Step 120: Energy/atom=-2.854718 eV/atom, Volume=1011.717 Å³
+   Step 121: Energy/atom=-2.854718 eV/atom, Volume=1011.674 Å³
+   Step 122: Energy/atom=-2.854718 eV/atom, Volume=1011.664 Å³
+   Step 123: Energy/atom=-2.854718 eV/atom, Volume=1011.662 Å³
+   Step 124: Energy/atom=-2.854718 eV/atom, Volume=1011.665 Å³
+   Step 125: Energy/atom=-2.854719 eV/atom, Volume=1011.674 Å³
+   Step 126: Energy/atom=-2.854719 eV/atom, Volume=1011.699 Å³
+   Step 127: Energy/atom=-2.854720 eV/atom, Volume=1011.740 Å³
+   Step 128: Energy/atom=-2.854721 eV/atom, Volume=1011.779 Å³
+   Step 129: Energy/atom=-2.854721 eV/atom, Volume=1011.788 Å³
+   Step 130: Energy/atom=-2.854721 eV/atom, Volume=1011.789 Å³
+   Step 131: Energy/atom=-2.854722 eV/atom, Volume=1011.783 Å³
+   Step 132: Energy/atom=-2.854722 eV/atom, Volume=1011.778 Å³
+   Step 133: Energy/atom=-2.854723 eV/atom, Volume=1011.770 Å³
+   Step 134: Energy/atom=-2.854724 eV/atom, Volume=1011.768 Å³
+   Step 135: Energy/atom=-2.854726 eV/atom, Volume=1011.778 Å³
+   Step 136: Energy/atom=-2.854727 eV/atom, Volume=1011.796 Å³
+   Step 137: Energy/atom=-2.854727 eV/atom, Volume=1011.802 Å³
+   Step 138: Energy/atom=-2.854727 eV/atom, Volume=1011.800 Å³
+   Step 139: Energy/atom=-2.854727 eV/atom, Volume=1011.789 Å³
+   Step 140: Energy/atom=-2.854728 eV/atom, Volume=1011.750 Å³
+   Step 141: Energy/atom=-2.854728 eV/atom, Volume=1011.651 Å³
+   Step 142: Energy/atom=-2.854730 eV/atom, Volume=1011.457 Å³
+   Step 143: Energy/atom=-2.854731 eV/atom, Volume=1011.237 Å³
+   Step 144: Energy/atom=-2.854732 eV/atom, Volume=1011.141 Å³
+   Step 145: Energy/atom=-2.854732 eV/atom, Volume=1011.146 Å³
+   Step 146: Energy/atom=-2.854732 eV/atom, Volume=1011.160 Å³
+   Step 147: Energy/atom=-2.854732 eV/atom, Volume=1011.183 Å³
+   Step 148: Energy/atom=-2.854732 eV/atom, Volume=1011.203 Å³
+   Step 149: Energy/atom=-2.854733 eV/atom, Volume=1011.196 Å³
+   Step 150: Energy/atom=-2.854734 eV/atom, Volume=1011.124 Å³
+   Step 151: Energy/atom=-2.854735 eV/atom, Volume=1010.998 Å³
+   Step 152: Energy/atom=-2.854735 eV/atom, Volume=1010.920 Å³
+   Step 153: Energy/atom=-2.854736 eV/atom, Volume=1010.896 Å³
+   Step 154: Energy/atom=-2.854736 eV/atom, Volume=1010.892 Å³
+   Step 155: Energy/atom=-2.854736 eV/atom, Volume=1010.902 Å³
+   Step 156: Energy/atom=-2.854736 eV/atom, Volume=1010.941 Å³
+   Step 157: Energy/atom=-2.854736 eV/atom, Volume=1010.983 Å³
+   Step 158: Energy/atom=-2.854736 eV/atom, Volume=1011.010 Å³
+   Step 159: Energy/atom=-2.854737 eV/atom, Volume=1011.033 Å³
+   Step 160: Energy/atom=-2.854737 eV/atom, Volume=1011.075 Å³
+   Step 161: Energy/atom=-2.854737 eV/atom, Volume=1011.149 Å³
+   Step 162: Energy/atom=-2.854737 eV/atom, Volume=1011.245 Å³
+   Step 163: Energy/atom=-2.854738 eV/atom, Volume=1011.298 Å³
+   Step 164: Energy/atom=-2.854738 eV/atom, Volume=1011.297 Å³
+   Step 165: Energy/atom=-2.854738 eV/atom, Volume=1011.288 Å³
+   Step 166: Energy/atom=-2.854738 eV/atom, Volume=1011.277 Å³
+   Step 167: Energy/atom=-2.854738 eV/atom, Volume=1011.261 Å³
+» MACE relaxation finished in 6.62 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0010) <= fmax (0.0020)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -57.094757 eV
+   Final energy per atom: -2.854738 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 20
+Relaxed atoms: 20
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 44) at symprec = 1.0000e-02
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 44
+International Symbol: Imm2
+Hall Symbol: I 2 -2
+Point Group: mm2
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running MD Stability Analysis ---
+Note: MD stability analysis runs independently of phonon calculations.
+
+--- Running AIMD Stability Analysis ---
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py:143: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+Using head Default out of ['Default']
+MACE calculator initialized.
+MD stability analysis output directory: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis
+
+--- Step 1: Structure Preparation ---
+Creating 2x2x2 supercell for MD simulation
+Supercell created with 160 atoms
+Supercell prepared with 160 atoms
+Initial supercell saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_initial_supercell.cif
+
+--- Step 2: MD Simulation Setup ---
+Total steps: 10000
+  NVT steps: 1000
+  NPT equilibration steps: 1000
+  Production steps: 8000
+MD simulation parameters:
+  Total time: 10.0 ps (10000.0 fs)
+  Phase 1 - NVT equilibration: 1000.0 fs (1000 steps)
+    Temperature ramp: 700 steps (0K → 300.0K)
+    Temperature stabilization: 300 steps
+  Phase 2 - NPT equilibration: 1000.0 fs (1000 steps)
+  Phase 3 - NPT production: 8000.0 fs (8000 steps)
+  Timestep: 1.0 fs
+  Total steps: 10000
+Setting up NVT ensemble for temperature equilibration:
+  Initializing velocities to 10 K to seed the thermostat...
+NVT ensemble setup completed
+
+--- Step 3: MD Simulation Execution ---
+Starting two-stage MD equilibration protocol...
+Trajectory will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_trajectory.traj
+MD log will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_log.txt
+
+--- Phase 1: NVT Temperature Equilibration ---
+Ramping temperature from 0K to 300.0K over 700 steps
+  Temperature ramp progress: 0.0% (T = 1.0 K)
+  Temperature ramp progress: 10.0% (T = 30.9 K)
+  Temperature ramp progress: 20.0% (T = 60.8 K)
+  Temperature ramp progress: 30.0% (T = 90.7 K)
+  Temperature ramp progress: 40.0% (T = 120.6 K)
+  Temperature ramp progress: 50.0% (T = 150.5 K)
+  Temperature ramp progress: 60.0% (T = 180.4 K)
+  Temperature ramp progress: 70.0% (T = 210.3 K)
+  Temperature ramp progress: 80.0% (T = 240.2 K)
+  Temperature ramp progress: 90.0% (T = 270.1 K)
+  Temperature ramp progress: 100.0% (T = 300.0 K)
+NVT equilibration completed. Final temperature: 291.0 K
+
+--- Phase 2: NPT Pressure/Volume Equilibration ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+NPT equilibration completed.
+  Temperature: 294.4 K
+  Volume: 8353.88 Å³
+
+--- Phase 3: NPT Production Run ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+Complete MD simulation finished in 226.68 seconds
+  NVT phase: 1000 steps
+  NPT equilibration: 1000 steps
+  NPT production: 8000 steps
+
+--- Step 4: Trajectory Analysis ---
+Analyzing production trajectory stability from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_production_trajectory.traj
+Production trajectory frames: 1001
+Expected production frames: 1000 (sampling interval: 8)
+Production analysis will use all 1001 frames
+Production time range: 0 to 8000.0 fs (1001 frames)
+Stress data available: 1001 frames
+Volume analysis using first 496.0 fs of production (62 frames)
+  Reference volume average: 8313.86 Å³
+Computing RDF correlation using last 20 structures for statistical robustness
+Analyzing production energy trajectory
+Trajectory analysis completed
+  Analysis performed on production phase (8000 steps, 8000.0 fs)
+  Using separate production trajectory file for cleaner analysis
+
+--- Step 5: Generating Output Files & Averaging Structure ---
+Generating trajectory analysis plots
+Generated 5 analysis plots
+Final structure saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_final_structure.cif
+XYZ trajectory saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_production_trajectory.xyz
+Trajectory (XYZ format) saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_trajectory.xyz
+
+Computing thermally-averaged structure for robust analysis...
+Computing average structure from last 100 frames...
+  Averaged 100 frames. Formula: Cs32I96Pb32
+Averaged structure saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_averaged_structure.cif
+Using thermally-averaged structure for Symmetry and RDF checks (High Precision).
+
+--- Step 6: Stability Assessment ---
+
+--- Analyzing Symmetry Retention ---
+Initial Structure Space Group (tol=0.01): Imm2 (44)
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            P1                   1          NO
+0.20            P1                   1          NO
+0.30            P1                   1          NO
+0.50            P1                   1          NO
+0.75            P1                   1          NO
+1.00            P1                   1          NO
+
+Verdict: SYMMETRY BROKEN
+Symmetry report saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_symmetry_retention_report.txt
+Recalculating RDF using the thermally-averaged structure...
+RDF correlation (averaged structure): 0.7477
+  Trajectory Average RDF Correlation: 0.5044
+  Averaged Structure RDF Correlation: 0.7477 (Used for verdict)
+
+--- Determining Crystal Stability ---
+Stability verdict: STABLE (confidence: MODERATE)
+  RMSD: 0.721 Å (threshold: 1.0 Å) - PASS
+  Volume change: 1.0% (threshold: 6.0%) - PASS
+  RDF correlation: 0.748 (threshold: 0.5) - PASS
+  Symmetry Retention (Imm2): FAIL (Matches found in tolerance sweep)
+Stability analysis completed
+Verdict: STABLE (confidence: MODERATE)
+
+--- Step 7: Generating Comprehensive Report ---
+Comprehensive report saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_stability_report.txt
+Machine-readable summary saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_stability_summary.csv
+
+--- AIMD Stability Analysis Complete ---
+Final verdict: STABLE (confidence: MODERATE)
+All results saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_MD_evals/MD_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_MD_STABILITY_phonon_output_20260210-164032/md_stability_analysis
+
+--- MD Stability Analysis Completed ---
+Final verdict: STABLE (confidence: MODERATE)
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.3GiB
+Total CPU Time                           - CPU_Time         : 00:35:28
+Execution Time                           - Wall_Time        : 00:04:26
+total programme cpu time                 - Total_CPU        : 12:22.092
+Total_CPU / CPU_Time  (%)                - ETA              : 34%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 02:21:52
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

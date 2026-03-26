@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Hf2O4
+_chemical_formula_sum              "Hf2 O4"
+_cell_length_a       6.003759545319062
+_cell_length_b       6.003759802870834
+_cell_length_c       6.003759461462668
+_cell_angle_alpha    141.0286617848417
+_cell_angle_beta     141.02866106930063
+_cell_angle_gamma    56.294702062873235
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.5000000138794735  0.5000000482927884  0.9999999173883456  1.0000
+  Hf  Hf2       1.0  0.2500000628941454  0.7499999300307606  0.5000000478840634  1.0000
+  O   O1        1.0  0.7018851171057595  0.7018850724045334  1.0010446252486038e-07  1.0000
+  O   O2        1.0  0.45188503565479093  0.9518850075278545  0.49999992196579596  1.0000
+  O   O3        1.0  0.2981149479701517  0.2981150503105445  1.1215989074469836e-07  1.0000
+  O   O4        1.0  0.04811481470563645  0.5481148969718862  0.49999989825081925  1.0000

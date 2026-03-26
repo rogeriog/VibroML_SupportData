@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+LiFsimplecubic_sg_Fm3m_energy_m4p982048,STABLE,MODERATE,0.180694,3.67,0.053733,300.0,0.0,10.0,2x2x2,64,1.0,6.0,0.5,62,496.0

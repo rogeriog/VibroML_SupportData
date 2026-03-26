@@ -1,0 +1,33 @@
+--- Relaxation Summary for Main Iteration 1, GA Generation 1 ---
+Analysis Date: 2025-12-29 13:58:49
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 20
+Mode Replacements: 0
+Replacement Rate: 0.00%
+No modes were selected for replacement in this generation.
+
+--- Decomposition Analysis Summary ---
+Reference Energy (E_ref): -2.796148 eV/atom
+Decomposition Threshold: 0.500 eV
+Threshold Condition: E_relax < E_ref - 0.500 = -3.296148 eV/atom
+Total Samples: 20
+Structures Flagged as DECOMPOSED: 0 (0.0%)
+Valid Structures for GA Evolution: 14 (70.0%)
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+40           Cmcm            orthorhombic       -2.830998                 1          1        12       D1:2.968, R21:0.045, Cell:(-0.339, -0.140, 0.210, 0.580, -4.052, -26.502), SC:2x2x2, PhFactor:True
+20           P1              triclinic          -2.822403                 1          1        18       D1:8.949, R21:1.113, Cell:(-0.370, 0.132, 0.425, -5.528, 34.820, 29.968), SC:2x2x1, PhFactor:True
+20           Pmc2_1          orthorhombic       -2.813773                 1          1        1        D1:0.250, R21:0.500, Cell:(0.100, 0.100, 0.100, 0.000, 0.000, 0.000), SC:2x2x1, PhFactor:True
+40           Pm              monoclinic         -2.796884                 1          1        9        D1:4.185, R21:-0.975, Cell:(-0.208, 0.374, 0.403, -36.231, -39.751, 1.048), SC:2x2x2, PhFactor:False
+10           P1              triclinic          -2.796882                 1          1        19       D1:6.270, R21:-0.283, Cell:(-0.223, 0.124, 0.097, 32.631, -31.598, 41.674), SC:2x1x1, PhFactor:False
+5            P1              triclinic          -2.796882                 1          1        16       D1:7.940, R21:-0.242, Cell:(0.228, 0.334, 0.044, 9.407, 29.752, 10.447), SC:1x1x1, PhFactor:True
+10           P1              triclinic          -2.796881                 1          1        15       D1:0.694, R21:0.127, Cell:(0.498, 0.461, 0.430, 8.600, -24.836, -22.854), SC:2x1x1, PhFactor:False
+5            Pm              monoclinic         -2.796880                 1          1        13       D1:5.557, R21:1.425, Cell:(-0.011, 0.102, 0.243, 37.083, 6.314, 13.560), SC:1x1x1, PhFactor:False
+10           Pm              monoclinic         -2.796868                 1          1        3        D1:9.050, R21:-0.676, Cell:(-0.069, 0.105, 0.295, 12.532, -15.253, 43.113), SC:2x1x1, PhFactor:False
+5            Amm2            orthorhombic       -2.795059                 1          1        20       D1:7.479, R21:-0.093, Cell:(0.334, 0.345, 0.249, -15.369, -21.543, 43.402), SC:1x1x1, PhFactor:False
+20           Amm2            orthorhombic       -2.795058                 1          1        10       D1:4.569, R21:-0.346, Cell:(-0.329, 0.325, -0.332, -9.024, -18.746, -38.288), SC:2x2x1, PhFactor:False
+10           Amm2            orthorhombic       -2.795058                 1          1        14       D1:7.080, R21:-0.157, Cell:(-0.403, 0.446, 0.074, -4.652, 4.856, 39.690), SC:2x1x1, PhFactor:True
+5            P1              triclinic          -2.791491                 1          1        6        D1:5.523, R21:0.084, Cell:(-0.423, 0.303, 0.448, 33.657, 35.649, -10.742), SC:1x1x1, PhFactor:True
+10           P1              triclinic          -2.781226                 1          1        5        D1:9.003, R21:0.463, Cell:(0.204, 0.169, -0.443, -22.389, -20.665, 12.518), SC:2x1x1, PhFactor:True

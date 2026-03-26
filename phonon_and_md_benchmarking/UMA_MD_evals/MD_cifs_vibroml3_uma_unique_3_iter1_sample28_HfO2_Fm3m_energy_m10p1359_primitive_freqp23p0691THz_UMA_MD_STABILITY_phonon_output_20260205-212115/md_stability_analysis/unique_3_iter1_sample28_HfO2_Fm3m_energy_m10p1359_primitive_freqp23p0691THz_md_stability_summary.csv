@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz,UNSTABLE,LOW,1.744272,6.26,0.543854,300.0,0.0,10.0,2x2x2,48,1.0,6.0,0.5,62,496.0

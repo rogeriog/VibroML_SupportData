@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+HfO2_Fm3m_m10p117371,UNSTABLE,LOW,0.505551,1.95,0.153585,300.0,0.0,10.0,2x2x2,96,1.0,6.0,0.5,62,496.0

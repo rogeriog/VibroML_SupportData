@@ -1,0 +1,17 @@
+--- Symmetry Retention Analysis Report ---
+Date: 2026-02-05 21:26:34
+--------------------------------------------------
+Initial Structure Space Group (tol=0.01): C2/m (12)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            FAILED               -          -
+0.05            FAILED               -          -
+0.10            FAILED               -          -
+0.20            FAILED               -          -
+0.30            FAILED               -          -
+0.50            FAILED               -          -
+0.75            FAILED               -          -
+1.00            FAILED               -          -
+
+Verdict: SYMMETRY BROKEN

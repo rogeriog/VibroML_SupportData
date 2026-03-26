@@ -1,0 +1,23 @@
+--- Relaxation Summary for Folder: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_OPT_RANDOM_phonon_output_20260123-012721/main_iter_1/sample_27 ---
+Analysis Date: 2026-01-23 01:46:50
+
+### Structure: Sn2Bi2O7_random_sc_1x1x1_disp_0.100to2.124_c_0.428_0.492_-0.204_42.269_3.079_-3.870.cif ###
+Original File: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_OPT_RANDOM_phonon_output_20260123-012721/main_iter_1/sample_27/Sn2Bi2O7_random_sc_1x1x1_disp_0.100to2.124_c_0.428_0.492_-0.204_42.269_3.079_-3.870.cif
+Total Number of Atoms: 88
+Relaxation Status: SUCCESS
+Final Energy: -490.335479 eV
+Final Energy per Atom: -5.571994 eV/atom
+Relaxed File: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_OPT_RANDOM_phonon_output_20260123-012721/main_iter_1/sample_27/Sn2Bi2O7_random_sc_1x1x1_disp_0.100to2.124_c_0.428_0.492_-0.204_42.269_3.079_-3.870_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 1
+  International Symbol: P1
+  Hall Symbol: P 1
+  Point Group Symbol: 1
+  Crystal System: triclinic
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 88
+  -------------------------------------------
+

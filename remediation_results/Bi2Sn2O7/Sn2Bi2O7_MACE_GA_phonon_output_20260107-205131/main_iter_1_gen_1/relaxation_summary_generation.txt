@@ -1,0 +1,74 @@
+--- Relaxation Summary for Main Iteration 1, GA Generation 1 ---
+Analysis Date: 2026-01-08 04:55:49
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 100
+Mode Replacements: 0
+Replacement Rate: 0.00%
+No modes were selected for replacement in this generation.
+
+--- Decomposition Analysis Summary ---
+Reference Energy (E_ref): -6.011008 eV/atom
+Decomposition Threshold: 0.500 eV
+Threshold Condition: E_relax < E_ref - 0.500 = -6.511008 eV/atom
+Total Samples: 100
+Structures Flagged as DECOMPOSED: 0 (0.0%)
+Valid Structures for GA Evolution: 55 (55.0%)
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+176          P2_1            monoclinic         -6.030819                 1          1        42       D1:8.023, R21:1.168, Cell:(-0.072, 0.206, 0.465, 3.729, -5.918, -3.447), SC:1x1x2, PhFactor:False
+352          P1              triclinic          -6.030522                 1          1        19       D1:4.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.030522                 1          1        21       D1:4.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.030522                 1          1        20       D1:4.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029892                 1          1        25       D1:4.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029892                 1          1        26       D1:4.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029892                 1          1        27       D1:4.000, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029719                 1          1        18       D1:1.000, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029719                 1          1        17       D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029719                 1          1        16       D1:1.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029552                 1          1        7        D1:0.250, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029552                 1          1        9        D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029552                 1          1        8        D1:0.250, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        12       D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        11       D1:1.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        10       D1:1.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        23       D1:4.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        24       D1:4.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.029530                 1          1        22       D1:4.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        5        D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        6        D1:0.250, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        4        D1:0.250, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        15       D1:1.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        13       D1:1.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028899                 1          1        14       D1:1.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028811                 1          1        2        D1:0.250, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028811                 1          1        3        D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+352          P1              triclinic          -6.028811                 1          1        1        D1:0.250, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x4x1, PhFactor:True
+88           P2_12_12_1      orthorhombic       -5.997022                 1          1        50       D1:9.381, R21:-0.481, Cell:(0.439, 0.150, -0.302, -6.254, -17.169, 13.253), SC:1x1x1, PhFactor:True
+176          P1              triclinic          -5.954582                 1          1        33       D1:8.472, R21:-0.874, Cell:(-0.039, 0.041, 0.184, 12.856, -1.201, 19.939), SC:1x1x2, PhFactor:False
+352          P1              triclinic          -5.946412                 1          1        34       D1:0.933, R21:-0.460, Cell:(0.241, 0.206, -0.001, 2.208, 30.423, -12.373), SC:2x1x2, PhFactor:False
+88           P1              triclinic          -5.903839                 1          1        90       D1:0.410, R21:1.093, Cell:(0.092, 0.187, -0.372, 21.657, 4.183, -1.602), SC:1x1x1, PhFactor:False
+88           P1              triclinic          -5.884377                 1          1        63       D1:4.416, R21:-0.432, Cell:(0.322, -0.346, 0.241, -8.979, -32.785, -1.241), SC:1x1x1, PhFactor:False
+352          P1              triclinic          -5.884282                 1          1        66       D1:5.351, R21:-1.068, Cell:(0.130, 0.354, -0.331, 16.424, 3.438, 11.965), SC:2x2x1, PhFactor:False
+352          P1              triclinic          -5.880923                 1          1        48       D1:4.737, R21:0.589, Cell:(0.239, -0.049, 0.495, -26.308, -16.478, -3.651), SC:2x2x1, PhFactor:True
+88           P1              triclinic          -5.874909                 1          1        37       D1:4.016, R21:0.093, Cell:(-0.045, 0.340, 0.399, -20.069, 10.493, 2.050), SC:1x1x1, PhFactor:True
+352          P1              triclinic          -5.866204                 1          1        70       D1:2.946, R21:-0.098, Cell:(0.147, -0.004, 0.500, -43.290, -17.067, -32.402), SC:1x4x1, PhFactor:False
+352          P1              triclinic          -5.862400                 1          1        92       D1:0.944, R21:0.733, Cell:(-0.119, 0.230, -0.175, -11.263, -7.686, 8.672), SC:1x4x1, PhFactor:False
+88           P1              triclinic          -5.861083                 1          1        38       D1:1.199, R21:1.127, Cell:(0.333, 0.052, 0.464, 32.879, -37.481, 23.055), SC:1x1x1, PhFactor:False
+176          P1              triclinic          -5.857506                 1          1        47       D1:9.709, R21:-1.393, Cell:(0.251, -0.312, 0.004, 13.277, 0.157, -7.277), SC:2x1x1, PhFactor:False
+352          P1              triclinic          -5.850861                 1          1        28       D1:1.906, R21:-1.431, Cell:(0.423, 0.049, 0.126, 3.935, 17.826, -29.211), SC:1x4x1, PhFactor:True
+176          P1              triclinic          -5.848647                 1          1        32       D1:4.535, R21:-0.394, Cell:(0.409, 0.486, -0.046, 23.682, -18.628, 17.637), SC:1x1x2, PhFactor:True
+176          P1              triclinic          -5.848383                 1          1        54       D1:7.449, R21:-1.076, Cell:(0.473, 0.305, -0.362, -14.138, 17.047, 36.990), SC:2x1x1, PhFactor:True
+352          P1              triclinic          -5.846179                 1          1        43       D1:1.469, R21:-0.297, Cell:(-0.005, 0.444, 0.140, -2.610, 17.866, -1.102), SC:2x1x2, PhFactor:False
+176          P1              triclinic          -5.845568                 1          1        88       D1:7.749, R21:-1.440, Cell:(0.150, 0.152, -0.112, -19.493, -15.282, 16.590), SC:2x1x1, PhFactor:False
+176          P1              triclinic          -5.843379                 1          1        53       D1:2.765, R21:0.375, Cell:(0.418, 0.296, 0.193, -28.120, 5.857, -16.673), SC:1x1x2, PhFactor:True
+352          P1              triclinic          -5.839147                 1          1        77       D1:7.527, R21:-1.461, Cell:(0.350, -0.000, 0.484, -21.615, -18.384, 17.740), SC:1x4x1, PhFactor:False
+176          P1              triclinic          -5.831336                 1          1        93       D1:1.148, R21:-1.205, Cell:(0.157, 0.169, 0.384, 13.095, -30.402, -15.698), SC:1x1x2, PhFactor:False
+176          P1              triclinic          -5.828411                 1          1        68       D1:6.649, R21:0.577, Cell:(0.368, 0.441, -0.258, -36.396, -4.702, -23.548), SC:2x1x1, PhFactor:False
+352          P1              triclinic          -5.824981                 1          1        56       D1:6.160, R21:0.885, Cell:(-0.076, 0.302, -0.002, -38.385, 19.220, 11.099), SC:1x4x1, PhFactor:True
+176          P1              triclinic          -5.794428                 1          1        95       D1:0.634, R21:0.702, Cell:(0.181, 0.470, 0.292, -19.808, 17.161, 37.890), SC:1x1x2, PhFactor:True
+352          P1              triclinic          -5.790597                 1          1        73       D1:9.948, R21:-1.281, Cell:(0.283, 0.493, -0.097, 30.961, 36.161, -8.630), SC:2x2x1, PhFactor:True
+176          P1              triclinic          -5.783206                 1          1        65       D1:4.437, R21:1.290, Cell:(0.160, 0.190, 0.293, 44.535, 43.315, -39.670), SC:2x1x1, PhFactor:False
+176          P1              triclinic          -5.770351                 1          1        75       D1:6.345, R21:-1.462, Cell:(0.362, 0.010, -0.163, 34.455, 11.611, 0.616), SC:1x1x2, PhFactor:True
+176          P1              triclinic          -5.756364                 1          1        76       D1:2.852, R21:1.091, Cell:(-0.484, 0.352, 0.337, 4.948, 1.528, 24.353), SC:1x1x2, PhFactor:False

@@ -1,0 +1,18 @@
+### Initial Structure Symmetry Analysis ###
+
+Analysis Date: 2025-08-31 15:24:40
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 221
+International symbol: Pm-3m
+Hall symbol: -P 4 2 3
+Point group symbol: m-3m
+Crystal system: cubic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 2
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00, -5.03653080e-32,  0.00000000e+00],
+ [ 1.39525224e-31,  1.00000000e+00,  0.00000000e+00],
+ [ 0.00000000e+00,  0.00000000e+00,  1.00000000e+00]]
+Origin shift: [ 1.11022302e-16, -4.26864525e-17,  2.46519033e-32]

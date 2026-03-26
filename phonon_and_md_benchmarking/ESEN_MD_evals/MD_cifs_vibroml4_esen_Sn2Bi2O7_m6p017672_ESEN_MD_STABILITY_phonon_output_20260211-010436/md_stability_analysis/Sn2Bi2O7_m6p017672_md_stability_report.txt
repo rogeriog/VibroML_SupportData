@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-11 02:55:41
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/Sn2Bi2O7_m6p017672.cif
+Engine: esen
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x1
+Equilibration fraction: 0.2
+Number of atoms: 352
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.229 Å (threshold: 1.0 Å) - PASS
+Volume change: 1.4% (threshold: 6.0%) - PASS
+RDF correlation: 0.502 (threshold: 0.5) - PASS
+Symmetry Retention (Fd-3m): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.229 Å
+  RMSD std dev: 0.008 Å
+  RMSD trend: -7.86e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 5115.58 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 0.05%
+  Volume fluctuation std dev: 0.36%
+  Max volume fluctuation: 1.45%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.502
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Fd-3m (227)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            P1                   1          NO
+0.20            P2_1                 4          NO
+0.30            P2_1                 4          NO
+0.50            I-42d                122        NO
+0.75            Fd-3m                227        YES
+1.00            Fd-3m                227        YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -6.011382 eV/atom
+  Energy std dev: 0.001875 eV/atom
+  Energy drift: -1.47e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: Sn2Bi2O7_m6p017672_md_trajectory.traj
+Production trajectory file: Sn2Bi2O7_m6p017672_production_trajectory.traj
+Final structure: Sn2Bi2O7_m6p017672_final_structure.cif
+XYZ trajectory: Sn2Bi2O7_m6p017672_production_trajectory.xyz
+MD log: Sn2Bi2O7_m6p017672_md_log.txt
+Analysis plot: Sn2Bi2O7_m6p017672_rmsd_analysis.png
+Analysis plot: Sn2Bi2O7_m6p017672_volume_evolution.png
+Analysis plot: Sn2Bi2O7_m6p017672_rdf_comparison.png
+Analysis plot: Sn2Bi2O7_m6p017672_energy_evolution.png
+Analysis plot: Sn2Bi2O7_m6p017672_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

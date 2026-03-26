@@ -1,0 +1,23 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_1/sample_170 ---
+Analysis Date: 2025-09-01 18:55:08
+
+### Structure: HfO2_Fm3m_random_sc_1x1x2_disp_0.100to1.586_c_0.366_0.108_0.040_10.409_-39.444_-24.394.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_1/sample_170/HfO2_Fm3m_random_sc_1x1x2_disp_0.100to1.586_c_0.366_0.108_0.040_10.409_-39.444_-24.394.cif
+Total Number of Atoms: 24
+Relaxation Status: SUCCESS
+Final Energy: -238.295047 eV
+Final Energy per Atom: -9.928960 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_1/sample_170/HfO2_Fm3m_random_sc_1x1x2_disp_0.100to1.586_c_0.366_0.108_0.040_10.409_-39.444_-24.394_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 1
+  International Symbol: P1
+  Hall Symbol: P 1
+  Point Group Symbol: 1
+  Crystal System: triclinic
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 24
+  -------------------------------------------
+

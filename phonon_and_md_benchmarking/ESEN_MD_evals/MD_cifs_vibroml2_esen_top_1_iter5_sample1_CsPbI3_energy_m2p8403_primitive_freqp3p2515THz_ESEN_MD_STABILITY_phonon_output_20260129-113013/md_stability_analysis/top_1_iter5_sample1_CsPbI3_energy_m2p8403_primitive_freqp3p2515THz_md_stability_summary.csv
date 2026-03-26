@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz,STABLE,MODERATE,0.381666,8.26,0.500528,300.0,0.0,10.0,2x2x2,160,1.0,6.0,0.5,62,496.0

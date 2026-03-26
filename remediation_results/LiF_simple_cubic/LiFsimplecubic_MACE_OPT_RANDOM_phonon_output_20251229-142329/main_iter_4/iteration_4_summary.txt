@@ -1,0 +1,124 @@
+--- Random Search Iteration 4 Summary (REFINEMENT PHASE) ---
+Analysis Date: 2025-12-29 14:30:54
+
+Phase: REFINEMENT (Refinement with fixed supercell)
+Total structures attempted: 50
+Successful results: 42
+Failed results: 8
+Success rate: 84.0%
+
+Settings used:
+  Base random displacement bounds: [0.1, 2.0] Å (varied per sample)
+  Random cell perturbation: True
+  Random seed: None
+  Supercell strategy: REFINEMENT - fixed supercell (1, 1, 1)
+  GA cell scale bounds: [-0.5, 0.5]
+  GA cell angle bounds: [-45.0, 45.0]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+2          2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+3          2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+4          2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+5          2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+6          2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+7          2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+8          2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+9          N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+10         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+11         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+12         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+13         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+14         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+15         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+16         2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+17         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+18         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+19         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+20         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+21         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+22         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+23         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+24         2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+25         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+26         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+27         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+28         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+29         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+30         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+31         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+32         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+33         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+34         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+35         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+36         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+37         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+38         2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+39         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+40         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+41         2            F-43m           cubic              -4.815802            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+42         2            Fm-3m           cubic              -4.820458            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+43         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+44         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+45         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+46         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+47         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+48         2            Fm-3m           cubic              -4.820459            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+49         2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+50         2            F-43m           cubic              -4.815801            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+2            Fm-3m           cubic              -4.820459                 11         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5024368650647775], Cell:True         
+2            Fm-3m           cubic              -4.820459                 25         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.9926360923634934], Cell:True         
+2            Fm-3m           cubic              -4.820459                 5          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.165816827051464], Cell:True          
+2            Fm-3m           cubic              -4.820459                 6          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.332376339836153], Cell:True          
+2            Fm-3m           cubic              -4.820459                 32         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5508905338546404], Cell:True         
+2            Fm-3m           cubic              -4.820459                 46         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7985167868585816], Cell:True         
+2            Fm-3m           cubic              -4.820459                 21         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7754497125139412], Cell:True         
+2            Fm-3m           cubic              -4.820459                 40         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.447199911840551], Cell:True          
+2            Fm-3m           cubic              -4.820459                 48         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.9130528865671437], Cell:True         
+2            Fm-3m           cubic              -4.820459                 39         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.8929484887266004], Cell:True         
+2            Fm-3m           cubic              -4.820459                 18         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.546553719499832], Cell:True          
+2            Fm-3m           cubic              -4.820459                 44         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.8379689591586839], Cell:True         
+2            Fm-3m           cubic              -4.820458                 7          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7394579567413466], Cell:True         
+2            Fm-3m           cubic              -4.820458                 42         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.111335016427934], Cell:True          
+2            Fm-3m           cubic              -4.820458                 31         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.8111328265504696], Cell:True         
+2            Fm-3m           cubic              -4.820458                 17         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7196517093345718], Cell:True         
+2            Fm-3m           cubic              -4.820458                 33         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.9086542790550833], Cell:True         
+2            Fm-3m           cubic              -4.820458                 14         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.61516399555221], Cell:True           
+2            Fm-3m           cubic              -4.820458                 13         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5365345467369966], Cell:True         
+2            Fm-3m           cubic              -4.820458                 12         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.174699619707875], Cell:True          
+2            Fm-3m           cubic              -4.820458                 35         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.9814111452803527], Cell:True         
+2            F-43m           cubic              -4.815802                 34         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.2180759350289483], Cell:True         
+2            F-43m           cubic              -4.815802                 30         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.3748586684420117], Cell:True         
+2            F-43m           cubic              -4.815802                 41         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.060387605724844], Cell:True          
+2            F-43m           cubic              -4.815802                 8          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.188752466383752], Cell:True          
+2            F-43m           cubic              -4.815802                 10         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.114466648884945], Cell:True          
+2            F-43m           cubic              -4.815802                 23         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.921680756343737], Cell:True          
+2            F-43m           cubic              -4.815802                 4          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7529206607763315], Cell:True         
+2            F-43m           cubic              -4.815802                 2          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5693629637959123], Cell:True         
+2            F-43m           cubic              -4.815802                 15         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5069743959927537], Cell:True         
+2            F-43m           cubic              -4.815802                 27         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5369657821359501], Cell:True         
+2            F-43m           cubic              -4.815802                 19         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.090776724896997], Cell:True          
+2            F-43m           cubic              -4.815802                 37         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.064517105423146], Cell:True          
+2            F-43m           cubic              -4.815802                 29         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.419909934866302], Cell:True          
+2            F-43m           cubic              -4.815802                 20         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.287852811965627], Cell:True          
+2            F-43m           cubic              -4.815801                 3          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7209134897322236], Cell:True         
+2            F-43m           cubic              -4.815801                 16         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.3144440240574804], Cell:True         
+2            F-43m           cubic              -4.815801                 1          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.29555028321866], Cell:True           
+2            F-43m           cubic              -4.815801                 49         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.2888895101663813], Cell:True         
+2            F-43m           cubic              -4.815801                 38         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.6570037260938952], Cell:True         
+2            F-43m           cubic              -4.815801                 24         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.2782201413698386], Cell:True         
+2            F-43m           cubic              -4.815801                 50         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.036991647089984], Cell:True          
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -4.820459 eV/atom
+Best supercell: (1, 1, 1)

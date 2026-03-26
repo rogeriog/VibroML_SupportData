@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz,UNSTABLE,LOW,2.183196,3.35,0.030461,300.0,0.0,10.0,2x2x2,128,1.0,6.0,0.5,62,496.0

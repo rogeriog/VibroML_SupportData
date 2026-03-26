@@ -1,0 +1,247 @@
+Starting dynamic evaluation at Wed Feb 18 16:59:48 CET 2026
+----------------------------------------------------------------
+Processing: top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz
+Primitive Atoms: 8
+Target Supercell: 8,8,8
+Model: mace
+----------------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1771430404.899425 1457261 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1771430404.910838 1457261 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1771430405.009891 1457261 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771430405.009923 1457261 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771430405.009931 1457261 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771430405.009936 1457261 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/pymatgen/io/cif.py:1287: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: " + "\n".join(self.warnings))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py:143: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/_collections_abc.py:769: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:493: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/phonon_utils.py:608: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator) # Ensure calculator is set for phonon calculation
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (8, 8, 8)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz.cif
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+MACE calculator initialized.
+
+» MACE relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 186) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 186
+International Symbol: P6_3mc
+Hall Symbol: P 6c -2c
+Point Group: 6mm
+---------------------------------------
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+   Initial energy: -38.579023 eV
+   Initial energy per atom: -4.822378 eV/atom
+   MACE relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/relax.log
+   MACE relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-4.822378 eV/atom, Volume=83.705 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-4.822404 eV/atom, Volume=83.736 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-4.823177 eV/atom, Volume=85.597 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-4.823183 eV/atom, Volume=85.647 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-4.823207 eV/atom, Volume=85.808 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -4.823211 eV/atom
+   Step 1: Initial volume: 85.784 Å³
+   Step 7: Energy/atom=-4.823211 eV/atom, Volume=85.747 Å³
+   Step 8: Energy/atom=-4.823211 eV/atom, Volume=85.740 Å³
+   Step 9: Energy/atom=-4.823211 eV/atom, Volume=85.730 Å³
+   Step 10: Energy/atom=-4.823211 eV/atom, Volume=85.727 Å³
+   Step 11: Energy/atom=-4.823212 eV/atom, Volume=85.733 Å³
+   Step 12: Energy/atom=-4.823212 eV/atom, Volume=85.742 Å³
+   Step 13: Energy/atom=-4.823212 eV/atom, Volume=85.749 Å³
+   Step 14: Energy/atom=-4.823212 eV/atom, Volume=85.759 Å³
+   Step 15: Energy/atom=-4.823212 eV/atom, Volume=85.771 Å³
+   Step 16: Energy/atom=-4.823212 eV/atom, Volume=85.779 Å³
+   Step 17: Energy/atom=-4.823212 eV/atom, Volume=85.773 Å³
+   Step 18: Energy/atom=-4.823213 eV/atom, Volume=85.757 Å³
+   Step 19: Energy/atom=-4.823213 eV/atom, Volume=85.749 Å³
+   Step 20: Energy/atom=-4.823213 eV/atom, Volume=85.748 Å³
+   Step 21: Energy/atom=-4.823213 eV/atom, Volume=85.747 Å³
+   Step 22: Energy/atom=-4.823213 eV/atom, Volume=85.747 Å³
+   Step 23: Energy/atom=-4.823213 eV/atom, Volume=85.748 Å³
+   Step 24: Energy/atom=-4.823213 eV/atom, Volume=85.748 Å³
+   Step 25: Energy/atom=-4.823213 eV/atom, Volume=85.749 Å³
+» MACE relaxation finished in 1.91 seconds.
+   Relaxation converged! Max force (0.0000) <= fmax (0.0000)
+   Final energy: -38.585701 eV
+   Final energy per atom: -4.823213 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 8
+Relaxed atoms: 8
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 186) at symprec = 1.0000e-04
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 186
+International Symbol: P6_3mc
+Hall Symbol: P 6c -2c
+Point Group: 6mm
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running Single Phonon Analysis in: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-170013 ---
+
+--- Step 1: Running Phonon Calculation ---
+
+### Structure for Phonon Calculation ###
+   The phonon band structure will be calculated using the current structure.
+   Using supercell size: (8, 8, 8)
+   Using displacement delta: 0.03
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/bin/vibroml", line 7, in <module>
+    sys.exit(main())
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/main.py", line 601, in main
+    softest_modes_info_list, bsmin, time_taken, tracked_k_points_data = run_single_phonon_analysis(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/phonon_utils.py", line 276, in run_single_phonon_analysis
+    ph = run_phonon_calculation(atoms, calculator, supercell_dims, delta, output_dir)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/phonon_utils.py", line 630, in run_phonon_calculation
+    ph.run()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 189, in run
+    output = self.calculate(atoms_N, eq_disp)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 337, in calculate
+    forces = self(atoms_N)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 334, in __call__
+    return atoms_N.get_forces()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/atoms.py", line 829, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/calculators/abc.py", line 32, in get_forces
+    return self.get_property('forces', atoms)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/ase/calculators/calculator.py", line 515, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py", line 332, in calculate
+    out = model(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/modules/models.py", line 418, in forward
+    node_feats, sc = interaction(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/modules/blocks.py", line 552, in forward
+    mji = self.conv_tp(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/e3nn/o3/_tensor_product/_tensor_product.py", line 529, in forward
+    return self._compiled_main_left_right(x, y, real_weight)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_11.py", line 137, in forward
+    _w3j_1_2_3 = self._w3j_1_2_3
+    mul_18 = torch.mul(_w3j_1_2_3, 2.6457513110645907)
+    tensordot_3 = _0(einsum_11, mul_18, ([4, 3], [1, 0]), None, )
+                  ~~ <--- HERE
+    einsum_23 = torch.einsum("dbca,dbc->dba", [tensordot_3, reshape_33])
+    reshape_34 = torch.reshape(einsum_23, [getitem_4, 896])
+  File "code/__torch__/torch/functional/___torch_mangle_0.py", line 9, in tensordot
+  dims_a, dims_b, = dims1
+  if torch.__is__(out, None):
+    _1 = torch.tensordot(a, b, dims_a, dims_b)
+         ~~~~~~~~~~~~~~~ <--- HERE
+    _0 = _1
+  else:
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.127", line 112, in forward
+    _w3j_1_2_3 = self._w3j_1_2_3
+    mul_18 = _w3j_1_2_3 * 2.6457513110645907;  _w3j_1_2_3 = None
+    tensordot_3 = torch.functional.tensordot(einsum_11, mul_18, ([4, 3], [1, 0]), out = None);  einsum_11 = mul_18 = None
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~ <--- HERE
+    einsum_23 = torch.functional.einsum('dbca,dbc->dba', tensordot_3, reshape_33);  tensordot_3 = reshape_33 = None
+    reshape_34 = einsum_23.reshape(getitem_4, 896);  einsum_23 = getitem_4 = None
+  File "/pscratch/sd/c/cyrusyc/.conda/mace/lib/python3.11/site-packages/torch/functional.py", line 1100, in tensordot
+
+    if out is None:
+        return _VF.tensordot(a, b, dims_a, dims_b)  # type: ignore[attr-defined]
+               ~~~~~~~~~~~~~ <--- HERE
+    else:
+        return _VF.tensordot(a, b, dims_a, dims_b, out=out)  # type: ignore[attr-defined]
+RuntimeError: CUDA out of memory. Tried to allocate 5.24 GiB. GPU 0 has a total capacity of 39.49 GiB of which 216.12 MiB is free. Including non-PyTorch memory, this process has 39.27 GiB memory in use. Of the allocated memory 34.82 GiB is allocated by PyTorch, and 3.92 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Finished at Wed Feb 18 17:00:20 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 20KiB
+Total CPU Time                           - CPU_Time         : 00:04:32
+Execution Time                           - Wall_Time        : 00:00:34
+total programme cpu time                 - Total_CPU        : 01:43.407
+Total_CPU / CPU_Time  (%)                - ETA              : 37%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:18:08
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

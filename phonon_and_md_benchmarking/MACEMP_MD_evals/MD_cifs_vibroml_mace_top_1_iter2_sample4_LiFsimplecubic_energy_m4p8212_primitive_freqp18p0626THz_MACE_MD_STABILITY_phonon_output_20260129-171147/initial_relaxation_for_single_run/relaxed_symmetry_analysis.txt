@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-01-29 17:11:48
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 194
+International symbol: P6_3/mmc
+Hall symbol: -P 6c 2c
+Point group symbol: 6/mmm
+Crystal system: hexagonal
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 4
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00,  1.11022302e-16,  0.00000000e+00],
+ [ 5.05161796e-32,  1.00000000e+00,  0.00000000e+00],
+ [-3.08148791e-33, -6.16297582e-33,  1.00000000e+00]]
+Origin shift: [3.83026943e-15, 2.66453526e-15, 0.00000000e+00]

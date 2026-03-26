@@ -1,0 +1,820 @@
+Starting dynamic evaluation at Wed Feb 18 12:15:37 CET 2026
+----------------------------------------------------------------
+Processing: Sn2Bi2O7_m6p017672
+Primitive Atoms: 88
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_Sn2Bi2O7_m6p017672_MACE_phonon_output_20260218-121556
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_Sn2Bi2O7_m6p017672_MACE_phonon_output_20260218-121556/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/Sn2Bi2O7_m6p017672.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_3_sg_Pna2_1_energy_m6p030352_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_3_sg_Pna2_1_energy_m6p030352_primitive_MACE_phonon_output_20260218-121601
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_3_sg_Pna2_1_energy_m6p030352_primitive_MACE_phonon_output_20260218-121601/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_3_sg_Pna2_1_energy_m6p030352_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_4_sg_P1_energy_m6p029892_primitive
+Primitive Atoms: 352
+Target Supercell: 1,1,1
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (1, 1, 1)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_4_sg_P1_energy_m6p029892_primitive_MACE_phonon_output_20260218-121607
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_4_sg_P1_energy_m6p029892_primitive_MACE_phonon_output_20260218-121607/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_4_sg_P1_energy_m6p029892_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_9_sg_P2_1_energy_m6p004968_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_9_sg_P2_1_energy_m6p004968_primitive_MACE_phonon_output_20260218-121611
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_9_sg_P2_1_energy_m6p004968_primitive_MACE_phonon_output_20260218-121611/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_9_sg_P2_1_energy_m6p004968_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz
+Primitive Atoms: 176
+Target Supercell: 1,1,1
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (1, 1, 1)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_MACE_phonon_output_20260218-121616
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_MACE_phonon_output_20260218-121616/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_1_sg_Cc_energy_m6p031730_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_1_sg_Cc_energy_m6p031730_primitive_MACE_phonon_output_20260218-121620
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_1_sg_Cc_energy_m6p031730_primitive_MACE_phonon_output_20260218-121620/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_1_sg_Cc_energy_m6p031730_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_2_sg_P2_1_energy_m6p030819_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_2_sg_P2_1_energy_m6p030819_primitive_MACE_phonon_output_20260218-121625
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_2_sg_P2_1_energy_m6p030819_primitive_MACE_phonon_output_20260218-121625/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_2_sg_P2_1_energy_m6p030819_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz_MACE_phonon_output_20260218-121629
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz_MACE_phonon_output_20260218-121629/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_11_sg_P2_12_12_1_energy_m5p997022_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_11_sg_P2_12_12_1_energy_m5p997022_primitive_MACE_phonon_output_20260218-121633
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_unique_11_sg_P2_12_12_1_energy_m5p997022_primitive_MACE_phonon_output_20260218-121633/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_11_sg_P2_12_12_1_energy_m5p997022_primitive.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz
+Primitive Atoms: 176
+Target Supercell: 1,1,1
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (1, 1, 1)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_MACE_phonon_output_20260218-121638
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_mace_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_MACE_phonon_output_20260218-121638/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz_MACE_phonon_output_20260218-121642
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz_MACE_phonon_output_20260218-121642/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz
+Primitive Atoms: 6
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz_MACE_phonon_output_20260218-121646
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz_MACE_phonon_output_20260218-121646/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz_MACE_phonon_output_20260218-121651
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz_MACE_phonon_output_20260218-121651/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz
+Primitive Atoms: 24
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz_MACE_phonon_output_20260218-121655
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz_MACE_phonon_output_20260218-121655/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz
+Primitive Atoms: 6
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz_MACE_phonon_output_20260218-121659
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz_MACE_phonon_output_20260218-121659/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz
+Primitive Atoms: 6
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_MACE_phonon_output_20260218-121703
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_MACE_phonon_output_20260218-121703/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz
+Primitive Atoms: 6
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_MACE_phonon_output_20260218-121708
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_MACE_phonon_output_20260218-121708/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: HfO2_Fm3m_m10p117371
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_HfO2_Fm3m_m10p117371_MACE_phonon_output_20260218-121712
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_HfO2_Fm3m_m10p117371_MACE_phonon_output_20260218-121712/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/HfO2_Fm3m_m10p117371.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz_MACE_phonon_output_20260218-121716
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz_MACE_phonon_output_20260218-121716/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz
+Primitive Atoms: 6
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz_MACE_phonon_output_20260218-121720
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz_MACE_phonon_output_20260218-121720/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz_MACE_phonon_output_20260218-121724
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz_MACE_phonon_output_20260218-121724/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz
+Primitive Atoms: 12
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_MACE_phonon_output_20260218-121729
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml3_mace_unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_MACE_phonon_output_20260218-121729/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz_MACE_phonon_output_20260218-121733
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz_MACE_phonon_output_20260218-121733/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz
+Primitive Atoms: 10
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz_MACE_phonon_output_20260218-121737
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz_MACE_phonon_output_20260218-121737/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz_MACE_phonon_output_20260218-121741
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz_MACE_phonon_output_20260218-121741/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz
+Primitive Atoms: 40
+Target Supercell: 2,2,2
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_MACE_phonon_output_20260218-121746
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_MACE_phonon_output_20260218-121746/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz_MACE_phonon_output_20260218-121750
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz_MACE_phonon_output_20260218-121750/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: CsPbI3_m2p796148
+Primitive Atoms: 5
+Target Supercell: 5,5,5
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (5, 5, 5)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_CsPbI3_m2p796148_MACE_phonon_output_20260218-121754
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_CsPbI3_m2p796148_MACE_phonon_output_20260218-121754/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/CsPbI3_m2p796148.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_phonon_output_20260218-121759
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_MACE_phonon_output_20260218-121759/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz_MACE_phonon_output_20260218-121803
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz_MACE_phonon_output_20260218-121803/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz
+Primitive Atoms: 20
+Target Supercell: 3,3,3
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz_MACE_phonon_output_20260218-121808
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz_MACE_phonon_output_20260218-121808/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz
+Primitive Atoms: 10
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_MACE_phonon_output_20260218-121812
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml2_mace_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_MACE_phonon_output_20260218-121812/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz
+Primitive Atoms: 8
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-121817
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_MACE_phonon_output_20260218-121817/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/pymatgen/io/cif.py:1287: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: " + "\n".join(self.warnings))
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz
+Primitive Atoms: 4
+Target Supercell: 6,6,6
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (6, 6, 6)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz_MACE_phonon_output_20260218-121821
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz_MACE_phonon_output_20260218-121821/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: LiFsimplecubic_m4p523283
+Primitive Atoms: 2
+Target Supercell: 7,7,7
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (7, 7, 7)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_m4p523283_MACE_phonon_output_20260218-121825
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_m4p523283_MACE_phonon_output_20260218-121825/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/LiFsimplecubic_m4p523283.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz
+Primitive Atoms: 8
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz_MACE_phonon_output_20260218-121830
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz_MACE_phonon_output_20260218-121830/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz
+Primitive Atoms: 2
+Target Supercell: 7,7,7
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (7, 7, 7)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_MACE_phonon_output_20260218-121834
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_MACE_phonon_output_20260218-121834/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz
+Primitive Atoms: 4
+Target Supercell: 6,6,6
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (6, 6, 6)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_MACE_phonon_output_20260218-121838
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_MACE_phonon_output_20260218-121838/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/pymatgen/io/cif.py:1287: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: " + "\n".join(self.warnings))
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz
+Primitive Atoms: 2
+Target Supercell: 7,7,7
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (7, 7, 7)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz_MACE_phonon_output_20260218-121843
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz_MACE_phonon_output_20260218-121843/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz
+Primitive Atoms: 8
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz_MACE_phonon_output_20260218-121847
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz_MACE_phonon_output_20260218-121847/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz
+Primitive Atoms: 4
+Target Supercell: 6,6,6
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (6, 6, 6)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz_MACE_phonon_output_20260218-121851
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz_MACE_phonon_output_20260218-121851/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/pymatgen/io/cif.py:1287: UserWarning: Issues encountered while parsing CIF: 8 fractional coordinates rounded to ideal values to avoid issues with finite precision.
+  warnings.warn("Issues encountered while parsing CIF: " + "\n".join(self.warnings))
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+----------------------------------------------------------------
+Processing: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz
+Primitive Atoms: 8
+Target Supercell: 4,4,4
+Model: mace
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (4, 4, 4)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_MACE_phonon_output_20260218-121856
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml_mace_OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_MACE_phonon_output_20260218-121856/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz.cif
+MACE not found – `pip install mace-torch` or use --engine m3gnet
+Finished at Wed Feb 18 12:18:57 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 271MiB
+Total CPU Time                           - CPU_Time         : 00:27:20
+Execution Time                           - Wall_Time        : 00:03:25
+total programme cpu time                 - Total_CPU        : 06:14.558
+Total_CPU / CPU_Time  (%)                - ETA              : 22%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 01:49:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

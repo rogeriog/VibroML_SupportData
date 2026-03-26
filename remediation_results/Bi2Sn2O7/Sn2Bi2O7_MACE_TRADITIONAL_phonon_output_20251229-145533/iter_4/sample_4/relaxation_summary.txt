@@ -1,0 +1,27 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_phonon_output_20251229-145533/iter_4/sample_4 ---
+Analysis Date: 2026-01-02 13:54:26
+
+### Structure: Sn2Bi2O7_sc_8x8x2_d1_0.250_r21_-0.250_c_000_000_000_000_000_000_pf_true.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_phonon_output_20251229-145533/iter_4/sample_4/Sn2Bi2O7_sc_8x8x2_d1_0.250_r21_-0.250_c_000_000_000_000_000_000_pf_true.cif
+Total Number of Atoms: 11264
+Relaxation Status: FAILED (error during run)
+Error: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_39.py", line 84, in forward
+    reshape_20 = torch.reshape(einsum_11, [getitem_4, 896])
+    _8 = [reshape_11, reshape_14, reshape_17, reshape_20]
+    cat = torch.cat(_8, 1)
+          ~~~~~~~~~ <--- HERE
+    return torch.reshape(cat, add_3)
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.533", line 68, in forward
+    einsum_11 = torch.functional.einsum('dbc,dca->dba', einsum_10, reshape_7);  einsum_10 = reshape_7 = None
+    reshape_20 = einsum_11.reshape(getitem_4, 896);  einsum_11 = getitem_4 = None
+    cat = torch.cat([reshape_11, reshape_14, reshape_17, reshape_20], dim = 1);  reshape_11 = reshape_14 = reshape_17 = reshape_20 = None
+          ~~~~~~~~~ <--- HERE
+    reshape_21 = cat.reshape(add_3);  cat = add_3 = None
+    return reshape_21
+RuntimeError: CUDA out of memory. Tried to allocate 10.59 GiB. GPU 0 has a total capacity of 21.98 GiB of which 254.44 MiB is free. Including non-PyTorch memory, this process has 21.72 GiB memory in use. Of the allocated memory 18.39 GiB is allocated by PyTorch, and 3.02 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+

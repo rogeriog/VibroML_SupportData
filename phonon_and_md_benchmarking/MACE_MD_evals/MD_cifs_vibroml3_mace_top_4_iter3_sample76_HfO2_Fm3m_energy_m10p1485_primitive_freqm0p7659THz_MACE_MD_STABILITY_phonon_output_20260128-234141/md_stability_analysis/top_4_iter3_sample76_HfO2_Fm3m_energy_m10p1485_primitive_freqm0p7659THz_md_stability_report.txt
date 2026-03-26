@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-28 23:46:05
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz.cif
+Engine: mace
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 48
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.151 Å (threshold: 1.0 Å) - PASS
+Volume change: 4.9% (threshold: 6.0%) - PASS
+RDF correlation: 0.768 (threshold: 0.5) - PASS
+Symmetry Retention (P4_2/mnm): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.151 Å
+  RMSD std dev: 0.053 Å
+  RMSD trend: -6.84e-05 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 609.15 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -0.30%
+  Volume fluctuation std dev: 1.51%
+  Max volume fluctuation: 4.94%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.768
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: P4_2/mnm (136)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P4_2/m               84         NO
+0.10            P4_2/mnm             136        YES
+0.20            P4_2/mnm             136        YES
+0.30            P4_2/mnm             136        YES
+0.50            P4_2/mnm             136        YES
+0.75            P4_2/mnm             136        YES
+1.00            P4_2/mnm             136        YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -10.099711 eV/atom
+  Energy std dev: 0.022105 eV/atom
+  Energy drift: -1.51e-05 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_md_trajectory.traj
+Production trajectory file: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_production_trajectory.traj
+Final structure: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_final_structure.cif
+XYZ trajectory: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_production_trajectory.xyz
+MD log: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_md_log.txt
+Analysis plot: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_rmsd_analysis.png
+Analysis plot: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_volume_evolution.png
+Analysis plot: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_rdf_comparison.png
+Analysis plot: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_energy_evolution.png
+Analysis plot: top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

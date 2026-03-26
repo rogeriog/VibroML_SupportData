@@ -1,0 +1,596 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) EasyBuild/2022a
+Processing: TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz
+Atoms in primitive: 10
+Selected Supercell: 2x2x2
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using default supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+MD stability method will use:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Total simulation time: 10.0 ps
+  Supercell size: 2x2x2
+  Equilibration fraction: 0.2
+  Stability assessment thresholds (generous for MLIP fluctuations):
+    Volume fluctuation: ±6.0%
+    RMSD threshold: 1.0 Å
+    RDF correlation: >0.5
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz.cif
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/scn/spherical_harmonics.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/equiformer_v2/wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/escn/so3.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/checkpoints/2026-02-05-21-22-24
+  commit: core:None,experimental:NA
+  identifier: ''
+  logs_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/logs/wandb/2026-02-05-21-22-24
+  print_every: 100
+  results_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/results/2026-02-05-21-22-24
+  seed: null
+  timestamp_id: 2026-02-05-21-22-24
+  version: 1.10.0
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  lin_ref: ''
+  metadata_path: ''
+  normalizer:
+    energy:
+      mean: 0.0
+      stdev: 4.980640411376953
+    forces:
+      mean: 0.0
+      stdev: 4.980640411376953
+    stress:
+      mean: 0.0
+      stdev: 4.980640411376953
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    efs:
+      module: esen_mlp_efs_head_dens
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 10000
+  load_balancing: atoms
+  lr_initial: 0.0003
+  max_epochs: 2
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 393848
+    lambda_type: cosine
+    lr: 0.0003
+    lr_min_factor: 0.05
+    warmup_epochs: 1969
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161410 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+WARNING:root:No seed has been set in modelcheckpoint or OCPCalculator! Results may not be reproducible on re-run
+ESEN calculator initialized.
+
+» ESEN relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 12) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 12
+International Symbol: C2/m
+Hall Symbol: -C 2y
+Point Group: 2/m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+   Initial energy: -28.279528 eV
+   Initial energy per atom: -2.827953 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:575: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   eSEN relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/relax.log
+   eSEN relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-2.827953 eV/atom, Volume=508.064 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-2.827954 eV/atom, Volume=508.117 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-2.828032 eV/atom, Volume=510.251 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-2.828035 eV/atom, Volume=510.721 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-2.828036 eV/atom, Volume=510.762 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -2.828042 eV/atom
+   Step 1: Initial volume: 511.082 Å³
+   Step 7: Energy/atom=-2.828046 eV/atom, Volume=511.210 Å³
+   Step 8: Energy/atom=-2.828056 eV/atom, Volume=511.092 Å³
+   Step 9: Energy/atom=-2.828059 eV/atom, Volume=510.789 Å³
+   Step 10: Energy/atom=-2.828063 eV/atom, Volume=510.405 Å³
+   Step 11: Energy/atom=-2.828065 eV/atom, Volume=510.189 Å³
+   Step 12: Energy/atom=-2.828074 eV/atom, Volume=509.715 Å³
+   Step 13: Energy/atom=-2.828082 eV/atom, Volume=509.495 Å³
+   Step 14: Energy/atom=-2.828091 eV/atom, Volume=509.579 Å³
+   Step 15: Energy/atom=-2.828094 eV/atom, Volume=509.799 Å³
+   Step 16: Energy/atom=-2.828095 eV/atom, Volume=509.925 Å³
+   Step 17: Energy/atom=-2.828098 eV/atom, Volume=510.121 Å³
+   Step 18: Energy/atom=-2.828099 eV/atom, Volume=510.324 Å³
+   Step 19: Energy/atom=-2.828108 eV/atom, Volume=510.495 Å³
+   Step 20: Energy/atom=-2.828120 eV/atom, Volume=510.478 Å³
+   Step 21: Energy/atom=-2.828127 eV/atom, Volume=510.099 Å³
+   Step 22: Energy/atom=-2.828133 eV/atom, Volume=509.541 Å³
+   Step 23: Energy/atom=-2.828136 eV/atom, Volume=509.364 Å³
+   Step 24: Energy/atom=-2.828134 eV/atom, Volume=509.183 Å³
+   Step 25: Energy/atom=-2.828140 eV/atom, Volume=509.041 Å³
+   Step 26: Energy/atom=-2.828145 eV/atom, Volume=508.978 Å³
+   Step 27: Energy/atom=-2.828156 eV/atom, Volume=509.207 Å³
+   Step 28: Energy/atom=-2.828164 eV/atom, Volume=509.531 Å³
+   Step 29: Energy/atom=-2.828166 eV/atom, Volume=509.675 Å³
+   Step 30: Energy/atom=-2.828168 eV/atom, Volume=509.679 Å³
+   Step 31: Energy/atom=-2.828169 eV/atom, Volume=509.623 Å³
+   Step 32: Energy/atom=-2.828169 eV/atom, Volume=509.528 Å³
+   Step 33: Energy/atom=-2.828171 eV/atom, Volume=509.460 Å³
+   Step 34: Energy/atom=-2.828172 eV/atom, Volume=509.475 Å³
+   Step 35: Energy/atom=-2.828172 eV/atom, Volume=509.559 Å³
+   Step 36: Energy/atom=-2.828172 eV/atom, Volume=509.622 Å³
+   Step 37: Energy/atom=-2.828173 eV/atom, Volume=509.665 Å³
+   Step 38: Energy/atom=-2.828173 eV/atom, Volume=509.720 Å³
+   Step 39: Energy/atom=-2.828174 eV/atom, Volume=509.781 Å³
+   Step 40: Energy/atom=-2.828174 eV/atom, Volume=509.808 Å³
+   Step 41: Energy/atom=-2.828174 eV/atom, Volume=509.765 Å³
+   Step 42: Energy/atom=-2.828174 eV/atom, Volume=509.706 Å³
+   Step 43: Energy/atom=-2.828174 eV/atom, Volume=509.681 Å³
+   Step 44: Energy/atom=-2.828174 eV/atom, Volume=509.668 Å³
+   Step 45: Energy/atom=-2.828175 eV/atom, Volume=509.645 Å³
+   Step 46: Energy/atom=-2.828175 eV/atom, Volume=509.621 Å³
+   Step 47: Energy/atom=-2.828174 eV/atom, Volume=509.612 Å³
+» ESEN relaxation finished in 5.66 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0009) <= fmax (0.0020)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -28.281744 eV
+   Final energy per atom: -2.828174 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 10
+Relaxed atoms: 10
+Initial stress (GPa): 0.0001
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 12) at symprec = 5.0000e-03
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 12
+International Symbol: C2/m
+Hall Symbol: -C 2y
+Point Group: 2/m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running MD Stability Analysis ---
+Note: MD stability analysis runs independently of phonon calculations.
+
+--- Running AIMD Stability Analysis ---
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/checkpoints/2026-02-05-21-22-24
+  commit: core:None,experimental:NA
+  identifier: ''
+  logs_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/logs/wandb/2026-02-05-21-22-24
+  print_every: 100
+  results_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/results/2026-02-05-21-22-24
+  seed: null
+  timestamp_id: 2026-02-05-21-22-24
+  version: 1.10.0
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  lin_ref: ''
+  metadata_path: ''
+  normalizer:
+    energy:
+      mean: 0.0
+      stdev: 4.980640411376953
+    forces:
+      mean: 0.0
+      stdev: 4.980640411376953
+    stress:
+      mean: 0.0
+      stdev: 4.980640411376953
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    efs:
+      module: esen_mlp_efs_head_dens
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 10000
+  load_balancing: atoms
+  lr_initial: 0.0003
+  max_epochs: 2
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 393848
+    lambda_type: cosine
+    lr: 0.0003
+    lr_min_factor: 0.05
+    warmup_epochs: 1969
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161410 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+WARNING:root:No seed has been set in modelcheckpoint or OCPCalculator! Results may not be reproducible on re-run
+ESEN calculator initialized.
+MD stability analysis output directory: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis
+
+--- Step 1: Structure Preparation ---
+Creating 2x2x2 supercell for MD simulation
+Supercell created with 80 atoms
+Supercell prepared with 80 atoms
+Initial supercell saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_initial_supercell.cif
+
+--- Step 2: MD Simulation Setup ---
+Total steps: 10000
+  NVT steps: 1000
+  NPT equilibration steps: 1000
+  Production steps: 8000
+MD simulation parameters:
+  Total time: 10.0 ps (10000.0 fs)
+  Phase 1 - NVT equilibration: 1000.0 fs (1000 steps)
+    Temperature ramp: 700 steps (0K → 300.0K)
+    Temperature stabilization: 300 steps
+  Phase 2 - NPT equilibration: 1000.0 fs (1000 steps)
+  Phase 3 - NPT production: 8000.0 fs (8000 steps)
+  Timestep: 1.0 fs
+  Total steps: 10000
+Setting up NVT ensemble for temperature equilibration:
+  Target temperature: 300.0 K
+  Timestep: 1.0 fs
+  Starting from 0K (zero velocities)
+NVT ensemble setup completed
+
+--- Step 3: MD Simulation Execution ---
+Starting two-stage MD equilibration protocol...
+Trajectory will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_md_trajectory.traj
+MD log will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_md_log.txt
+
+--- Phase 1: NVT Temperature Equilibration ---
+Ramping temperature from 0K to 300.0K over 700 steps
+  Temperature ramp progress: 0.0% (T = 1.0 K)
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/nvtberendsen.py:98: RuntimeWarning: divide by zero encountered in scalar divide
+  1.0 + (self.temperature / old_temperature - 1.0) * tautscl
+  Temperature ramp progress: 10.0% (T = 30.9 K)
+  Temperature ramp progress: 20.0% (T = 60.8 K)
+  Temperature ramp progress: 30.0% (T = 90.7 K)
+  Temperature ramp progress: 40.0% (T = 120.6 K)
+  Temperature ramp progress: 50.0% (T = 150.5 K)
+  Temperature ramp progress: 60.0% (T = 180.4 K)
+  Temperature ramp progress: 70.0% (T = 210.3 K)
+  Temperature ramp progress: 80.0% (T = 240.2 K)
+  Temperature ramp progress: 90.0% (T = 270.1 K)
+  Temperature ramp progress: 100.0% (T = 300.0 K)
+NVT equilibration completed. Final temperature: 292.7 K
+
+--- Phase 2: NPT Pressure/Volume Equilibration ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+NPT equilibration completed.
+  Temperature: 1741.5 K
+  Volume: 1496075484777467671868342272000.00 Å³
+
+--- Phase 3: NPT Production Run ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+WARNING: NPT: Setting the center-of-mass momentum to zero (was 1.28929 1.02434 10.008)
+Complete MD simulation finished in 296.63 seconds
+  NVT phase: 1000 steps
+  NPT equilibration: 1000 steps
+  NPT production: 8000 steps
+
+--- Step 4: Trajectory Analysis ---
+Analyzing production trajectory stability from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_production_trajectory.traj
+Production trajectory frames: 1001
+Expected production frames: 1000 (sampling interval: 8)
+Production analysis will use all 1001 frames
+Production time range: 0 to 8000.0 fs (1001 frames)
+Stress data available: 1001 frames
+Volume analysis using first 496.0 fs of production (62 frames)
+  Reference volume average: 1496075484777467108918388850688.00 Å³
+Computing RDF correlation using last 20 structures for statistical robustness
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/numpy/lib/function_base.py:2897: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/numpy/lib/function_base.py:2898: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Analyzing production energy trajectory
+Trajectory analysis completed
+  Analysis performed on production phase (8000 steps, 8000.0 fs)
+  Using separate production trajectory file for cleaner analysis
+
+--- Step 5: Generating Output Files & Averaging Structure ---
+Generating trajectory analysis plots
+Generated 5 analysis plots
+Final structure saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_final_structure.cif
+XYZ trajectory saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_production_trajectory.xyz
+Trajectory (XYZ format) saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_trajectory.xyz
+
+Computing thermally-averaged structure for robust analysis...
+Computing average structure from last 100 frames...
+  Averaged 100 frames. Formula: Cs16I48Pb16
+Averaged structure saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_averaged_structure.cif
+Using thermally-averaged structure for Symmetry and RDF checks (High Precision).
+
+--- Step 6: Stability Assessment ---
+
+--- Analyzing Symmetry Retention ---
+Initial Structure Space Group (tol=0.01): C2/m (12)
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+
+Verdict: SYMMETRY BROKEN
+Symmetry report saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_symmetry_retention_report.txt
+Recalculating RDF using the thermally-averaged structure...
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/numpy/lib/function_base.py:2897: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/numpy/lib/function_base.py:2898: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+RDF correlation (averaged structure): nan
+  Trajectory Average RDF Correlation: nan
+  Averaged Structure RDF Correlation: nan (Used for verdict)
+
+--- Determining Crystal Stability ---
+Stability verdict: UNSTABLE (confidence: HIGH)
+  RMSD: 1181767176032.438 Å (threshold: 1.0 Å) - FAIL
+  Volume change: 0.0% (threshold: 6.0%) - PASS
+  RDF correlation: nan (threshold: 0.5) - FAIL
+  Symmetry Retention (C2/m): FAIL (Matches found in tolerance sweep)
+Stability analysis completed
+Verdict: UNSTABLE (confidence: HIGH)
+
+--- Step 7: Generating Comprehensive Report ---
+Comprehensive report saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_md_stability_report.txt
+Machine-readable summary saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis/TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_md_stability_summary.csv
+
+--- AIMD Stability Analysis Complete ---
+Final verdict: UNSTABLE (confidence: HIGH)
+All results saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_MD_STABILITY_phonon_output_20260205-212122/md_stability_analysis
+
+--- MD Stability Analysis Completed ---
+Final verdict: UNSTABLE (confidence: HIGH)
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.4GiB
+Total CPU Time                           - CPU_Time         : 00:44:00
+Execution Time                           - Wall_Time        : 00:05:30
+total programme cpu time                 - Total_CPU        : 39:16.325
+Total_CPU / CPU_Time  (%)                - ETA              : 89%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 02:56:00
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

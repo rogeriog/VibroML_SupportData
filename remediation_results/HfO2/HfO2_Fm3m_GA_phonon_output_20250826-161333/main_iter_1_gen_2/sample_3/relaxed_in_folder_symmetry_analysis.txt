@@ -1,0 +1,18 @@
+### Relaxed_in_folder Structure Symmetry Analysis ###
+
+Analysis Date: 2025-08-26 16:22:15
+Symmetry Precision (symprec) - Auto-tuned: 5.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 141
+International symbol: I4_1/amd
+Hall symbol: I 4bw 2bw -1bw
+Point group symbol: 4/mmm
+Crystal system: tetragonal
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 12
+Transformation matrix to primitive cell:
+[[ 5.00000000e-01,  1.00000000e+00, -2.00000000e+00],
+ [-5.00000000e-01, -1.00000000e+00, -2.00000000e+00],
+ [-5.00000000e-01,  3.14418630e-17, -8.32667268e-17]]
+Origin shift: [0.37501528, 0.37500056, 0.49999685]

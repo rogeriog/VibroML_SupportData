@@ -1,0 +1,43 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_20250903-162016/iter_1/pairing_1_G_idx0_G_idx0/sample_21 ---
+Analysis Date: 2025-09-03 16:26:25
+
+### Structure: HfO2_Fm3m_swapped_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_20250903-162016/iter_1/pairing_1_G_idx0_G_idx0/sample_21/HfO2_Fm3m_swapped_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true.cif
+Total Number of Atoms: 12
+Relaxation Status: SUCCESS
+Final Energy: -121.555583 eV
+Final Energy per Atom: -10.129632 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_20250903-162016/iter_1/pairing_1_G_idx0_G_idx0/sample_21/HfO2_Fm3m_swapped_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 137
+  International Symbol: P4_2/nmc
+  Hall Symbol: P 4n 2n -1n
+  Point Group Symbol: 4/mmm
+  Crystal System: tetragonal
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 6
+  -------------------------------------------
+
+### Structure: HfO2_Fm3m_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_20250903-162016/iter_1/pairing_1_G_idx0_G_idx0/sample_21/HfO2_Fm3m_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true.cif
+Total Number of Atoms: 12
+Relaxation Status: SUCCESS
+Final Energy: -121.555583 eV
+Final Energy per Atom: -10.129632 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_20250903-162016/iter_1/pairing_1_G_idx0_G_idx0/sample_21/HfO2_Fm3m_sc_1x1x1_d1_4.000_r21_0.250_c_m070_m070_m070_000_000_000_pf_true_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 137
+  International Symbol: P4_2/nmc
+  Hall Symbol: P 4n 2n -1n
+  Point Group Symbol: 4/mmm
+  Crystal System: tetragonal
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 6
+  -------------------------------------------
+

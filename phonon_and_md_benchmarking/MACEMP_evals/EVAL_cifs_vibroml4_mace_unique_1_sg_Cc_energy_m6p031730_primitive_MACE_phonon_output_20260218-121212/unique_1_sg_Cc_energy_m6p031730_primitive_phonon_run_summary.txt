@@ -1,0 +1,45 @@
+--- Phonon Run Summary ---
+Structure Formula: Bi8O28Sn8
+Total Number of Atoms: 44
+Engine Used: mace
+Units: THz
+Supercell Size: (4, 4, 4)
+Displacement Delta: 0.03
+Fmax for Relaxation: 1e-05
+Most Negative Frequency (overall): -0.0888 THz
+Time Taken for Phonon Analysis: 447.46 seconds
+
+Energy of Structure: -267.124901 eV
+Energy per Atom: -6.071020 eV/atom
+
+--- Top 2 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: Y
+   Coordinate (q-point): [0.5, -0.5, 0.0]
+   Frequency: 20.1484 THz
+   Band Index: 131
+
+Mode 2:
+   Label: Y
+   Coordinate (q-point): [0.5, -0.5, 0.0]
+   Frequency: 20.1449 THz
+   Band Index: 130
+
+Path of K-points:
+  G: 0.0000
+  Y: 0.5026
+  F: 0.5026
+  L: 0.6740
+  I: 0.9830
+  I1: 0.9830
+  Z: 1.4961
+  F1: 1.9401
+  Y: 1.9401
+  X1: 2.1975
+  X: 2.1975
+  G: 2.7621
+  N: 3.2439
+  M: 3.2439
+  G: 3.7467
+
+Space Group: Not available (symmetry analysis file not found).

@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-01-30 20:08:54
+Symmetry Precision (symprec) - Auto-tuned: 5.0000e-03
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 107
+International symbol: I4mm
+Hall symbol: I 4 -2
+Point group symbol: 4mm
+Crystal system: tetragonal
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 40
+Transformation matrix to primitive cell:
+[[-5.00000000e-01, -5.00000000e-01, -4.73759689e-17],
+ [-5.00000000e-01,  5.00000000e-01,  1.44198889e-17],
+ [ 5.00000000e-01, -5.00000000e-01, -1.00000000e+00]]
+Origin shift: [ 5.55911804e-06,  6.25091324e-01, -5.55911804e-06]

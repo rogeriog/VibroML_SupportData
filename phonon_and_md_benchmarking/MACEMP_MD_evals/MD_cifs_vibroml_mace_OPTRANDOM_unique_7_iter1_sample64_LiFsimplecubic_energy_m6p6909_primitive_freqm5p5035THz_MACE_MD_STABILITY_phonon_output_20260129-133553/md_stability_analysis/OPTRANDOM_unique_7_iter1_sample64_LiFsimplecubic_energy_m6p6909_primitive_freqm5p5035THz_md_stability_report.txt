@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-29 13:50:30
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz.cif
+Engine: mace
+Model: medium
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: LOW
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 128
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 2.183 Å (threshold: 1.0 Å) - FAIL
+Volume change: 3.3% (threshold: 6.0%) - PASS
+RDF correlation: 0.030 (threshold: 0.5) - FAIL
+Symmetry Retention (Fm-3m): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 2.183 Å
+  RMSD std dev: 0.013 Å
+  RMSD trend: 1.86e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 1142.81 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -0.24%
+  Volume fluctuation std dev: 1.14%
+  Max volume fluctuation: 3.35%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.030
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Fm-3m (225)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            Fm-3m                225        YES
+0.20            Fm-3m                225        YES
+0.30            Fm-3m                225        YES
+0.50            Fm-3m                225        YES
+0.75            Fm-3m                225        YES
+1.00            Fm-3m                225        YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -4.790783 eV/atom
+  Energy std dev: 0.007362 eV/atom
+  Energy drift: -4.24e-07 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_md_trajectory.traj
+Production trajectory file: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_production_trajectory.traj
+Final structure: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_final_structure.cif
+XYZ trajectory: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_production_trajectory.xyz
+MD log: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_md_log.txt
+Analysis plot: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_rmsd_analysis.png
+Analysis plot: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_volume_evolution.png
+Analysis plot: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_rdf_comparison.png
+Analysis plot: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_energy_evolution.png
+Analysis plot: OPTRANDOM_unique_7_iter1_sample64_LiFsimplecubic_energy_m6p6909_primitive_freqm5p5035THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

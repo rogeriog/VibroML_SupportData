@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 21:41:06
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz.cif
+Engine: esen
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: HIGH
+
+Symmetry Retention: BROKEN
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 16
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 3.334 Å (threshold: 1.0 Å) - FAIL
+Volume change: 28.5% (threshold: 6.0%) - FAIL
+RDF correlation: -0.010 (threshold: 0.5) - FAIL
+Symmetry Retention (F-43m): FAIL (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 3.334 Å
+  RMSD std dev: 0.215 Å
+  RMSD trend: 2.69e-05 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 184.26 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -14.57%
+  Volume fluctuation std dev: 10.73%
+  Max volume fluctuation: 28.53%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: -0.010
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: F-43m (216)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            Fm-3m                225        NO
+0.20            Fm-3m                225        NO
+0.30            Fm-3m                225        NO
+0.50            Fm-3m                225        NO
+0.75            Fm-3m                225        NO
+1.00            Fm-3m                225        NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -4.757328 eV/atom
+  Energy std dev: 0.024122 eV/atom
+  Energy drift: -6.87e-05 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_md_trajectory.traj
+Production trajectory file: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_production_trajectory.traj
+Final structure: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_final_structure.cif
+XYZ trajectory: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_production_trajectory.xyz
+MD log: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_md_log.txt
+Analysis plot: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_rmsd_analysis.png
+Analysis plot: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_volume_evolution.png
+Analysis plot: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_rdf_comparison.png
+Analysis plot: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_energy_evolution.png
+Analysis plot: top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

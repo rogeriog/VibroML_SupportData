@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz,STABLE,MODERATE,0.712666,4.26,0.237309,300.0,0.0,10.0,2x2x2,64,1.0,6.0,0.5,62,496.0

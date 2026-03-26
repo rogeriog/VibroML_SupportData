@@ -1,0 +1,1283 @@
+Starting dynamic evaluation at Wed Feb 18 12:18:56 CET 2026
+--> SKIP: Found completed run for Sn2Bi2O7_m6p017672 in EVAL_cifs_vibroml4_esen_Sn2Bi2O7_m6p017672_ESEN_phonon_output_20260211-174316
+--> SKIP: Found completed run for unique_3_sg_Pna2_1_energy_m6p030352_primitive in EVAL_cifs_vibroml4_esen_unique_3_sg_Pna2_1_energy_m6p030352_primitive_ESEN_phonon_output_20260130-154048
+--> SKIP: Found completed run for unique_4_sg_P1_energy_m6p029892_primitive in EVAL_cifs_vibroml4_esen_unique_4_sg_P1_energy_m6p029892_primitive_ESEN_phonon_output_20260130-154720
+--> SKIP: Found completed run for unique_9_sg_P2_1_energy_m6p004968_primitive in EVAL_cifs_vibroml4_esen_unique_9_sg_P2_1_energy_m6p004968_primitive_ESEN_phonon_output_20260130-181937
+--> SKIP: Found completed run for targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz in EVAL_cifs_vibroml4_esen_targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_ESEN_phonon_output_20260130-182629
+----------------------------------------------------------------
+Processing: unique_1_sg_Cc_energy_m6p031730_primitive
+Primitive Atoms: 44
+Target Supercell: 1,1,1
+Model: esen
+----------------------------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/scn/spherical_harmonics.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/equiformer_v2/wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/escn/so3.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/checkpoints/2026-02-18-12-18-24
+  commit: core:None,experimental:NA
+  identifier: ''
+  logs_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/logs/wandb/2026-02-18-12-18-24
+  print_every: 100
+  results_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/results/2026-02-18-12-18-24
+  seed: null
+  timestamp_id: 2026-02-18-12-18-24
+  version: 1.10.0
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  lin_ref: ''
+  metadata_path: ''
+  normalizer:
+    energy:
+      mean: 0.0
+      stdev: 4.980640411376953
+    forces:
+      mean: 0.0
+      stdev: 4.980640411376953
+    stress:
+      mean: 0.0
+      stdev: 4.980640411376953
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    efs:
+      module: esen_mlp_efs_head_dens
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 10000
+  load_balancing: atoms
+  lr_initial: 0.0003
+  max_epochs: 2
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 393848
+    lambda_type: cosine
+    lr: 0.0003
+    lr_min_factor: 0.05
+    warmup_epochs: 1969
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161410 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+WARNING:root:No seed has been set in modelcheckpoint or OCPCalculator! Results may not be reproducible on re-run
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:575: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+Traceback (most recent call last):
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 262, in irun
+    self.call_observers()
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 207, in call_observers
+    function(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py", line 206, in __call__
+    raise StopIteration
+StopIteration
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py", line 598, in relax_structure
+    opt.run(fmax=fmax)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 417, in run
+    return Dynamics.run(self, steps=steps)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 286, in run
+    for converged in Dynamics.irun(self, steps=steps):
+RuntimeError: generator raised StopIteration
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (1, 1, 1)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/EVAL_cifs_vibroml4_esen_unique_1_sg_Cc_energy_m6p031730_primitive_ESEN_phonon_output_20260218-121909
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/EVAL_cifs_vibroml4_esen_unique_1_sg_Cc_energy_m6p031730_primitive_ESEN_phonon_output_20260218-121909/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_1_sg_Cc_energy_m6p031730_primitive.cif
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+ESEN calculator initialized.
+
+» ESEN relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/EVAL_cifs_vibroml4_esen_unique_1_sg_Cc_energy_m6p031730_primitive_ESEN_phonon_output_20260218-121909/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+   Initial energy: -266.316803 eV
+   Initial energy per atom: -6.052655 eV/atom
+   eSEN relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/EVAL_cifs_vibroml4_esen_unique_1_sg_Cc_energy_m6p031730_primitive_ESEN_phonon_output_20260218-121909/initial_relaxation_for_single_run/relax.log
+   eSEN relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_evals/EVAL_cifs_vibroml4_esen_unique_1_sg_Cc_energy_m6p031730_primitive_ESEN_phonon_output_20260218-121909/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-6.052655 eV/atom, Volume=634.819 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-6.052706 eV/atom, Volume=634.831 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-6.052783 eV/atom, Volume=634.885 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-6.052786 eV/atom, Volume=634.900 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-6.052796 eV/atom, Volume=635.020 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -6.052800 eV/atom
+   Step 1: Initial volume: 635.077 Å³
+   Step 7: Energy/atom=-6.052807 eV/atom, Volume=635.232 Å³
+   Step 8: Energy/atom=-6.052809 eV/atom, Volume=635.289 Å³
+   Step 9: Energy/atom=-6.052811 eV/atom, Volume=635.343 Å³
+   Step 10: Energy/atom=-6.052813 eV/atom, Volume=635.410 Å³
+   Step 11: Energy/atom=-6.052816 eV/atom, Volume=635.509 Å³
+   Step 12: Energy/atom=-6.052818 eV/atom, Volume=635.595 Å³
+   Step 13: Energy/atom=-6.052818 eV/atom, Volume=635.652 Å³
+   Step 14: Energy/atom=-6.052820 eV/atom, Volume=635.703 Å³
+   Step 15: Energy/atom=-6.052820 eV/atom, Volume=635.768 Å³
+   Step 16: Energy/atom=-6.052822 eV/atom, Volume=635.839 Å³
+   Step 17: Energy/atom=-6.052822 eV/atom, Volume=635.890 Å³
+   Step 18: Energy/atom=-6.052823 eV/atom, Volume=635.923 Å³
+   Step 19: Energy/atom=-6.052823 eV/atom, Volume=635.952 Å³
+   Step 20: Energy/atom=-6.052824 eV/atom, Volume=635.984 Å³
+   Step 21: Energy/atom=-6.052824 eV/atom, Volume=636.012 Å³
+   Step 22: Energy/atom=-6.052825 eV/atom, Volume=636.032 Å³
+   Step 23: Energy/atom=-6.052825 eV/atom, Volume=636.047 Å³
+   Step 24: Energy/atom=-6.052825 eV/atom, Volume=636.064 Å³
+   Step 25: Energy/atom=-6.052825 eV/atom, Volume=636.084 Å³
+   Step 26: Energy/atom=-6.052825 eV/atom, Volume=636.103 Å³
+   Step 27: Energy/atom=-6.052825 eV/atom, Volume=636.119 Å³
+   Step 28: Energy/atom=-6.052825 eV/atom, Volume=636.130 Å³
+   Step 29: Energy/atom=-6.052825 eV/atom, Volume=636.139 Å³
+   Step 30: Energy/atom=-6.052825 eV/atom, Volume=636.149 Å³
+   Step 31: Energy/atom=-6.052825 eV/atom, Volume=636.160 Å³
+   Step 32: Energy/atom=-6.052825 eV/atom, Volume=636.172 Å³
+   Step 33: Energy/atom=-6.052825 eV/atom, Volume=636.180 Å³
+   Step 34: Energy/atom=-6.052825 eV/atom, Volume=636.183 Å³
+   Step 35: Energy/atom=-6.052825 eV/atom, Volume=636.186 Å³
+   Step 36: Energy/atom=-6.052825 eV/atom, Volume=636.187 Å³
+   Step 37: Energy/atom=-6.052825 eV/atom, Volume=636.188 Å³
+   Step 38: Energy/atom=-6.052825 eV/atom, Volume=636.190 Å³
+   Step 39: Energy/atom=-6.052825 eV/atom, Volume=636.190 Å³
+   Step 40: Energy/atom=-6.052825 eV/atom, Volume=636.191 Å³
+   Step 41: Energy/atom=-6.052825 eV/atom, Volume=636.190 Å³
+   Step 42: Energy/atom=-6.052825 eV/atom, Volume=636.190 Å³
+   Step 43: Energy/atom=-6.052825 eV/atom, Volume=636.189 Å³
+   Step 44: Energy/atom=-6.052825 eV/atom, Volume=636.187 Å³
+   Step 45: Energy/atom=-6.052825 eV/atom, Volume=636.185 Å³
+   Step 46: Energy/atom=-6.052825 eV/atom, Volume=636.185 Å³
+   Step 47: Energy/atom=-6.052825 eV/atom, Volume=636.186 Å³
+   Step 48: Energy/atom=-6.052825 eV/atom, Volume=636.183 Å³
+   Step 49: Energy/atom=-6.052825 eV/atom, Volume=636.181 Å³
+   Step 50: Energy/atom=-6.052825 eV/atom, Volume=636.179 Å³
+   Step 51: Energy/atom=-6.052825 eV/atom, Volume=636.177 Å³
+   Step 52: Energy/atom=-6.052825 eV/atom, Volume=636.173 Å³
+   Step 53: Energy/atom=-6.052825 eV/atom, Volume=636.172 Å³
+   Step 54: Energy/atom=-6.052825 eV/atom, Volume=636.172 Å³
+   Step 55: Energy/atom=-6.052825 eV/atom, Volume=636.171 Å³
+   Step 56: Energy/atom=-6.052825 eV/atom, Volume=636.170 Å³
+   Step 57: Energy/atom=-6.052825 eV/atom, Volume=636.170 Å³
+   Step 58: Energy/atom=-6.052825 eV/atom, Volume=636.169 Å³
+   Step 59: Energy/atom=-6.052825 eV/atom, Volume=636.167 Å³
+   Step 60: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 61: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 62: Energy/atom=-6.052825 eV/atom, Volume=636.166 Å³
+   Step 63: Energy/atom=-6.052825 eV/atom, Volume=636.167 Å³
+   Step 64: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 65: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 66: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 67: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 68: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 69: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 70: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 71: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 72: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 73: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 74: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 75: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 76: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 77: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 78: Energy/atom=-6.052825 eV/atom, Volume=636.165 Å³
+   Step 79: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 80: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 81: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 82: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 83: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 84: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 85: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 86: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 87: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 88: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 89: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 90: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 91: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 92: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 93: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 94: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 95: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 96: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 97: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 98: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 99: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 100: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 101: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 102: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 103: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 104: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 105: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 106: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 107: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 108: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 109: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 110: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 111: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 112: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 113: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 114: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 115: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 116: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 117: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 118: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 119: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 120: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 121: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 122: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 123: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 124: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 125: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 126: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 127: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 128: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 129: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 130: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 131: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 132: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 133: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 134: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 135: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 136: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 137: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 138: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 139: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 140: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 141: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 142: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 143: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 144: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 145: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 146: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 147: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 148: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 149: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 150: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 151: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 152: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 153: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 154: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 155: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 156: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 157: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 158: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 159: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 160: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 161: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 162: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 163: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 164: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 165: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 166: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 167: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 168: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 169: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 170: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 171: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 172: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 173: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 174: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 175: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 176: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 177: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 178: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 179: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 180: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 181: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 182: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 183: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 184: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 185: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 186: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 187: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 188: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 189: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 190: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 191: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 192: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 193: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 194: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 195: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 196: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 197: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 198: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 199: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 200: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 201: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 202: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 203: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 204: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 205: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 206: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 207: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 208: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 209: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 210: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 211: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 212: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 213: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 214: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 215: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 216: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 217: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 218: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 219: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 220: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 221: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 222: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 223: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 224: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 225: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 226: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 227: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 228: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 229: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 230: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 231: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 232: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 233: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 234: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 235: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 236: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 237: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 238: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 239: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 240: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 241: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 242: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 243: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 244: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 245: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 246: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 247: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 248: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 249: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 250: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 251: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 252: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 253: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 254: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 255: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 256: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 257: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 258: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 259: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 260: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 261: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 262: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 263: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 264: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 265: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 266: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 267: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 268: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 269: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 270: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 271: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 272: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 273: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 274: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 275: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 276: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 277: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 278: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 279: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 280: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 281: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 282: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 283: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 284: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 285: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 286: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 287: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 288: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 289: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 290: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 291: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 292: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 293: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 294: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 295: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 296: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 297: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 298: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 299: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 300: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 301: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 302: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 303: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 304: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 305: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 306: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 307: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 308: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 309: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 310: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 311: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 312: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 313: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 314: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 315: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 316: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 317: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 318: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 319: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 320: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 321: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 322: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 323: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 324: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 325: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 326: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 327: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 328: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 329: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 330: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 331: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 332: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 333: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 334: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 335: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 336: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 337: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 338: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 339: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 340: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 341: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 342: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 343: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 344: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 345: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 346: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 347: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 348: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 349: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 350: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 351: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 352: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 353: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 354: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 355: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 356: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 357: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 358: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 359: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 360: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 361: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 362: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 363: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 364: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 365: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 366: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 367: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 368: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 369: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 370: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 371: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 372: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 373: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 374: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 375: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 376: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 377: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 378: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 379: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 380: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 381: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 382: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 383: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 384: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 385: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 386: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 387: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 388: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 389: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 390: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 391: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 392: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 393: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 394: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 395: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 396: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 397: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 398: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 399: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 400: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 401: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 402: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 403: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 404: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 405: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 406: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 407: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 408: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 409: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 410: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 411: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 412: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 413: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 414: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 415: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 416: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 417: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 418: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 419: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 420: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 421: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 422: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 423: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 424: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 425: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 426: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 427: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 428: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 429: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 430: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 431: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 432: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 433: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 434: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 435: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 436: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 437: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 438: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 439: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 440: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 441: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 442: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 443: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 444: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 445: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 446: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 447: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 448: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 449: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 450: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 451: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 452: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 453: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 454: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 455: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 456: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 457: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 458: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 459: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 460: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 461: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 462: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 463: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 464: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 465: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 466: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 467: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 468: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 469: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 470: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 471: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 472: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 473: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 474: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 475: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 476: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 477: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 478: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 479: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 480: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 481: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 482: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 483: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 484: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 485: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 486: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 487: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 488: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 489: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 490: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 491: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 492: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 493: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 494: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 495: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 496: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 497: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 498: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 499: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 500: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 501: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 502: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 503: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 504: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 505: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 506: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 507: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 508: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 509: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 510: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 511: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 512: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 513: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 514: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 515: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 516: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 517: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 518: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 519: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 520: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 521: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 522: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 523: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 524: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 525: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 526: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 527: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 528: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 529: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 530: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 531: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 532: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 533: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 534: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 535: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 536: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 537: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 538: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 539: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 540: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 541: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 542: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 543: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 544: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 545: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 546: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 547: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 548: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 549: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 550: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 551: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 552: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 553: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 554: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 555: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 556: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 557: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 558: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 559: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 560: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 561: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 562: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 563: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 564: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 565: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 566: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 567: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 568: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 569: Energy/atom=-6.052825 eV/atom, Volume=636.163 Å³
+   Step 570: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 571: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 572: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 573: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 574: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 575: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 576: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 577: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 578: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 579: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 580: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 581: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 582: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 583: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 584: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 585: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 586: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 587: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 588: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 589: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 590: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 591: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 592: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 593: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 594: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 595: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 596: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 597: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 598: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 599: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 600: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 601: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 602: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 603: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 604: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 605: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 606: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 607: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 608: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 609: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 610: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 611: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 612: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 613: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 614: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 615: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 616: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 617: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 618: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 619: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 620: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 621: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 622: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 623: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 624: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 625: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 626: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 627: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 628: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 629: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 630: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 631: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 632: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 633: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 634: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 635: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 636: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 637: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 638: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 639: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 640: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 641: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 642: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 643: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 644: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 645: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 646: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 647: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 648: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 649: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 650: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 651: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 652: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 653: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 654: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 655: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 656: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 657: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 658: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 659: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 660: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 661: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 662: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 663: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 664: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 665: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 666: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 667: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 668: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 669: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 670: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 671: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 672: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 673: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 674: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 675: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 676: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 677: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 678: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 679: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 680: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 681: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 682: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 683: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 684: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 685: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 686: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 687: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 688: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 689: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 690: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 691: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 692: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 693: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 694: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 695: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 696: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 697: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 698: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 699: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 700: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 701: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 702: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 703: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 704: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 705: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 706: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 707: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 708: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 709: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 710: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 711: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 712: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 713: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 714: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 715: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 716: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 717: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 718: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 719: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 720: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 721: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 722: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 723: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 724: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 725: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 726: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 727: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 728: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 729: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 730: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 731: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 732: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 733: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 734: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 735: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 736: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 737: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 738: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 739: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 740: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 741: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 742: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 743: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 744: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 745: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 746: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 747: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 748: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 749: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 750: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 751: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 752: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 753: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 754: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 755: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 756: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 757: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 758: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 759: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 760: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 761: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 762: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 763: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 764: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 765: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 766: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 767: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 768: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 769: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 770: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 771: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 772: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 773: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 774: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 775: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 776: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 777: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 778: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 779: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 780: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 781: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 782: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 783: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 784: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 785: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 786: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 787: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 788: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 789: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 790: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 791: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 792: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 793: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 794: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 795: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 796: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 797: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 798: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 799: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 800: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 801: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 802: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 803: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 804: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 805: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 806: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 807: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 808: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 809: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 810: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 811: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 812: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 813: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 814: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 815: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 816: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 817: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 818: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 819: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 820: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 821: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 822: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 823: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 824: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 825: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 826: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 827: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 828: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 829: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 830: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 831: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 832: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 833: Energy/atom=-6.052826 eV/atom, Volume=636.164 Å³
+   Step 834: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 835: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 836: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 837: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 838: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 839: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 840: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 841: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 842: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 843: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 844: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 845: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 846: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 847: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 848: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 849: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 850: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 851: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 852: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 853: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 854: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 855: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 856: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 857: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 858: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 859: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 860: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 861: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 862: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 863: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 864: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 865: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 866: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 867: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 868: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 869: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 870: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 871: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 872: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 873: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 874: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 875: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 876: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 877: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 878: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 879: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 880: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 881: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 882: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 883: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 884: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 885: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 886: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 887: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 888: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 889: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 890: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 891: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 892: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 893: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 894: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 895: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 896: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 897: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 898: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 899: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 900: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 901: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 902: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 903: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 904: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 905: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 906: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 907: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 908: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 909: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 910: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 911: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 912: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 913: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 914: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 915: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 916: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 917: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 918: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 919: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 920: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 921: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 922: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 923: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 924: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 925: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 926: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 927: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 928: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 929: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 930: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 931: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 932: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 933: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 934: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 935: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 936: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 937: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 938: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 939: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 940: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 941: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 942: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 943: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 944: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 945: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 946: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 947: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 948: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 949: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 950: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 951: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 952: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 953: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 954: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 955: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 956: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 957: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 958: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 959: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 960: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 961: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 962: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 963: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 964: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 965: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 966: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 967: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 968: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 969: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 970: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 971: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 972: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 973: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 974: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 975: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 976: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 977: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 978: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 979: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 980: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 981: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 982: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 983: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 984: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 985: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 986: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 987: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 988: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 989: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 990: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 991: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 992: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 993: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 994: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 995: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 996: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 997: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 998: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 999: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+   Step 1000: Energy/atom=-6.052825 eV/atom, Volume=636.164 Å³
+
+   STOPPING: Max steps (1000) reached.
+   ERROR: An unexpected error occurred during eSEN optimization: generator raised StopIteration
+» ESEN relaxation finished in 148.02 seconds.
+Initial relaxation failed. Exiting single run.
+--> SKIP: Found completed run for unique_2_sg_P2_1_energy_m6p030819_primitive in EVAL_cifs_vibroml4_esen_unique_2_sg_P2_1_energy_m6p030819_primitive_ESEN_phonon_output_20260130-191631
+--> SKIP: Found completed run for OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz in EVAL_cifs_vibroml4_esen_OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz_ESEN_phonon_output_20260130-192305
+--> SKIP: Found completed run for unique_11_sg_P2_12_12_1_energy_m5p997022_primitive in EVAL_cifs_vibroml4_esen_unique_11_sg_P2_12_12_1_energy_m5p997022_primitive_ESEN_phonon_output_20260130-192938
+--> SKIP: Found completed run for TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz in EVAL_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_phonon_output_20260130-193617
+--> SKIP: Found completed run for top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz in EVAL_cifs_vibroml3_esen_top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz_ESEN_phonon_output_20260211-175458
+--> SKIP: Found completed run for TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz in EVAL_cifs_vibroml3_esen_TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz_ESEN_phonon_output_20260211-175603
+--> SKIP: Found completed run for unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz in EVAL_cifs_vibroml3_esen_unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz_ESEN_phonon_output_20260211-175644
+--> SKIP: Found completed run for unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz in EVAL_cifs_vibroml3_esen_unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz_ESEN_phonon_output_20260211-175748
+--> SKIP: Found completed run for unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz in EVAL_cifs_vibroml3_esen_unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz_ESEN_phonon_output_20260211-180027
+--> SKIP: Found completed run for top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz in EVAL_cifs_vibroml3_esen_top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_ESEN_phonon_output_20260211-180109
+--> SKIP: Found completed run for top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz in EVAL_cifs_vibroml3_esen_top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_ESEN_phonon_output_20260211-180148
+--> SKIP: Found completed run for HfO2_Fm3m_m10p117371 in EVAL_cifs_vibroml3_esen_HfO2_Fm3m_m10p117371_ESEN_phonon_output_20260211-180226
+--> SKIP: Found completed run for top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz in EVAL_cifs_vibroml3_esen_top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz_ESEN_phonon_output_20260211-180328
+--> SKIP: Found completed run for unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz in EVAL_cifs_vibroml3_esen_unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz_ESEN_phonon_output_20260211-180432
+--> SKIP: Found completed run for top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz in EVAL_cifs_vibroml3_esen_top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz_ESEN_phonon_output_20260211-180514
+--> SKIP: Found completed run for unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz in EVAL_cifs_vibroml3_esen_unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_ESEN_phonon_output_20260211-180620
+--> SKIP: Found completed run for OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz in EVAL_cifs_vibroml2_esen_OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz_ESEN_phonon_output_20260130-202254
+--> SKIP: Found completed run for top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz in EVAL_cifs_vibroml2_esen_top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz_ESEN_phonon_output_20260130-202511
+--> SKIP: Found completed run for top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz in EVAL_cifs_vibroml2_esen_top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz_ESEN_phonon_output_20260130-202625
+--> SKIP: Found completed run for top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz in EVAL_cifs_vibroml2_esen_top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_ESEN_phonon_output_20260130-202836
+--> SKIP: Found completed run for unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz in EVAL_cifs_vibroml2_esen_unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz_ESEN_phonon_output_20260130-203248
+--> SKIP: Found completed run for CsPbI3_m2p796148 in EVAL_cifs_vibroml2_esen_CsPbI3_m2p796148_ESEN_phonon_output_20260130-203503
+--> SKIP: Found completed run for TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz in EVAL_cifs_vibroml2_esen_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_ESEN_phonon_output_20260130-203541
+--> SKIP: Found completed run for top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz in EVAL_cifs_vibroml2_esen_top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz_ESEN_phonon_output_20260130-203753
+--> SKIP: Found completed run for top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz in EVAL_cifs_vibroml2_esen_top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz_ESEN_phonon_output_20260130-204012
+--> SKIP: Found completed run for TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz in EVAL_cifs_vibroml2_esen_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_ESEN_phonon_output_20260130-204219
+--> SKIP: Found completed run for top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz in EVAL_cifs_vibroml_esen_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_ESEN_phonon_output_20260211-180728
+--> SKIP: Found completed run for OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz in EVAL_cifs_vibroml_esen_OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz_ESEN_phonon_output_20260211-180830
+--> SKIP: Found completed run for LiFsimplecubic_m4p523283 in EVAL_cifs_vibroml_esen_LiFsimplecubic_m4p523283_ESEN_phonon_output_20260211-180916
+--> SKIP: Found completed run for top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz in EVAL_cifs_vibroml_esen_top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz_ESEN_phonon_output_20260211-180942
+--> SKIP: Found completed run for top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz in EVAL_cifs_vibroml_esen_top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_ESEN_phonon_output_20260211-181044
+--> SKIP: Found completed run for top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz in EVAL_cifs_vibroml_esen_top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_ESEN_phonon_output_20260211-181107
+--> SKIP: Found completed run for OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz in EVAL_cifs_vibroml_esen_OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz_ESEN_phonon_output_20260211-181146
+--> SKIP: Found completed run for top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz in EVAL_cifs_vibroml_esen_top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz_ESEN_phonon_output_20260211-181213
+--> SKIP: Found completed run for top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz in EVAL_cifs_vibroml_esen_top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz_ESEN_phonon_output_20260211-181312
+--> SKIP: Found completed run for OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz in EVAL_cifs_vibroml_esen_OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_ESEN_phonon_output_20260211-181349
+Finished at Wed Feb 18 12:21:54 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.2GiB
+Total CPU Time                           - CPU_Time         : 00:24:08
+Execution Time                           - Wall_Time        : 00:03:01
+total programme cpu time                 - Total_CPU        : 16:18.627
+Total_CPU / CPU_Time  (%)                - ETA              : 67%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 01:36:32
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -1,0 +1,70 @@
+--- Random Search Iteration 1 Summary (EXPLORATION PHASE) ---
+Analysis Date: 2025-09-01 18:55:56
+
+Phase: EXPLORATION (Exploration with diverse supercells)
+Structures attempted: 200
+Successful results: 51
+Success rate: 25.5%
+
+Settings used:
+  Base random displacement bounds: [0.1, 2.0] Å (varied per sample)
+  Random cell perturbation: True
+  Random seed: None
+  Supercell strategy: EXPLORATION - cycling through variants [(1, 1, 1), (1, 1, 2), (1, 2, 1), (1, 2, 2), (2, 1, 1), (2, 1, 2), (2, 2, 1), (2, 2, 2)]
+  GA cell scale bounds: [-0.5, 0.5]
+  GA cell angle bounds: [-45.0, 45.0]
+
+Results (sorted by energy):
+  1. Energy: -10.165868 eV/atom, Sample: 147
+  2. Energy: -10.165868 eV/atom, Sample: 185
+  3. Energy: -10.148322 eV/atom, Sample: 158
+  4. Energy: -10.139129 eV/atom, Sample: 65
+  5. Energy: -10.135872 eV/atom, Sample: 138
+  6. Energy: -10.135872 eV/atom, Sample: 89
+  7. Energy: -10.132470 eV/atom, Sample: 5
+  8. Energy: -10.129632 eV/atom, Sample: 97
+  9. Energy: -10.118209 eV/atom, Sample: 133
+  10. Energy: -10.117371 eV/atom, Sample: 169
+  11. Energy: -10.079345 eV/atom, Sample: 53
+  12. Energy: -10.075419 eV/atom, Sample: 74
+  13. Energy: -10.069424 eV/atom, Sample: 34
+  14. Energy: -10.053152 eV/atom, Sample: 98
+  15. Energy: -10.050780 eV/atom, Sample: 9
+  16. Energy: -10.047516 eV/atom, Sample: 81
+  17. Energy: -10.021491 eV/atom, Sample: 92
+  18. Energy: -10.018344 eV/atom, Sample: 105
+  19. Energy: -10.008899 eV/atom, Sample: 179
+  20. Energy: -10.008835 eV/atom, Sample: 157
+  21. Energy: -10.007854 eV/atom, Sample: 41
+  22. Energy: -10.004705 eV/atom, Sample: 114
+  23. Energy: -9.985774 eV/atom, Sample: 175
+  24. Energy: -9.973269 eV/atom, Sample: 104
+  25. Energy: -9.972729 eV/atom, Sample: 84
+  26. Energy: -9.971244 eV/atom, Sample: 93
+  27. Energy: -9.970941 eV/atom, Sample: 162
+  28. Energy: -9.961183 eV/atom, Sample: 148
+  29. Energy: -9.958579 eV/atom, Sample: 110
+  30. Energy: -9.958525 eV/atom, Sample: 134
+  31. Energy: -9.958409 eV/atom, Sample: 43
+  32. Energy: -9.951256 eV/atom, Sample: 189
+  33. Energy: -9.947507 eV/atom, Sample: 36
+  34. Energy: -9.945819 eV/atom, Sample: 27
+  35. Energy: -9.943404 eV/atom, Sample: 79
+  36. Energy: -9.941978 eV/atom, Sample: 107
+  37. Energy: -9.939294 eV/atom, Sample: 168
+  38. Energy: -9.935545 eV/atom, Sample: 167
+  39. Energy: -9.932647 eV/atom, Sample: 62
+  40. Energy: -9.932339 eV/atom, Sample: 113
+  41. Energy: -9.931725 eV/atom, Sample: 99
+  42. Energy: -9.931091 eV/atom, Sample: 96
+  43. Energy: -9.930966 eV/atom, Sample: 160
+  44. Energy: -9.928960 eV/atom, Sample: 170
+  45. Energy: -9.926441 eV/atom, Sample: 12
+  46. Energy: -9.922829 eV/atom, Sample: 16
+  47. Energy: -9.919896 eV/atom, Sample: 40
+  48. Energy: -9.919296 eV/atom, Sample: 94
+  49. Energy: -9.908451 eV/atom, Sample: 61
+  50. Energy: -9.882069 eV/atom, Sample: 23
+  51. Energy: -9.881018 eV/atom, Sample: 52
+
+Best result: -10.165868 eV/atom

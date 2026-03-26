@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz,UNSTABLE,HIGH,2.760434,15.30,0.355401,300.0,0.0,10.0,2x2x2,160,1.0,6.0,0.5,62,496.0

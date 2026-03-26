@@ -1,0 +1,41 @@
+[
+    {
+        "supercell_dims": [
+            2,
+            2,
+            2
+        ],
+        "supercell_n": "2x2x2",
+        "delta": 0.05,
+        "fmax": 0.001,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -6.085195826847419,
+        "time_taken": 6.878999471664429
+    },
+    {
+        "supercell_dims": [
+            3,
+            3,
+            3
+        ],
+        "supercell_n": "3x3x3",
+        "delta": 0.03,
+        "fmax": 0.0005,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -5.969298610864974,
+        "time_taken": 8.62767744064331
+    },
+    {
+        "supercell_dims": [
+            4,
+            4,
+            4
+        ],
+        "supercell_n": "4x4x4",
+        "delta": 0.01,
+        "fmax": 0.0001,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -6.053828097683006,
+        "time_taken": 10.324432373046875
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "label": "G",
+        "coordinate": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "min_frequency": -0.00016280917789340382,
+        "band_index": 0
+    },
+    {
+        "label": "L",
+        "coordinate": [
+            0.5,
+            0.0,
+            0.0
+        ],
+        "min_frequency": 4.304401147095792,
+        "band_index": 0
+    },
+    {
+        "label": "B1",
+        "coordinate": [
+            0.5,
+            0.17159531745238887,
+            -0.17159531745238887
+        ],
+        "min_frequency": 3.9784364157296617,
+        "band_index": 0
+    },
+    {
+        "label": "B",
+        "coordinate": [
+            0.8284046825476111,
+            0.5,
+            0.17159531745238887
+        ],
+        "min_frequency": 3.4351067603694867,
+        "band_index": 0
+    },
+    {
+        "label": "Z",
+        "coordinate": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "min_frequency": -3.1636904315147567,
+        "band_index": 0
+    },
+    {
+        "label": "G",
+        "coordinate": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "min_frequency": -0.00016280917789340382,
+        "band_index": 0
+    },
+    {
+        "label": "X",
+        "coordinate": [
+            0.33579765872619444,
+            0.0,
+            -0.33579765872619444
+        ],
+        "min_frequency": 6.342019839828178,
+        "band_index": 0
+    },
+    {
+        "label": "Q",
+        "coordinate": [
+            0.6642023412738056,
+            0.33579765872619444,
+            0.0
+        ],
+        "min_frequency": 6.342021229106178,
+        "band_index": 0
+    },
+    {
+        "label": "F",
+        "coordinate": [
+            0.5,
+            0.5,
+            0.0
+        ],
+        "min_frequency": 1.5786019228745913,
+        "band_index": 0
+    },
+    {
+        "label": "P1",
+        "coordinate": [
+            0.6642023412738056,
+            0.6642023412738056,
+            0.17159531745238887
+        ],
+        "min_frequency": 3.431592367800099,
+        "band_index": 0
+    },
+    {
+        "label": "Z",
+        "coordinate": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "min_frequency": -3.1636904315147567,
+        "band_index": 0
+    },
+    {
+        "label": "L",
+        "coordinate": [
+            0.5,
+            0.0,
+            0.0
+        ],
+        "min_frequency": 4.304401147095792,
+        "band_index": 0
+    },
+    {
+        "label": "P",
+        "coordinate": [
+            0.8284046825476111,
+            0.33579765872619444,
+            0.33579765872619444
+        ],
+        "min_frequency": 3.4342334864737363,
+        "band_index": 0
+    }
+]

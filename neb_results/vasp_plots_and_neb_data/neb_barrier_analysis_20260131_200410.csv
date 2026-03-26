@@ -1,0 +1,13 @@
+NEB_Path_Name,Formula,Barrier_eV,Reaction_Energy_eV,Max_Force_in_Path,TS_Image
+Bi2Sn2O7_ESEN_NEB,Sn2Bi2O7,0.0,-0.450311,0.322002,neb_initial_img00_energy_-265.5995eV
+Bi2Sn2O7_MACE_NEB,Sn2Bi2O7,0.0,-0.439042,0.342272,neb_initial_img00_energy_-264.7776eV
+Bi2Sn2O7_UMA_NEB,Sn2Bi2O7,0.0,-0.453165,0.328452,neb_initial_img00_energy_-265.6806eV
+CsPbI3_ESEN_NEB,CsPbI3,4.690514,-0.503943,0.354547,neb_intermediate_03_img03_energy_-51.3041eV
+CsPbI3_MACE_NEB,CsPbI3,3.494464,-0.45264,0.379426,neb_intermediate_02_img02_energy_-53.6100eV
+CsPbI3_UMA_NEB,CsPbI3,5.144692,-0.505736,0.362749,neb_intermediate_04_img04_energy_-51.0608eV
+HfO2_ESEN_NEB,HfO2,0.0,-0.833391,0.33263,neb_initial_img00_energy_-121.0382eV
+HfO2_MACE_NEB,HfO2,0.0,-0.775447,0.289968,neb_initial_img00_energy_-121.4085eV
+HfO2_UMA_NEB,HfO2,0.0,-0.824837,0.328858,neb_initial_img00_energy_-121.0198eV
+LiF_ESEN_NEB,LiF,0.218115,-1.04135,0.35134,neb_intermediate_03_img03_energy_-17.9718eV
+LiF_MACE_NEB,LiF,0.174718,-1.035721,1.493317,neb_intermediate_04_img04_energy_-18.0301eV
+LiF_UMA_NEB,LiF,0.0,-1.04234,0.466122,neb_initial_img00_energy_-18.1012eV

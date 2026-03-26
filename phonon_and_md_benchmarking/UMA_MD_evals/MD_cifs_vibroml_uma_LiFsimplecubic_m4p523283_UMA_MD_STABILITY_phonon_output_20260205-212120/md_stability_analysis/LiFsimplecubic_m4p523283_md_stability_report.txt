@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 21:46:30
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/LiFsimplecubic_m4p523283.cif
+Engine: uma
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: HIGH
+
+Symmetry Retention: BROKEN
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 16
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 1.906 Å (threshold: 1.0 Å) - FAIL
+Volume change: 9.2% (threshold: 6.0%) - FAIL
+RDF correlation: -0.011 (threshold: 0.5) - FAIL
+Symmetry Retention (Pm-3m): FAIL (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 1.906 Å
+  RMSD std dev: 0.036 Å
+  RMSD trend: -3.72e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 170.14 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 0.17%
+  Volume fluctuation std dev: 2.54%
+  Max volume fluctuation: 9.16%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: -0.011
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Pm-3m (221)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            I-4m2                119        NO
+0.10            F-43m                216        NO
+0.20            F-43m                216        NO
+0.30            F-43m                216        NO
+0.50            F-43m                216        NO
+0.75            F-43m                216        NO
+1.00            F-43m                216        NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -4.769695 eV/atom
+  Energy std dev: 0.006835 eV/atom
+  Energy drift: -1.06e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: LiFsimplecubic_m4p523283_md_trajectory.traj
+Production trajectory file: LiFsimplecubic_m4p523283_production_trajectory.traj
+Final structure: LiFsimplecubic_m4p523283_final_structure.cif
+XYZ trajectory: LiFsimplecubic_m4p523283_production_trajectory.xyz
+MD log: LiFsimplecubic_m4p523283_md_log.txt
+Analysis plot: LiFsimplecubic_m4p523283_rmsd_analysis.png
+Analysis plot: LiFsimplecubic_m4p523283_volume_evolution.png
+Analysis plot: LiFsimplecubic_m4p523283_rdf_comparison.png
+Analysis plot: LiFsimplecubic_m4p523283_energy_evolution.png
+Analysis plot: LiFsimplecubic_m4p523283_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

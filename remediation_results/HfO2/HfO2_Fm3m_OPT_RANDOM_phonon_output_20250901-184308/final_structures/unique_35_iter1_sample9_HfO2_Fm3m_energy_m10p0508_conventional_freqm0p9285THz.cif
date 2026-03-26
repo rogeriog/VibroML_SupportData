@@ -1,0 +1,37 @@
+data_image0
+_chemical_formula_structural       Hf4O8
+_chemical_formula_sum              "Hf4 O8"
+_cell_length_a       5.047589205684638
+_cell_length_b       6.253187142660686
+_cell_length_c       5.238264926881434
+_cell_angle_alpha    90.0
+_cell_angle_beta     103.34903912397309
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.0  0.0  0.5  1.0000
+  Hf  Hf2       1.0  0.0  0.5  0.5  1.0000
+  Hf  Hf3       1.0  0.633484204941252  0.75  0.9766223968564602  1.0000
+  Hf  Hf4       1.0  0.36651579505874815  0.25  0.02337760314353976  1.0000
+  O   O1        1.0  0.14108838522815395  0.25  0.2954453997854519  1.0000
+  O   O2        1.0  0.37192677754019027  0.9833680292846569  0.7697099878872105  1.0000
+  O   O3        1.0  0.6280732224598098  0.016631970715342947  0.23029001211278954  1.0000
+  O   O4        1.0  0.37192677754019027  0.516631970715343  0.7697099878872105  1.0000
+  O   O5        1.0  0.040620892034242136  0.75  0.2523597581796708  1.0000
+  O   O6        1.0  0.9593791079657579  0.25  0.7476402418203292  1.0000
+  O   O7        1.0  0.6280732224598098  0.48336802928465705  0.23029001211278954  1.0000
+  O   O8        1.0  0.8589116147718461  0.75  0.7045546002145481  1.0000

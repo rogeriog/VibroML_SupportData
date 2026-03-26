@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Cs2Pb2I6
+_chemical_formula_sum              "Cs2 Pb2 I6"
+_cell_length_a       10.376189276841659
+_cell_length_b       4.923001062226949
+_cell_length_c       10.475560297956493
+_cell_angle_alpha    90.0
+_cell_angle_beta     100.73643933333189
+_cell_angle_gamma    90.0
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cs  Cs1       1.0  0.18618895047396566  0.0  0.5623992173014749  1.0000
+  Cs  Cs2       1.0  0.7119301256295261  0.5  0.25616762438620144  1.0000
+  Pb  Pb1       1.0  0.656926000079593  0.0  0.6829524284058105  1.0000
+  Pb  Pb2       1.0  0.02259377337920385  0.5  0.9807214529942218  1.0000
+  I   I1        1.0  0.47820030566879407  0.5  0.7536737788118228  1.0000
+  I   I2        1.0  0.8763188714429986  0.5  0.6434521719222412  1.0000
+  I   I3        1.0  0.08661731633124191  0.5  0.280660718999705  1.0000
+  I   I4        1.0  0.5042366496153331  0.0  0.3984924009826154  1.0000
+  I   I5        1.0  0.2097109946418082  0.0  0.9417014474952232  1.0000
+  I   I6        1.0  0.8004427327472032  0.0  0.9997787587042256  1.0000

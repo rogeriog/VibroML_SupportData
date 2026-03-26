@@ -1,0 +1,26 @@
+==========================================================================================
+UNIQUE STRUCTURES FOUND BY EACH RUN
+==========================================================================================
+
+Energy threshold for uniqueness: 0.0002 eV (0.2 meV)
+
+------------------------------------------------------------------------------------------
+Compound             Method               Run Directory                                 Unique  
+------------------------------------------------------------------------------------------
+Bi2Sn2O7             GA                   Sn2Bi2O7_MACE_GA_phonon_output_20260107-205   186     
+Bi2Sn2O7             OPT_RANDOM           Sn2Bi2O7_MACE_OPT_RANDOM_phonon_output_2026   5       
+Bi2Sn2O7             TRADITIONAL          Sn2Bi2O7_MACE_TRADITIONAL_phonon_output_202   3       
+Bi2Sn2O7             TRADITIONAL_ALL      Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output   5       
+CsPbI3               GA                   CsPbI3_GA5it_phonon_output_20251003-002011    134     
+CsPbI3               OPT_RANDOM           CsPbI3_MACE_OPT_RANDOM_phonon_output_202512   505     
+CsPbI3               TRADITIONAL_ALL      CsPbI3_TRADITIONAL_ALL_phonon_output_202510   10      
+CsPbI3               TRADITIONAL          CsPbI3_TRADITIONAL_phonon_output_20251002-2   3       
+HfO2                 GA                   HfO2_Fm3m_GA_phonon_output_20250826-161333    39      
+HfO2                 OPT_RANDOM           HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901   929     
+HfO2                 TRADITIONAL          HfO2_Fm3m_MACE_TRADITIONAL_phonon_output_20   2       
+HfO2                 TRADITIONAL_ALL      HfO2_Fm3m_TRADITIONAL_ALL_phonon_output_202   2       
+LiF_simple_cubic     GA                   LiFsimplecubic_GA5it_phonon_output_20250831   38      
+LiF_simple_cubic     OPT_RANDOM           LiFsimplecubic_MACE_OPT_RANDOM_phonon_outpu   465     
+LiF_simple_cubic     TRADITIONAL          LiFsimplecubic_Traditional_run_phonon_outpu   2       
+LiF_simple_cubic     TRADITIONAL_ALL      LiFsimplecubic_TRADITIONAL_ALL_phonon_outpu   10      
+------------------------------------------------------------------------------------------

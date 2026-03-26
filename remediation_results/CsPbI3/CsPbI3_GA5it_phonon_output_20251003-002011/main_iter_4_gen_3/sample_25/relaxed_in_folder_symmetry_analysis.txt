@@ -1,0 +1,18 @@
+### Relaxed_in_folder Structure Symmetry Analysis ###
+
+Analysis Date: 2025-10-03 04:38:11
+Symmetry Precision (symprec) - Auto-tuned: 5.0000e-03
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 62
+International symbol: Pnma
+Hall symbol: -P 2ac 2n
+Point group symbol: mmm
+Crystal system: orthorhombic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 20
+Transformation matrix to primitive cell:
+[[-7.94093388e-22,  2.00000000e+00,  2.62038113e-17],
+ [-2.00000000e+00, -1.56567688e-16,  4.00000000e+00],
+ [ 0.00000000e+00,  5.57537415e-16,  2.00000000e+00]]
+Origin shift: [5.62682092e-05, 9.99996367e-01, 5.00000617e-01]

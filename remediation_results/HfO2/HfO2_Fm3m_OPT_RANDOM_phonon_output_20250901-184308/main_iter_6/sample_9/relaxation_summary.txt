@@ -1,0 +1,27 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_6/sample_9 ---
+Analysis Date: 2025-09-01 20:43:14
+
+### Structure: HfO2_Fm3m_random_sc_1x2x1_disp_0.100to1.998_c_-0.152_-0.420_-0.215_36.394_12.105_-32.899.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_6/sample_9/HfO2_Fm3m_random_sc_1x2x1_disp_0.100to1.998_c_-0.152_-0.420_-0.215_36.394_12.105_-32.899.cif
+Total Number of Atoms: 768
+Relaxation Status: FAILED (error during run)
+Error: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_47.py", line 143, in forward
+    reshape_34 = torch.reshape(einsum_23, [getitem_4, 896])
+    _17 = [reshape_12, reshape_14, reshape_17, reshape_20, reshape_22, reshape_25, reshape_27, reshape_29, reshape_32, reshape_34]
+    cat = torch.cat(_17, 1)
+          ~~~~~~~~~ <--- HERE
+    return torch.reshape(cat, add_3)
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.639", line 115, in forward
+    einsum_23 = torch.functional.einsum('dbca,dbc->dba', tensordot_3, reshape_33);  tensordot_3 = reshape_33 = None
+    reshape_34 = einsum_23.reshape(getitem_4, 896);  einsum_23 = getitem_4 = None
+    cat = torch.cat([reshape_12, reshape_14, reshape_17, reshape_20, reshape_22, reshape_25, reshape_27, reshape_29, reshape_32, reshape_34], dim = 1);  reshape_12 = reshape_14 = reshape_17 = reshape_20 = reshape_22 = reshape_25 = reshape_27 = reshape_29 = reshape_32 = reshape_34 = None
+          ~~~~~~~~~ <--- HERE
+    reshape_35 = cat.reshape(add_3);  cat = add_3 = None
+    return reshape_35
+RuntimeError: CUDA out of memory. Tried to allocate 8.65 GiB. GPU 0 has a total capacity of 31.73 GiB of which 186.19 MiB is free. Including non-PyTorch memory, this process has 31.55 GiB memory in use. Of the allocated memory 19.77 GiB is allocated by PyTorch, and 11.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+

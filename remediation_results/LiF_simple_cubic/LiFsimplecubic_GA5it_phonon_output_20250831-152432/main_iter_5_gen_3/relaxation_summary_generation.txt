@@ -1,0 +1,58 @@
+--- Relaxation Summary for Main Iteration 5, GA Generation 3 ---
+Analysis Date: 2025-08-31 16:26:51
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 50
+Mode Replacements: 12
+Replacement Rate: 24.00%
+Selected Modes for Replacement:
+  1. M (freq: 18.0816, band: 11)
+  2. H (freq: 4.0318, band: 0)
+  3. K (freq: 14.4275, band: 11)
+  4. A (freq: 19.5107, band: 11)
+  5. A (freq: 19.5107, band: 11)
+  ... and 7 more
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+8            P6_3mc          hexagonal          -4.826398                 5          3        1        D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        34       D1:0.437, R21:0.000, Cell:(-0.358, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        32       D1:0.250, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, -15.154, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        5        D1:0.250, R21:0.271, Cell:(0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        44       D1:1.000, R21:0.000, Cell:(-0.034, -0.463, 0.070, -9.261, 0.000, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        18       D1:1.000, R21:0.000, Cell:(0.157, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        33       D1:0.250, R21:0.000, Cell:(0.070, 0.070, -0.070, 0.000, 0.000, 11.830), SC:1x1x2, PhFactor:True
+4            P6_3mc          hexagonal          -4.826398                 5          3        23       D1:1.000, R21:0.000, Cell:(-0.070, -0.128, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:False
+32           P6_3mc          hexagonal          -4.826398                 5          3        2        D1:1.083, R21:0.000, Cell:(0.041, -0.070, -0.070, 0.000, 0.000, 11.830), SC:2x2x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        38       D1:3.520, R21:0.250, Cell:(0.000, 0.065, -0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        8        D1:0.509, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, -20.427, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        17       D1:0.250, R21:0.000, Cell:(0.070, -0.070, -0.070, 0.000, 0.000, 21.677), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        9        D1:1.000, R21:1.466, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        6        D1:0.250, R21:0.421, Cell:(-0.358, -0.070, 0.092, 0.000, 39.399, 0.000), SC:1x1x2, PhFactor:True
+4            P6_3mc          hexagonal          -4.826398                 5          3        37       D1:1.000, R21:0.000, Cell:(0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:False
+4            P6_3mc          hexagonal          -4.826398                 5          3        48       D1:1.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 6.555, 0.000, 0.000), SC:1x1x1, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        46       D1:0.250, R21:0.000, Cell:(0.459, -0.050, 0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        25       D1:1.000, R21:0.348, Cell:(0.070, 0.070, 0.070, 17.903, 0.000, 0.000), SC:1x1x2, PhFactor:True
+16           P6_3mc          hexagonal          -4.826398                 5          3        40       D1:0.057, R21:0.000, Cell:(-0.070, -0.193, -0.070, 0.000, 0.000, 0.000), SC:2x2x1, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        29       D1:1.000, R21:0.000, Cell:(0.136, 0.070, 0.169, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P6_3mc          hexagonal          -4.826398                 5          3        43       D1:0.250, R21:0.220, Cell:(-0.358, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3mc          hexagonal          -4.826398                 5          3        4        D1:0.057, R21:0.000, Cell:(0.263, 0.070, 0.070, 0.000, 14.563, 0.000), SC:1x1x2, PhFactor:False
+8            P6_3/mmc        hexagonal          -4.821212                 5          3        14       D1:0.250, R21:0.000, Cell:(0.070, 0.070, -0.115, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:False
+4            P6_3/mmc        hexagonal          -4.821212                 5          3        26       D1:0.250, R21:0.000, Cell:(-0.358, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+16           P6_3/mmc        hexagonal          -4.821212                 5          3        35       D1:0.250, R21:0.000, Cell:(0.119, -0.070, -0.255, 0.000, 0.000, 0.000), SC:2x1x2, PhFactor:True
+4            P6_3/mmc        hexagonal          -4.821212                 5          3        13       D1:1.000, R21:0.000, Cell:(-0.070, -0.232, 0.395, 0.000, 0.000, 18.417), SC:1x1x1, PhFactor:False
+4            P6_3/mmc        hexagonal          -4.821212                 5          3        30       D1:1.000, R21:0.000, Cell:(0.070, 0.070, -0.309, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:False
+8            P6_3/mmc        hexagonal          -4.821212                 5          3        19       D1:0.250, R21:0.000, Cell:(0.070, 0.342, -0.070, 0.000, 0.000, -29.107), SC:1x1x2, PhFactor:True
+4            Fm-3m           cubic              -4.820459                 5          3        22       D1:0.057, R21:0.000, Cell:(-0.070, -0.070, 0.025, 0.000, -37.912, 0.000), SC:1x1x1, PhFactor:True
+4            Fm-3m           cubic              -4.820459                 5          3        20       D1:1.574, R21:0.120, Cell:(-0.070, -0.461, -0.070, 0.000, 0.000, 9.122), SC:1x1x1, PhFactor:True
+8            Fm-3m           cubic              -4.820459                 5          3        42       D1:1.000, R21:0.000, Cell:(-0.070, -0.478, -0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+32           Fm-3m           cubic              -4.820459                 5          3        39       D1:0.250, R21:0.000, Cell:(-0.358, 0.030, -0.182, 0.000, 0.000, 0.000), SC:2x2x2, PhFactor:False
+4            Fm-3m           cubic              -4.820459                 5          3        36       D1:1.000, R21:0.000, Cell:(-0.070, -0.143, 0.070, -44.353, 0.000, -22.684), SC:1x1x1, PhFactor:False
+8            Fm-3m           cubic              -4.820459                 5          3        45       D1:0.250, R21:0.000, Cell:(-0.358, -0.070, -0.070, 0.000, 0.000, 5.359), SC:1x1x2, PhFactor:True
+8            Fm-3m           cubic              -4.820459                 5          3        15       D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.118, 0.000, -29.677, 12.253), SC:1x1x2, PhFactor:True
+8            Fm-3m           cubic              -4.820459                 5          3        24       D1:2.888, R21:-0.643, Cell:(0.070, -0.103, 0.070, 0.000, 0.000, -31.043), SC:1x1x2, PhFactor:True
+8            Fm-3m           cubic              -4.820458                 5          3        3        D1:0.250, R21:0.000, Cell:(0.070, 0.070, -0.070, 0.000, 0.000, -42.300), SC:1x1x2, PhFactor:False
+8            F-43m           cubic              -4.815802                 5          3        21       D1:0.250, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, -40.743, 0.000), SC:1x1x2, PhFactor:True
+8            F-43m           cubic              -4.815802                 5          3        11       D1:1.000, R21:0.000, Cell:(-0.070, 0.070, 0.070, 1.257, 39.789, 0.000), SC:1x1x2, PhFactor:False
+8            P1              triclinic          -4.413358                 5          3        7        D1:9.672, R21:0.982, Cell:(-0.283, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x2, PhFactor:True
+8            P1              triclinic          -4.405990                 5          3        28       D1:8.617, R21:0.492, Cell:(0.356, -0.129, 0.070, 0.000, 0.000, 8.404), SC:1x1x2, PhFactor:True

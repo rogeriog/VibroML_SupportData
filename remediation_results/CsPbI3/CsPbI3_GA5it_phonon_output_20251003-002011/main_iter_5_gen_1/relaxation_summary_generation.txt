@@ -1,0 +1,91 @@
+--- Relaxation Summary for Main Iteration 5, GA Generation 1 ---
+Analysis Date: 2025-10-03 05:52:24
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 50
+Mode Replacements: 10
+Replacement Rate: 20.00%
+Selected Modes for Replacement:
+  1. Z (freq: 0.2485, band: 0)
+  2. R (freq: 2.9898, band: 59)
+  3. Y (freq: 0.3600, band: 0)
+  4. S (freq: 0.5750, band: 0)
+  5. Z (freq: 3.0912, band: 59)
+  ... and 5 more
+
+--- Decomposition Analysis Summary ---
+Reference Energy (E_ref): -2.796148 eV/atom
+Decomposition Threshold: 0.500 eV
+Threshold Condition: E_relax < E_ref - 0.500 = -3.296148 eV/atom
+Total Samples: 100
+Structures Flagged as DECOMPOSED: 0 (0.0%)
+Valid Structures for GA Evolution: 66 (66.0%)
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+20           Pnma            orthorhombic       -2.840266                 5          1        13       D1:1.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        14       D1:1.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        23       D1:4.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        16       D1:1.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        18       D1:1.000, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        7        D1:0.250, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        25       D1:4.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        9        D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        19       D1:4.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        15       D1:1.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840266                 5          1        22       D1:4.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        27       D1:4.000, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        3        D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        24       D1:4.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        21       D1:4.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        1        D1:0.250, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        6        D1:0.250, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        12       D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        10       D1:1.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+40           Pnma            orthorhombic       -2.840265                 5          1        40       D1:4.622, R21:-0.247, Cell:(0.060, 0.101, 0.025, 11.585, 16.496, 0.454), SC:2x1x1, PhFactor:False
+20           Pnma            orthorhombic       -2.840265                 5          1        2        D1:0.250, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        11       D1:1.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        17       D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        5        D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        8        D1:0.250, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        4        D1:0.250, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        20       D1:4.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        26       D1:4.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000), SC:1x1x1, PhFactor:True
+40           Pnma            orthorhombic       -2.840265                 5          1        96       D1:7.875, R21:-1.087, Cell:(0.493, 0.408, 0.261, -3.218, -13.695, -11.076), SC:2x1x1, PhFactor:False
+20           P2_1/m          orthorhombic       -2.840265                 5          1        53       D1:0.373, R21:-1.383, Cell:(-0.069, 0.389, 0.193, -22.141, -43.668, -38.771), SC:1x1x1, PhFactor:True
+80           Pnma            orthorhombic       -2.840265                 5          1        57       D1:6.494, R21:0.618, Cell:(-0.128, 0.038, 0.322, -2.079, 9.921, 0.363), SC:2x2x1, PhFactor:True
+20           Pnma            orthorhombic       -2.840265                 5          1        69       D1:7.283, R21:-1.200, Cell:(0.305, 0.362, 0.050, 23.731, 27.640, -8.616), SC:1x1x1, PhFactor:False
+20           Cmcm            orthorhombic       -2.830998                 5          1        37       D1:7.352, R21:1.111, Cell:(0.291, 0.322, -0.023, -2.787, -35.520, 24.085), SC:1x1x1, PhFactor:True
+160          Pm              monoclinic         -2.826454                 5          1        56       D1:6.341, R21:-1.352, Cell:(-0.241, 0.225, -0.049, -6.289, 15.721, -22.022), SC:2x2x2, PhFactor:True
+80           Pnma            orthorhombic       -2.824313                 5          1        64       D1:9.144, R21:-0.279, Cell:(-0.211, 0.135, 0.352, 4.156, -2.357, -17.227), SC:2x1x2, PhFactor:False
+20           P2_1/m          monoclinic         -2.816849                 5          1        87       D1:1.977, R21:-0.286, Cell:(0.099, 0.427, 0.468, 23.224, 42.502, -8.303), SC:1x1x1, PhFactor:False
+40           P2_1/m          monoclinic         -2.816399                 5          1        88       D1:8.952, R21:0.928, Cell:(0.281, 0.233, 0.450, 28.021, 0.705, -19.665), SC:1x1x2, PhFactor:True
+160          Pm              monoclinic         -2.812721                 5          1        65       D1:4.332, R21:1.048, Cell:(0.026, 0.385, -0.193, -20.971, 1.682, -8.652), SC:2x2x2, PhFactor:True
+40           P-1             triclinic          -2.803694                 5          1        32       D1:3.752, R21:-0.190, Cell:(0.200, -0.243, 0.334, -38.283, 17.041, -19.577), SC:1x1x2, PhFactor:True
+40           Pm              monoclinic         -2.803217                 5          1        83       D1:9.960, R21:-0.079, Cell:(-0.302, -0.015, 0.390, -17.384, 34.582, 23.390), SC:1x1x2, PhFactor:False
+40           P1              triclinic          -2.802937                 5          1        49       D1:4.653, R21:1.048, Cell:(-0.324, 0.398, -0.018, 41.888, 22.045, -34.720), SC:1x1x2, PhFactor:False
+160          Cm              monoclinic         -2.802496                 5          1        52       D1:5.572, R21:0.136, Cell:(0.091, 0.396, -0.083, 35.001, 16.562, -43.967), SC:2x2x2, PhFactor:False
+40           P-1             triclinic          -2.800803                 5          1        91       D1:1.158, R21:-1.292, Cell:(0.344, -0.122, 0.178, -22.448, -7.386, 33.930), SC:1x1x2, PhFactor:False
+80           C2              monoclinic         -2.799296                 5          1        75       D1:4.124, R21:1.114, Cell:(0.329, -0.465, 0.256, -14.241, 6.055, -5.273), SC:2x2x1, PhFactor:False
+160          Cm              monoclinic         -2.798874                 5          1        80       D1:8.430, R21:1.343, Cell:(-0.279, 0.164, 0.129, 6.493, 44.714, -30.285), SC:2x2x2, PhFactor:False
+20           P1              triclinic          -2.797621                 5          1        73       D1:1.124, R21:-0.941, Cell:(-0.081, 0.207, 0.156, -27.994, 29.013, 33.260), SC:1x1x1, PhFactor:False
+40           Cm              monoclinic         -2.797145                 5          1        76       D1:4.087, R21:-1.415, Cell:(0.049, 0.189, -0.342, -5.159, -20.504, -22.570), SC:1x1x2, PhFactor:True
+80           P2_1/m          monoclinic         -2.796750                 5          1        47       D1:3.434, R21:0.059, Cell:(-0.204, 0.196, -0.271, -9.584, 20.694, 22.493), SC:2x1x2, PhFactor:True
+80           P-1             triclinic          -2.796343                 5          1        41       D1:0.919, R21:0.334, Cell:(-0.336, 0.258, 0.112, -34.954, -21.156, -18.067), SC:2x2x1, PhFactor:True
+40           Pm              monoclinic         -2.795122                 5          1        81       D1:8.659, R21:-1.232, Cell:(0.255, -0.037, 0.455, -10.792, 31.728, 40.415), SC:2x1x1, PhFactor:False
+80           P1              triclinic          -2.794663                 5          1        100      D1:6.700, R21:-0.952, Cell:(0.448, 0.027, 0.493, 20.473, -26.275, 7.176), SC:2x2x1, PhFactor:False
+160          Pm              monoclinic         -2.794579                 5          1        55       D1:1.372, R21:0.123, Cell:(-0.163, 0.378, -0.245, -31.092, 1.392, 38.571), SC:2x2x2, PhFactor:True
+20           P-1             triclinic          -2.793145                 5          1        51       D1:0.453, R21:-1.018, Cell:(0.431, 0.255, -0.451, -12.831, 18.623, -8.826), SC:1x1x1, PhFactor:True
+20           P1              triclinic          -2.793045                 5          1        36       D1:1.292, R21:-1.065, Cell:(-0.454, -0.069, 0.388, 6.505, -7.261, -19.292), SC:1x1x1, PhFactor:True
+40           Pm              monoclinic         -2.791042                 5          1        90       D1:4.284, R21:1.283, Cell:(-0.112, 0.423, -0.430, -2.581, 2.324, -14.760), SC:2x1x1, PhFactor:False
+20           P-1             triclinic          -2.790866                 5          1        71       D1:1.012, R21:-0.087, Cell:(0.403, 0.170, -0.177, -26.001, 25.525, 22.466), SC:1x1x1, PhFactor:False
+80           P-1             triclinic          -2.789260                 5          1        94       D1:2.103, R21:0.310, Cell:(-0.090, -0.253, 0.159, -32.358, 12.162, 18.625), SC:2x1x2, PhFactor:True
+80           P1              triclinic          -2.786526                 5          1        97       D1:9.859, R21:0.078, Cell:(0.325, -0.158, 0.099, -21.983, 6.115, 20.035), SC:2x2x1, PhFactor:True
+40           C2/m            monoclinic         -2.786021                 5          1        48       D1:1.287, R21:-0.274, Cell:(0.168, 0.179, 0.245, 31.756, -26.953, 0.310), SC:1x1x2, PhFactor:True
+80           P1              triclinic          -2.784840                 5          1        35       D1:4.908, R21:0.024, Cell:(-0.457, 0.301, -0.027, 23.331, -8.361, 1.080), SC:2x1x2, PhFactor:True
+20           Pm              monoclinic         -2.782103                 5          1        98       D1:4.633, R21:0.791, Cell:(-0.070, -0.224, 0.176, 42.174, 20.535, -43.447), SC:1x1x1, PhFactor:True
+80           P1              triclinic          -2.781215                 5          1        34       D1:7.409, R21:1.126, Cell:(0.342, 0.308, -0.332, 18.109, 14.033, -26.273), SC:2x1x2, PhFactor:True
+40           P-1             triclinic          -2.779286                 5          1        59       D1:4.615, R21:-0.413, Cell:(0.174, 0.381, 0.267, -24.434, 39.817, -12.842), SC:1x1x2, PhFactor:False
+20           P-1             triclinic          -2.778881                 5          1        93       D1:9.470, R21:-0.927, Cell:(0.426, -0.230, 0.252, -19.907, -44.141, -25.591), SC:1x1x1, PhFactor:True
+40           C2/m            monoclinic         -2.777267                 5          1        43       D1:2.733, R21:-0.695, Cell:(0.324, 0.466, 0.225, 29.589, -14.791, -6.949), SC:2x1x1, PhFactor:True
+20           Cm              monoclinic         -2.763750                 5          1        85       D1:4.208, R21:-0.178, Cell:(-0.152, -0.392, 0.210, -23.261, 12.270, 37.509), SC:1x1x1, PhFactor:True

@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 21:46:04
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz.cif
+Engine: esen
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: MODERATE
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 32
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.184 Å (threshold: 1.0 Å) - PASS
+Volume change: 5.6% (threshold: 6.0%) - PASS
+RDF correlation: 0.465 (threshold: 0.5) - FAIL
+Symmetry Retention (P6_3mc): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.184 Å
+  RMSD std dev: 0.023 Å
+  RMSD trend: -3.63e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 339.54 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 0.24%
+  Volume fluctuation std dev: 1.84%
+  Max volume fluctuation: 5.62%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.465
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: P6_3mc (186)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P6_3mc               186        YES
+0.10            P6_3mc               186        YES
+0.20            P6_3mc               186        YES
+0.30            P6_3mc               186        YES
+0.50            P6_3mc               186        YES
+0.75            P6_3mc               186        YES
+1.00            P6_3mc               186        YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -4.782896 eV/atom
+  Energy std dev: 0.008497 eV/atom
+  Energy drift: 1.79e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_md_trajectory.traj
+Production trajectory file: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_production_trajectory.traj
+Final structure: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_final_structure.cif
+XYZ trajectory: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_production_trajectory.xyz
+MD log: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_md_log.txt
+Analysis plot: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_rmsd_analysis.png
+Analysis plot: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_volume_evolution.png
+Analysis plot: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_rdf_comparison.png
+Analysis plot: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_energy_evolution.png
+Analysis plot: top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

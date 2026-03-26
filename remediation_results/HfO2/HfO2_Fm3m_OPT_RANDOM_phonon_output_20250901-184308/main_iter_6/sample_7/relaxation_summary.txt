@@ -1,0 +1,42 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_6/sample_7 ---
+Analysis Date: 2025-09-01 20:42:45
+
+### Structure: HfO2_Fm3m_random_sc_1x2x1_disp_0.100to1.909_c_0.196_-0.252_-0.419_19.443_-28.964_-13.003.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_6/sample_7/HfO2_Fm3m_random_sc_1x2x1_disp_0.100to1.909_c_0.196_-0.252_-0.419_19.443_-28.964_-13.003.cif
+Total Number of Atoms: 768
+Relaxation Status: FAILED (error during run)
+Error: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_47.py", line 139, in forward
+    _w3j_1_2_3 = self._w3j_1_2_3
+    mul_18 = torch.mul(_w3j_1_2_3, 2.6457513110645907)
+    tensordot_3 = _0(einsum_11, mul_18, ([3, 4], [0, 1]), None, )
+                  ~~ <--- HERE
+    einsum_23 = torch.einsum("dbca,dbc->dba", [tensordot_3, reshape_33])
+    reshape_34 = torch.reshape(einsum_23, [getitem_4, 896])
+  File "code/__torch__/torch/functional/___torch_mangle_0.py", line 9, in tensordot
+  dims_a, dims_b, = dims1
+  if torch.__is__(out, None):
+    _1 = torch.tensordot(a, b, dims_a, dims_b)
+         ~~~~~~~~~~~~~~~ <--- HERE
+    _0 = _1
+  else:
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.639", line 112, in forward
+    _w3j_1_2_3 = self._w3j_1_2_3
+    mul_18 = _w3j_1_2_3 * 2.6457513110645907;  _w3j_1_2_3 = None
+    tensordot_3 = torch.functional.tensordot(einsum_11, mul_18, ([3, 4], [0, 1]), out = None);  einsum_11 = mul_18 = None
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~ <--- HERE
+    einsum_23 = torch.functional.einsum('dbca,dbc->dba', tensordot_3, reshape_33);  tensordot_3 = reshape_33 = None
+    reshape_34 = einsum_23.reshape(getitem_4, 896);  einsum_23 = getitem_4 = None
+  File "c:\Users\Lilyes\anaconda3\envs\torch_nightly\lib\site-packages\torch\functional.py", line 1213, in tensordot
+
+    if out is None:
+        return _VF.tensordot(a, b, dims_a, dims_b)  # type: ignore[attr-defined]
+               ~~~~~~~~~~~~~ <--- HERE
+    else:
+        return _VF.tensordot(a, b, dims_a, dims_b, out=out)  # type: ignore[attr-defined]
+RuntimeError: CUDA out of memory. Tried to allocate 1.96 GiB. GPU 0 has a total capacity of 31.73 GiB of which 130.19 MiB is free. Including non-PyTorch memory, this process has 31.60 GiB memory in use. Of the allocated memory 25.54 GiB is allocated by PyTorch, and 5.65 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+

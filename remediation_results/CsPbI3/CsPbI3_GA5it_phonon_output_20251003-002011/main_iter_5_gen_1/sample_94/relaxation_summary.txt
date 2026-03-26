@@ -1,0 +1,23 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/examples_VibroML/CsPbI3/CsPbI3_GA_phonon_output_20251003-002011/main_iter_5_gen_1/sample_94 ---
+Analysis Date: 2025-10-03 05:45:48
+
+### Structure: CsPbI3_sc_2x1x2_d1_2.103_r21_0.310_c_m089_m252_p159_m32357_p12161_p18624_pf_true.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/examples_VibroML/CsPbI3/CsPbI3_GA_phonon_output_20251003-002011/main_iter_5_gen_1/sample_94/CsPbI3_sc_2x1x2_d1_2.103_r21_0.310_c_m089_m252_p159_m32357_p12161_p18624_pf_true.cif
+Total Number of Atoms: 80
+Relaxation Status: SUCCESS
+Final Energy: -223.140811 eV
+Final Energy per Atom: -2.789260 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/examples_VibroML/CsPbI3/CsPbI3_GA_phonon_output_20251003-002011/main_iter_5_gen_1/sample_94/CsPbI3_sc_2x1x2_d1_2.103_r21_0.310_c_m089_m252_p159_m32357_p12161_p18624_pf_true_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 2
+  International Symbol: P-1
+  Hall Symbol: -P 1
+  Point Group Symbol: -1
+  Crystal System: triclinic
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 20
+  -------------------------------------------
+

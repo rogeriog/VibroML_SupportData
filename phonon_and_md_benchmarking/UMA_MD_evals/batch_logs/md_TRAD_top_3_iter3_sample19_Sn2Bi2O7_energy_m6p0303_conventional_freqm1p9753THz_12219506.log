@@ -1,0 +1,399 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) EasyBuild/2022a
+Processing: TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz
+Atoms in primitive: 176
+Selected Supercell: 2x2x1
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using default supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+MD stability method will use:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Total simulation time: 10.0 ps
+  Supercell size: 2x2x1
+  Equilibration fraction: 0.2
+  Stability assessment thresholds (generous for MLIP fluctuations):
+    Volume fluctuation: ±6.0%
+    RMSD threshold: 1.0 Å
+    RDF correlation: >0.5
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz.cif
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/models/uma/escn_md.py:181: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+UMA calculator initialized.
+
+» UMA relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+   Initial energy: -1065.031093 eV
+   Initial energy per atom: -6.051313 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:617: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   UMA relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/relax.log
+   UMA relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-6.051313 eV/atom, Volume=2533.682 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-6.051366 eV/atom, Volume=2533.699 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-6.051438 eV/atom, Volume=2533.766 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-6.051444 eV/atom, Volume=2533.791 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-6.051453 eV/atom, Volume=2533.867 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -6.051457 eV/atom
+   Step 1: Initial volume: 2533.920 Å³
+   Step 7: Energy/atom=-6.051466 eV/atom, Volume=2534.076 Å³
+   Step 8: Energy/atom=-6.051471 eV/atom, Volume=2534.193 Å³
+   Step 9: Energy/atom=-6.051474 eV/atom, Volume=2534.274 Å³
+   Step 10: Energy/atom=-6.051475 eV/atom, Volume=2534.318 Å³
+   Step 11: Energy/atom=-6.051477 eV/atom, Volume=2534.382 Å³
+   Step 12: Energy/atom=-6.051479 eV/atom, Volume=2534.484 Å³
+   Step 13: Energy/atom=-6.051482 eV/atom, Volume=2534.616 Å³
+   Step 14: Energy/atom=-6.051483 eV/atom, Volume=2534.723 Å³
+   Step 15: Energy/atom=-6.051484 eV/atom, Volume=2534.792 Å³
+   Step 16: Energy/atom=-6.051485 eV/atom, Volume=2534.858 Å³
+   Step 17: Energy/atom=-6.051486 eV/atom, Volume=2534.957 Å³
+   Step 18: Energy/atom=-6.051487 eV/atom, Volume=2535.094 Å³
+   Step 19: Energy/atom=-6.051488 eV/atom, Volume=2535.230 Å³
+   Step 20: Energy/atom=-6.051489 eV/atom, Volume=2535.325 Å³
+   Step 21: Energy/atom=-6.051489 eV/atom, Volume=2535.390 Å³
+   Step 22: Energy/atom=-6.051489 eV/atom, Volume=2535.459 Å³
+   Step 23: Energy/atom=-6.051490 eV/atom, Volume=2535.550 Å³
+   Step 24: Energy/atom=-6.051490 eV/atom, Volume=2535.666 Å³
+   Step 25: Energy/atom=-6.051491 eV/atom, Volume=2535.792 Å³
+   Step 26: Energy/atom=-6.051492 eV/atom, Volume=2535.911 Å³
+   Step 27: Energy/atom=-6.051492 eV/atom, Volume=2536.026 Å³
+   Step 28: Energy/atom=-6.051492 eV/atom, Volume=2536.149 Å³
+   Step 29: Energy/atom=-6.051493 eV/atom, Volume=2536.295 Å³
+   Step 30: Energy/atom=-6.051493 eV/atom, Volume=2536.463 Å³
+   Step 31: Energy/atom=-6.051494 eV/atom, Volume=2536.637 Å³
+   Step 32: Energy/atom=-6.051495 eV/atom, Volume=2536.806 Å³
+   Step 33: Energy/atom=-6.051495 eV/atom, Volume=2536.986 Å³
+   Step 34: Energy/atom=-6.051496 eV/atom, Volume=2537.205 Å³
+   Step 35: Energy/atom=-6.051497 eV/atom, Volume=2537.462 Å³
+   Step 36: Energy/atom=-6.051497 eV/atom, Volume=2537.720 Å³
+   Step 37: Energy/atom=-6.051498 eV/atom, Volume=2537.931 Å³
+   Step 38: Energy/atom=-6.051499 eV/atom, Volume=2538.094 Å³
+   Step 39: Energy/atom=-6.051499 eV/atom, Volume=2538.233 Å³
+   Step 40: Energy/atom=-6.051499 eV/atom, Volume=2538.365 Å³
+   Step 41: Energy/atom=-6.051500 eV/atom, Volume=2538.490 Å³
+   Step 42: Energy/atom=-6.051500 eV/atom, Volume=2538.608 Å³
+   Step 43: Energy/atom=-6.051501 eV/atom, Volume=2538.720 Å³
+   Step 44: Energy/atom=-6.051501 eV/atom, Volume=2538.833 Å³
+   Step 45: Energy/atom=-6.051501 eV/atom, Volume=2538.953 Å³
+   Step 46: Energy/atom=-6.051502 eV/atom, Volume=2539.085 Å³
+   Step 47: Energy/atom=-6.051502 eV/atom, Volume=2539.224 Å³
+   Step 48: Energy/atom=-6.051503 eV/atom, Volume=2539.359 Å³
+   Step 49: Energy/atom=-6.051503 eV/atom, Volume=2539.487 Å³
+   Step 50: Energy/atom=-6.051504 eV/atom, Volume=2539.627 Å³
+   Step 51: Energy/atom=-6.051505 eV/atom, Volume=2539.808 Å³
+   Step 52: Energy/atom=-6.051506 eV/atom, Volume=2540.041 Å³
+   Step 53: Energy/atom=-6.051507 eV/atom, Volume=2540.305 Å³
+   Step 54: Energy/atom=-6.051508 eV/atom, Volume=2540.568 Å³
+   Step 55: Energy/atom=-6.051509 eV/atom, Volume=2540.849 Å³
+   Step 56: Energy/atom=-6.051511 eV/atom, Volume=2541.230 Å³
+   Step 57: Energy/atom=-6.051514 eV/atom, Volume=2541.855 Å³
+   Step 58: Energy/atom=-6.051519 eV/atom, Volume=2543.036 Å³
+   Step 59: Energy/atom=-6.051530 eV/atom, Volume=2545.525 Å³
+   Step 60: Energy/atom=-6.051547 eV/atom, Volume=2546.723 Å³
+   Step 61: Energy/atom=-6.051585 eV/atom, Volume=2548.250 Å³
+   Step 62: Energy/atom=-6.051605 eV/atom, Volume=2548.675 Å³
+   Step 63: Energy/atom=-6.051335 eV/atom, Volume=2553.777 Å³
+   Step 64: Energy/atom=-6.051680 eV/atom, Volume=2549.464 Å³
+   Step 65: Energy/atom=-6.051775 eV/atom, Volume=2547.518 Å³
+   Step 66: Energy/atom=-6.051840 eV/atom, Volume=2547.877 Å³
+   Step 67: Energy/atom=-6.051959 eV/atom, Volume=2548.191 Å³
+   Step 68: Energy/atom=-6.052046 eV/atom, Volume=2547.309 Å³
+   Step 69: Energy/atom=-6.052164 eV/atom, Volume=2544.707 Å³
+   Step 70: Energy/atom=-6.052222 eV/atom, Volume=2543.342 Å³
+   Step 71: Energy/atom=-6.052275 eV/atom, Volume=2542.623 Å³
+   Step 72: Energy/atom=-6.052337 eV/atom, Volume=2542.808 Å³
+   Step 73: Energy/atom=-6.052388 eV/atom, Volume=2543.517 Å³
+   Step 74: Energy/atom=-6.052433 eV/atom, Volume=2544.505 Å³
+   Step 75: Energy/atom=-6.052479 eV/atom, Volume=2544.678 Å³
+   Step 76: Energy/atom=-6.052523 eV/atom, Volume=2544.986 Å³
+   Step 77: Energy/atom=-6.052563 eV/atom, Volume=2543.424 Å³
+   Step 78: Energy/atom=-6.052600 eV/atom, Volume=2543.144 Å³
+   Step 79: Energy/atom=-6.052641 eV/atom, Volume=2542.369 Å³
+   Step 80: Energy/atom=-6.052685 eV/atom, Volume=2542.277 Å³
+   Step 81: Energy/atom=-6.052724 eV/atom, Volume=2542.867 Å³
+   Step 82: Energy/atom=-6.052762 eV/atom, Volume=2543.287 Å³
+   Step 83: Energy/atom=-6.052795 eV/atom, Volume=2543.925 Å³
+   Step 84: Energy/atom=-6.052822 eV/atom, Volume=2543.562 Å³
+   Step 85: Energy/atom=-6.052845 eV/atom, Volume=2543.136 Å³
+   Step 86: Energy/atom=-6.052865 eV/atom, Volume=2542.526 Å³
+   Step 87: Energy/atom=-6.052883 eV/atom, Volume=2542.183 Å³
+   Step 88: Energy/atom=-6.052897 eV/atom, Volume=2542.304 Å³
+   Step 89: Energy/atom=-6.052909 eV/atom, Volume=2542.632 Å³
+   Step 90: Energy/atom=-6.052921 eV/atom, Volume=2543.129 Å³
+   Step 91: Energy/atom=-6.052932 eV/atom, Volume=2543.342 Å³
+   Step 92: Energy/atom=-6.052941 eV/atom, Volume=2543.335 Å³
+   Step 93: Energy/atom=-6.052949 eV/atom, Volume=2542.935 Å³
+   Step 94: Energy/atom=-6.052957 eV/atom, Volume=2542.472 Å³
+   Step 95: Energy/atom=-6.052966 eV/atom, Volume=2541.969 Å³
+   Step 96: Energy/atom=-6.052975 eV/atom, Volume=2541.702 Å³
+   Step 97: Energy/atom=-6.052983 eV/atom, Volume=2541.736 Å³
+   Step 98: Energy/atom=-6.052991 eV/atom, Volume=2541.931 Å³
+   Step 99: Energy/atom=-6.053000 eV/atom, Volume=2542.212 Å³
+   Step 100: Energy/atom=-6.053010 eV/atom, Volume=2542.355 Å³
+   Step 101: Energy/atom=-6.053021 eV/atom, Volume=2542.385 Å³
+   Step 102: Energy/atom=-6.053032 eV/atom, Volume=2542.153 Å³
+   Step 103: Energy/atom=-6.053044 eV/atom, Volume=2542.008 Å³
+   Step 104: Energy/atom=-6.053057 eV/atom, Volume=2541.730 Å³
+   Step 105: Energy/atom=-6.053074 eV/atom, Volume=2541.908 Å³
+   Step 106: Energy/atom=-6.053093 eV/atom, Volume=2542.121 Å³
+   Step 107: Energy/atom=-6.053117 eV/atom, Volume=2542.791 Å³
+   Step 108: Energy/atom=-6.053140 eV/atom, Volume=2543.267 Å³
+   Step 109: Energy/atom=-6.053169 eV/atom, Volume=2543.850 Å³
+   Step 110: Energy/atom=-6.053190 eV/atom, Volume=2543.929 Å³
+   Step 111: Energy/atom=-6.053213 eV/atom, Volume=2543.873 Å³
+   Step 112: Energy/atom=-6.053230 eV/atom, Volume=2543.853 Å³
+   Step 113: Energy/atom=-6.053251 eV/atom, Volume=2544.203 Å³
+   Step 114: Energy/atom=-6.053266 eV/atom, Volume=2544.560 Å³
+   Step 115: Energy/atom=-6.053280 eV/atom, Volume=2545.071 Å³
+   Step 116: Energy/atom=-6.053290 eV/atom, Volume=2545.220 Å³
+   Step 117: Energy/atom=-6.053297 eV/atom, Volume=2545.287 Å³
+   Step 118: Energy/atom=-6.053304 eV/atom, Volume=2545.191 Å³
+   Step 119: Energy/atom=-6.053312 eV/atom, Volume=2545.114 Å³
+   Step 120: Energy/atom=-6.053318 eV/atom, Volume=2545.126 Å³
+   Step 121: Energy/atom=-6.053324 eV/atom, Volume=2545.135 Å³
+   Step 122: Energy/atom=-6.053327 eV/atom, Volume=2545.323 Å³
+   Step 123: Energy/atom=-6.053330 eV/atom, Volume=2545.324 Å³
+   Step 124: Energy/atom=-6.053334 eV/atom, Volume=2545.315 Å³
+   Step 125: Energy/atom=-6.053336 eV/atom, Volume=2545.187 Å³
+   Step 126: Energy/atom=-6.053339 eV/atom, Volume=2545.036 Å³
+   Step 127: Energy/atom=-6.053341 eV/atom, Volume=2544.894 Å³
+   Step 128: Energy/atom=-6.053343 eV/atom, Volume=2544.805 Å³
+   Step 129: Energy/atom=-6.053345 eV/atom, Volume=2544.763 Å³
+   Step 130: Energy/atom=-6.053346 eV/atom, Volume=2544.748 Å³
+   Step 131: Energy/atom=-6.053347 eV/atom, Volume=2544.724 Å³
+   Step 132: Energy/atom=-6.053348 eV/atom, Volume=2544.668 Å³
+   Step 133: Energy/atom=-6.053349 eV/atom, Volume=2544.581 Å³
+   Step 134: Energy/atom=-6.053350 eV/atom, Volume=2544.472 Å³
+   Step 135: Energy/atom=-6.053351 eV/atom, Volume=2544.368 Å³
+   Step 136: Energy/atom=-6.053351 eV/atom, Volume=2544.290 Å³
+   Step 137: Energy/atom=-6.053352 eV/atom, Volume=2544.243 Å³
+   Step 138: Energy/atom=-6.053352 eV/atom, Volume=2544.210 Å³
+   Step 139: Energy/atom=-6.053352 eV/atom, Volume=2544.182 Å³
+   Step 140: Energy/atom=-6.053353 eV/atom, Volume=2544.148 Å³
+   Step 141: Energy/atom=-6.053353 eV/atom, Volume=2544.110 Å³
+   Step 142: Energy/atom=-6.053353 eV/atom, Volume=2544.067 Å³
+   Step 143: Energy/atom=-6.053354 eV/atom, Volume=2544.031 Å³
+   Step 144: Energy/atom=-6.053354 eV/atom, Volume=2544.000 Å³
+   Step 145: Energy/atom=-6.053354 eV/atom, Volume=2543.983 Å³
+   Step 146: Energy/atom=-6.053355 eV/atom, Volume=2543.966 Å³
+   Step 147: Energy/atom=-6.053355 eV/atom, Volume=2543.956 Å³
+   Step 148: Energy/atom=-6.053355 eV/atom, Volume=2543.942 Å³
+   Step 149: Energy/atom=-6.053356 eV/atom, Volume=2543.936 Å³
+   Step 150: Energy/atom=-6.053356 eV/atom, Volume=2543.934 Å³
+   Step 151: Energy/atom=-6.053356 eV/atom, Volume=2543.948 Å³
+   Step 152: Energy/atom=-6.053357 eV/atom, Volume=2543.976 Å³
+   Step 153: Energy/atom=-6.053357 eV/atom, Volume=2544.020 Å³
+   Step 154: Energy/atom=-6.053357 eV/atom, Volume=2544.062 Å³
+   Step 155: Energy/atom=-6.053358 eV/atom, Volume=2544.103 Å³
+   Step 156: Energy/atom=-6.053358 eV/atom, Volume=2544.133 Å³
+   Step 157: Energy/atom=-6.053359 eV/atom, Volume=2544.149 Å³
+   Step 158: Energy/atom=-6.053359 eV/atom, Volume=2544.142 Å³
+   Step 159: Energy/atom=-6.053360 eV/atom, Volume=2544.122 Å³
+   Step 160: Energy/atom=-6.053360 eV/atom, Volume=2544.092 Å³
+   Step 161: Energy/atom=-6.053361 eV/atom, Volume=2544.063 Å³
+   Step 162: Energy/atom=-6.053361 eV/atom, Volume=2544.034 Å³
+   Step 163: Energy/atom=-6.053361 eV/atom, Volume=2544.006 Å³
+   Step 164: Energy/atom=-6.053362 eV/atom, Volume=2543.971 Å³
+   Step 165: Energy/atom=-6.053362 eV/atom, Volume=2543.926 Å³
+   Step 166: Energy/atom=-6.053362 eV/atom, Volume=2543.875 Å³
+   Step 167: Energy/atom=-6.053362 eV/atom, Volume=2543.835 Å³
+   Step 168: Energy/atom=-6.053363 eV/atom, Volume=2543.810 Å³
+   Step 169: Energy/atom=-6.053363 eV/atom, Volume=2543.795 Å³
+   Step 170: Energy/atom=-6.053363 eV/atom, Volume=2543.786 Å³
+   Step 171: Energy/atom=-6.053363 eV/atom, Volume=2543.780 Å³
+   Step 172: Energy/atom=-6.053363 eV/atom, Volume=2543.771 Å³
+   Step 173: Energy/atom=-6.053363 eV/atom, Volume=2543.761 Å³
+   Step 174: Energy/atom=-6.053363 eV/atom, Volume=2543.750 Å³
+   Step 175: Energy/atom=-6.053363 eV/atom, Volume=2543.742 Å³
+   Step 176: Energy/atom=-6.053363 eV/atom, Volume=2543.740 Å³
+   Step 177: Energy/atom=-6.053363 eV/atom, Volume=2543.743 Å³
+   Step 178: Energy/atom=-6.053363 eV/atom, Volume=2543.751 Å³
+   Step 179: Energy/atom=-6.053363 eV/atom, Volume=2543.760 Å³
+   Step 180: Energy/atom=-6.053363 eV/atom, Volume=2543.768 Å³
+   Step 181: Energy/atom=-6.053364 eV/atom, Volume=2543.772 Å³
+   Step 182: Energy/atom=-6.053363 eV/atom, Volume=2543.772 Å³
+   Step 183: Energy/atom=-6.053364 eV/atom, Volume=2543.772 Å³
+   Step 184: Energy/atom=-6.053364 eV/atom, Volume=2543.772 Å³
+   Step 185: Energy/atom=-6.053364 eV/atom, Volume=2543.775 Å³
+   Step 186: Energy/atom=-6.053364 eV/atom, Volume=2543.779 Å³
+   Step 187: Energy/atom=-6.053364 eV/atom, Volume=2543.782 Å³
+   Step 188: Energy/atom=-6.053364 eV/atom, Volume=2543.782 Å³
+   Step 189: Energy/atom=-6.053364 eV/atom, Volume=2543.779 Å³
+   Step 190: Energy/atom=-6.053364 eV/atom, Volume=2543.773 Å³
+   Step 191: Energy/atom=-6.053364 eV/atom, Volume=2543.768 Å³
+   Step 192: Energy/atom=-6.053364 eV/atom, Volume=2543.766 Å³
+   Step 193: Energy/atom=-6.053364 eV/atom, Volume=2543.768 Å³
+   Step 194: Energy/atom=-6.053364 eV/atom, Volume=2543.771 Å³
+   Step 195: Energy/atom=-6.053364 eV/atom, Volume=2543.774 Å³
+   Step 196: Energy/atom=-6.053364 eV/atom, Volume=2543.773 Å³
+   Step 197: Energy/atom=-6.053364 eV/atom, Volume=2543.768 Å³
+   Step 198: Energy/atom=-6.053364 eV/atom, Volume=2543.759 Å³
+» UMA relaxation finished in 117.25 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0009) <= fmax (0.0020)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -1065.392021 eV
+   Final energy per atom: -6.053364 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 176
+Relaxed atoms: 176
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 5.0000e-03
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running MD Stability Analysis ---
+Note: MD stability analysis runs independently of phonon calculations.
+
+--- Running AIMD Stability Analysis ---
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+UMA calculator initialized.
+MD stability analysis output directory: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/md_stability_analysis
+
+--- Step 1: Structure Preparation ---
+Creating 2x2x1 supercell for MD simulation
+Supercell created with 704 atoms
+Supercell prepared with 704 atoms
+Initial supercell saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_initial_supercell.cif
+
+--- Step 2: MD Simulation Setup ---
+Total steps: 10000
+  NVT steps: 1000
+  NPT equilibration steps: 1000
+  Production steps: 8000
+MD simulation parameters:
+  Total time: 10.0 ps (10000.0 fs)
+  Phase 1 - NVT equilibration: 1000.0 fs (1000 steps)
+    Temperature ramp: 700 steps (0K → 300.0K)
+    Temperature stabilization: 300 steps
+  Phase 2 - NPT equilibration: 1000.0 fs (1000 steps)
+  Phase 3 - NPT production: 8000.0 fs (8000 steps)
+  Timestep: 1.0 fs
+  Total steps: 10000
+Setting up NVT ensemble for temperature equilibration:
+  Initializing velocities to 10 K to seed the thermostat...
+NVT ensemble setup completed
+
+--- Step 3: MD Simulation Execution ---
+Starting two-stage MD equilibration protocol...
+Trajectory will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_md_trajectory.traj
+MD log will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_MD_STABILITY_phonon_output_20260208-235600/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_md_log.txt
+
+--- Phase 1: NVT Temperature Equilibration ---
+Ramping temperature from 0K to 300.0K over 700 steps
+  Temperature ramp progress: 0.0% (T = 1.0 K)
+  Temperature ramp progress: 10.0% (T = 30.9 K)
+  Temperature ramp progress: 20.0% (T = 60.8 K)
+  Temperature ramp progress: 30.0% (T = 90.7 K)
+  Temperature ramp progress: 40.0% (T = 120.6 K)
+  Temperature ramp progress: 50.0% (T = 150.5 K)
+  Temperature ramp progress: 60.0% (T = 180.4 K)
+  Temperature ramp progress: 70.0% (T = 210.3 K)
+  Temperature ramp progress: 80.0% (T = 240.2 K)
+  Temperature ramp progress: 90.0% (T = 270.1 K)
+  Temperature ramp progress: 100.0% (T = 300.0 K)
+NVT equilibration completed. Final temperature: 297.3 K
+
+--- Phase 2: NPT Pressure/Volume Equilibration ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+NPT equilibration completed.
+  Temperature: 308.3 K
+  Volume: 10234.27 Å³
+
+--- Phase 3: NPT Production Run ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+slurmstepd: error: *** JOB 12219506 ON cna014 CANCELLED AT 2026-02-09T03:55:51 DUE TO TIME LIMIT ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.4GiB
+Total CPU Time                           - CPU_Time         : 1-08:01:20
+Execution Time                           - Wall_Time        : 04:00:10
+total programme cpu time                 - Total_CPU        : 05:26:22
+Total_CPU / CPU_Time  (%)                - ETA              : 16%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 5-08:05:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

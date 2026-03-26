@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-29 01:18:39
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz.cif
+Engine: mace
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 320
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.834 Å (threshold: 1.0 Å) - PASS
+Volume change: 3.8% (threshold: 6.0%) - PASS
+RDF correlation: 0.692 (threshold: 0.5) - PASS
+Symmetry Retention (Pm): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.834 Å
+  RMSD std dev: 0.041 Å
+  RMSD trend: 1.03e-04 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 17079.02 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -0.58%
+  Volume fluctuation std dev: 1.29%
+  Max volume fluctuation: 3.83%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.692
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Pm (6)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            Pm                   6          YES
+0.05            Pm                   6          YES
+0.10            Pm                   6          YES
+0.20            Pm                   6          YES
+0.30            Pm                   6          YES
+0.50            Pm                   6          YES
+0.75            Pm                   6          YES
+1.00            Pm                   6          YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -2.783653 eV/atom
+  Energy std dev: 0.004568 eV/atom
+  Energy drift: -2.93e-07 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_md_trajectory.traj
+Production trajectory file: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_production_trajectory.traj
+Final structure: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_final_structure.cif
+XYZ trajectory: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_production_trajectory.xyz
+MD log: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_md_log.txt
+Analysis plot: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_rmsd_analysis.png
+Analysis plot: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_volume_evolution.png
+Analysis plot: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_rdf_comparison.png
+Analysis plot: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_energy_evolution.png
+Analysis plot: top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

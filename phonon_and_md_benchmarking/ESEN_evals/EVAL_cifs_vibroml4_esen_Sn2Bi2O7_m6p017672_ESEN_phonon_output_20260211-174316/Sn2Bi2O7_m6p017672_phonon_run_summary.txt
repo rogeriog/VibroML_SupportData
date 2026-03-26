@@ -1,0 +1,38 @@
+--- Phonon Run Summary ---
+Structure Formula: Bi16O56Sn16
+Total Number of Atoms: 88
+Engine Used: esen
+Units: THz
+Supercell Size: (1, 1, 1)
+Displacement Delta: 0.03
+Fmax for Relaxation: 0.0005
+Most Negative Frequency (overall): -2.0456 THz
+Time Taken for Phonon Analysis: 678.18 seconds
+
+Energy of Structure: -531.199036 eV
+Energy per Atom: -6.036353 eV/atom
+
+--- Top 2 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: -2.0456 THz
+   Band Index: 0
+
+Mode 2:
+   Label: X
+   Coordinate (q-point): [0.0, 0.5, 0.0]
+   Frequency: -2.0456 THz
+   Band Index: 0
+
+Path of K-points:
+  G: 0.0000
+  X: 0.2925
+  M: 0.5850
+  G: 0.9986
+  R: 1.5053
+  X: 1.9189
+  M: 1.9189
+  R: 2.2114
+
+Space Group: Not available (symmetry analysis file not found).

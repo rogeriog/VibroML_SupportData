@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-02-18 14:51:54
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 19
+International symbol: P2_12_12_1
+Hall symbol: P 2ac 2ab
+Point group symbol: 222
+Crystal system: orthorhombic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 44
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00,  3.27590209e-33,  0.00000000e+00],
+ [-3.11152801e-32,  1.00000000e+00, -9.86076132e-32],
+ [ 1.23259516e-32,  0.00000000e+00,  1.00000000e+00]]
+Origin shift: [-4.43534098e-14,  1.10467191e-14, -2.15383267e-14]

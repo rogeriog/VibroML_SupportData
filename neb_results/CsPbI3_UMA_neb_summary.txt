@@ -1,0 +1,31 @@
+--- Standard NEB Optimization Summary ---
+Analysis Date: 2026-01-27 22:50:23
+
+Method: Standard NEB
+Initial structure: CsPbI3_Pm3m_initial.cif
+Final structure: CsPbI3_P21m_final.cif
+Number of intermediate images: 7
+Spring constant: 3.0 eV/Å²
+Force tolerance: 0.25 eV/Å
+Maximum iterations: 2000
+
+Results:
+  Converged: False
+  Final max force: 0.374417 eV/Å
+  Iterations completed: 2000
+  Optimization time: 2581.92 seconds
+
+Energy and Force Profile Along Path:
+---------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force      
+---------------------------------------------------------------------------
+0        -56.262548      0.427238           0.000060        0.000009       
+1        -54.302976      2.386810           1.088471        0.132507       
+2        -53.969850      2.719936           1.510947        0.148791       
+3        -52.281335      4.408451           1.075857        0.114044       
+4        -51.060780      5.629006           1.552232        0.141592       
+5        -51.527955      5.161831           1.419797        0.138092       
+6        -53.691245      2.998542           1.359395        0.128547       
+7        -53.787402      2.902385           2.977756        0.311643       
+8        -56.689786      0.000000           0.010191        0.000992       
+---------------------------------------------------------------------------

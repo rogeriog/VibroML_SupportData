@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-29 05:42:55
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz.cif
+Engine: mace
+Model: medium
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 1408
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.325 Å (threshold: 1.0 Å) - PASS
+Volume change: 0.9% (threshold: 6.0%) - PASS
+RDF correlation: 0.856 (threshold: 0.5) - PASS
+Symmetry Retention (P1): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.325 Å
+  RMSD std dev: 0.020 Å
+  RMSD trend: -5.61e-05 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 20315.07 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 0.29%
+  Volume fluctuation std dev: 0.19%
+  Max volume fluctuation: 0.89%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.856
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: P1 (1)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          YES
+0.05            P1                   1          YES
+0.10            P1                   1          YES
+0.20            P1                   1          YES
+0.30            P1                   1          YES
+0.50            P1                   1          YES
+0.75            P1                   1          YES
+1.00            P1                   1          YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -6.021806 eV/atom
+  Energy std dev: 0.002756 eV/atom
+  Energy drift: -6.95e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_md_trajectory.traj
+Production trajectory file: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_production_trajectory.traj
+Final structure: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_final_structure.cif
+XYZ trajectory: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_production_trajectory.xyz
+MD log: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_md_log.txt
+Analysis plot: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_rmsd_analysis.png
+Analysis plot: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_volume_evolution.png
+Analysis plot: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_rdf_comparison.png
+Analysis plot: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_energy_evolution.png
+Analysis plot: targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

@@ -1,0 +1,38 @@
+--- Phonon Run Summary ---
+Structure Formula: CsI3Pb
+Total Number of Atoms: 5
+Engine Used: esen
+Units: THz
+Supercell Size: (5, 5, 5)
+Displacement Delta: 0.03
+Fmax for Relaxation: 0.0005
+Most Negative Frequency (overall): -0.7378 THz
+Time Taken for Phonon Analysis: 29.47 seconds
+
+Energy of Structure: -14.044941 eV
+Energy per Atom: -2.808988 eV/atom
+
+--- Top 2 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: R
+   Coordinate (q-point): [0.5, 0.5, 0.5]
+   Frequency: -0.7378 THz
+   Band Index: 0
+
+Mode 2:
+   Label: R
+   Coordinate (q-point): [0.5, 0.5, 0.5]
+   Frequency: -0.7039 THz
+   Band Index: 1
+
+Path of K-points:
+  G: 0.0000
+  X: 0.4906
+  M: 0.9812
+  G: 1.6751
+  R: 2.5248
+  X: 3.2187
+  M: 3.2187
+  R: 3.7093
+
+Space Group: Not available (symmetry analysis file not found).

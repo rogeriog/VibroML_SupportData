@@ -1,0 +1,310 @@
+--- Iteration 1 Summary ---
+Analysis Date: 2025-09-03 16:33:56
+
+Total mode pairings processed: 5
+Total configurations (with swapping): 10
+Total structures attempted: 270
+Successful results: 10
+Failed results: 260
+Success rate: 3.7%
+
+Settings used:
+  Displacement scales: [0.25, 1.0, 4.0]
+  Mode2 ratios: [-0.25, 0.0, 0.25]
+  Cell scale factors: [-0.07, 0.0, 0.07]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+1          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+2          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+3          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+4          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+5          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+6          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+7          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+8          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+9          12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+10         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+11         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+12         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+13         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+14         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+15         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+16         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+17         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+18         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+19         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+20         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+21         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+22         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+23         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+24         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+25         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+26         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx0) as primary, G (idx0) as secondary                              N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx1) as secondary                             N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx1) as primary, G (idx0) as secondary                              N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: G (idx0) as primary, G (idx2) as secondary                             N/A                           
+27         12           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: G (idx2) as primary, G (idx0) as secondary                              N/A                           
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+12           P4_2/nmc        tetragonal         -10.129632                17         Swapped: G (idx2) as primary, G (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                17         Swapped: G (idx2) as primary, G (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                9          Original: G (idx0) as primary, G (idx2) as secondary                             D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                9          Original: G (idx0) as primary, G (idx2) as secondary                             D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                21         Swapped: G (idx0) as primary, G (idx0) as secondary                              D1:4.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                21         Original: G (idx0) as primary, G (idx0) as secondary                             D1:4.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                25         Original: G (idx0) as primary, G (idx1) as secondary                             D1:4.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                25         Original: G (idx0) as primary, G (idx1) as secondary                             D1:4.000, R21:-0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                12         Swapped: G (idx1) as primary, G (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+12           P4_2/nmc        tetragonal         -10.129632                12         Swapped: G (idx1) as primary, G (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -10.129632 eV/atom
+Best configuration: Swapped: G (idx2) as primary, G (idx0) as secondary

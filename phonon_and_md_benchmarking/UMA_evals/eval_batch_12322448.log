@@ -1,0 +1,394 @@
+Starting dynamic evaluation at Wed Feb 18 12:30:22 CET 2026
+--> SKIP: Found completed run for Sn2Bi2O7_m6p017672 in EVAL_cifs_vibroml4_uma_Sn2Bi2O7_m6p017672_UMA_phonon_output_20260130-154025
+--> SKIP: Found completed run for unique_3_sg_Pna2_1_energy_m6p030352_primitive in EVAL_cifs_vibroml4_uma_unique_3_sg_Pna2_1_energy_m6p030352_primitive_UMA_phonon_output_20260130-161136
+--> SKIP: Found completed run for unique_4_sg_P1_energy_m6p029892_primitive in EVAL_cifs_vibroml4_uma_unique_4_sg_P1_energy_m6p029892_primitive_UMA_phonon_output_20260130-162029
+--> SKIP: Found completed run for unique_9_sg_P2_1_energy_m6p004968_primitive in EVAL_cifs_vibroml4_uma_unique_9_sg_P2_1_energy_m6p004968_primitive_UMA_phonon_output_20260130-190728
+--> SKIP: Found completed run for targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz in EVAL_cifs_vibroml4_uma_targeted_GA_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p0174_primitive_freqp20p4710THz_UMA_phonon_output_20260130-191614
+----------------------------------------------------------------
+Processing: unique_1_sg_Cc_energy_m6p031730_primitive
+Primitive Atoms: 44
+Target Supercell: 2,2,2
+Model: uma
+----------------------------------------------------------------
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (2, 2, 2)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_1_sg_Cc_energy_m6p031730_primitive.cif
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/models/uma/escn_md.py:181: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+UMA calculator initialized.
+
+» UMA relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+   Initial energy: -266.338404 eV
+   Initial energy per atom: -6.053146 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:617: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   UMA relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/relax.log
+   UMA relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-6.053146 eV/atom, Volume=634.819 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-6.053190 eV/atom, Volume=634.834 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-6.053258 eV/atom, Volume=634.903 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-6.053261 eV/atom, Volume=634.922 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-6.053276 eV/atom, Volume=635.075 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -6.053280 eV/atom
+   Step 1: Initial volume: 635.146 Å³
+   Step 7: Energy/atom=-6.053289 eV/atom, Volume=635.316 Å³
+   Step 8: Energy/atom=-6.053291 eV/atom, Volume=635.373 Å³
+   Step 9: Energy/atom=-6.053293 eV/atom, Volume=635.416 Å³
+   Step 10: Energy/atom=-6.053296 eV/atom, Volume=635.469 Å³
+   Step 11: Energy/atom=-6.053299 eV/atom, Volume=635.556 Å³
+   Step 12: Energy/atom=-6.053301 eV/atom, Volume=635.636 Å³
+   Step 13: Energy/atom=-6.053302 eV/atom, Volume=635.689 Å³
+   Step 14: Energy/atom=-6.053303 eV/atom, Volume=635.726 Å³
+   Step 15: Energy/atom=-6.053304 eV/atom, Volume=635.767 Å³
+   Step 16: Energy/atom=-6.053305 eV/atom, Volume=635.805 Å³
+   Step 17: Energy/atom=-6.053305 eV/atom, Volume=635.832 Å³
+   Step 18: Energy/atom=-6.053306 eV/atom, Volume=635.847 Å³
+   Step 19: Energy/atom=-6.053306 eV/atom, Volume=635.862 Å³
+   Step 20: Energy/atom=-6.053306 eV/atom, Volume=635.881 Å³
+   Step 21: Energy/atom=-6.053306 eV/atom, Volume=635.900 Å³
+   Step 22: Energy/atom=-6.053307 eV/atom, Volume=635.915 Å³
+   Step 23: Energy/atom=-6.053307 eV/atom, Volume=635.928 Å³
+   Step 24: Energy/atom=-6.053307 eV/atom, Volume=635.942 Å³
+   Step 25: Energy/atom=-6.053307 eV/atom, Volume=635.958 Å³
+   Step 26: Energy/atom=-6.053307 eV/atom, Volume=635.975 Å³
+   Step 27: Energy/atom=-6.053307 eV/atom, Volume=635.990 Å³
+   Step 28: Energy/atom=-6.053307 eV/atom, Volume=636.002 Å³
+   Step 29: Energy/atom=-6.053307 eV/atom, Volume=636.012 Å³
+   Step 30: Energy/atom=-6.053307 eV/atom, Volume=636.026 Å³
+   Step 31: Energy/atom=-6.053307 eV/atom, Volume=636.043 Å³
+   Step 32: Energy/atom=-6.053308 eV/atom, Volume=636.060 Å³
+   Step 33: Energy/atom=-6.053308 eV/atom, Volume=636.071 Å³
+   Step 34: Energy/atom=-6.053308 eV/atom, Volume=636.077 Å³
+   Step 35: Energy/atom=-6.053308 eV/atom, Volume=636.081 Å³
+   Step 36: Energy/atom=-6.053308 eV/atom, Volume=636.085 Å³
+   Step 37: Energy/atom=-6.053308 eV/atom, Volume=636.089 Å³
+   Step 38: Energy/atom=-6.053308 eV/atom, Volume=636.092 Å³
+   Step 39: Energy/atom=-6.053308 eV/atom, Volume=636.093 Å³
+   Step 40: Energy/atom=-6.053308 eV/atom, Volume=636.094 Å³
+   Step 41: Energy/atom=-6.053308 eV/atom, Volume=636.094 Å³
+   Step 42: Energy/atom=-6.053308 eV/atom, Volume=636.093 Å³
+   Step 43: Energy/atom=-6.053308 eV/atom, Volume=636.091 Å³
+   Step 44: Energy/atom=-6.053308 eV/atom, Volume=636.089 Å³
+   Step 45: Energy/atom=-6.053308 eV/atom, Volume=636.087 Å³
+   Step 46: Energy/atom=-6.053308 eV/atom, Volume=636.085 Å³
+   Step 47: Energy/atom=-6.053308 eV/atom, Volume=636.083 Å³
+   Step 48: Energy/atom=-6.053308 eV/atom, Volume=636.080 Å³
+   Step 49: Energy/atom=-6.053308 eV/atom, Volume=636.076 Å³
+   Step 50: Energy/atom=-6.053308 eV/atom, Volume=636.072 Å³
+   Step 51: Energy/atom=-6.053308 eV/atom, Volume=636.068 Å³
+   Step 52: Energy/atom=-6.053308 eV/atom, Volume=636.064 Å³
+   Step 53: Energy/atom=-6.053308 eV/atom, Volume=636.061 Å³
+   Step 54: Energy/atom=-6.053308 eV/atom, Volume=636.059 Å³
+   Step 55: Energy/atom=-6.053308 eV/atom, Volume=636.057 Å³
+   Step 56: Energy/atom=-6.053308 eV/atom, Volume=636.054 Å³
+   Step 57: Energy/atom=-6.053308 eV/atom, Volume=636.052 Å³
+   Step 58: Energy/atom=-6.053308 eV/atom, Volume=636.050 Å³
+   Step 59: Energy/atom=-6.053308 eV/atom, Volume=636.048 Å³
+   Step 60: Energy/atom=-6.053308 eV/atom, Volume=636.046 Å³
+   Step 61: Energy/atom=-6.053308 eV/atom, Volume=636.045 Å³
+   Step 62: Energy/atom=-6.053308 eV/atom, Volume=636.044 Å³
+   Step 63: Energy/atom=-6.053308 eV/atom, Volume=636.043 Å³
+   Step 64: Energy/atom=-6.053308 eV/atom, Volume=636.043 Å³
+   Step 65: Energy/atom=-6.053308 eV/atom, Volume=636.042 Å³
+   Step 66: Energy/atom=-6.053308 eV/atom, Volume=636.042 Å³
+   Step 67: Energy/atom=-6.053308 eV/atom, Volume=636.041 Å³
+   Step 68: Energy/atom=-6.053308 eV/atom, Volume=636.041 Å³
+   Step 69: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 70: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 71: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 72: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 73: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 74: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 75: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 76: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 77: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 78: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 79: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 80: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 81: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 82: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 83: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 84: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 85: Energy/atom=-6.053308 eV/atom, Volume=636.040 Å³
+   Step 86: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 87: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 88: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 89: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 90: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 91: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 92: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 93: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 94: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 95: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 96: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 97: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 98: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 99: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 100: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 101: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 102: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 103: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 104: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 105: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 106: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 107: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 108: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 109: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 110: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 111: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 112: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 113: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 114: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 115: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 116: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 117: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+   Step 118: Energy/atom=-6.053308 eV/atom, Volume=636.039 Å³
+» UMA relaxation finished in 24.56 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0000) <= fmax (0.0000)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -266.345554 eV
+   Final energy per atom: -6.053308 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 44
+Relaxed atoms: 44
+Initial stress (GPa): 0.0001
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/unique_1_sg_Cc_energy_m6p031730_primitive_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 5.0000e-03
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running Single Phonon Analysis in: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032 ---
+
+--- Step 1: Running Phonon Calculation ---
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/phonon_utils.py:608: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator) # Ensure calculator is set for phonon calculation
+
+### Structure for Phonon Calculation ###
+   The phonon band structure will be calculated using the current structure.
+   Using supercell size: (2, 2, 2)
+   Using displacement delta: 0.03
+Phonon calculation completed.
+Phonon calculation took 282.66 seconds
+
+--- Step 2: Getting and Processing Phonon Results ---
+
+Detected band structure discontinuities at:
+  - Between Y and F at distance 0.5022
+  - Between I and I1 at distance 0.9814
+  - Between F1 and Y at distance 1.9377
+  - Between X1 and X at distance 2.1945
+  - Between N and M at distance 3.2398
+Most negative frequency: -3.6306 THz
+--- Skipping PDOS Calculation (use --compute-pdos to enable) ---
+
+--- Step 3: Saving YAML and Raw Data ---
+   YAML file saving skipped (--save-yaml not provided).
+    Saved full DOS curve to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/unique_1_sg_Cc_energy_m6p031730_primitive_dos_curve.txt
+Raw band structure and DOS data saved.
+
+--- Step 4: Plotting Results ---
+Phonon band structure and DOS plot saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/phonon_bs_dos_unique_1_sg_Cc_energy_m6p031730_primitive_N2x2x2_D0.03_F1e-05.png and /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/phonon_bs_dos_unique_1_sg_Cc_energy_m6p031730_primitive_N2x2x2_D0.03_F1e-05.svg
+
+--- Step 5: Analyzing Special Points and Top 2 Softest Modes ---
+
+--- Analyzing Special K-points ---
+   Special Point: G (0.0000, 0.0000, 0.0000) - Minimum Frequency: -0.1035 THz
+   Special Point: Y (-0.5000, 0.5000, 0.0000) - Minimum Frequency: 0.5801 THz
+   Special Point: F (-0.5311, 0.5311, 0.1855) - Minimum Frequency: -1.5125 THz
+   Special Point: L (-0.5000, 0.5000, 0.5000) - Minimum Frequency: 0.9827 THz
+   Special Point: I (-0.3122, 0.6878, 0.5000) - Minimum Frequency: -3.3228 THz
+   Special Point: I1 (0.3122, 0.3122, 0.5000) - Minimum Frequency: -3.3228 THz
+   Special Point: Z (0.0000, 0.0000, 0.5000) - Minimum Frequency: 0.9881 THz
+   Special Point: F1 (-0.4689, 0.4689, 0.8145) - Minimum Frequency: -1.5125 THz
+   Special Point: Y (-0.5000, 0.5000, 0.0000) - Minimum Frequency: 0.5801 THz
+   Special Point: X1 (-0.3436, 0.6564, 0.0000) - Minimum Frequency: -3.1581 THz
+   Special Point: X (0.3436, 0.3436, 0.0000) - Minimum Frequency: -3.1581 THz
+   Special Point: G (0.0000, 0.0000, 0.0000) - Minimum Frequency: -0.1035 THz
+   Special Point: N (0.0000, 0.5000, 0.0000) - Minimum Frequency: 0.8336 THz
+   Special Point: M (0.0000, 0.5000, 0.5000) - Minimum Frequency: 0.8083 THz
+   Special Point: G (0.0000, 0.0000, 0.0000) - Minimum Frequency: -0.1035 THz
+
+Special point analysis saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/special_point_analysis.json
+
+--- Top 2 Softest Modes Analysis ---
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+
+--- Processing Mode: softest_mode_1_I at Q-point: [-0.31221884  0.68778116  0.5       ], Mode Index: 0 ---
+   Frequency: -3.3228 THz
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+  - Saved eigenvectors to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_1_I_qm0p312_0p688_0p500_mode0_eigenvectors.json
+  - Displacements saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_1_I_qm0p312_0p688_0p500_mode0_displacements.txt
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+  - Mode animation (ASE .traj) saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_1_I_qm0p312_0p688_0p500_mode0.mode.0.traj
+  - Converted trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_1_I_qm0p312_0p688_0p500_mode0.xyz
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+
+--- Processing Mode: softest_mode_2_I1 at Q-point: [0.31221884 0.31221884 0.5       ], Mode Index: 0 ---
+   Frequency: -3.3228 THz
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+  - Saved eigenvectors to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_2_I1_q0p312_0p312_0p500_mode0_eigenvectors.json
+  - Displacements saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_2_I1_q0p312_0p312_0p500_mode0_displacements.txt
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+  - Mode animation (ASE .traj) saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_2_I1_q0p312_0p312_0p500_mode0.mode.0.traj
+  - Converted trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/softest_mode_2_I1_q0p312_0p312_0p500_mode0.xyz
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.31,  0.31,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.31,  0.69,  0.50) ; (omega_q = 2.125e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 2 imaginary frequencies at q = (-0.53,  0.53,  0.19) ; (omega_q = 9.675e-02*i)
+WARNING, 2 imaginary frequencies at q = (-0.47,  0.47,  0.81) ; (omega_q = 9.675e-02*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = ( 0.34,  0.34,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 6 imaginary frequencies at q = (-0.34,  0.66,  0.00) ; (omega_q = 2.020e-01*i)
+WARNING, 2 imaginary frequencies at q = (-0.53,  0.53,  0.19) ; (omega_q = 9.675e-02*i)
+WARNING, 2 imaginary frequencies at q = (-0.47,  0.47,  0.81) ; (omega_q = 9.675e-02*i)
+WARNING, 2 imaginary frequencies at q = ( 0.00,  0.00,  0.00) ; (omega_q = 6.618e-03*i)
+WARNING, 2 imaginary frequencies at q = ( 0.00,  0.00,  0.00) ; (omega_q = 6.618e-03*i)
+WARNING, 2 imaginary frequencies at q = ( 0.00,  0.00,  0.00) ; (omega_q = 6.618e-03*i)
+Tracked 31 soft modes for GA mode replacement
+Tracked 12 highest frequency modes for GA mode replacement
+Tracked 11 lowest frequency modes (excluding Gamma) for GA mode replacement
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+Comprehensive phonon run summary saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_evals/EVAL_cifs_vibroml4_uma_unique_1_sg_Cc_energy_m6p031730_primitive_UMA_phonon_output_20260218-123032/unique_1_sg_Cc_energy_m6p031730_primitive_phonon_run_summary.txt
+Total time taken for this phonon analysis: 468.63 s
+
+--- Phonon Calculation Script Finished ---
+--> SKIP: Found completed run for unique_2_sg_P2_1_energy_m6p030819_primitive in EVAL_cifs_vibroml4_uma_unique_2_sg_P2_1_energy_m6p030819_primitive_UMA_phonon_output_20260130-201058
+--> SKIP: Found completed run for OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz in EVAL_cifs_vibroml4_uma_OPT_RANDOM_top_1_iterfinal_sample1_Sn2Bi2O7_energy_m6p0314_conventional_freqp20p2991THz_UMA_phonon_output_20260130-202007
+--> SKIP: Found completed run for unique_11_sg_P2_12_12_1_energy_m5p997022_primitive in EVAL_cifs_vibroml4_uma_unique_11_sg_P2_12_12_1_energy_m5p997022_primitive_UMA_phonon_output_20260130-202851
+--> SKIP: Found completed run for TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz in EVAL_cifs_vibroml4_uma_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_UMA_phonon_output_20260130-203730
+--> SKIP: Found completed run for top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz in EVAL_cifs_vibroml3_uma_top_5_iter3_sample6_HfO2_Fm3m_energy_m10p1458_primitive_freqp22p9737THz_UMA_phonon_output_20260130-212320
+--> SKIP: Found completed run for TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz in EVAL_cifs_vibroml3_uma_TRADITIONAL_ALL_GA_unique_5_iter1_sample23_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5922THz_UMA_phonon_output_20260130-212818
+--> SKIP: Found completed run for unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz in EVAL_cifs_vibroml3_uma_unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz_UMA_phonon_output_20260130-213051
+--> SKIP: Found completed run for unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz in EVAL_cifs_vibroml3_uma_unique_1_iter2_sample63_HfO2_Fm3m_energy_m10p1438_primitive_freqp23p7832THz_UMA_phonon_output_20260130-213520
+--> SKIP: Found completed run for unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz in EVAL_cifs_vibroml3_uma_unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz_UMA_phonon_output_20260130-214305
+--> SKIP: Found completed run for top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz in EVAL_cifs_vibroml3_uma_top_4_iter3_sample76_HfO2_Fm3m_energy_m10p1485_primitive_freqm0p7659THz_UMA_phonon_output_20260130-214541
+--> SKIP: Found completed run for top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz in EVAL_cifs_vibroml3_uma_top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_UMA_phonon_output_20260130-214814
+--> SKIP: Found completed run for HfO2_Fm3m_m10p117371 in EVAL_cifs_vibroml3_uma_HfO2_Fm3m_m10p117371_UMA_phonon_output_20260130-215022
+--> SKIP: Found completed run for top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz in EVAL_cifs_vibroml3_uma_top_3_iter3_sample36_HfO2_Fm3m_energy_m10p1559_primitive_freqp24p5883THz_UMA_phonon_output_20260130-215505
+--> SKIP: Found completed run for unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz in EVAL_cifs_vibroml3_uma_unique_6_iter4_sample68_HfO2_Fm3m_energy_m10p1288_primitive_freqm2p5772THz_UMA_phonon_output_20260130-215935
+--> SKIP: Found completed run for top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz in EVAL_cifs_vibroml3_uma_top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_primitive_freqp25p0436THz_UMA_phonon_output_20260130-220222
+--> SKIP: Found completed run for unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz in EVAL_cifs_vibroml3_uma_unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_UMA_phonon_output_20260130-220738
+--> SKIP: Found completed run for OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz in EVAL_cifs_vibroml2_uma_OPT_RANDOM_top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_conventional_freqp3p3597THz_UMA_phonon_output_20260130-221220
+--> SKIP: Found completed run for top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz in EVAL_cifs_vibroml2_uma_top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz_UMA_phonon_output_20260130-221518
+--> SKIP: Found completed run for top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz in EVAL_cifs_vibroml2_uma_top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz_UMA_phonon_output_20260130-221702
+--> SKIP: Found completed run for top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz in EVAL_cifs_vibroml2_uma_top_4_iter5_sample56_CsPbI3_energy_m2p8265_primitive_freqp3p5081THz_UMA_phonon_output_20260130-221954
+--> SKIP: Found completed run for unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz in EVAL_cifs_vibroml2_uma_unique_1_iter2_sample98_CsPbI3_energy_m2p8248_primitive_freqm0p2133THz_UMA_phonon_output_20260130-222456
+--> SKIP: Found completed run for CsPbI3_m2p796148 in EVAL_cifs_vibroml2_uma_CsPbI3_m2p796148_UMA_phonon_output_20260130-222804
+--> SKIP: Found completed run for TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz in EVAL_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_phonon_output_20260130-222902
+--> SKIP: Found completed run for top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz in EVAL_cifs_vibroml2_uma_top_3_iter5_sample18_CsPbI3_energy_m2p8294_primitive_freqp3p2115THz_UMA_phonon_output_20260130-223144
+--> SKIP: Found completed run for top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz in EVAL_cifs_vibroml2_uma_top_5_iter1_sample5_CsPbI3_energy_m2p8254_primitive_freqp3p1575THz_UMA_phonon_output_20260130-223437
+--> SKIP: Found completed run for TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz in EVAL_cifs_vibroml2_uma_TRAD_ALL_unique_16_iter1_sample18_CsPbI3_energy_m2p8142_primitive_freqm0p4911THz_UMA_phonon_output_20260130-223718
+--> SKIP: Found completed run for top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz in EVAL_cifs_vibroml_uma_top_2_iter2_sample2_LiFsimplecubic_energy_m4p8205_primitive_freqp18p3053THz_UMA_phonon_output_20260130-223901
+--> SKIP: Found completed run for OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz in EVAL_cifs_vibroml_uma_OPTRANDOM_top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz_UMA_phonon_output_20260130-224151
+--> SKIP: Found completed run for LiFsimplecubic_m4p523283 in EVAL_cifs_vibroml_uma_LiFsimplecubic_m4p523283_UMA_phonon_output_20260130-224420
+--> SKIP: Found completed run for top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz in EVAL_cifs_vibroml_uma_top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_primitive_freqp20p1142THz_UMA_phonon_output_20260130-224559
+--> SKIP: Found completed run for top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz in EVAL_cifs_vibroml_uma_top_3_iter2_sample14_LiFsimplecubic_energy_m4p8158_primitive_freqp16p4970THz_UMA_phonon_output_20260130-224831
+--> SKIP: Found completed run for top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz in EVAL_cifs_vibroml_uma_top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz_UMA_phonon_output_20260130-224938
+--> SKIP: Found completed run for OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz in EVAL_cifs_vibroml_uma_OPTRANDOM_top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_primitive_freqm16p2287THz_UMA_phonon_output_20260130-225153
+--> SKIP: Found completed run for top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz in EVAL_cifs_vibroml_uma_top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_conventional_freqp19p1670THz_UMA_phonon_output_20260130-225307
+--> SKIP: Found completed run for top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz in EVAL_cifs_vibroml_uma_top_1_iter2_sample4_LiFsimplecubic_energy_m4p8212_primitive_freqp18p0626THz_UMA_phonon_output_20260130-225547
+--> SKIP: Found completed run for OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz in EVAL_cifs_vibroml_uma_OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_UMA_phonon_output_20260130-225803
+Finished at Wed Feb 18 12:39:18 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.5GiB
+Total CPU Time                           - CPU_Time         : 01:11:44
+Execution Time                           - Wall_Time        : 00:08:58
+total programme cpu time                 - Total_CPU        : 24:01.697
+Total_CPU / CPU_Time  (%)                - ETA              : 33%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 04:46:56
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -1,0 +1,33 @@
+# Ignore Molecular Dynamics trajectory files
+*.traj
+*.xyz
+
+# Ignore svgs, we will keep only pngs
+*.svg
+
+# Ignore logs and large data outputs if necessary
+*_log.txt
+*_relaxation.log
+
+# These were to be excluded already
+**/IGNOREmain_iter_*/
+**/checkpoints/
+
+# Ignore phonon displacement and eigenvector data
+*displacements.txt
+*eigenvectors.json
+
+# dump folders
+dump/
+
+# Need to remove some of the iter from git
+# First, ignore ALL main_iter folders
+**/main_iter_2*/
+**/main_iter_3*/
+
+# Ignore ALL .cif files everywhere
+**/*.cif
+
+# 2. Specifically allow (un-ignore) them ONLY in these specific folder names
+!**/initial_relaxation_for_single_run/**/*.cif
+!**/final_structures/**/*.cif

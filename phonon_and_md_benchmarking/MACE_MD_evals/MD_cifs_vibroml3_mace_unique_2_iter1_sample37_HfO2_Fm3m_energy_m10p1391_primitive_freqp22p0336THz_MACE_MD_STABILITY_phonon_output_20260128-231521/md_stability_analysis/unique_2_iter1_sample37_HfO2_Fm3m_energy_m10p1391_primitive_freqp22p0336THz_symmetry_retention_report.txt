@@ -1,0 +1,17 @@
+--- Symmetry Retention Analysis Report ---
+Date: 2026-01-28 23:20:46
+--------------------------------------------------
+Initial Structure Space Group (tol=0.01): Pnma (62)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            Pnma                 62         YES
+0.05            Pnma                 62         YES
+0.10            Pnma                 62         YES
+0.20            Pnma                 62         YES
+0.30            Pnma                 62         YES
+0.50            Pnma                 62         YES
+0.75            Pnma                 62         YES
+1.00            Pnma                 62         YES
+
+Verdict: SYMMETRY RETAINED

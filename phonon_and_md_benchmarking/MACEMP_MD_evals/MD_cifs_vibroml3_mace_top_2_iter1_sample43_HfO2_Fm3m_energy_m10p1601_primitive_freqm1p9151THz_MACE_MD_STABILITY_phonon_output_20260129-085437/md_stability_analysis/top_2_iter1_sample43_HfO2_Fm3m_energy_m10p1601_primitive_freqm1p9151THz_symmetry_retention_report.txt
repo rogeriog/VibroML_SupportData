@@ -1,0 +1,17 @@
+--- Symmetry Retention Analysis Report ---
+Date: 2026-01-29 08:58:46
+--------------------------------------------------
+Initial Structure Space Group (tol=0.01): I4_1/amd (141)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P-1                  2          NO
+0.10            P-1                  2          NO
+0.20            P-1                  2          NO
+0.30            P-1                  2          NO
+0.50            C2/m                 12         NO
+0.75            C2/m                 12         NO
+1.00            C2/m                 12         NO
+
+Verdict: SYMMETRY BROKEN

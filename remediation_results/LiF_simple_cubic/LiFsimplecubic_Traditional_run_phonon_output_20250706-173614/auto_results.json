@@ -1,0 +1,26 @@
+[
+    {
+        "supercell_n": 2,
+        "delta": 0.05,
+        "fmax": 0.001,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -6.085195826847492,
+        "time_taken": 6.690316677093506
+    },
+    {
+        "supercell_n": 3,
+        "delta": 0.03,
+        "fmax": 0.0005,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -5.969298610864922,
+        "time_taken": 8.143600702285767
+    },
+    {
+        "supercell_n": 4,
+        "delta": 0.01,
+        "fmax": 0.0001,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -6.0538280976837875,
+        "time_taken": 10.146193981170654
+    }
+]

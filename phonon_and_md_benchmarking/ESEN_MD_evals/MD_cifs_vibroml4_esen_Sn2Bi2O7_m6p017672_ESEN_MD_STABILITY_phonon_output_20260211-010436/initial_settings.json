@@ -1,0 +1,121 @@
+{
+    "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/Sn2Bi2O7_m6p017672.cif",
+    "no_relax": false,
+    "engine": "esen",
+    "units": "THz",
+    "model_name": "medium-omat-0",
+    "nep_model": null,
+    "checkpoint_model": null,
+    "checkpoint": null,
+    "supercell_n": [
+        3,
+        3,
+        3
+    ],
+    "supercell": null,
+    "delta": 0.03,
+    "fmax": 0.001,
+    "relaxation_patience": 5,
+    "volume_expansion_threshold": 2.5,
+    "max_atoms_per_supercell": null,
+    "auto": false,
+    "method": "md_stability",
+    "output_prefix": "MD_cifs_vibroml4_esen",
+    "resume_dir": null,
+    "screen_supercell_ns": [
+        [
+            2,
+            2,
+            2
+        ],
+        [
+            3,
+            3,
+            3
+        ],
+        [
+            4,
+            4,
+            4
+        ]
+    ],
+    "screen_deltas": [
+        0.05,
+        0.03,
+        0.01
+    ],
+    "screen_fmax_values": [
+        0.001,
+        0.0005,
+        0.0001
+    ],
+    "soft_mode_displacement_scales": [
+        0.25,
+        1.0,
+        4.0
+    ],
+    "mode2_ratio_scales": [
+        -0.25,
+        0.0,
+        0.25
+    ],
+    "cell_scale_factors": [
+        -0.07,
+        0.0,
+        0.07
+    ],
+    "phonon_path_npoints": 100,
+    "phonon_dos_grid": [
+        40,
+        40,
+        40
+    ],
+    "traj_kT": 1.0,
+    "negative_phonon_threshold_thz": -0.1,
+    "soft_mode_max_iterations": 5,
+    "soft_mode_num_top_structures_to_analyze": 5,
+    "num_modes_to_return": 2,
+    "ga_population_size": 100,
+    "ga_mutation_rate": 0.2,
+    "ga_generations": 3,
+    "num_new_points_per_iteration": 50,
+    "q": null,
+    "band_idx": null,
+    "displacement": 1.0,
+    "band_yaml_path": null,
+    "ga_disp_scale_bounds": [
+        0.0,
+        10.0
+    ],
+    "ga_ratio_bounds": [
+        -1.5,
+        1.5
+    ],
+    "ga_cell_scale_bounds": [
+        -0.5,
+        0.5
+    ],
+    "ga_cell_angle_bounds": [
+        -45.0,
+        45.0
+    ],
+    "decomposition_threshold": 0.5,
+    "constrained_supercell_growth": false,
+    "maximum_indexes_on_same_points": null,
+    "save_yaml": false,
+    "with_phonon": false,
+    "compute_pdos": false,
+    "temp": 300.0,
+    "pressure": 0.0,
+    "time": 10.0,
+    "supercell_size": "2x2x1",
+    "equilibration_fraction": 0.2,
+    "volume_threshold": 6.0,
+    "rmsd_threshold": 1.0,
+    "rdf_threshold": 0.5,
+    "supercell_dims": [
+        3,
+        3,
+        3
+    ]
+}

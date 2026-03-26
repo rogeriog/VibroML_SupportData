@@ -1,0 +1,9 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_phonon_output_20250826-161333/main_iter_4_gen_1/sample_40 ---
+Analysis Date: 2025-08-26 17:11:55
+
+### Structure: HfO2_Fm3m_sc_1x1x2_d1_9.823_r21_0.640_c_p331_m317_p144_p37365_p9501_m1742_pf_false.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_phonon_output_20250826-161333/main_iter_4_gen_1/sample_40/HfO2_Fm3m_sc_1x1x2_d1_9.823_r21_0.640_c_p331_m317_p144_p37365_p9501_m1742_pf_false.cif
+Total Number of Atoms: 24
+Relaxation Status: FAILED (error during run)
+Error: generator raised StopIteration
+

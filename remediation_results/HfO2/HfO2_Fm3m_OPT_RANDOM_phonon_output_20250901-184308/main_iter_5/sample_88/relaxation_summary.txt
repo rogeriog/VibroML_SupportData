@@ -1,0 +1,28 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_5/sample_88 ---
+Analysis Date: 2025-09-01 20:38:09
+
+### Structure: HfO2_Fm3m_random_sc_1x2x1_disp_0.100to2.472_c_0.170_-0.486_-0.472_19.015_-20.335_23.300.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/HfO2/HfO2_Fm3m_OPT_RANDOM_phonon_output_20250901-184308/main_iter_5/sample_88/HfO2_Fm3m_random_sc_1x2x1_disp_0.100to2.472_c_0.170_-0.486_-0.472_19.015_-20.335_23.300.cif
+Total Number of Atoms: 384
+Relaxation Status: FAILED (error during run)
+Error: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_47.py", line 126, in forward
+    tensordot_2 = _0(mul_17, _w3j_1_3_2, ([2], [1]), None, )
+    einsum_19 = torch.einsum("edab,ecad->ecb", [tensordot_2, einsum_18])
+    reshape_29 = torch.reshape(einsum_19, [getitem_4, 640])
+                 ~~~~~~~~~~~~~ <--- HERE
+    _15 = torch.slice(reshape_2, 0, 0, 9223372036854775807)
+    getitem_19 = torch.slice(_15, 1, 1024, 1152)
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.639", line 100, in forward
+    tensordot_2 = torch.functional.tensordot(mul_17, _w3j_1_3_2, ([2], [1]), out = None);  mul_17 = _w3j_1_3_2 = None
+    einsum_19 = torch.functional.einsum('edab,ecad->ecb', tensordot_2, einsum_18);  tensordot_2 = einsum_18 = None
+    reshape_29 = einsum_19.reshape(getitem_4, 640);  einsum_19 = None
+                 ~~~~~~~~~~~~~~~~~ <--- HERE
+    getitem_19 = reshape_2[(slice(None, None, None), slice(1024, 1152, None))]
+    reshape_30 = getitem_19.reshape((-1, 128, 1));  getitem_19 = None
+RuntimeError: CUDA out of memory. Tried to allocate 1.75 GiB. GPU 0 has a total capacity of 31.73 GiB of which 132.19 MiB is free. Including non-PyTorch memory, this process has 31.60 GiB memory in use. Of the allocated memory 28.10 GiB is allocated by PyTorch, and 3.09 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+

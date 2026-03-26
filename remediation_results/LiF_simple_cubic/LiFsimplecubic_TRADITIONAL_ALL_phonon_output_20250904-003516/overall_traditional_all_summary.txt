@@ -1,0 +1,71 @@
+--- Traditional All Soft Mode Optimization Summary (with Mode Swapping) ---
+Analysis Date: 2025-09-04 00:55:40
+
+Total iterations completed: 2
+Total successful structures: 17
+Total unique structures identified: 4
+Final structures analyzed: 5
+
+Optimization Settings:
+  Engine: mace
+  Units: THz
+  Supercell dimensions: (3, 3, 3)
+  Delta: 0.03
+  Fmax: 0.001
+  Displacement scales: [0.25, 1.0, 4.0]
+  Mode2 ratios: [-0.25, 0.0, 0.25]
+  Cell scale factors: [-0.07, 0.0, 0.07]
+  Negative phonon threshold: -0.1000 THz
+  Max iterations: 2
+  Top structures to analyze: 5
+
+All Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Iter  Sample   Primary Mode              Secondary Mode            Configuration Description                                                        Parameters                                         Soft Mode Details                                                               
+================================================================================================================================================================================================================================================================================================================================
+4            P6_3/mmc        hexagonal          -4.821212                 1     1        X(1)                      M(0)                      Swapped: X (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-4.86THz@[0.0, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     13       M(0)                      M(0)                      Original: M (idx0) as primary, M (idx0) as secondary                             D1:1.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      X(2)                      Original: M (idx0) as primary, X (idx2) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.38THz@[0.0, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      G(2)                      Original: M (idx0) as primary, G (idx2) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.18THz@[0.0, 0.0, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      X(0)                      Original: M (idx0) as primary, X (idx0) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.86THz@[0.0, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      X(3)                      Original: M (idx0) as primary, X (idx3) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.38THz@[0.0, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      G(0)                      Original: M (idx0) as primary, G (idx0) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.18THz@[0.0, 0.0, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      G(1)                      Original: M (idx0) as primary, G (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.18THz@[0.0, 0.0, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      X(1)                      Original: M (idx0) as primary, X (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-4.86THz@[0.0, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     5        M(0)                      M(1)                      Original: M (idx0) as primary, M (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-5.97THz@[0.5, 0.5, 0.0], S:-5.78THz@[0.5, 0.5, 0.0]                          
+8            Fm-3m           cubic              -4.820459                 1     3        M(1)                      M(0)                      Swapped: M (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-5.78THz@[0.5, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+2            Fm-3m           cubic              -4.820459                 1     3        G(1)                      M(0)                      Swapped: G (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-4.18THz@[0.0, 0.0, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+2            Fm-3m           cubic              -4.820459                 1     12       G(2)                      M(0)                      Swapped: G (idx2) as primary, M (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-4.18THz@[0.0, 0.0, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+2            Fm-3m           cubic              -4.820459                 1     11       G(0)                      M(0)                      Swapped: G (idx0) as primary, M (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-4.18THz@[0.0, 0.0, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+4            Fm-3m           cubic              -4.820459                 1     24       X(0)                      M(0)                      Swapped: X (idx0) as primary, M (idx0) as secondary                              D1:4.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-4.86THz@[0.0, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+4            P6_3/mmc        hexagonal          -4.778778                 1     12       X(3)                      M(0)                      Swapped: X (idx3) as primary, M (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000) P:-4.38THz@[0.0, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+4            Cmmm            orthorhombic       -4.699697                 1     14       X(2)                      M(0)                      Swapped: X (idx2) as primary, M (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-4.38THz@[0.0, 0.5, 0.0], S:-5.97THz@[0.5, 0.5, 0.0]                          
+============================================================================================================================================================================================================================================================================================================
+
+Unique Structures Summary (energy tolerance: 5.0e-04 eV/atom):
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Rank   Energy (eV/atom)     Energy Difference (meV/atom)   Configuration Description                                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1      -4.821212            0.00                           Swapped: X (idx1) as primary, M (idx0) as secondary                                       
+2      -4.820459            0.75                           Original: M (idx0) as primary, M (idx0) as secondary                                      
+3      -4.778778            42.43                          Swapped: X (idx3) as primary, M (idx0) as secondary                                       
+4      -4.699697            121.51                         Swapped: X (idx2) as primary, M (idx0) as secondary                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Final Top 5 Structures Selected for Analysis:
+----------------------------------------------------------------------------------------------------
+Rank   Energy (eV/atom)     Configuration                                      Parameters              
+----------------------------------------------------------------------------------------------------
+1      -4.821212            Swapped: X (idx1) as primary, M (idx0) as second   D1:0.250, R21:-0.250    
+2      -4.820459            Original: M (idx0) as primary, M (idx0) as secon   D1:1.000, R21:-0.250    
+3      -4.820459            Original: M (idx0) as primary, X (idx2) as secon   D1:0.250, R21:0.000     
+4      -4.820459            Original: M (idx0) as primary, G (idx2) as secon   D1:0.250, R21:0.000     
+5      -4.820459            Original: M (idx0) as primary, X (idx0) as secon   D1:0.250, R21:0.000     
+
+----------------------------------------------------------------------------------------------------
+Method: Traditional All with Mode Swapping
+  - Softest mode combined with all other soft modes
+  - Each pairing explored in both original and swapped configurations
+  - Original: softest as primary, other as secondary
+  - Swapped: other as primary, softest as secondary
+Negative phonon threshold: -0.1000 THz

@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-01-30 15:40:38
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 227
+International symbol: Fd-3m
+Hall symbol: F 4d 2 3 -1d
+Point group symbol: m-3m
+Crystal system: cubic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 88
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00,  2.25607253e-35, -9.62964972e-35],
+ [ 2.97905772e-33,  1.00000000e+00,  9.62964972e-34],
+ [ 0.00000000e+00,  0.00000000e+00,  1.00000000e+00]]
+Origin shift: [-5.63438185e-15, -2.49800181e-15, -5.80091530e-15]

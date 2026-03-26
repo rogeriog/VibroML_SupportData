@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-10 16:48:48
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz.cif
+Engine: mace
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 96
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.098 Å (threshold: 1.0 Å) - PASS
+Volume change: 1.0% (threshold: 6.0%) - PASS
+RDF correlation: 0.777 (threshold: 0.5) - PASS
+Symmetry Retention (Fdd2): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.098 Å
+  RMSD std dev: 0.005 Å
+  RMSD trend: 6.67e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 1116.20 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -0.00%
+  Volume fluctuation std dev: 0.31%
+  Max volume fluctuation: 0.97%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.777
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Fdd2 (43)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            Fdd2                 43         YES
+0.10            Fdd2                 43         YES
+0.20            Fdd2                 43         YES
+0.30            Fdd2                 43         YES
+0.50            Fdd2                 43         YES
+0.75            Fdd2                 43         YES
+1.00            Fdd2                 43         YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -10.093147 eV/atom
+  Energy std dev: 0.002316 eV/atom
+  Energy drift: 2.80e-07 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_md_trajectory.traj
+Production trajectory file: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_production_trajectory.traj
+Final structure: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_final_structure.cif
+XYZ trajectory: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_production_trajectory.xyz
+MD log: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_md_log.txt
+Analysis plot: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_rmsd_analysis.png
+Analysis plot: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_volume_evolution.png
+Analysis plot: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_rdf_comparison.png
+Analysis plot: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_energy_evolution.png
+Analysis plot: unique_4_iter5_sample97_HfO2_Fm3m_energy_m10p1329_primitive_freqm0p3409THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

@@ -1,0 +1,31 @@
+--- Standard NEB Optimization Summary ---
+Analysis Date: 2026-01-27 22:36:24
+
+Method: Standard NEB
+Initial structure: HfO2_Fm3m_initial.cif
+Final structure: HfO2_P21c_final.cif
+Number of intermediate images: 7
+Spring constant: 3.0 eV/Å²
+Force tolerance: 0.25 eV/Å
+Maximum iterations: 2000
+
+Results:
+  Converged: True
+  Final max force: 0.249186 eV/Å
+  Iterations completed: 140
+  Optimization time: 182.02 seconds
+
+Energy and Force Profile Along Path:
+---------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force      
+---------------------------------------------------------------------------
+0        -121.019777     1.032679           0.000149        0.000017       
+1        -121.269635     0.782820           2.100973        0.308655       
+2        -121.363920     0.688536           0.276628        0.035911       
+3        -121.394218     0.658237           0.279810        0.045052       
+4        -121.534631     0.517824           0.538660        0.089900       
+5        -121.709489     0.342966           0.448885        0.083571       
+6        -121.892968     0.159487           0.532803        0.106168       
+7        -122.016532     0.035923           0.301069        0.063245       
+8        -122.052455     0.000000           0.006069        0.000711       
+---------------------------------------------------------------------------

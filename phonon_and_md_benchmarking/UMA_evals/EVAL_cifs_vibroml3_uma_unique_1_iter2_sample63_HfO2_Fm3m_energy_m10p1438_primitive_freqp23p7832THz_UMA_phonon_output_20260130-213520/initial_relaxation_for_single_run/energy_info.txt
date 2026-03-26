@@ -1,0 +1,8 @@
+=== Energy Information ===
+Number of atoms: 24
+Initial energy: -243.589304 eV
+Initial energy per atom: -10.149554 eV/atom
+Final energy: -243.611601 eV
+Final energy per atom: -10.150483 eV/atom
+Energy change: -0.022297 eV
+Energy change per atom: -0.000929 eV/atom

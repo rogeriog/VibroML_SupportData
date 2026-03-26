@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-01-30 18:23:39
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 9
+International symbol: Cc
+Hall symbol: C -2yc
+Point group symbol: m
+Crystal system: monoclinic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 176
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00,  2.27331791e-32,  0.00000000e+00],
+ [-1.27141469e-34,  1.00000000e+00, -9.62964972e-35],
+ [ 1.73472348e-18,  4.93038066e-32,  1.00000000e+00]]
+Origin shift: [ 6.88437502e-15, -6.88437502e-15,  0.00000000e+00]

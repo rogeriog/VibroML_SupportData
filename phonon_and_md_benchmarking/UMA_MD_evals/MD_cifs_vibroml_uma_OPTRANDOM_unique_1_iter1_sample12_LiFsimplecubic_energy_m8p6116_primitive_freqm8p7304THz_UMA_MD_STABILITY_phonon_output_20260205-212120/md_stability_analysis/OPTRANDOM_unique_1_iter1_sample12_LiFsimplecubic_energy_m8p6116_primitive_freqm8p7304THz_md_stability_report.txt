@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 22:18:38
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz.cif
+Engine: uma
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: MODERATE
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 64
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.586 Å (threshold: 1.0 Å) - PASS
+Volume change: 4.9% (threshold: 6.0%) - PASS
+RDF correlation: 0.232 (threshold: 0.5) - FAIL
+Symmetry Retention (Fm-3m): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.586 Å
+  RMSD std dev: 0.010 Å
+  RMSD trend: -9.72e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 562.88 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -0.32%
+  Volume fluctuation std dev: 1.27%
+  Max volume fluctuation: 4.87%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.232
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Fm-3m (225)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P-1                  2          NO
+0.10            Fm-3m                225        YES
+0.20            Fm-3m                225        YES
+0.30            Fm-3m                225        YES
+0.50            Fm-3m                225        YES
+0.75            Fm-3m                225        YES
+1.00            Fm-3m                225        YES
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -4.779329 eV/atom
+  Energy std dev: 0.007632 eV/atom
+  Energy drift: -2.29e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_md_trajectory.traj
+Production trajectory file: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_production_trajectory.traj
+Final structure: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_final_structure.cif
+XYZ trajectory: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_production_trajectory.xyz
+MD log: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_md_log.txt
+Analysis plot: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_rmsd_analysis.png
+Analysis plot: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_volume_evolution.png
+Analysis plot: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_rdf_comparison.png
+Analysis plot: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_energy_evolution.png
+Analysis plot: OPTRANDOM_unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_primitive_freqm8p7304THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

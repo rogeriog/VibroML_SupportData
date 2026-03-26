@@ -1,0 +1,732 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) EasyBuild/2022a
+Processing: TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz
+Atoms in primitive: 176
+Selected Supercell: 2x2x1
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using default supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+MD stability method will use:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Total simulation time: 10.0 ps
+  Supercell size: 2x2x1
+  Equilibration fraction: 0.2
+  Stability assessment thresholds (generous for MLIP fluctuations):
+    Volume fluctuation: ±6.0%
+    RMSD threshold: 1.0 Å
+    RDF correlation: >0.5
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz.cif
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/scn/spherical_harmonics.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/equiformer_v2/wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/escn/so3.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/checkpoints/2026-02-09-00-10-56
+  commit: core:None,experimental:NA
+  identifier: ''
+  logs_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/logs/wandb/2026-02-09-00-10-56
+  print_every: 100
+  results_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/results/2026-02-09-00-10-56
+  seed: null
+  timestamp_id: 2026-02-09-00-10-56
+  version: 1.10.0
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  lin_ref: ''
+  metadata_path: ''
+  normalizer:
+    energy:
+      mean: 0.0
+      stdev: 4.980640411376953
+    forces:
+      mean: 0.0
+      stdev: 4.980640411376953
+    stress:
+      mean: 0.0
+      stdev: 4.980640411376953
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    efs:
+      module: esen_mlp_efs_head_dens
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 10000
+  load_balancing: atoms
+  lr_initial: 0.0003
+  max_epochs: 2
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 393848
+    lambda_type: cosine
+    lr: 0.0003
+    lr_min_factor: 0.05
+    warmup_epochs: 1969
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161410 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+WARNING:root:No seed has been set in modelcheckpoint or OCPCalculator! Results may not be reproducible on re-run
+ESEN calculator initialized.
+
+» ESEN relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+   Initial energy: -1064.934937 eV
+   Initial energy per atom: -6.050767 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:575: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   eSEN relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/relax.log
+   eSEN relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-6.050767 eV/atom, Volume=2533.682 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-6.050827 eV/atom, Volume=2533.696 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-6.050908 eV/atom, Volume=2533.752 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-6.050913 eV/atom, Volume=2533.772 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-6.050920 eV/atom, Volume=2533.830 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -6.050922 eV/atom
+   Step 1: Initial volume: 2533.870 Å³
+   Step 7: Energy/atom=-6.050928 eV/atom, Volume=2534.001 Å³
+   Step 8: Energy/atom=-6.050930 eV/atom, Volume=2534.090 Å³
+   Step 9: Energy/atom=-6.050932 eV/atom, Volume=2534.160 Å³
+   Step 10: Energy/atom=-6.050932 eV/atom, Volume=2534.211 Å³
+   Step 11: Energy/atom=-6.050934 eV/atom, Volume=2534.299 Å³
+   Step 12: Energy/atom=-6.050936 eV/atom, Volume=2534.428 Å³
+   Step 13: Energy/atom=-6.050937 eV/atom, Volume=2534.581 Å³
+   Step 14: Energy/atom=-6.050938 eV/atom, Volume=2534.693 Å³
+   Step 15: Energy/atom=-6.050938 eV/atom, Volume=2534.771 Å³
+   Step 16: Energy/atom=-6.050939 eV/atom, Volume=2534.864 Å³
+   Step 17: Energy/atom=-6.050940 eV/atom, Volume=2535.027 Å³
+   Step 18: Energy/atom=-6.050941 eV/atom, Volume=2535.282 Å³
+   Step 19: Energy/atom=-6.050943 eV/atom, Volume=2535.577 Å³
+   Step 20: Energy/atom=-6.050944 eV/atom, Volume=2535.812 Å³
+   Step 21: Energy/atom=-6.050945 eV/atom, Volume=2535.968 Å³
+   Step 22: Energy/atom=-6.050945 eV/atom, Volume=2536.107 Å³
+   Step 23: Energy/atom=-6.050946 eV/atom, Volume=2536.274 Å³
+   Step 24: Energy/atom=-6.050947 eV/atom, Volume=2536.475 Å³
+   Step 25: Energy/atom=-6.050948 eV/atom, Volume=2536.680 Å³
+   Step 26: Energy/atom=-6.050948 eV/atom, Volume=2536.858 Å³
+   Step 27: Energy/atom=-6.050949 eV/atom, Volume=2537.022 Å³
+   Step 28: Energy/atom=-6.050949 eV/atom, Volume=2537.188 Å³
+   Step 29: Energy/atom=-6.050950 eV/atom, Volume=2537.374 Å³
+   Step 30: Energy/atom=-6.050950 eV/atom, Volume=2537.569 Å³
+   Step 31: Energy/atom=-6.050951 eV/atom, Volume=2537.750 Å³
+   Step 32: Energy/atom=-6.050952 eV/atom, Volume=2537.911 Å³
+   Step 33: Energy/atom=-6.050953 eV/atom, Volume=2538.068 Å³
+   Step 34: Energy/atom=-6.050953 eV/atom, Volume=2538.240 Å³
+   Step 35: Energy/atom=-6.050953 eV/atom, Volume=2538.424 Å³
+   Step 36: Energy/atom=-6.050954 eV/atom, Volume=2538.588 Å³
+   Step 37: Energy/atom=-6.050955 eV/atom, Volume=2538.709 Å³
+   Step 38: Energy/atom=-6.050955 eV/atom, Volume=2538.800 Å³
+   Step 39: Energy/atom=-6.050955 eV/atom, Volume=2538.875 Å³
+   Step 40: Energy/atom=-6.050955 eV/atom, Volume=2538.940 Å³
+   Step 41: Energy/atom=-6.050955 eV/atom, Volume=2538.991 Å³
+   Step 42: Energy/atom=-6.050955 eV/atom, Volume=2539.028 Å³
+   Step 43: Energy/atom=-6.050955 eV/atom, Volume=2539.052 Å³
+   Step 44: Energy/atom=-6.050955 eV/atom, Volume=2539.070 Å³
+   Step 45: Energy/atom=-6.050955 eV/atom, Volume=2539.085 Å³
+   Step 46: Energy/atom=-6.050955 eV/atom, Volume=2539.099 Å³
+   Step 47: Energy/atom=-6.050955 eV/atom, Volume=2539.111 Å³
+   Step 48: Energy/atom=-6.050955 eV/atom, Volume=2539.122 Å³
+   Step 49: Energy/atom=-6.050955 eV/atom, Volume=2539.132 Å³
+   Step 50: Energy/atom=-6.050955 eV/atom, Volume=2539.141 Å³
+   Step 51: Energy/atom=-6.050956 eV/atom, Volume=2539.153 Å³
+   Step 52: Energy/atom=-6.050955 eV/atom, Volume=2539.162 Å³
+   Step 53: Energy/atom=-6.050955 eV/atom, Volume=2539.172 Å³
+   Step 54: Energy/atom=-6.050956 eV/atom, Volume=2539.174 Å³
+   Step 55: Energy/atom=-6.050955 eV/atom, Volume=2539.179 Å³
+   Step 56: Energy/atom=-6.050956 eV/atom, Volume=2539.181 Å³
+   Step 57: Energy/atom=-6.050956 eV/atom, Volume=2539.185 Å³
+   Step 58: Energy/atom=-6.050955 eV/atom, Volume=2539.193 Å³
+   Step 59: Energy/atom=-6.050956 eV/atom, Volume=2539.196 Å³
+   Step 60: Energy/atom=-6.050956 eV/atom, Volume=2539.206 Å³
+   Step 61: Energy/atom=-6.050956 eV/atom, Volume=2539.211 Å³
+   Step 62: Energy/atom=-6.050956 eV/atom, Volume=2539.214 Å³
+   Step 63: Energy/atom=-6.050956 eV/atom, Volume=2539.218 Å³
+   Step 64: Energy/atom=-6.050956 eV/atom, Volume=2539.222 Å³
+   Step 65: Energy/atom=-6.050957 eV/atom, Volume=2539.228 Å³
+   Step 66: Energy/atom=-6.050957 eV/atom, Volume=2539.240 Å³
+   Step 67: Energy/atom=-6.050957 eV/atom, Volume=2539.266 Å³
+   Step 68: Energy/atom=-6.050959 eV/atom, Volume=2539.323 Å³
+   Step 69: Energy/atom=-6.050953 eV/atom, Volume=2539.489 Å³
+   Step 70: Energy/atom=-6.050963 eV/atom, Volume=2539.228 Å³
+   Step 71: Energy/atom=-6.050968 eV/atom, Volume=2539.241 Å³
+   Step 72: Energy/atom=-6.050990 eV/atom, Volume=2539.167 Å³
+   Step 73: Energy/atom=-6.051009 eV/atom, Volume=2539.158 Å³
+   Step 74: Energy/atom=-6.051066 eV/atom, Volume=2538.959 Å³
+   Step 75: Energy/atom=-6.051073 eV/atom, Volume=2539.591 Å³
+   Step 76: Energy/atom=-6.051165 eV/atom, Volume=2540.270 Å³
+   Step 77: Energy/atom=-6.051217 eV/atom, Volume=2539.703 Å³
+   Step 78: Energy/atom=-6.051336 eV/atom, Volume=2538.071 Å³
+   Step 79: Energy/atom=-6.051391 eV/atom, Volume=2537.946 Å³
+   Step 80: Energy/atom=-6.051462 eV/atom, Volume=2538.525 Å³
+   Step 81: Energy/atom=-6.051525 eV/atom, Volume=2539.683 Å³
+   Step 82: Energy/atom=-6.051564 eV/atom, Volume=2540.311 Å³
+   Step 83: Energy/atom=-6.051603 eV/atom, Volume=2540.617 Å³
+   Step 84: Energy/atom=-6.051639 eV/atom, Volume=2540.476 Å³
+   Step 85: Energy/atom=-6.051673 eV/atom, Volume=2540.171 Å³
+   Step 86: Energy/atom=-6.051700 eV/atom, Volume=2539.825 Å³
+   Step 87: Energy/atom=-6.051726 eV/atom, Volume=2539.791 Å³
+   Step 88: Energy/atom=-6.051754 eV/atom, Volume=2539.788 Å³
+   Step 89: Energy/atom=-6.051786 eV/atom, Volume=2540.200 Å³
+   Step 90: Energy/atom=-6.051818 eV/atom, Volume=2540.599 Å³
+   Step 91: Energy/atom=-6.051849 eV/atom, Volume=2540.967 Å³
+   Step 92: Energy/atom=-6.051880 eV/atom, Volume=2541.093 Å³
+   Step 93: Energy/atom=-6.051910 eV/atom, Volume=2541.078 Å³
+   Step 94: Energy/atom=-6.051941 eV/atom, Volume=2540.942 Å³
+   Step 95: Energy/atom=-6.051976 eV/atom, Volume=2540.888 Å³
+   Step 96: Energy/atom=-6.052015 eV/atom, Volume=2540.947 Å³
+   Step 97: Energy/atom=-6.052053 eV/atom, Volume=2541.277 Å³
+   Step 98: Energy/atom=-6.052087 eV/atom, Volume=2541.627 Å³
+   Step 99: Energy/atom=-6.052121 eV/atom, Volume=2542.110 Å³
+   Step 100: Energy/atom=-6.052157 eV/atom, Volume=2542.366 Å³
+   Step 101: Energy/atom=-6.052198 eV/atom, Volume=2542.627 Å³
+   Step 102: Energy/atom=-6.052234 eV/atom, Volume=2542.497 Å³
+   Step 103: Energy/atom=-6.052269 eV/atom, Volume=2542.307 Å³
+   Step 104: Energy/atom=-6.052298 eV/atom, Volume=2542.190 Å³
+   Step 105: Energy/atom=-6.052329 eV/atom, Volume=2542.195 Å³
+   Step 106: Energy/atom=-6.052349 eV/atom, Volume=2542.381 Å³
+   Step 107: Energy/atom=-6.052367 eV/atom, Volume=2542.571 Å³
+   Step 108: Energy/atom=-6.052381 eV/atom, Volume=2542.709 Å³
+   Step 109: Energy/atom=-6.052395 eV/atom, Volume=2542.748 Å³
+   Step 110: Energy/atom=-6.052406 eV/atom, Volume=2542.701 Å³
+   Step 111: Energy/atom=-6.052417 eV/atom, Volume=2542.617 Å³
+   Step 112: Energy/atom=-6.052426 eV/atom, Volume=2542.549 Å³
+   Step 113: Energy/atom=-6.052435 eV/atom, Volume=2542.528 Å³
+   Step 114: Energy/atom=-6.052443 eV/atom, Volume=2542.564 Å³
+   Step 115: Energy/atom=-6.052450 eV/atom, Volume=2542.631 Å³
+   Step 116: Energy/atom=-6.052456 eV/atom, Volume=2542.699 Å³
+   Step 117: Energy/atom=-6.052462 eV/atom, Volume=2542.765 Å³
+   Step 118: Energy/atom=-6.052469 eV/atom, Volume=2542.847 Å³
+   Step 119: Energy/atom=-6.052477 eV/atom, Volume=2542.965 Å³
+   Step 120: Energy/atom=-6.052486 eV/atom, Volume=2543.141 Å³
+   Step 121: Energy/atom=-6.052496 eV/atom, Volume=2543.385 Å³
+   Step 122: Energy/atom=-6.052508 eV/atom, Volume=2543.703 Å³
+   Step 123: Energy/atom=-6.052526 eV/atom, Volume=2544.093 Å³
+   Step 124: Energy/atom=-6.052544 eV/atom, Volume=2544.480 Å³
+   Step 125: Energy/atom=-6.052566 eV/atom, Volume=2544.681 Å³
+   Step 126: Energy/atom=-6.052584 eV/atom, Volume=2544.736 Å³
+   Step 127: Energy/atom=-6.052605 eV/atom, Volume=2544.418 Å³
+   Step 128: Energy/atom=-6.052625 eV/atom, Volume=2544.409 Å³
+   Step 129: Energy/atom=-6.052655 eV/atom, Volume=2544.483 Å³
+   Step 130: Energy/atom=-6.052672 eV/atom, Volume=2544.547 Å³
+   Step 131: Energy/atom=-6.052690 eV/atom, Volume=2544.584 Å³
+   Step 132: Energy/atom=-6.052705 eV/atom, Volume=2544.601 Å³
+   Step 133: Energy/atom=-6.052718 eV/atom, Volume=2544.465 Å³
+   Step 134: Energy/atom=-6.052730 eV/atom, Volume=2544.444 Å³
+   Step 135: Energy/atom=-6.052739 eV/atom, Volume=2544.219 Å³
+   Step 136: Energy/atom=-6.052748 eV/atom, Volume=2544.220 Å³
+   Step 137: Energy/atom=-6.052759 eV/atom, Volume=2544.257 Å³
+   Step 138: Energy/atom=-6.052768 eV/atom, Volume=2544.291 Å³
+   Step 139: Energy/atom=-6.052776 eV/atom, Volume=2544.340 Å³
+   Step 140: Energy/atom=-6.052783 eV/atom, Volume=2544.356 Å³
+   Step 141: Energy/atom=-6.052789 eV/atom, Volume=2544.358 Å³
+   Step 142: Energy/atom=-6.052795 eV/atom, Volume=2544.319 Å³
+   Step 143: Energy/atom=-6.052800 eV/atom, Volume=2544.293 Å³
+   Step 144: Energy/atom=-6.052804 eV/atom, Volume=2544.259 Å³
+   Step 145: Energy/atom=-6.052808 eV/atom, Volume=2544.269 Å³
+   Step 146: Energy/atom=-6.052811 eV/atom, Volume=2544.305 Å³
+   Step 147: Energy/atom=-6.052815 eV/atom, Volume=2544.358 Å³
+   Step 148: Energy/atom=-6.052819 eV/atom, Volume=2544.407 Å³
+   Step 149: Energy/atom=-6.052822 eV/atom, Volume=2544.430 Å³
+   Step 150: Energy/atom=-6.052826 eV/atom, Volume=2544.408 Å³
+   Step 151: Energy/atom=-6.052829 eV/atom, Volume=2544.362 Å³
+   Step 152: Energy/atom=-6.052832 eV/atom, Volume=2544.322 Å³
+   Step 153: Energy/atom=-6.052834 eV/atom, Volume=2544.305 Å³
+   Step 154: Energy/atom=-6.052836 eV/atom, Volume=2544.321 Å³
+   Step 155: Energy/atom=-6.052838 eV/atom, Volume=2544.359 Å³
+   Step 156: Energy/atom=-6.052839 eV/atom, Volume=2544.401 Å³
+   Step 157: Energy/atom=-6.052840 eV/atom, Volume=2544.419 Å³
+   Step 158: Energy/atom=-6.052842 eV/atom, Volume=2544.423 Å³
+   Step 159: Energy/atom=-6.052842 eV/atom, Volume=2544.393 Å³
+   Step 160: Energy/atom=-6.052843 eV/atom, Volume=2544.371 Å³
+   Step 161: Energy/atom=-6.052843 eV/atom, Volume=2544.351 Å³
+   Step 162: Energy/atom=-6.052844 eV/atom, Volume=2544.351 Å³
+   Step 163: Energy/atom=-6.052844 eV/atom, Volume=2544.362 Å³
+   Step 164: Energy/atom=-6.052845 eV/atom, Volume=2544.377 Å³
+   Step 165: Energy/atom=-6.052845 eV/atom, Volume=2544.384 Å³
+   Step 166: Energy/atom=-6.052845 eV/atom, Volume=2544.382 Å³
+   Step 167: Energy/atom=-6.052846 eV/atom, Volume=2544.372 Å³
+   Step 168: Energy/atom=-6.052847 eV/atom, Volume=2544.356 Å³
+   Step 169: Energy/atom=-6.052847 eV/atom, Volume=2544.349 Å³
+   Step 170: Energy/atom=-6.052847 eV/atom, Volume=2544.349 Å³
+   Step 171: Energy/atom=-6.052847 eV/atom, Volume=2544.357 Å³
+   Step 172: Energy/atom=-6.052848 eV/atom, Volume=2544.365 Å³
+   Step 173: Energy/atom=-6.052849 eV/atom, Volume=2544.366 Å³
+   Step 174: Energy/atom=-6.052850 eV/atom, Volume=2544.354 Å³
+   Step 175: Energy/atom=-6.052850 eV/atom, Volume=2544.334 Å³
+   Step 176: Energy/atom=-6.052850 eV/atom, Volume=2544.317 Å³
+   Step 177: Energy/atom=-6.052850 eV/atom, Volume=2544.311 Å³
+   Step 178: Energy/atom=-6.052850 eV/atom, Volume=2544.324 Å³
+   Step 179: Energy/atom=-6.052851 eV/atom, Volume=2544.352 Å³
+   Step 180: Energy/atom=-6.052851 eV/atom, Volume=2544.377 Å³
+   Step 181: Energy/atom=-6.052851 eV/atom, Volume=2544.398 Å³
+   Step 182: Energy/atom=-6.052851 eV/atom, Volume=2544.402 Å³
+   Step 183: Energy/atom=-6.052852 eV/atom, Volume=2544.399 Å³
+   Step 184: Energy/atom=-6.052852 eV/atom, Volume=2544.389 Å³
+   Step 185: Energy/atom=-6.052852 eV/atom, Volume=2544.384 Å³
+   Step 186: Energy/atom=-6.052852 eV/atom, Volume=2544.387 Å³
+   Step 187: Energy/atom=-6.052852 eV/atom, Volume=2544.398 Å³
+   Step 188: Energy/atom=-6.052852 eV/atom, Volume=2544.414 Å³
+   Step 189: Energy/atom=-6.052852 eV/atom, Volume=2544.425 Å³
+   Step 190: Energy/atom=-6.052852 eV/atom, Volume=2544.427 Å³
+   Step 191: Energy/atom=-6.052852 eV/atom, Volume=2544.415 Å³
+   Step 192: Energy/atom=-6.052853 eV/atom, Volume=2544.391 Å³
+   Step 193: Energy/atom=-6.052853 eV/atom, Volume=2544.363 Å³
+   Step 194: Energy/atom=-6.052852 eV/atom, Volume=2544.336 Å³
+   Step 195: Energy/atom=-6.052853 eV/atom, Volume=2544.319 Å³
+   Step 196: Energy/atom=-6.052853 eV/atom, Volume=2544.311 Å³
+   Step 197: Energy/atom=-6.052853 eV/atom, Volume=2544.309 Å³
+   Step 198: Energy/atom=-6.052854 eV/atom, Volume=2544.309 Å³
+   Step 199: Energy/atom=-6.052854 eV/atom, Volume=2544.305 Å³
+   Step 200: Energy/atom=-6.052853 eV/atom, Volume=2544.296 Å³
+   Step 201: Energy/atom=-6.052853 eV/atom, Volume=2544.288 Å³
+   Step 202: Energy/atom=-6.052854 eV/atom, Volume=2544.280 Å³
+   Step 203: Energy/atom=-6.052854 eV/atom, Volume=2544.281 Å³
+   Step 204: Energy/atom=-6.052854 eV/atom, Volume=2544.283 Å³
+   Step 205: Energy/atom=-6.052854 eV/atom, Volume=2544.291 Å³
+   Step 206: Energy/atom=-6.052854 eV/atom, Volume=2544.293 Å³
+   Step 207: Energy/atom=-6.052854 eV/atom, Volume=2544.292 Å³
+   Step 208: Energy/atom=-6.052854 eV/atom, Volume=2544.283 Å³
+   Step 209: Energy/atom=-6.052854 eV/atom, Volume=2544.274 Å³
+   Step 210: Energy/atom=-6.052854 eV/atom, Volume=2544.265 Å³
+   Step 211: Energy/atom=-6.052854 eV/atom, Volume=2544.258 Å³
+   Step 212: Energy/atom=-6.052854 eV/atom, Volume=2544.256 Å³
+   Step 213: Energy/atom=-6.052854 eV/atom, Volume=2544.257 Å³
+   Step 214: Energy/atom=-6.052854 eV/atom, Volume=2544.260 Å³
+   Step 215: Energy/atom=-6.052854 eV/atom, Volume=2544.254 Å³
+   Step 216: Energy/atom=-6.052854 eV/atom, Volume=2544.251 Å³
+   Step 217: Energy/atom=-6.052854 eV/atom, Volume=2544.240 Å³
+   Step 218: Energy/atom=-6.052854 eV/atom, Volume=2544.236 Å³
+   Step 219: Energy/atom=-6.052854 eV/atom, Volume=2544.231 Å³
+   Step 220: Energy/atom=-6.052854 eV/atom, Volume=2544.237 Å³
+   Step 221: Energy/atom=-6.052854 eV/atom, Volume=2544.244 Å³
+   Step 222: Energy/atom=-6.052855 eV/atom, Volume=2544.251 Å³
+   Step 223: Energy/atom=-6.052854 eV/atom, Volume=2544.255 Å³
+   Step 224: Energy/atom=-6.052854 eV/atom, Volume=2544.254 Å³
+   Step 225: Energy/atom=-6.052854 eV/atom, Volume=2544.252 Å³
+   Step 226: Energy/atom=-6.052854 eV/atom, Volume=2544.247 Å³
+» ESEN relaxation finished in 91.06 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0009) <= fmax (0.0020)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -1065.302368 eV
+   Final energy per atom: -6.052854 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 176
+Relaxed atoms: 176
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 9) at symprec = 5.0000e-03
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 9
+International Symbol: Cc
+Hall Symbol: C -2yc
+Point Group: m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running MD Stability Analysis ---
+Note: MD stability analysis runs independently of phonon calculations.
+
+--- Running AIMD Stability Analysis ---
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/checkpoints/2026-02-09-00-13-04
+  commit: core:None,experimental:NA
+  identifier: ''
+  logs_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/logs/wandb/2026-02-09-00-13-04
+  print_every: 100
+  results_dir: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/results/2026-02-09-00-13-04
+  seed: null
+  timestamp_id: 2026-02-09-00-13-04
+  version: 1.10.0
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  lin_ref: ''
+  metadata_path: ''
+  normalizer:
+    energy:
+      mean: 0.0
+      stdev: 4.980640411376953
+    forces:
+      mean: 0.0
+      stdev: 4.980640411376953
+    stress:
+      mean: 0.0
+      stdev: 4.980640411376953
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    efs:
+      module: esen_mlp_efs_head_dens
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 8
+  eval_every: 10000
+  load_balancing: atoms
+  lr_initial: 0.0003
+  max_epochs: 2
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 393848
+    lambda_type: cosine
+    lr: 0.0003
+    lr_min_factor: 0.05
+    warmup_epochs: 1969
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161410 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+WARNING:root:No seed has been set in modelcheckpoint or OCPCalculator! Results may not be reproducible on re-run
+ESEN calculator initialized.
+MD stability analysis output directory: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/md_stability_analysis
+
+--- Step 1: Structure Preparation ---
+Creating 2x2x1 supercell for MD simulation
+Supercell created with 704 atoms
+Supercell prepared with 704 atoms
+Initial supercell saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_initial_supercell.cif
+
+--- Step 2: MD Simulation Setup ---
+Total steps: 10000
+  NVT steps: 1000
+  NPT equilibration steps: 1000
+  Production steps: 8000
+MD simulation parameters:
+  Total time: 10.0 ps (10000.0 fs)
+  Phase 1 - NVT equilibration: 1000.0 fs (1000 steps)
+    Temperature ramp: 700 steps (0K → 300.0K)
+    Temperature stabilization: 300 steps
+  Phase 2 - NPT equilibration: 1000.0 fs (1000 steps)
+  Phase 3 - NPT production: 8000.0 fs (8000 steps)
+  Timestep: 1.0 fs
+  Total steps: 10000
+Setting up NVT ensemble for temperature equilibration:
+  Initializing velocities to 10 K to seed the thermostat...
+NVT ensemble setup completed
+
+--- Step 3: MD Simulation Execution ---
+Starting two-stage MD equilibration protocol...
+Trajectory will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_md_trajectory.traj
+MD log will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/ESEN_MD_evals/MD_cifs_vibroml4_esen_TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_ESEN_MD_STABILITY_phonon_output_20260209-001147/md_stability_analysis/TRAD_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_conventional_freqm1p9753THz_md_log.txt
+
+--- Phase 1: NVT Temperature Equilibration ---
+Ramping temperature from 0K to 300.0K over 700 steps
+Error during MD simulation: CUDA out of memory. Tried to allocate 592.00 MiB. GPU 0 has a total capacity of 39.49 GiB of which 424.12 MiB is free. Including non-PyTorch memory, this process has 39.07 GiB memory in use. Of the allocated memory 37.58 GiB is allocated by PyTorch, and 978.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/auto_optimize.py", line 4421, in run_md_stability_analysis
+    nvt_dynamics.run(nvt_steps)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/md.py", line 171, in run
+    return Dynamics.run(self, steps=steps)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 286, in run
+    for converged in Dynamics.irun(self, steps=steps):
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 236, in irun
+    self.optimizable.get_forces()
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 37, in get_forces
+    return self.atoms.get_forces()
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/atoms.py", line 829, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/calculators/abc.py", line 32, in get_forces
+    return self.get_property('forces', atoms)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/calculators/calculator.py", line 515, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/relaxation/ase_utils.py", line 304, in calculate
+    predictions = self.trainer.predict(batch, per_image=False, disable_tqdm=True)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/trainers/ocp_trainer.py", line 473, in predict
+    out = self._forward(batch)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/trainers/ocp_trainer.py", line 254, in _forward
+    out = self.model(batch.to(self.device))
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/base.py", line 339, in forward
+    emb = self.backbone(data)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/common/utils.py", line 177, in cls_method
+    return f(self, *args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen.py", line 344, in forward
+    x_message = self.blocks[i](
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen_block.py", line 287, in forward
+    x = self.edge_wise(
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/esen_block.py", line 110, in forward
+    x_message, x_0_gating = self.so2_conv_1(x_message, x_edge)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/esen_env/lib/python3.10/site-packages/fairchem/core/models/esen/nn/so2_layers.py", line 148, in forward
+    x = torch.einsum("nac,ba->nbc", x, self.mappingReduced.to_m)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/functional.py", line 386, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 592.00 MiB. GPU 0 has a total capacity of 39.49 GiB of which 424.12 MiB is free. Including non-PyTorch memory, this process has 39.07 GiB memory in use. Of the allocated memory 37.58 GiB is allocated by PyTorch, and 978.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+--- MD Stability Analysis Failed ---
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.2GiB
+Total CPU Time                           - CPU_Time         : 00:32:32
+Execution Time                           - Wall_Time        : 00:04:04
+total programme cpu time                 - Total_CPU        : 04:51.561
+Total_CPU / CPU_Time  (%)                - ETA              : 14%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 02:10:08
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

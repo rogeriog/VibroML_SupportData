@@ -1,0 +1,25 @@
+--- Relaxation Summary for Main Iteration 1, GA Generation 1 ---
+Analysis Date: 2025-09-04 00:14:38
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 20
+Mode Replacements: 0
+Replacement Rate: 0.00%
+No modes were selected for replacement in this generation.
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+4            Fm-3m           cubic              -4.820459                 1          1        17       D1:6.772, R21:-1.051, Cell:(0.242, -0.249, 0.334, 35.466, 11.607, 34.400), SC:2x1x1, PhFactor:True
+8            Fm-3m           cubic              -4.820459                 1          1        16       D1:2.670, R21:0.335, Cell:(0.039, -0.247, 0.454, -0.427, -17.605, -40.015), SC:2x2x1, PhFactor:False
+8            Fm-3m           cubic              -4.820459                 1          1        1        D1:0.250, R21:0.500, Cell:(0.100, 0.100, 0.100, 0.000, 0.000, 0.000), SC:2x2x1, PhFactor:True
+4            Fm-3m           cubic              -4.820458                 1          1        9        D1:6.917, R21:1.360, Cell:(0.386, -0.131, -0.368, -2.656, 34.014, -1.306), SC:2x1x1, PhFactor:False
+4            Fm-3m           cubic              -4.820458                 1          1        13       D1:2.557, R21:-1.389, Cell:(0.304, -0.184, -0.054, 26.291, 12.323, -11.653), SC:2x1x1, PhFactor:True
+4            Fm-3m           cubic              -4.820458                 1          1        19       D1:4.477, R21:-0.703, Cell:(-0.123, -0.016, 0.371, -43.595, 9.574, 39.811), SC:2x1x1, PhFactor:True
+2            Fm-3m           cubic              -4.820458                 1          1        5        D1:7.778, R21:1.244, Cell:(0.291, -0.048, -0.180, -37.985, 28.799, -9.638), SC:1x1x1, PhFactor:False
+4            Fm-3m           cubic              -4.820458                 1          1        6        D1:0.698, R21:0.063, Cell:(-0.190, -0.107, 0.186, 34.081, 14.424, -40.008), SC:1x1x2, PhFactor:True
+2            Fm-3m           cubic              -4.820458                 1          1        11       D1:0.130, R21:1.454, Cell:(0.134, -0.245, 0.124, 30.582, 15.526, 21.975), SC:1x1x1, PhFactor:False
+16           Fm-3m           cubic              -4.820458                 1          1        10       D1:2.411, R21:1.454, Cell:(0.128, -0.163, -0.233, -29.486, 10.119, -30.673), SC:2x2x2, PhFactor:False
+8            Fm-3m           cubic              -4.820458                 1          1        4        D1:0.570, R21:-0.147, Cell:(0.472, 0.347, -0.293, -4.672, 22.781, -32.239), SC:2x2x1, PhFactor:True
+4            F-43m           cubic              -4.815802                 1          1        20       D1:4.990, R21:1.422, Cell:(0.166, 0.290, 0.017, -15.769, 41.141, -8.087), SC:1x1x2, PhFactor:False
+2            F-43m           cubic              -4.815802                 1          1        2        D1:4.640, R21:0.847, Cell:(0.489, -0.055, -0.292, -18.629, 33.733, 8.408), SC:1x1x1, PhFactor:False
+4            F-43m           cubic              -4.815802                 1          1        18       D1:2.376, R21:-0.782, Cell:(0.083, 0.228, 0.193, -1.016, 33.481, 33.929), SC:1x1x2, PhFactor:False

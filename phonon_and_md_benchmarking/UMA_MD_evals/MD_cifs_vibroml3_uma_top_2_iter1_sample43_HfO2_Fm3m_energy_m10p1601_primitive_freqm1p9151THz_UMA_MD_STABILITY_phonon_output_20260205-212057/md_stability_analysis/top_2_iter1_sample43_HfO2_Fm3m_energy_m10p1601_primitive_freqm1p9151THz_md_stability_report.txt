@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 21:49:53
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz.cif
+Engine: uma
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: HIGH
+
+Symmetry Retention: BROKEN
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 48
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 7.544 Å (threshold: 1.0 Å) - FAIL
+Volume change: 78.8% (threshold: 6.0%) - FAIL
+RDF correlation: 0.719 (threshold: 0.5) - PASS
+Symmetry Retention (I4_1/amd): FAIL (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 7.544 Å
+  RMSD std dev: 1.027 Å
+  RMSD trend: 7.47e-03 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 1042.18 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 6.14%
+  Volume fluctuation std dev: 29.18%
+  Max volume fluctuation: 78.78%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.719
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: I4_1/amd (141)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            P1                   1          NO
+0.20            P1                   1          NO
+0.30            P1                   1          NO
+0.50            P1                   1          NO
+0.75            P1                   1          NO
+1.00            P1                   1          NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -9.887859 eV/atom
+  Energy std dev: 0.029729 eV/atom
+  Energy drift: -5.58e-05 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_md_trajectory.traj
+Production trajectory file: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_production_trajectory.traj
+Final structure: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_final_structure.cif
+XYZ trajectory: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_production_trajectory.xyz
+MD log: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_md_log.txt
+Analysis plot: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_rmsd_analysis.png
+Analysis plot: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_volume_evolution.png
+Analysis plot: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_rdf_comparison.png
+Analysis plot: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_energy_evolution.png
+Analysis plot: top_2_iter1_sample43_HfO2_Fm3m_energy_m10p1601_primitive_freqm1p9151THz_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

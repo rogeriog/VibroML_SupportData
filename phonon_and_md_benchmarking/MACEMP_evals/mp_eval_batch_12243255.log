@@ -1,0 +1,16 @@
+Starting dynamic evaluation at Wed Feb 11 17:12:22 CET 2026
+Finished at Wed Feb 11 17:12:39 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 20KiB
+Total CPU Time                           - CPU_Time         : 00:03:20
+Execution Time                           - Wall_Time        : 00:00:25
+total programme cpu time                 - Total_CPU        : 01:22.925
+Total_CPU / CPU_Time  (%)                - ETA              : 41%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:13:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

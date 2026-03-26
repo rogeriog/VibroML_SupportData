@@ -1,0 +1,2 @@
+structure,verdict,confidence,rmsd_mean,volume_max_change,rdf_correlation,temperature,pressure,time_ps,supercell_size,num_atoms,rmsd_threshold,volume_threshold,rdf_threshold,volume_ref_frames,volume_ref_time_fs
+top_1_iter4_sample40_LiFsimplecubic_energy_m4p8264_conventional_freqp19p5107THz,UNSTABLE,HIGH,0.458539,11.42,0.441872,300.0,0.0,10.0,2x2x2,32,1.0,6.0,0.5,62,496.0

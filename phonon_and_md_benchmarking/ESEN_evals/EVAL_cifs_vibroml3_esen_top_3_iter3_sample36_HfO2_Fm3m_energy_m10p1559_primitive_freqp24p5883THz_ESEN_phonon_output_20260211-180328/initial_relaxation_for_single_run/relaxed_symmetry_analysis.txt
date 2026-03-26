@@ -1,0 +1,18 @@
+### Relaxed Structure Symmetry Analysis ###
+
+Analysis Date: 2026-02-11 18:03:33
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-03
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 60
+International symbol: Pbcn
+Hall symbol: -P 2n 2ab
+Point group symbol: mmm
+Crystal system: orthorhombic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 12
+Transformation matrix to primitive cell:
+[[ 1.00000000e+00, -8.11276419e-23,  0.00000000e+00],
+ [ 0.00000000e+00,  0.00000000e+00, -1.00000000e+00],
+ [-1.55749340e-22,  1.00000000e+00,  0.00000000e+00]]
+Origin shift: [0.50000082, 0.99999972, 0.99999984]

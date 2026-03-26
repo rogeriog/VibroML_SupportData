@@ -1,0 +1,506 @@
+--- Iteration 1 Summary ---
+Analysis Date: 2025-09-04 00:50:45
+
+Total mode pairings processed: 9
+Total configurations (with swapping): 18
+Total structures attempted: 459
+Successful results: 17
+Failed results: 442
+Success rate: 3.7%
+
+Settings used:
+  Displacement scales: [0.25, 1.0, 4.0]
+  Mode2 ratios: [-0.25, 0.0, 0.25]
+  Cell scale factors: [-0.07, 0.0, 0.07]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+1          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+1          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+1          8            F-43m           cubic              -4.815802            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+1          4            P6_3/mmc        hexagonal          -4.821212            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+1          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+1          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+1          4            P2_1/m          monoclinic         -4.693287            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+1          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+1          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+1          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+1          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+2          8            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+2          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+2          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+2          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+2          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+2          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+2          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+2          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+2          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+3          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+3          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+3          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+3          8            F-43m           cubic              -4.815802            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+3          4            F-43m           cubic              -4.815802            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+3          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+3          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+3          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+3          2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+3          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+3          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+3          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+4          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+4          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+4          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+4          4            Cmmm            orthorhombic       -4.699695            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+4          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+4          4            P2_1/m          orthorhombic       -4.693283            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+4          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+4          2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+4          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+4          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+5          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+5          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+5          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+5          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+5          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+5          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+5          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+5          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+6          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+6          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+6          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+6          4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+6          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+6          4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+6          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+6          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+6          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+6          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+7          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+7          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+7          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+7          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+7          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+7          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+7          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+7          4            P2_1/m          orthorhombic       -4.693286            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+7          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+7          2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+7          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+7          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+8          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+8          4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+8          4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+8          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+8          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+8          2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+8          2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+8          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+8          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+9          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+9          8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+9          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+9          4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+9          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+9          4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+9          8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+9          4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+9          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+9          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+9          8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+9          2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+10         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+10         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+10         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+10         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+10         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+10         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+10         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+10         4            P2_1/m          orthorhombic       -4.693286            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+10         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+10         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+10         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+10         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+11         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+11         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+11         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+11         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+11         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+11         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+11         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+11         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+12         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+12         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+12         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+12         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+12         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+12         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+12         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+12         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+12         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+12         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+12         4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+12         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+12         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+12         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+12         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+12         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+12         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+13         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+13         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+13         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+13         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+13         4            P2_1/m          monoclinic         -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+13         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+13         4            P2_1/m          monoclinic         -4.693282            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+13         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+13         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+13         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+13         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+14         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+14         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+14         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+14         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+14         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+14         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+14         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+14         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+15         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+15         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+15         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+15         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+15         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+15         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+15         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+15         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+15         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+15         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+15         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+16         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+16         8            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+16         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+16         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+16         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+16         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+16         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+16         4            P2/m            tetragonal         -4.693283            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+16         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+16         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+16         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+16         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+17         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+17         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+17         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+17         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+17         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+17         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+17         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+17         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+17         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+18         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+18         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+18         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+18         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+18         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+18         4            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+18         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+18         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+18         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+18         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+19         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+19         4            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+19         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+19         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+19         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+19         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+19         4            P2_1/m          orthorhombic       -4.693287            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+19         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+19         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+19         N/A          N/A             N/A                N/A                  FAILED     Swapped: G (idx1) as primary, M (idx0) as secondary                              Relaxation failed             
+19         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+19         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+20         4            P2_1/m          orthorhombic       -4.693283            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+20         4            P2_1/m          orthorhombic       -4.693283            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+20         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+20         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+20         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+20         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+20         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+20         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+21         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+21         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+21         8            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+21         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+21         4            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+21         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+21         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+21         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+21         4            P2_1/m          orthorhombic       -4.693287            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+21         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+21         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+21         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+21         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+21         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+21         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+21         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+21         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+22         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+22         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+22         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+22         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+22         4            Cmc2_1          orthorhombic       -4.777282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+22         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+22         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+22         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+22         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+22         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+22         4            P2/m            tetragonal         -4.693287            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+22         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+22         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+22         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+22         N/A          N/A             N/A                N/A                  FAILED     Swapped: G (idx1) as primary, M (idx0) as secondary                              Relaxation failed             
+22         8            F-43m           cubic              -4.815801            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+22         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+23         4            P2/m            tetragonal         -4.693282            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+23         4            P2/m            tetragonal         -4.693282            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+23         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+23         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+23         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+23         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+23         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+23         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+24         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+24         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+24         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+24         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+24         4            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+24         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+24         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+24         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+24         4            P2/m            orthorhombic       -4.693283            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+24         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+24         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+24         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+24         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+24         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+24         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+24         8            F-43m           cubic              -4.815801            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+24         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+25         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+25         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+25         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+25         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+25         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+25         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+25         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+25         4            P2_1/m          orthorhombic       -4.693286            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+25         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+25         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+25         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+25         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+26         4            P2_1/m          orthorhombic       -4.693283            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+26         4            P2_1/m          orthorhombic       -4.693283            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+26         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+26         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+26         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+26         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+26         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+26         2            Fm-3m           cubic              -4.820458            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx0) as secondary                             N/A                           
+27         8            Fm-3m           cubic              -4.820459            SUCCESS    Original: M (idx0) as primary, M (idx1) as secondary                             N/A                           
+27         8            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: M (idx1) as primary, M (idx0) as secondary                              N/A                           
+27         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx0) as secondary                             N/A                           
+27         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx0) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx1) as secondary                             N/A                           
+27         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx1) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, X (idx2) as secondary                             N/A                           
+27         4            Cmmm            orthorhombic       -4.699696            SUCCESS    Swapped: X (idx2) as primary, M (idx0) as secondary                              N/A                           
+27         8            P6_3/mmc        hexagonal          -4.778778            SUCCESS    Original: M (idx0) as primary, X (idx3) as secondary                             N/A                           
+27         4            Cmmm            orthorhombic       -4.699697            SUCCESS    Swapped: X (idx3) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx0) as secondary                             N/A                           
+27         2            F-43m           cubic              -4.815802            SUCCESS    Swapped: G (idx0) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx1) as secondary                             N/A                           
+27         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx1) as primary, M (idx0) as secondary                              N/A                           
+27         8            Fm-3m           cubic              -4.820458            SUCCESS    Original: M (idx0) as primary, G (idx2) as secondary                             N/A                           
+27         2            Fm-3m           cubic              -4.820459            SUCCESS    Swapped: G (idx2) as primary, M (idx0) as secondary                              N/A                           
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+4            P6_3/mmc        hexagonal          -4.821212                 1          Swapped: X (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 13         Original: M (idx0) as primary, M (idx0) as secondary                             D1:1.000, R21:-0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, X (idx2) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, G (idx2) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, X (idx0) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, X (idx3) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, G (idx0) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, G (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, X (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 5          Original: M (idx0) as primary, M (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+8            Fm-3m           cubic              -4.820459                 3          Swapped: M (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+2            Fm-3m           cubic              -4.820459                 3          Swapped: G (idx1) as primary, M (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+2            Fm-3m           cubic              -4.820459                 12         Swapped: G (idx2) as primary, M (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+2            Fm-3m           cubic              -4.820459                 11         Swapped: G (idx0) as primary, M (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+4            Fm-3m           cubic              -4.820459                 24         Swapped: X (idx0) as primary, M (idx0) as secondary                              D1:4.000, R21:0.250, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+4            P6_3/mmc        hexagonal          -4.778778                 12         Swapped: X (idx3) as primary, M (idx0) as secondary                              D1:1.000, R21:0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+4            Cmmm            orthorhombic       -4.699697                 14         Swapped: X (idx2) as primary, M (idx0) as secondary                              D1:1.000, R21:0.000, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -4.821212 eV/atom
+Best configuration: Swapped: X (idx1) as primary, M (idx0) as secondary

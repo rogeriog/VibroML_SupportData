@@ -1,0 +1,42 @@
+--- Phonon Run Summary ---
+Structure Formula: F4Li4
+Total Number of Atoms: 8
+Engine Used: mace
+Units: THz
+Supercell Size: (7, 7, 7)
+Displacement Delta: 0.03
+Fmax for Relaxation: 1e-05
+Most Negative Frequency (overall): -0.0006 THz
+Time Taken for Phonon Analysis: 83.75 seconds
+
+Energy of Structure: -38.585701 eV
+Energy per Atom: -4.823213 eV/atom
+
+--- Top 2 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: 15.1034 THz
+   Band Index: 23
+
+Mode 2:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: 14.7635 THz
+   Band Index: 22
+
+Path of K-points:
+  G: 0.0000
+  M: 1.1570
+  K: 1.8249
+  G: 3.1609
+  A: 3.4728
+  L: 4.6297
+  H: 5.2977
+  A: 6.6336
+  L: 6.6336
+  M: 6.9456
+  K: 6.9456
+  H: 7.2575
+
+Space Group: Not available (symmetry analysis file not found).

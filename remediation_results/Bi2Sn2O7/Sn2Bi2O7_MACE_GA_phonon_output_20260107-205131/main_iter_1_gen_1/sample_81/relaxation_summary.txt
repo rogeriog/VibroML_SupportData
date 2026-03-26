@@ -1,0 +1,9 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_GA_phonon_output_20260107-205131/main_iter_1_gen_1/sample_81 ---
+Analysis Date: 2026-01-08 04:15:12
+
+### Structure: Sn2Bi2O7_sc_2x1x1_d1_3.104_r21_0.189_c_m055_m195_p453_p31020_m27767_m27677_pf_true.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/Bi2Sn2O7/Sn2Bi2O7_MACE_GA_phonon_output_20260107-205131/main_iter_1_gen_1/sample_81/Sn2Bi2O7_sc_2x1x1_d1_3.104_r21_0.189_c_m055_m195_p453_p31020_m27767_m27677_pf_true.cif
+Total Number of Atoms: 176
+Relaxation Status: FAILED (error during run)
+Error: generator raised StopIteration
+

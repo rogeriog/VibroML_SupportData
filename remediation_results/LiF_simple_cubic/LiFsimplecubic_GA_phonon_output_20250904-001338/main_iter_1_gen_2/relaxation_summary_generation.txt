@@ -1,0 +1,18 @@
+--- Relaxation Summary for Main Iteration 1, GA Generation 2 ---
+Analysis Date: 2025-09-04 00:14:55
+
+--- GA Mutation Tracking Summary ---
+Total Individuals: 10
+Mode Replacements: 0
+Replacement Rate: 0.00%
+No modes were selected for replacement in this generation.
+
+Num Atoms    Int. Symbol     Crystal System     Energy per Atom (eV/atom) Main Iter  GA Gen   Sample   GA Params                                                        
+------------ --------------- ------------------ ------------------------- ---------- -------- -------- -----------------------------------------------------------------
+8            P6_3/mmc        hexagonal          -4.821212                 1          2        10       D1:2.670, R21:0.335, Cell:(0.039, -0.247, 0.454, -0.427, 11.607, 24.446), SC:2x2x1, PhFactor:True
+4            Fm-3m           cubic              -4.820459                 1          2        9        D1:2.670, R21:0.335, Cell:(-0.441, -0.249, 0.151, -14.244, 11.607, 28.905), SC:2x1x1, PhFactor:True
+4            Fm-3m           cubic              -4.820459                 1          2        1        D1:6.772, R21:-1.051, Cell:(0.242, -0.249, 0.334, 35.466, 11.607, 34.400), SC:2x1x1, PhFactor:True
+4            Fm-3m           cubic              -4.820459                 1          2        3        D1:6.772, R21:-1.051, Cell:(-0.041, -0.249, 0.334, 35.466, 11.607, -40.015), SC:2x1x1, PhFactor:False
+4            Fm-3m           cubic              -4.820458                 1          2        6        D1:6.772, R21:-1.051, Cell:(0.242, -0.249, 0.334, 35.466, 11.607, -14.070), SC:2x1x1, PhFactor:True
+8            F-43m           cubic              -4.815802                 1          2        2        D1:2.670, R21:0.335, Cell:(0.039, -0.247, 0.454, 12.546, -17.605, 34.400), SC:2x2x1, PhFactor:False
+4            F-43m           cubic              -4.815802                 1          2        4        D1:6.772, R21:-1.051, Cell:(0.242, -0.368, 0.454, -0.427, -17.605, 24.870), SC:1x1x2, PhFactor:False

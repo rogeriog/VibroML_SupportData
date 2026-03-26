@@ -1,0 +1,17 @@
+--- Symmetry Retention Analysis Report ---
+Date: 2026-01-29 06:47:26
+--------------------------------------------------
+Initial Structure Space Group (tol=0.01): P2_1/m (11)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P-1                  2          NO
+0.10            P-1                  2          NO
+0.20            P-1                  2          NO
+0.30            P-1                  2          NO
+0.50            P-1                  2          NO
+0.75            P2_1/m               11         YES
+1.00            P2_1/m               11         YES
+
+Verdict: SYMMETRY RETAINED

@@ -1,0 +1,9 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/examples_VibroML/CsPbI3/CsPbI3_GA_phonon_output_20251003-002011/main_iter_5_gen_1/sample_84 ---
+Analysis Date: 2025-10-03 05:42:08
+
+### Structure: CsPbI3_sc_1x1x1_d1_0.812_r21_-0.555_c_m443_p076_m206_m9559_p21557_p27905_pf_false.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/examples_VibroML/CsPbI3/CsPbI3_GA_phonon_output_20251003-002011/main_iter_5_gen_1/sample_84/CsPbI3_sc_1x1x1_d1_0.812_r21_-0.555_c_m443_p076_m206_m9559_p21557_p27905_pf_false.cif
+Total Number of Atoms: 20
+Relaxation Status: FAILED (error during run)
+Error: generator raised StopIteration
+

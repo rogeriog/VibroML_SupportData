@@ -1,0 +1,62 @@
+--- Traditional All Soft Mode Optimization Summary (with Mode Swapping) ---
+Analysis Date: 2026-01-23 06:17:28
+
+Total iterations completed: 2
+Total successful structures: 7
+Total unique structures identified: 3
+Final structures analyzed: 5
+
+Optimization Settings:
+  Engine: mace
+  Units: THz
+  Supercell dimensions: (2, 2, 2)
+  Delta: 0.03
+  Fmax: 0.001
+  Displacement scales: [0.5, 2.0]
+  Mode2 ratios: [-0.5, 0.5]
+  Cell scale factors: [0.0, 0.05]
+  Negative phonon threshold: -0.1000 THz
+  Max iterations: 2
+  Top structures to analyze: 5
+
+All Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Cell Params (a,b,c,α,β,γ)                               Iter  Sample   Primary Mode              Secondary Mode            Configuration Description                                                        Parameters                                         Soft Mode Details                                                               
+================================================================================================================================================================================================================================================================================================================================================================================================================
+704          Cc              monoclinic         -6.031678                 21.66 21.66 21.65 89.9 90.0 90.0                        1     7        R(0)                      G(0)                      Swapped: R (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:-0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000) P:-1.84THz@[0.5, 0.5, 0.5], S:-1.91THz@[0.0, 0.0, 0.0]                          
+352          P2_12_12_1      orthorhombic       -6.031435                 21.70 21.70 10.80 90.0 90.0 90.0                        1     8        M(0)                      G(0)                      Swapped: M (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000) P:-1.66THz@[0.5, 0.5, 0.0], S:-1.91THz@[0.0, 0.0, 0.0]                          
+176          P2_12_12_1      orthorhombic       -6.031435                 10.85 21.59 10.85 90.0 90.0 90.0                        1     5        X(0)                      G(0)                      Swapped: X (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:-0.500, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-1.59THz@[0.0, 0.5, 0.0], S:-1.91THz@[0.0, 0.0, 0.0]                          
+88           P2_1            monoclinic         -6.030819                 10.84 10.79 10.84 90.0 90.0 90.0                        1     2        G(0)                      X(0)                      Original: G (idx0) as primary, X (idx0) as secondary                             D1:0.500, R21:0.500, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000) P:-1.91THz@[0.0, 0.0, 0.0], S:-1.59THz@[0.0, 0.5, 0.0]                          
+88           P2_1            monoclinic         -6.030819                 10.84 10.84 10.79 89.9 90.0 90.0                        1     7        G(0)                      M(0)                      Original: G (idx0) as primary, M (idx0) as secondary                             D1:2.000, R21:-0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000) P:-1.91THz@[0.0, 0.0, 0.0], S:-1.66THz@[0.5, 0.5, 0.0]                          
+88           Pna2_1          orthorhombic       -6.030352                 10.82 10.82 10.82 89.9 90.0 90.0                        1     8        G(0)                      R(0)                      Original: G (idx0) as primary, R (idx0) as secondary                             D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000) P:-1.91THz@[0.0, 0.0, 0.0], S:-1.84THz@[0.5, 0.5, 0.5]                          
+88           Cc              monoclinic         -6.030263                 10.83 10.85 10.78 89.9 90.0 90.0                        1     8        G(0)                      G(0)                      Original: G (idx0) as primary, G (idx0) as secondary                             D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000) P:-1.91THz@[0.0, 0.0, 0.0], S:-1.91THz@[0.0, 0.0, 0.0]                          
+============================================================================================================================================================================================================================================================================================================
+
+======================================================================================================================================================
+RELATIVE ENERGIES OF UNIQUE POLYMORPHS (Reference: Lowest Energy Structure)
+======================================================================================================================================================
+Rank Energy (eV/atom)   Rel. E (meV/atom)    Space Group  Cell Params (a, b, c, α, β, γ)                          Method Params
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1    -6.031678          0.00                 Cc           21.66 21.66 21.65 89.9 90.0 90.0                        D:2.00, R:-0.50
+2    -6.030819          0.86                 P2_1         10.84 10.79 10.84 90.0 90.0 90.0                        D:0.50, R:0.50
+3    -6.030263          1.42                 Cc           10.83 10.85 10.78 89.9 90.0 90.0                        D:2.00, R:0.50
+======================================================================================================================================================
+
+
+Final Top 5 Structures Selected for Analysis:
+----------------------------------------------------------------------------------------------------
+Rank   Energy (eV/atom)     Configuration                                      Parameters              
+----------------------------------------------------------------------------------------------------
+1      -6.031678            Swapped: R (idx0) as primary, G (idx0) as second   D1:2.000, R21:-0.500    
+2      -6.031435            Swapped: M (idx0) as primary, G (idx0) as second   D1:2.000, R21:0.500     
+3      -6.031435            Swapped: X (idx0) as primary, G (idx0) as second   D1:2.000, R21:-0.500    
+4      -6.030819            Original: G (idx0) as primary, X (idx0) as secon   D1:0.500, R21:0.500     
+5      -6.030819            Original: G (idx0) as primary, M (idx0) as secon   D1:2.000, R21:-0.500    
+
+----------------------------------------------------------------------------------------------------
+Method: Traditional All with Mode Swapping
+  - Softest mode combined with all other soft modes
+  - Each pairing explored in both original and swapped configurations
+  - Original: softest as primary, other as secondary
+  - Swapped: other as primary, softest as secondary
+Negative phonon threshold: -0.1000 THz

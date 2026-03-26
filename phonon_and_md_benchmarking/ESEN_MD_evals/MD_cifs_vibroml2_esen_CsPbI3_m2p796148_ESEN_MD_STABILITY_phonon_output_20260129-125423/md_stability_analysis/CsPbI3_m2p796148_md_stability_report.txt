@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-29 13:12:26
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/CsPbI3_m2p796148.cif
+Engine: esen
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: LOW
+
+Symmetry Retention: BROKEN
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 40
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.694 Å (threshold: 1.0 Å) - PASS
+Volume change: 4.0% (threshold: 6.0%) - PASS
+RDF correlation: 0.385 (threshold: 0.5) - FAIL
+Symmetry Retention (Pm-3m): FAIL (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.694 Å
+  RMSD std dev: 0.043 Å
+  RMSD trend: 6.69e-05 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 2136.97 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: -1.07%
+  Volume fluctuation std dev: 1.12%
+  Max volume fluctuation: 4.04%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.385
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Pm-3m (221)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P1                   1          NO
+0.10            P1                   1          NO
+0.20            P1                   1          NO
+0.30            P1                   1          NO
+0.50            P1                   1          NO
+0.75            P2_1                 4          NO
+1.00            Pnma                 62         NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -2.793134 eV/atom
+  Energy std dev: 0.005791 eV/atom
+  Energy drift: -2.42e-06 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: CsPbI3_m2p796148_md_trajectory.traj
+Production trajectory file: CsPbI3_m2p796148_production_trajectory.traj
+Final structure: CsPbI3_m2p796148_final_structure.cif
+XYZ trajectory: CsPbI3_m2p796148_production_trajectory.xyz
+MD log: CsPbI3_m2p796148_md_log.txt
+Analysis plot: CsPbI3_m2p796148_rmsd_analysis.png
+Analysis plot: CsPbI3_m2p796148_volume_evolution.png
+Analysis plot: CsPbI3_m2p796148_rdf_comparison.png
+Analysis plot: CsPbI3_m2p796148_energy_evolution.png
+Analysis plot: CsPbI3_m2p796148_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

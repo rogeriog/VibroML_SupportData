@@ -1,0 +1,28 @@
+[
+    {
+        "supercell_dims": [
+            2,
+            2,
+            2
+        ],
+        "supercell_n": "2x2x2",
+        "delta": 0.05,
+        "fmax": 0.001,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -0.7430448424839897,
+        "time_taken": 15.437408208847046
+    },
+    {
+        "supercell_dims": [
+            3,
+            3,
+            3
+        ],
+        "supercell_n": "3x3x3",
+        "delta": 0.03,
+        "fmax": 0.0005,
+        "relaxation_status": "successful",
+        "negative_frequency_at_special_point": -0.7678297242376605,
+        "time_taken": 19.59040665626526
+    }
+]

@@ -1,0 +1,23 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_phonon_output_20250831-152432/main_iter_5_gen_2/sample_8 ---
+Analysis Date: 2025-08-31 16:21:40
+
+### Structure: LiFsimplecubic_sc_1x1x1_d1_1.000_r21_0.000_c_m162_p070_m284_000_m25821_m42055_pf_false.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_phonon_output_20250831-152432/main_iter_5_gen_2/sample_8/LiFsimplecubic_sc_1x1x1_d1_1.000_r21_0.000_c_m162_p070_m284_000_m25821_m42055_pf_false.cif
+Total Number of Atoms: 4
+Relaxation Status: SUCCESS
+Final Energy: -19.281834 eV
+Final Energy per Atom: -4.820458 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_phonon_output_20250831-152432/main_iter_5_gen_2/sample_8/LiFsimplecubic_sc_1x1x1_d1_1.000_r21_0.000_c_m162_p070_m284_000_m25821_m42055_pf_false_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 225
+  International Symbol: Fm-3m
+  Hall Symbol: -F 4 2 3
+  Point Group Symbol: m-3m
+  Crystal System: cubic
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 8
+  -------------------------------------------
+

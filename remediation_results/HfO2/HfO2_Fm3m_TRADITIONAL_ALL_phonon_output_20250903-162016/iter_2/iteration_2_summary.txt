@@ -1,0 +1,198 @@
+--- Iteration 2 Summary ---
+Analysis Date: 2025-09-03 16:59:44
+
+Total mode pairings processed: 3
+Total configurations (with swapping): 6
+Total structures attempted: 162
+Successful results: 6
+Failed results: 156
+Success rate: 3.7%
+
+Settings used:
+  Displacement scales: [0.25, 1.0, 4.0]
+  Mode2 ratios: [-0.25, 0.0, 0.25]
+  Cell scale factors: [-0.07, 0.0, 0.07]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+1          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+2          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+3          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+4          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+5          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+6          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+7          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+8          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+9          48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+10         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+11         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+12         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+13         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+14         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+15         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+16         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+17         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+18         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+19         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+20         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+21         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+22         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+23         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+24         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+25         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+26         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx0) as secondary                             N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx0) as primary, R (idx0) as secondary                              N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Original: R (idx0) as primary, R (idx1) as secondary                             N/A                           
+27         48           P4_2/nmc        tetragonal         -10.129632           SUCCESS    Swapped: R (idx1) as primary, R (idx0) as secondary                              N/A                           
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+48           P4_2/nmc        tetragonal         -10.129632                10         Swapped: R (idx0) as primary, R (idx0) as secondary                              D1:1.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+48           P4_2/nmc        tetragonal         -10.129632                10         Original: R (idx0) as primary, R (idx0) as secondary                             D1:1.000, R21:-0.250, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+48           P4_2/nmc        tetragonal         -10.129632                2          Original: R (idx0) as primary, R (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+48           P4_2/nmc        tetragonal         -10.129632                2          Original: R (idx0) as primary, R (idx1) as secondary                             D1:0.250, R21:0.000, Cell:(-0.070, -0.070, -0.070, 0.000, 0.000, 0.000)
+48           P4_2/nmc        tetragonal         -10.129632                9          Swapped: R (idx1) as primary, R (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+48           P4_2/nmc        tetragonal         -10.129632                9          Swapped: R (idx1) as primary, R (idx0) as secondary                              D1:0.250, R21:0.250, Cell:(0.070, 0.070, 0.070, 0.000, 0.000, 0.000)
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -10.129632 eV/atom
+Best configuration: Swapped: R (idx0) as primary, R (idx0) as secondary

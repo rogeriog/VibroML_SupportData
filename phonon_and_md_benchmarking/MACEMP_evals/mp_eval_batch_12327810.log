@@ -1,0 +1,216 @@
+Starting dynamic evaluation at Wed Feb 18 17:20:28 CET 2026
+----------------------------------------------------------------
+Processing: LiFsimplecubic_sg_Fm3m_energy_m4p982048
+Primitive Atoms: 8
+Target Supercell: 6,6,6
+Model: mace
+----------------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1771431645.655222 1202547 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1771431645.658995 1202547 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1771431645.669838 1202547 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771431645.669863 1202547 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771431645.669871 1202547 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1771431645.669877 1202547 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py:143: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/vibroml_env/lib/python3.9/_collections_abc.py:769: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:493: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/phonon_utils.py:608: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator) # Ensure calculator is set for phonon calculation
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using custom supercell dimensions: (6, 6, 6)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml/LiFsimplecubic_sg_Fm3m_energy_m4p982048.cif
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+MACE calculator initialized.
+
+» MACE relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 225) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 225
+International Symbol: Fm-3m
+Hall Symbol: -F 4 2 3
+Point Group: m-3m
+---------------------------------------
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+   Initial energy: -38.637387 eV
+   Initial energy per atom: -4.829673 eV/atom
+   MACE relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/relax.log
+   MACE relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-4.829673 eV/atom, Volume=67.077 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-4.829700 eV/atom, Volume=67.102 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-4.830455 eV/atom, Volume=68.547 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-4.830456 eV/atom, Volume=68.586 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-4.830456 eV/atom, Volume=68.587 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -4.830456 eV/atom
+   Step 1: Initial volume: 68.587 Å³
+   Step 7: Energy/atom=-4.830456 eV/atom, Volume=68.587 Å³
+   Step 8: Energy/atom=-4.830456 eV/atom, Volume=68.587 Å³
+   Step 9: Energy/atom=-4.830456 eV/atom, Volume=68.586 Å³
+» MACE relaxation finished in 1.53 seconds.
+   Relaxation converged! Max force (0.0000) <= fmax (0.0000)
+   Final energy: -38.643647 eV
+   Final energy per atom: -4.830456 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 8
+Relaxed atoms: 8
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/LiFsimplecubic_sg_Fm3m_energy_m4p982048_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 225) at symprec = 1.0000e-04
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 225
+International Symbol: Fm-3m
+Hall Symbol: -F 4 2 3
+Point Group: m-3m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running Single Phonon Analysis in: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052 ---
+
+--- Step 1: Running Phonon Calculation ---
+
+### Structure for Phonon Calculation ###
+   The phonon band structure will be calculated using the current structure.
+   Using supercell size: (6, 6, 6)
+   Using displacement delta: 0.03
+Phonon calculation completed.
+Phonon calculation took 27.70 seconds
+
+--- Step 2: Getting and Processing Phonon Results ---
+
+Detected band structure discontinuities at:
+  - Between Y and Z at distance 8.2198
+Most negative frequency: -0.0421 THz
+--- Skipping PDOS Calculation (use --compute-pdos to enable) ---
+
+--- Step 3: Saving YAML and Raw Data ---
+   YAML file saving skipped (--save-yaml not provided).
+    Saved full DOS curve to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/LiFsimplecubic_sg_Fm3m_energy_m4p982048_dos_curve.txt
+Raw band structure and DOS data saved.
+
+--- Step 4: Plotting Results ---
+Phonon band structure and DOS plot saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/phonon_bs_dos_LiFsimplecubic_sg_Fm3m_energy_m4p982048_N6x6x6_D0.03_F1e-05.png and /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/phonon_bs_dos_LiFsimplecubic_sg_Fm3m_energy_m4p982048_N6x6x6_D0.03_F1e-05.svg
+
+--- Step 5: Analyzing Special Points and Top 2 Softest Modes ---
+
+--- Analyzing Special K-points ---
+   Special Point: G (0.0000, 0.0000, 0.0000) - Minimum Frequency: -0.0421 THz
+   Special Point: X (0.3750, 0.3750, 0.0000) - Minimum Frequency: 3.9798 THz
+   Special Point: S (0.0000, 0.5000, 0.0000) - Minimum Frequency: 3.5497 THz
+   Special Point: R (0.0000, 0.5000, 0.5000) - Minimum Frequency: 5.8208 THz
+   Special Point: A (0.3750, 0.3750, 0.5000) - Minimum Frequency: 5.4121 THz
+   Special Point: Z (0.0000, 0.0000, 0.5000) - Minimum Frequency: 5.0201 THz
+   Special Point: G (0.0000, 0.0000, 0.0000) - Minimum Frequency: -0.0421 THz
+   Special Point: Y (-0.5000, 0.5000, 0.0000) - Minimum Frequency: 4.7300 THz
+   Special Point: X1 (-0.3750, 0.6250, 0.0000) - Minimum Frequency: 3.9798 THz
+   Special Point: A1 (-0.3750, 0.6250, 0.5000) - Minimum Frequency: 5.4121 THz
+   Special Point: T (-0.5000, 0.5000, 0.5000) - Minimum Frequency: 5.2536 THz
+   Special Point: Y (-0.5000, 0.5000, 0.0000) - Minimum Frequency: 4.7300 THz
+   Special Point: Z (0.0000, 0.0000, 0.5000) - Minimum Frequency: 5.0201 THz
+   Special Point: T (-0.5000, 0.5000, 0.5000) - Minimum Frequency: 5.2536 THz
+
+Special point analysis saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/special_point_analysis.json
+
+No negative frequencies found at special points.
+No soft modes below threshold (-0.1000 THz) found.
+Implementing optical mode selection: selecting highest frequency modes from special k-points.
+
+--- Top 2 Highest Frequency (Optical) Modes Analysis ---
+   Optical Mode 1: T - Frequency: 15.5847 THz
+
+--- Processing Mode: optical_mode_1_T at Q-point: [-0.5  0.5  0.5], Mode Index: 23 ---
+   Frequency: 15.5847 THz
+  - Saved eigenvectors to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_1_T_qm0p500_0p500_0p500_mode23_eigenvectors.json
+  - Displacements saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_1_T_qm0p500_0p500_0p500_mode23_displacements.txt
+  - Mode animation (ASE .traj) saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_1_T_qm0p500_0p500_0p500_mode23.mode.23.traj
+  - Converted trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_1_T_qm0p500_0p500_0p500_mode23.xyz
+   Optical Mode 2: T - Frequency: 15.5847 THz
+
+--- Processing Mode: optical_mode_2_T at Q-point: [-0.5  0.5  0.5], Mode Index: 22 ---
+   Frequency: 15.5847 THz
+  - Saved eigenvectors to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_2_T_qm0p500_0p500_0p500_mode22_eigenvectors.json
+  - Displacements saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_2_T_qm0p500_0p500_0p500_mode22_displacements.txt
+  - Mode animation (ASE .traj) saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_2_T_qm0p500_0p500_0p500_mode22.mode.22.traj
+  - Converted trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/optical_mode_2_T_qm0p500_0p500_0p500_mode22.xyz
+Tracked 0 soft modes for GA mode replacement
+Tracked 10 highest frequency modes for GA mode replacement
+Tracked 9 lowest frequency modes (excluding Gamma) for GA mode replacement
+Comprehensive phonon run summary saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/MACEMP_evals/EVAL_cifs_vibroml_mace_LiFsimplecubic_sg_Fm3m_energy_m4p982048_MACE_phonon_output_20260218-172052/LiFsimplecubic_sg_Fm3m_energy_m4p982048_phonon_run_summary.txt
+Total time taken for this phonon analysis: 65.09 s
+
+--- Phonon Calculation Script Finished ---
+Finished at Wed Feb 18 17:22:01 CET 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.3GiB
+Total CPU Time                           - CPU_Time         : 00:12:48
+Execution Time                           - Wall_Time        : 00:01:36
+total programme cpu time                 - Total_CPU        : 03:50.399
+Total_CPU / CPU_Time  (%)                - ETA              : 29%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:51:12
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

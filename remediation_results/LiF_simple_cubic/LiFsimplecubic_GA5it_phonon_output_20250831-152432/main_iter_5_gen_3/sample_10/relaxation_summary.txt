@@ -1,0 +1,9 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_phonon_output_20250831-152432/main_iter_5_gen_3/sample_10 ---
+Analysis Date: 2025-08-31 16:25:10
+
+### Structure: LiFsimplecubic_sc_1x1x2_d1_2.888_r21_0.000_c_p070_m070_m038_000_000_000_pf_false.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_phonon_output_20250831-152432/main_iter_5_gen_3/sample_10/LiFsimplecubic_sc_1x1x2_d1_2.888_r21_0.000_c_p070_m070_m038_000_000_000_pf_false.cif
+Total Number of Atoms: 8
+Relaxation Status: FAILED (error during run)
+Error: generator raised StopIteration
+

@@ -1,0 +1,99 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-01-29 00:18:08
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml4/unique_3_sg_Pna2_1_energy_m6p030352_primitive.cif
+Engine: mace
+Model: medium
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: STABLE
+Confidence Level: HIGH
+
+Symmetry Retention: RETAINED
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 352
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.203 Å (threshold: 1.0 Å) - PASS
+Volume change: 5.6% (threshold: 6.0%) - PASS
+RDF correlation: 0.682 (threshold: 0.5) - PASS
+Symmetry Retention (Pna2_1): PASS (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.203 Å
+  RMSD std dev: 0.061 Å
+  RMSD trend: 5.16e-05 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 5078.94 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 0.31%
+  Volume fluctuation std dev: 1.52%
+  Max volume fluctuation: 5.59%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.682
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Pna2_1 (33)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            Pna2_1               33         YES
+0.05            Pna2_1               33         YES
+0.10            Pna2_1               33         YES
+0.20            Ima2                 46         NO
+0.30            Ima2                 46         NO
+0.50            Ima2                 46         NO
+0.75            Fd-3m                227        NO
+1.00            Fd-3m                227        NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -6.028448 eV/atom
+  Energy std dev: 0.009797 eV/atom
+  Energy drift: 9.71e-07 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: unique_3_sg_Pna2_1_energy_m6p030352_primitive_md_trajectory.traj
+Production trajectory file: unique_3_sg_Pna2_1_energy_m6p030352_primitive_production_trajectory.traj
+Final structure: unique_3_sg_Pna2_1_energy_m6p030352_primitive_final_structure.cif
+XYZ trajectory: unique_3_sg_Pna2_1_energy_m6p030352_primitive_production_trajectory.xyz
+MD log: unique_3_sg_Pna2_1_energy_m6p030352_primitive_md_log.txt
+Analysis plot: unique_3_sg_Pna2_1_energy_m6p030352_primitive_rmsd_analysis.png
+Analysis plot: unique_3_sg_Pna2_1_energy_m6p030352_primitive_volume_evolution.png
+Analysis plot: unique_3_sg_Pna2_1_energy_m6p030352_primitive_rdf_comparison.png
+Analysis plot: unique_3_sg_Pna2_1_energy_m6p030352_primitive_energy_evolution.png
+Analysis plot: unique_3_sg_Pna2_1_energy_m6p030352_primitive_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure appears to be dynamically stable under the given conditions.
+Consider running longer simulations or different temperatures for validation.
+
+================================================================================

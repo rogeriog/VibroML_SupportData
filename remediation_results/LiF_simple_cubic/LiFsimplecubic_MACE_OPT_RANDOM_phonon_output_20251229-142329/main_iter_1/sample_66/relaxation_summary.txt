@@ -1,0 +1,23 @@
+--- Relaxation Summary for Folder: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/main_iter_1/sample_66 ---
+Analysis Date: 2025-12-29 14:26:52
+
+### Structure: LiFsimplecubic_random_sc_1x1x2_disp_0.100to1.933_c_-0.121_-0.211_0.321_27.374_-2.998_9.544.cif ###
+Original File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/main_iter_1/sample_66/LiFsimplecubic_random_sc_1x1x2_disp_0.100to1.933_c_-0.121_-0.211_0.321_27.374_-2.998_9.544.cif
+Total Number of Atoms: 4
+Relaxation Status: SUCCESS
+Final Energy: -47.484690 eV
+Final Energy per Atom: -11.871172 eV/atom
+Relaxed File: /auto/globalscratch/users/r/g/rgouvea/VibroML/examples/LiF_simplecubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/main_iter_1/sample_66/LiFsimplecubic_random_sc_1x1x2_disp_0.100to1.933_c_-0.121_-0.211_0.321_27.374_-2.998_9.544_relaxed.cif
+Relaxed XYZ File: Skipped (trajectory saving disabled)
+
+  --- Relaxed Structure Symmetry Analysis ---
+  Symmetry Precision (Auto-tuned): N/A
+  Space Group Number: 6
+  International Symbol: Pm
+  Hall Symbol: P -2y
+  Point Group Symbol: m
+  Crystal System: monoclinic
+  Lattice Type: Not directly available from spglib dataset
+  Number of atoms in primitive cell: 4
+  -------------------------------------------
+

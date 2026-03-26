@@ -1,0 +1,18 @@
+### Relaxed_in_folder Structure Symmetry Analysis ###
+
+Analysis Date: 2026-01-23 01:56:50
+Symmetry Precision (symprec) - Auto-tuned: 2.0000e-03
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 9
+International symbol: Cc
+Hall symbol: C -2yc
+Point group symbol: m
+Crystal system: monoclinic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 176
+Transformation matrix to primitive cell:
+[[-1.90658646e-16, -1.00000000e+00,  1.00000000e+00],
+ [ 1.00000000e+00, -5.36296847e-16, -7.82118883e-16],
+ [ 1.61974722e-16,  2.00000000e+00,  2.00000000e+00]]
+Origin shift: [ 0.31251064, -0.31251064,  0.        ]

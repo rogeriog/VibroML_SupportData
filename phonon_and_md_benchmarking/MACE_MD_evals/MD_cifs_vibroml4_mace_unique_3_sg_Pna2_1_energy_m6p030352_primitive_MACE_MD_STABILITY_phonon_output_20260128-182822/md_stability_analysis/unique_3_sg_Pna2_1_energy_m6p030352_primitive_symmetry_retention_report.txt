@@ -1,0 +1,17 @@
+--- Symmetry Retention Analysis Report ---
+Date: 2026-01-28 18:52:01
+--------------------------------------------------
+Initial Structure Space Group (tol=0.01): Pna2_1 (33)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            Pna2_1               33         YES
+0.05            Pna2_1               33         YES
+0.10            Ima2                 46         NO
+0.20            Ima2                 46         NO
+0.30            Ima2                 46         NO
+0.50            Ima2                 46         NO
+0.75            Fd-3m                227        NO
+1.00            Fd-3m                227        NO
+
+Verdict: SYMMETRY RETAINED

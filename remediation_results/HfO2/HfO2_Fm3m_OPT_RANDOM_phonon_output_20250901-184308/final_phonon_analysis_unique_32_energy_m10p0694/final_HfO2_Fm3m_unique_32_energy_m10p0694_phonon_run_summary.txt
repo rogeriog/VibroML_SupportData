@@ -1,0 +1,41 @@
+--- Phonon Run Summary ---
+Structure Formula: Hf8O16
+Total Number of Atoms: 24
+Engine Used: mace
+Units: THz
+Supercell Size: (3, 3, 3)
+Displacement Delta: 0.03
+Fmax for Relaxation: 0.001
+Most Negative Frequency (overall): -0.6627 THz
+Time Taken for Phonon Analysis: 196.95 seconds
+
+Energy of Structure: -241.666167 eV
+Energy per Atom: -10.069424 eV/atom
+
+--- Top 2 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: M
+   Coordinate (q-point): [0.5, 0.5, 0.0]
+   Frequency: 25.4974 THz
+   Band Index: 71
+
+Mode 2:
+   Label: R
+   Coordinate (q-point): [0.5, 0.5, 0.5]
+   Frequency: 25.4755 THz
+   Band Index: 71
+
+Path of K-points:
+  X: 0.0000
+  G: 0.4070
+  Y: 0.9538
+  L: 0.9538
+  G: 1.6132
+  Z: 2.1543
+  N: 2.1543
+  G: 2.7911
+  M: 3.3945
+  R: 3.3945
+  G: 4.0631
+
+Space Group: Not available (symmetry analysis file not found).

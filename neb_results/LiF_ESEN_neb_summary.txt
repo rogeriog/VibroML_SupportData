@@ -1,0 +1,31 @@
+--- Standard NEB Optimization Summary ---
+Analysis Date: 2026-01-27 13:58:27
+
+Method: Standard NEB
+Initial structure: LiFsimplecubic.cif
+Final structure: LiFhexagonal.cif
+Number of intermediate images: 7
+Spring constant: 3.0 eV/Å²
+Force tolerance: 0.25 eV/Å
+Maximum iterations: 2000
+
+Results:
+  Converged: True
+  Final max force: 0.249295 eV/Å
+  Iterations completed: 1405
+  Optimization time: 1832.67 seconds
+
+Energy and Force Profile Along Path:
+---------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force      
+---------------------------------------------------------------------------
+0        -18.088163      1.212574           0.000003        0.000001       
+1        -19.066439      0.234299           0.203251        0.057004       
+2        -18.903164      0.397573           0.416265        0.143747       
+3        -17.971807      1.328930           1.110236        0.356930       
+4        -18.664553      0.636185           0.409956        0.156624       
+5        -18.497232      0.803505           0.604871        0.208023       
+6        -19.010689      0.290049           0.521276        0.239087       
+7        -19.218807      0.081930           0.040469        0.018566       
+8        -19.300737      0.000000           0.002372        0.000614       
+---------------------------------------------------------------------------

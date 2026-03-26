@@ -1,0 +1,18 @@
+### Initial Structure Symmetry Analysis ###
+
+Analysis Date: 2026-02-18 12:12:13
+Symmetry Precision (symprec) - Auto-tuned: 1.0000e-04
+Symprec values checked: 1.0e-04, 5.0e-04, 1.0e-03, 2.0e-03, 5.0e-03, 1.0e-02
+
+Space group number: 9
+International symbol: Cc
+Hall symbol: C -2yc
+Point group symbol: m
+Crystal system: monoclinic
+Lattice type: Not directly available from spglib dataset (check debug output for alternatives)
+Number of atoms in primitive cell: 88
+Transformation matrix to primitive cell:
+[[ 5.00000000e-01, -5.00000000e-01,  0.00000000e+00],
+ [ 5.00000000e-01,  5.00000000e-01,  0.00000000e+00],
+ [ 2.77555756e-17,  0.00000000e+00,  1.00000000e+00]]
+Origin shift: [ 1.11022302e-16, -1.11022302e-16,  0.00000000e+00]

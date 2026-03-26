@@ -1,0 +1,23 @@
+--- Random Search Iteration 4 Summary (REFINEMENT PHASE) ---
+Analysis Date: 2025-09-01 19:54:14
+
+Phase: REFINEMENT (Refinement with fixed supercell)
+Structures attempted: 100
+Successful results: 4
+Success rate: 4.0%
+
+Settings used:
+  Base random displacement bounds: [0.1, 2.0] Å (varied per sample)
+  Random cell perturbation: True
+  Random seed: None
+  Supercell strategy: REFINEMENT - fixed supercell (1, 2, 1)
+  GA cell scale bounds: [-0.5, 0.5]
+  GA cell angle bounds: [-45.0, 45.0]
+
+Results (sorted by energy):
+  1. Energy: -10.165868 eV/atom, Sample: 55
+  2. Energy: -10.157602 eV/atom, Sample: 77
+  3. Energy: -10.132232 eV/atom, Sample: 39
+  4. Energy: -10.130100 eV/atom, Sample: 38
+
+Best result: -10.165868 eV/atom

@@ -1,0 +1,15 @@
+slurmstepd: error: *** JOB 12243398 ON cna049 CANCELLED AT 2026-02-11T17:41:46 ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 32MiB
+Total CPU Time                           - CPU_Time         : 00:00:40
+Execution Time                           - Wall_Time        : 00:00:05
+total programme cpu time                 - Total_CPU        : 00:00.084
+Total_CPU / CPU_Time  (%)                - ETA              : 0%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:02:40
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

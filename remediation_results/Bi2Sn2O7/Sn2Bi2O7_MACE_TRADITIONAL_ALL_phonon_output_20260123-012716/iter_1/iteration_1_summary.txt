@@ -1,0 +1,93 @@
+--- Iteration 1 Summary ---
+Analysis Date: 2026-01-23 02:08:06
+
+Total mode pairings processed: 4
+Total configurations (with swapping): 8
+Total structures attempted: 56
+Successful results: 7
+Failed results: 49
+Success rate: 12.5%
+
+Settings used:
+  Displacement scales: [0.5, 2.0]
+  Mode2 ratios: [-0.5, 0.5]
+  Cell scale factors: [0.0, 0.05]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+1          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+1          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+1          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+1          352          P1              triclinic          -6.030515            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+1          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+1          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+2          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+2          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+2          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+2          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+2          352          P1              triclinic          -6.030515            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+2          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+2          176          P1              triclinic          -6.030525            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+3          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+3          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+3          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+3          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+3          352          P2_12_12_1      orthorhombic       -6.031435            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+3          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+3          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+4          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+4          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+4          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+4          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+4          352          P2_12_12_1      orthorhombic       -6.031435            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+4          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+4          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+5          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+5          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+5          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+5          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+5          352          P1              triclinic          -6.030780            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+5          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+5          176          P2_12_12_1      orthorhombic       -6.031435            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+6          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+6          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+6          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+6          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+6          352          P1              triclinic          -6.030515            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+6          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+6          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+7          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+7          88           Pna2_1          orthorhombic       -6.030352            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+7          704          Cc              monoclinic         -6.031678            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+7          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+7          352          P2_12_12_1      orthorhombic       -6.031435            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+7          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+7          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+8          88           Cc              monoclinic         -6.030263            SUCCESS    Original: G (idx0) as primary, G (idx0) as secondary                             N/A                           
+8          88           Pna2_1          orthorhombic       -6.030352            SUCCESS    Original: G (idx0) as primary, R (idx0) as secondary                             N/A                           
+8          704          Cc              monoclinic         -6.030948            SUCCESS    Swapped: R (idx0) as primary, G (idx0) as secondary                              N/A                           
+8          88           Pna2_1          orthorhombic       -6.030352            SUCCESS    Original: G (idx0) as primary, M (idx0) as secondary                             N/A                           
+8          352          P2_12_12_1      orthorhombic       -6.031435            SUCCESS    Swapped: M (idx0) as primary, G (idx0) as secondary                              N/A                           
+8          88           P2_1            monoclinic         -6.030819            SUCCESS    Original: G (idx0) as primary, X (idx0) as secondary                             N/A                           
+8          176          P1              triclinic          -6.030808            SUCCESS    Swapped: X (idx0) as primary, G (idx0) as secondary                              N/A                           
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+704          Cc              monoclinic         -6.031678                 7          Swapped: R (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:-0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000)
+352          P2_12_12_1      orthorhombic       -6.031435                 8          Swapped: M (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000)
+176          P2_12_12_1      orthorhombic       -6.031435                 5          Swapped: X (idx0) as primary, G (idx0) as secondary                              D1:2.000, R21:-0.500, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+88           P2_1            monoclinic         -6.030819                 2          Original: G (idx0) as primary, X (idx0) as secondary                             D1:0.500, R21:0.500, Cell:(0.000, 0.000, 0.000, 0.000, 0.000, 0.000)
+88           P2_1            monoclinic         -6.030819                 7          Original: G (idx0) as primary, M (idx0) as secondary                             D1:2.000, R21:-0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000)
+88           Pna2_1          orthorhombic       -6.030352                 8          Original: G (idx0) as primary, R (idx0) as secondary                             D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000)
+88           Cc              monoclinic         -6.030263                 8          Original: G (idx0) as primary, G (idx0) as secondary                             D1:2.000, R21:0.500, Cell:(0.050, 0.050, 0.050, 0.000, 0.000, 0.000)
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -6.031678 eV/atom
+Best configuration: Swapped: R (idx0) as primary, G (idx0) as secondary

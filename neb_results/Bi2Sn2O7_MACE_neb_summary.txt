@@ -1,0 +1,31 @@
+--- Standard NEB Optimization Summary ---
+Analysis Date: 2026-01-26 23:47:38
+
+Method: Standard NEB
+Initial structure: Sn2Bi2O7_Fd3m_initial.cif
+Final structure: Sn2Bi2O7_Cc_final.cif
+Number of intermediate images: 7
+Spring constant: 3.0 eV/Å²
+Force tolerance: 0.25 eV/Å
+Maximum iterations: 2000
+
+Results:
+  Converged: True
+  Final max force: 0.248159 eV/Å
+  Iterations completed: 169
+  Optimization time: 36.45 seconds
+
+Energy and Force Profile Along Path:
+---------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force      
+---------------------------------------------------------------------------
+0        -264.777552     0.618563           0.008877        0.000370       
+1        -264.967127     0.428989           3.566494        0.253090       
+2        -265.269173     0.126943           2.222027        0.106971       
+3        -265.332499     0.063617           0.824533        0.031391       
+4        -265.357782     0.038334           0.458465        0.019090       
+5        -265.375069     0.021047           0.286788        0.012315       
+6        -265.386905     0.009210           0.171406        0.007468       
+7        -265.393846     0.002270           0.079690        0.003504       
+8        -265.396116     0.000000           0.012390        0.000504       
+---------------------------------------------------------------------------

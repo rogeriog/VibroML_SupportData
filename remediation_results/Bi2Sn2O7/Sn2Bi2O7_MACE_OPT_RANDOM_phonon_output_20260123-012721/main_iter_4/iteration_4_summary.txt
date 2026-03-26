@@ -1,0 +1,99 @@
+--- Random Search Iteration 4 Summary (REFINEMENT PHASE) ---
+Analysis Date: 2026-01-23 03:37:15
+
+Phase: REFINEMENT (Refinement with fixed supercell)
+Total structures attempted: 50
+Successful results: 17
+Failed results: 33
+Success rate: 34.0%
+
+Settings used:
+  Base random displacement bounds: [0.1, 2.0] Å (varied per sample)
+  Random cell perturbation: True
+  Random seed: None
+  Supercell strategy: REFINEMENT - fixed supercell (1, 1, 1)
+  GA cell scale bounds: [-0.5, 0.5]
+  GA cell angle bounds: [-45.0, 45.0]
+  Negative phonon threshold: -0.1000 THz
+
+All Structures (Successful and Failed) with Structural Information:
+========================================================================================================================================================================================================================================================================================
+Sample ID  Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)     Status     Configuration Description                                                        Failure Reason                
+========================================================================================================================================================================================================================================================================================
+1          N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+2          176          P1              triclinic          -5.780618            SUCCESS    Random displacement (supercell: (1, 1, 2))                                       N/A                           
+3          88           P1              triclinic          -5.825931            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+4          N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+5          N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+6          N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+7          88           P1              triclinic          -5.635306            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+8          176          P1              triclinic          -5.735323            SUCCESS    Random displacement (supercell: (1, 1, 2))                                       N/A                           
+9          88           P1              triclinic          -5.530282            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+10         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+11         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+12         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+13         88           P1              triclinic          -5.766928            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+14         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+15         88           P1              triclinic          -5.609416            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+16         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+17         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+18         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+19         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+20         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+21         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+22         176          P1              triclinic          -5.795034            SUCCESS    Random displacement (supercell: (1, 1, 2))                                       N/A                           
+23         88           P1              triclinic          -5.570442            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+24         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+25         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+26         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+27         88           P1              triclinic          -5.666183            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+28         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+29         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+30         176          P1              triclinic          -5.690041            SUCCESS    Random displacement (supercell: (1, 1, 2))                                       N/A                           
+31         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+32         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+33         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+34         176          P1              triclinic          -5.570562            SUCCESS    Random displacement (supercell: (1, 1, 2))                                       N/A                           
+35         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+36         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+37         88           P1              triclinic          -5.756316            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+38         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+39         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+40         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+41         88           P1              triclinic          -5.522427            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+42         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+43         88           P1              triclinic          -5.604327            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+44         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+45         88           P1              triclinic          -5.636130            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+46         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+47         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+48         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+49         88           P1              triclinic          -5.768151            SUCCESS    Random displacement (supercell: (1, 1, 1))                                       N/A                           
+50         N/A          N/A             N/A                N/A                  FAILED     Random displacement (failed)                                                     Relaxation or calculation failed
+========================================================================================================================================================================================================================================================================================
+
+Successful Structures (sorted by energy):
+================================================================================================================================================================================================================================================================================================================================
+Num Atoms    Int. Symbol     Crystal System     Energy (eV/atom)          Sample ID  Configuration Description                                                        Parameters                                        
+================================================================================================================================================================================================================================================================================================================================
+88           P1              triclinic          -5.825931                 3          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.5010367479084437], Cell:True         
+176          P1              triclinic          -5.795034                 22         Random displacement (supercell: (1, 1, 2))                                       Disp:[0.1, 1.5011574593367598], Cell:True         
+176          P1              triclinic          -5.780618                 2          Random displacement (supercell: (1, 1, 2))                                       Disp:[0.1, 1.7266314473977746], Cell:True         
+88           P1              triclinic          -5.768151                 49         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7258855644537103], Cell:True         
+88           P1              triclinic          -5.766928                 13         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.945849411126884], Cell:True          
+88           P1              triclinic          -5.756316                 37         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7403355522566488], Cell:True         
+176          P1              triclinic          -5.735323                 8          Random displacement (supercell: (1, 1, 2))                                       Disp:[0.1, 1.5581773087021957], Cell:True         
+176          P1              triclinic          -5.690041                 30         Random displacement (supercell: (1, 1, 2))                                       Disp:[0.1, 1.6846866379633627], Cell:True         
+88           P1              triclinic          -5.666183                 27         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.615598472706521], Cell:True          
+88           P1              triclinic          -5.636130                 45         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.7305565265090164], Cell:True         
+88           P1              triclinic          -5.635306                 7          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.284541486575574], Cell:True          
+88           P1              triclinic          -5.609416                 15         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.3589524784173204], Cell:True         
+88           P1              triclinic          -5.604327                 43         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.0787744862040514], Cell:True         
+176          P1              triclinic          -5.570562                 34         Random displacement (supercell: (1, 1, 2))                                       Disp:[0.1, 1.9472961658495966], Cell:True         
+88           P1              triclinic          -5.570442                 23         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.2813247720328205], Cell:True         
+88           P1              triclinic          -5.530282                 9          Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 1.6753897673279337], Cell:True         
+88           P1              triclinic          -5.522427                 41         Random displacement (supercell: (1, 1, 1))                                       Disp:[0.1, 2.4646268916926903], Cell:True         
+================================================================================================================================================================================================================================================================================================================================
+
+Best result: -5.825931 eV/atom
+Best supercell: (1, 1, 1)

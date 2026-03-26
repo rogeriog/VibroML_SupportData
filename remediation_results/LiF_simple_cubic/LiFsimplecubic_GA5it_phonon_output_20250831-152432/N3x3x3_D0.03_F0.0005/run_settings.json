@@ -1,0 +1,95 @@
+{
+    "cif": "LiFsimplecubic.cif",
+    "no_relax": false,
+    "engine": "mace",
+    "units": "THz",
+    "model_name": "medium-omat-0",
+    "supercell_n": 3,
+    "supercell": null,
+    "delta": 0.03,
+    "fmax": 0.0005,
+    "auto": true,
+    "method": "ga",
+    "screen_supercell_ns": [
+        [
+            2,
+            2,
+            2
+        ],
+        [
+            3,
+            3,
+            3
+        ],
+        [
+            4,
+            4,
+            4
+        ]
+    ],
+    "screen_deltas": [
+        0.05,
+        0.03,
+        0.01
+    ],
+    "screen_fmax_values": [
+        0.001,
+        0.0005,
+        0.0001
+    ],
+    "soft_mode_displacement_scales": [
+        0.25,
+        1.0,
+        4.0
+    ],
+    "mode2_ratio_scales": [
+        -0.25,
+        0.0,
+        0.25
+    ],
+    "cell_scale_factors": [
+        -0.07,
+        0.0,
+        0.07
+    ],
+    "phonon_path_npoints": 100,
+    "phonon_dos_grid": [
+        40,
+        40,
+        40
+    ],
+    "traj_kT": 1.0,
+    "negative_phonon_threshold_thz": -0.1,
+    "soft_mode_max_iterations": 5,
+    "soft_mode_num_top_structures_to_analyze": 5,
+    "num_modes_to_return": 2,
+    "ga_population_size": 100,
+    "ga_mutation_rate": 0.2,
+    "ga_generations": 3,
+    "num_new_points_per_iteration": 50,
+    "q": null,
+    "band_idx": null,
+    "displacement": 1.0,
+    "band_yaml_path": null,
+    "ga_disp_scale_bounds": [
+        0.0,
+        10.0
+    ],
+    "ga_ratio_bounds": [
+        -1.5,
+        1.5
+    ],
+    "ga_cell_scale_bounds": [
+        -0.5,
+        0.5
+    ],
+    "ga_cell_angle_bounds": [
+        -45.0,
+        45.0
+    ],
+    "supercell_dims": [
+        3,
+        3,
+        3
+    ]
+}

@@ -1,0 +1,102 @@
+================================================================================
+AIMD STABILITY ANALYSIS REPORT
+================================================================================
+Analysis Date: 2026-02-05 22:28:58
+Structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml3/HfO2_Fm3m_m10p117371.cif
+Engine: uma
+Model: medium-omat-0
+
+EXECUTIVE SUMMARY
+----------------------------------------
+Stability Verdict: UNSTABLE
+Confidence Level: LOW
+
+Symmetry Retention: BROKEN
+
+SIMULATION PARAMETERS
+----------------------------------------
+Temperature: 300.0 K
+Pressure: 0.0 GPa
+Total simulation time: 10.0 ps
+Supercell size: 2x2x2
+Equilibration fraction: 0.2
+Number of atoms: 96
+Timestep: 1.0 fs
+Total steps: 10000
+Production steps: 8000
+
+Stability Assessment Thresholds (MLIP-optimized):
+  RMSD threshold: 1.0 Å
+  Volume fluctuation threshold: ±6.0%
+  RDF correlation threshold: >0.5
+
+STABILITY METRICS
+----------------------------------------
+RMSD: 0.576 Å (threshold: 1.0 Å) - PASS
+Volume change: 4.2% (threshold: 6.0%) - PASS
+RDF correlation: 0.317 (threshold: 0.5) - FAIL
+Symmetry Retention (Fm-3m): FAIL (Matches found in tolerance sweep)
+
+DETAILED ANALYSIS
+----------------------------------------
+RMSD Analysis:
+  Mean RMSD: 0.576 Å
+  RMSD std dev: 0.096 Å
+  RMSD trend: 2.92e-06 Å/step
+
+Volume Analysis (MLIP-optimized approach):
+  Reference volume (first 496.0 fs): 1099.86 Å³
+  Reference frames used: 62
+  Mean volume fluctuation: 2.36%
+  Volume fluctuation std dev: 0.94%
+  Max volume fluctuation: 4.17%
+  Note: Fluctuations calculated relative to production phase average
+
+RDF Analysis:
+  Initial vs final correlation: 0.317
+
+SYMMETRY RETENTION DETAILS
+----------------------------------------
+Initial Space Group: Fm-3m (225)
+
+Tolerance (Å)   Final SG Symbol      Number     Match
+------------------------------------------------------------
+0.01            P1                   1          NO
+0.05            P2_1/c               14         NO
+0.10            P2_1/c               14         NO
+0.20            P2_1/c               14         NO
+0.30            P2_1/c               14         NO
+0.50            P2_1/c               14         NO
+0.75            P2_1/c               14         NO
+1.00            P2_1/c               14         NO
+
+Verdict Logic: Symmetry is considered RETAINED if the initial space group
+is detected at ANY of the tested tolerances on the averaged structure.
+
+Energy Analysis:
+  Mean energy: -10.127207 eV/atom
+  Energy std dev: 0.015608 eV/atom
+  Energy drift: -2.17e-05 eV/atom/fs
+
+GENERATED FILES
+----------------------------------------
+Combined trajectory file: HfO2_Fm3m_m10p117371_md_trajectory.traj
+Production trajectory file: HfO2_Fm3m_m10p117371_production_trajectory.traj
+Final structure: HfO2_Fm3m_m10p117371_final_structure.cif
+XYZ trajectory: HfO2_Fm3m_m10p117371_production_trajectory.xyz
+MD log: HfO2_Fm3m_m10p117371_md_log.txt
+Analysis plot: HfO2_Fm3m_m10p117371_rmsd_analysis.png
+Analysis plot: HfO2_Fm3m_m10p117371_volume_evolution.png
+Analysis plot: HfO2_Fm3m_m10p117371_rdf_comparison.png
+Analysis plot: HfO2_Fm3m_m10p117371_energy_evolution.png
+Analysis plot: HfO2_Fm3m_m10p117371_stress_evolution.png
+
+RECOMMENDATIONS
+----------------------------------------
+The structure shows signs of instability under the given conditions.
+Consider:
+- Running at lower temperatures
+- Checking for phase transitions
+- Performing phonon analysis for comparison
+
+================================================================================

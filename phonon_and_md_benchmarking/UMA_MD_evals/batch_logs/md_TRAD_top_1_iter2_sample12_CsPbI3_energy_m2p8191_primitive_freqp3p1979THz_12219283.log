@@ -1,0 +1,632 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) EasyBuild/2022a
+Processing: TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz
+Atoms in primitive: 20
+Selected Supercell: 2x2x2
+--- Initilization: Loading Default Settings and Initializing Parser ---
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Default settings loaded from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/default_settings.json
+Using default supercell dimensions: (3, 3, 3)
+Using decomposition threshold: 0.500 eV (structures with E_relax < E_ref - 0.500 will be flagged as DECOMPOSED)
+MD stability method will use:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Total simulation time: 10.0 ps
+  Supercell size: 2x2x2
+  Equilibration fraction: 0.2
+  Stability assessment thresholds (generous for MLIP fluctuations):
+    Volume fluctuation: ±6.0%
+    RMSD threshold: 1.0 Å
+    RDF correlation: >0.5
+
+--- Initilization: Setting up Output Directory and Cleaning Cache ---
+Output directory created: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313
+Initial settings saved to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_settings.json
+
+--- Step 1: Loading and potentially relaxing initial structure for single run ---
+Successfully loaded structure from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/cifs_to_eval/cifs_vibroml2/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz.cif
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/models/uma/escn_md.py:181: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+UMA calculator initialized.
+
+» UMA relaxation starting…
+
+--- Analyzing Initial Structure Symmetry ---
+
+» Analyzing initial structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 8) at symprec = 1.0000e-04
+
+--- Spglib Warnings Summary ---
+Spglib generated warnings during symmetry analysis. These are often related to precision issues.
+-------------------------------
+
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 8
+International Symbol: Cm
+Hall Symbol: C -2y
+Point Group: m
+---------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/_collections_abc.py:830: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  self[key]
+   Initial symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/initial_symmetry_analysis.txt
+» Initial symmetry analysis complete.
+------------------------------------------
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:469: FutureWarning: Please use atoms.calc = calc
+  atoms.set_calculator(calculator)
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/checkpoint.py:1399: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  with device_autocast_ctx, torch.cpu.amp.autocast(**cpu_autocast_kwargs), recompute_context:  # type: ignore[attr-defined]
+   Initial energy: -56.624353 eV
+   Initial energy per atom: -2.831218 eV/atom
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:617: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+   UMA relaxation log will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/relax.log
+   UMA relaxation trajectory will be written to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/relax.traj
+   Step 1: Energy/atom=-2.831218 eV/atom, Volume=1013.546 Å³
+   Step 1: Initial energy not yet set, skipping energy change checks
+   Step 2: Energy/atom=-2.831221 eV/atom, Volume=1013.575 Å³
+   Step 2: Initial energy not yet set, skipping energy change checks
+   Step 3: Energy/atom=-2.831425 eV/atom, Volume=1016.834 Å³
+   Step 3: Initial energy not yet set, skipping energy change checks
+   Step 4: Energy/atom=-2.831432 eV/atom, Volume=1017.159 Å³
+   Step 4: Initial energy not yet set, skipping energy change checks
+   Step 5: Energy/atom=-2.831452 eV/atom, Volume=1017.835 Å³
+   Step 5: Initial energy not yet set, skipping energy change checks
+   Step 1: Initial energy per atom: -2.831480 eV/atom
+   Step 1: Initial volume: 1018.527 Å³
+   Step 7: Energy/atom=-2.831503 eV/atom, Volume=1018.775 Å³
+   Step 8: Energy/atom=-2.831511 eV/atom, Volume=1018.572 Å³
+   Step 9: Energy/atom=-2.831513 eV/atom, Volume=1018.357 Å³
+   Step 10: Energy/atom=-2.831517 eV/atom, Volume=1018.144 Å³
+   Step 11: Energy/atom=-2.831525 eV/atom, Volume=1017.886 Å³
+   Step 12: Energy/atom=-2.831539 eV/atom, Volume=1017.728 Å³
+   Step 13: Energy/atom=-2.831556 eV/atom, Volume=1017.926 Å³
+   Step 14: Energy/atom=-2.831565 eV/atom, Volume=1018.419 Å³
+   Step 15: Energy/atom=-2.831568 eV/atom, Volume=1018.779 Å³
+   Step 16: Energy/atom=-2.831569 eV/atom, Volume=1018.903 Å³
+   Step 17: Energy/atom=-2.831570 eV/atom, Volume=1018.991 Å³
+   Step 18: Energy/atom=-2.831572 eV/atom, Volume=1019.118 Å³
+   Step 19: Energy/atom=-2.831575 eV/atom, Volume=1019.220 Å³
+   Step 20: Energy/atom=-2.831578 eV/atom, Volume=1019.188 Å³
+   Step 21: Energy/atom=-2.831579 eV/atom, Volume=1018.987 Å³
+   Step 22: Energy/atom=-2.831580 eV/atom, Volume=1018.853 Å³
+   Step 23: Energy/atom=-2.831581 eV/atom, Volume=1018.737 Å³
+   Step 24: Energy/atom=-2.831583 eV/atom, Volume=1018.607 Å³
+   Step 25: Energy/atom=-2.831585 eV/atom, Volume=1018.553 Å³
+   Step 26: Energy/atom=-2.831587 eV/atom, Volume=1018.667 Å³
+   Step 27: Energy/atom=-2.831588 eV/atom, Volume=1018.840 Å³
+   Step 28: Energy/atom=-2.831589 eV/atom, Volume=1018.868 Å³
+   Step 29: Energy/atom=-2.831589 eV/atom, Volume=1018.902 Å³
+   Step 30: Energy/atom=-2.831590 eV/atom, Volume=1018.929 Å³
+   Step 31: Energy/atom=-2.831592 eV/atom, Volume=1018.935 Å³
+   Step 32: Energy/atom=-2.831594 eV/atom, Volume=1018.902 Å³
+   Step 33: Energy/atom=-2.831594 eV/atom, Volume=1018.845 Å³
+   Step 34: Energy/atom=-2.831595 eV/atom, Volume=1018.809 Å³
+   Step 35: Energy/atom=-2.831596 eV/atom, Volume=1018.779 Å³
+   Step 36: Energy/atom=-2.831596 eV/atom, Volume=1018.751 Å³
+   Step 37: Energy/atom=-2.831598 eV/atom, Volume=1018.744 Å³
+   Step 38: Energy/atom=-2.831599 eV/atom, Volume=1018.767 Å³
+   Step 39: Energy/atom=-2.831599 eV/atom, Volume=1018.804 Å³
+   Step 40: Energy/atom=-2.831599 eV/atom, Volume=1018.817 Å³
+   Step 41: Energy/atom=-2.831599 eV/atom, Volume=1018.827 Å³
+   Step 42: Energy/atom=-2.831600 eV/atom, Volume=1018.832 Å³
+   Step 43: Energy/atom=-2.831600 eV/atom, Volume=1018.822 Å³
+   Step 44: Energy/atom=-2.831601 eV/atom, Volume=1018.786 Å³
+   Step 45: Energy/atom=-2.831602 eV/atom, Volume=1018.733 Å³
+   Step 46: Energy/atom=-2.831602 eV/atom, Volume=1018.704 Å³
+   Step 47: Energy/atom=-2.831602 eV/atom, Volume=1018.689 Å³
+   Step 48: Energy/atom=-2.831602 eV/atom, Volume=1018.675 Å³
+   Step 49: Energy/atom=-2.831602 eV/atom, Volume=1018.652 Å³
+   Step 50: Energy/atom=-2.831603 eV/atom, Volume=1018.634 Å³
+   Step 51: Energy/atom=-2.831603 eV/atom, Volume=1018.627 Å³
+   Step 52: Energy/atom=-2.831603 eV/atom, Volume=1018.633 Å³
+   Step 53: Energy/atom=-2.831603 eV/atom, Volume=1018.636 Å³
+   Step 54: Energy/atom=-2.831603 eV/atom, Volume=1018.646 Å³
+   Step 55: Energy/atom=-2.831603 eV/atom, Volume=1018.643 Å³
+   Step 56: Energy/atom=-2.831603 eV/atom, Volume=1018.625 Å³
+   Step 57: Energy/atom=-2.831604 eV/atom, Volume=1018.594 Å³
+   Step 58: Energy/atom=-2.831604 eV/atom, Volume=1018.573 Å³
+   Step 59: Energy/atom=-2.831604 eV/atom, Volume=1018.570 Å³
+   Step 60: Energy/atom=-2.831604 eV/atom, Volume=1018.569 Å³
+   Step 61: Energy/atom=-2.831604 eV/atom, Volume=1018.566 Å³
+   Step 62: Energy/atom=-2.831604 eV/atom, Volume=1018.563 Å³
+   Step 63: Energy/atom=-2.831604 eV/atom, Volume=1018.559 Å³
+   Step 64: Energy/atom=-2.831604 eV/atom, Volume=1018.556 Å³
+   Step 65: Energy/atom=-2.831604 eV/atom, Volume=1018.553 Å³
+   Step 66: Energy/atom=-2.831604 eV/atom, Volume=1018.551 Å³
+   Step 67: Energy/atom=-2.831604 eV/atom, Volume=1018.547 Å³
+» UMA relaxation finished in 15.57 seconds.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:714: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Relaxation converged! Max force (0.0010) <= fmax (0.0020)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/utils/relaxation_utils.py:734: FutureWarning: Please use atoms.calc = calc
+  relaxed_atoms.set_calculator(calculator)
+   Final energy: -56.632081 eV
+   Final energy per atom: -2.831604 eV/atom
+
+--- Structure Relaxation Summary ---
+Initial atoms: 20
+Relaxed atoms: 20
+Initial stress (GPa): 0.0000
+Final stress (GPa): 0.0000
+----------------------------------
+Saved relaxed structure to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_relaxed.cif
+Converted relaxation trajectory to XYZ: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/relax.xyz
+
+Structure relaxed.
+
+--- Analyzing Relaxed Structure Symmetry ---
+
+» Analyzing relaxed structure symmetry with spglib…
+   Attempting to auto-tune symprec to find highest symmetry...
+   Highest symmetry found (Space Group 8) at symprec = 1.0000e-02
+
+--- DEBUG: Contents of best_dataset ---
+best_dataset is an object. Attempting to list attributes:
+Space Group: 8
+International Symbol: Cm
+Hall Symbol: C -2y
+Point Group: m
+---------------------------------------
+   Relaxed symmetry analysis saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/initial_relaxation_for_single_run/relaxed_symmetry_analysis.txt
+» Relaxed symmetry analysis complete.
+------------------------------------------
+
+--- Step 2: Running Mode is Phonon Calculation Only ---
+
+--- Running MD Stability Analysis ---
+Note: MD stability analysis runs independently of phonon calculations.
+
+--- Running AIMD Stability Analysis ---
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+UMA calculator initialized.
+MD stability analysis output directory: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/md_stability_analysis
+
+--- Step 1: Structure Preparation ---
+Creating 2x2x2 supercell for MD simulation
+Supercell created with 160 atoms
+Supercell prepared with 160 atoms
+Initial supercell saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_initial_supercell.cif
+
+--- Step 2: MD Simulation Setup ---
+Total steps: 10000
+  NVT steps: 1000
+  NPT equilibration steps: 1000
+  Production steps: 8000
+MD simulation parameters:
+  Total time: 10.0 ps (10000.0 fs)
+  Phase 1 - NVT equilibration: 1000.0 fs (1000 steps)
+    Temperature ramp: 700 steps (0K → 300.0K)
+    Temperature stabilization: 300 steps
+  Phase 2 - NPT equilibration: 1000.0 fs (1000 steps)
+  Phase 3 - NPT production: 8000.0 fs (8000 steps)
+  Timestep: 1.0 fs
+  Total steps: 10000
+Setting up NVT ensemble for temperature equilibration:
+  Target temperature: 300.0 K
+  Timestep: 1.0 fs
+  Starting from 0K (zero velocities)
+NVT ensemble setup completed
+
+--- Step 3: MD Simulation Execution ---
+Starting two-stage MD equilibration protocol...
+Trajectory will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_trajectory.traj
+MD log will be saved to: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/examples/UMA_MD_evals/MD_cifs_vibroml2_uma_TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_UMA_MD_STABILITY_phonon_output_20260208-231313/md_stability_analysis/TRAD_top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz_md_log.txt
+
+--- Phase 1: NVT Temperature Equilibration ---
+Ramping temperature from 0K to 300.0K over 700 steps
+  Temperature ramp progress: 0.0% (T = 1.0 K)
+/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/nvtberendsen.py:98: RuntimeWarning: divide by zero encountered in scalar divide
+  1.0 + (self.temperature / old_temperature - 1.0) * tautscl
+  Temperature ramp progress: 10.0% (T = 30.9 K)
+  Temperature ramp progress: 20.0% (T = 60.8 K)
+  Temperature ramp progress: 30.0% (T = 90.7 K)
+  Temperature ramp progress: 40.0% (T = 120.6 K)
+  Temperature ramp progress: 50.0% (T = 150.5 K)
+  Temperature ramp progress: 60.0% (T = 180.4 K)
+  Temperature ramp progress: 70.0% (T = 210.3 K)
+  Temperature ramp progress: 80.0% (T = 240.2 K)
+  Temperature ramp progress: 90.0% (T = 270.1 K)
+  Temperature ramp progress: 100.0% (T = 300.0 K)
+NVT equilibration completed. Final temperature: 295.2 K
+
+--- Phase 2: NPT Pressure/Volume Equilibration ---
+Standardizing the cell for NPT run...
+Setting up NPT ensemble for pressure/volume equilibration:
+  Temperature: 300.0 K
+  Pressure: 0.0 GPa
+  Timestep: 1.0 fs
+Error during MD simulation: No edges found in input system, this means either you have a single atom in the system or the atoms are farther apart than the radius cutoff of the model of 6 Angstroms. We don't know how to handle this case. Check the positions of system: tensor([[ -5.9493,  15.5044, 111.8952],
+        [ -8.7455,  20.2166,  58.8978],
+        [-49.2196,  75.5853,  59.6724],
+        [  6.7087,  10.6231,  12.4354],
+        [  5.1370,  16.6221,  86.7769],
+        [  0.1720,  22.8794,  36.1167],
+        [-56.9463,  71.7715,  85.5743],
+        [ -0.9322,   7.0940,  35.6826],
+        [-56.6059,  80.4252,  79.9164],
+        [-46.3026,  81.9040,  84.4668],
+        [  1.7727,  20.4152,  60.2388],
+        [-29.9834,  26.2208, 124.4657],
+        [ 11.1309,  16.7140,  37.1318],
+        [ -1.5875,  26.8315,  10.8879],
+        [-44.6480,  73.2037,  36.3710],
+        [-47.5468,  63.5186,  84.6219],
+        [-60.5512,  75.8386,  60.7989],
+        [  0.5280,  13.9404,  34.1649],
+        [-51.4334,  67.8992,  38.8266],
+        [ -2.4484,   7.8191,  10.4339],
+        [-15.0977,  56.5293,  71.0471],
+        [-16.8907,  60.3609,  20.4549],
+        [  2.5493,  45.3155,  18.2169],
+        [-44.8936,  70.1887, 109.4456],
+        [-55.8587,  57.6620,  45.9687],
+        [-51.5351,  82.5116, 133.4570],
+        [ -5.2943,  41.9032,  45.4765],
+        [-52.7058,  66.8193, 133.3792],
+        [ -4.7043,  50.0544,  38.8396],
+        [-44.2467,  50.3088,  46.8074],
+        [ -7.4113,  61.3867,  19.2557],
+        [-39.0484,  67.2004,  83.0039],
+        [-40.7553,  76.0922, 135.1207],
+        [-52.3528,  85.4204, 109.6194],
+        [-35.3298,  61.5466, 132.6532],
+        [  5.2452,  31.8520,  45.3053],
+        [ -8.5056,  45.4695,  19.5153],
+        [-49.6411,  72.5658, 132.5443],
+        [-42.0690,  56.5439, 135.6855],
+        [-53.2206,  66.9857, 109.3052],
+        [ 22.8905,  21.0352,  23.3914],
+        [-21.6575,  43.6846, 110.6303],
+        [ -2.4468,  29.1901, 108.1432],
+        [ -7.5306,  35.5119,  60.8011],
+        [-61.0522,  41.6859, 135.3460],
+        [-14.1721,  47.8427,  84.7545],
+        [-10.7582,  25.8111, 136.9376],
+        [-15.6927,  32.2149,  86.1779],
+        [ -9.7252,  33.8123, 128.3501],
+        [-51.2451,  35.4918, 133.0249],
+        [-12.6840,  45.4717, 108.6947],
+        [ -1.7881,  32.5444,  34.2503],
+        [ -3.4592,  41.4399,  87.2331],
+        [-14.9642,  50.7464,  60.8196],
+        [  2.0988,  26.8274,  84.4402],
+        [-61.9209,  88.5237, 133.1884],
+        [-13.3199,  28.9395, 109.3361],
+        [-12.3287,  37.9130,  83.8794],
+        [ -4.7044,  21.9568,  88.5860],
+        [-15.9919,  32.3574,  59.9211],
+        [-80.6272,  80.7147, 120.6832],
+        [-21.2681,  13.1293,  69.7676],
+        [-63.3231,  70.1443,  67.1654],
+        [ -7.2011,   5.0138,  19.8057],
+        [-70.1777,  82.6267,  94.4029],
+        [-13.8220,  17.3033,  43.8027],
+        [-71.6311,  66.7776,  96.0006],
+        [-24.8250,  73.1865,  45.2480],
+        [-70.5954,  74.7547,  87.4229],
+        [-61.0686,  77.4592,  93.4376],
+        [-12.2602,  14.9023,  67.8101],
+        [  7.7744,  20.7050, 131.5576],
+        [ -3.3095,  11.2965,  46.5668],
+        [-14.6396,  20.2668,  19.9551],
+        [-58.7862,  67.7677,  43.4708],
+        [-61.5490,  57.9515,  92.3442],
+        [-22.4472,  69.8916,  68.4169],
+        [-11.8829,   7.3521,  43.0268],
+        [-13.8424,  62.9108,  47.6279],
+        [-25.0950,  73.2478,  19.0696],
+        [ 10.5126,  21.4558,  63.3381],
+        [  8.6716,  25.4079,  12.3984],
+        [ 28.3032,  10.2313,  11.2440],
+        [-19.9110,  35.8438, 101.0655],
+        [ 21.5629,  22.6074,  38.5503],
+        [-25.9441,  47.4975, 125.8962],
+        [ 20.7858,   6.2557,  36.9788],
+        [-26.9962,  31.7040, 125.3822],
+        [ 20.9849,  15.0142,  31.3043],
+        [-20.3860,  16.4434,  35.9039],
+        [ 17.5749,  27.1543,   9.8359],
+        [-12.8247,  32.1529,  73.2822],
+        [-15.4313,  41.4091, 128.3599],
+        [-27.3146,  51.2622, 100.9772],
+        [ -9.0558,  26.5747, 122.3146],
+        [-31.0661,  69.4794,  36.0415],
+        [ 17.1774,  10.3145,  12.1935],
+        [-24.0779,  37.5429, 124.8943],
+        [-16.4328,  21.6421, 129.6264],
+        [-27.6273,  32.0126, 101.6096],
+        [-50.3901,  62.4594,  22.4543],
+        [-43.0551,  85.0454, 110.1992],
+        [-75.2175,  69.8918, 108.5474],
+        [-29.0472,  76.8041,  60.1618],
+        [-81.9537,  82.2976, 135.8180],
+        [-25.5982,  16.9841,  84.9830],
+        [-31.4040,  66.5791, 135.0144],
+        [-36.2241,  72.8149,  84.8216],
+        [-82.5995,  74.7148, 128.5158],
+        [-72.1217,  76.0770, 133.2485],
+        [-24.7099,  15.3506, 107.1757],
+        [-21.9176,  73.0825,  32.4662],
+        [-76.3166,  82.3548,  87.4040],
+        [-26.9576,  20.7265,  60.0782],
+        [-69.9826,  67.5443,  81.3490],
+        [-73.3415,  57.7073, 133.3988],
+        [-34.6646,  70.1421, 109.1727],
+        [-33.2266,  78.4994,  83.9749],
+        [-25.6247,  62.5917,  88.6196],
+        [-36.7772,  72.9651,  60.7034],
+        [-55.6780,  46.4991, 111.8660],
+        [ -5.7755,  50.4441,  61.0910],
+        [-37.7251,  35.1422,  59.5863],
+        [  9.2009,  41.3084,  12.4503],
+        [-44.5830,  47.6229,  86.7703],
+        [-50.4530,  54.4289,  34.0065],
+        [  5.9488,  31.9543,  86.3268],
+        [  0.7493,  38.8744,  35.0110],
+        [-45.2286,  40.0367,  79.8476],
+        [-34.8095,  41.4811,  84.4981],
+        [-48.0150,  51.4501,  60.4171],
+        [-27.9151,  57.2096, 123.8850],
+        [-38.6597,  47.3384,  38.6176],
+        [-50.3110,  56.6676,  13.0394],
+        [-33.1779,  32.7973,  35.8625],
+        [-36.0270,  23.0618,  84.5887],
+        [  2.6308,  35.5341,  60.6441],
+        [  4.1848,  43.7902,  35.8426],
+        [ 11.8780,  27.8433,  39.9571],
+        [  0.5537,  38.4098,  13.4211],
+        [ -2.7003,  15.2910,  73.1030],
+        [ -5.4258,  19.9601,  20.3097],
+        [ 14.5622,   4.5159,  18.2536],
+        [-33.6251,  29.9571, 108.4707],
+        [  7.1796,  17.1518,  46.6050],
+        [-39.9955,  41.9949, 133.4211],
+        [-55.2349,  73.3531,  46.0296],
+        [-41.1528,  26.3917, 133.3462],
+        [  8.4756,   8.4207,  39.9537],
+        [ 17.2088,  11.4547,  45.3712],
+        [  5.1983,  19.7829,  20.6217],
+        [-27.5405,  26.7086,  82.9953],
+        [-29.4658,  35.9721, 136.2185],
+        [-40.8150,  44.9529, 109.6159],
+        [-23.4404,  20.7758, 133.5139],
+        [-44.6358,  63.6113,  44.0604],
+        [  4.0152,   4.4757,  21.0172],
+        [-38.2172,  32.0909, 132.2091],
+        [-91.8101,  87.6404, 137.2490],
+        [-41.7426,  26.5665, 109.2411]], device='cuda:0',
+       grad_fn=<AddBackward0>)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/VibroML/vibroml/auto_optimize.py", line 4447, in run_md_stability_analysis
+    npt_dynamics.run(npt_equilibration_steps)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/npt.py", line 315, in run
+    for complete in self.irun(steps):
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/npt.py", line 299, in irun
+    yield from super().irun(steps)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/optimize/optimize.py", line 257, in irun
+    self.step()
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/npt.py", line 385, in step
+    force = self.forcecalculator()
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/md/npt.py", line 393, in forcecalculator
+    return self.atoms.get_forces(md=True)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/atoms.py", line 829, in get_forces
+    forces = self._calc.get_forces(self)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/calculators/abc.py", line 32, in get_forces
+    return self.get_property('forces', atoms)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/ase/calculators/calculator.py", line 515, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/calculate/ase_calculator.py", line 223, in calculate
+    pred = self.predictor.predict(batch)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/units/mlip_unit/predict.py", line 68, in collated_predict
+    preds = predict_fn(predict_unit, data, undo_element_references)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/units/mlip_unit/predict.py", line 306, in predict
+    output = self.model(data_device)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/optim/swa_utils.py", line 219, in forward
+    return self.module(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/models/base.py", line 178, in forward
+    emb = self.backbone(data)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/common/utils.py", line 80, in cls_method
+    return f(self, *args, **kwargs)
+  File "/gpfs/home/acad/ucl-modl/rgouvea/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/uma_env/lib/python3.10/site-packages/fairchem/core/models/uma/escn_md.py", line 482, in forward
+    raise ValueError(
+ValueError: No edges found in input system, this means either you have a single atom in the system or the atoms are farther apart than the radius cutoff of the model of 6 Angstroms. We don't know how to handle this case. Check the positions of system: tensor([[ -5.9493,  15.5044, 111.8952],
+        [ -8.7455,  20.2166,  58.8978],
+        [-49.2196,  75.5853,  59.6724],
+        [  6.7087,  10.6231,  12.4354],
+        [  5.1370,  16.6221,  86.7769],
+        [  0.1720,  22.8794,  36.1167],
+        [-56.9463,  71.7715,  85.5743],
+        [ -0.9322,   7.0940,  35.6826],
+        [-56.6059,  80.4252,  79.9164],
+        [-46.3026,  81.9040,  84.4668],
+        [  1.7727,  20.4152,  60.2388],
+        [-29.9834,  26.2208, 124.4657],
+        [ 11.1309,  16.7140,  37.1318],
+        [ -1.5875,  26.8315,  10.8879],
+        [-44.6480,  73.2037,  36.3710],
+        [-47.5468,  63.5186,  84.6219],
+        [-60.5512,  75.8386,  60.7989],
+        [  0.5280,  13.9404,  34.1649],
+        [-51.4334,  67.8992,  38.8266],
+        [ -2.4484,   7.8191,  10.4339],
+        [-15.0977,  56.5293,  71.0471],
+        [-16.8907,  60.3609,  20.4549],
+        [  2.5493,  45.3155,  18.2169],
+        [-44.8936,  70.1887, 109.4456],
+        [-55.8587,  57.6620,  45.9687],
+        [-51.5351,  82.5116, 133.4570],
+        [ -5.2943,  41.9032,  45.4765],
+        [-52.7058,  66.8193, 133.3792],
+        [ -4.7043,  50.0544,  38.8396],
+        [-44.2467,  50.3088,  46.8074],
+        [ -7.4113,  61.3867,  19.2557],
+        [-39.0484,  67.2004,  83.0039],
+        [-40.7553,  76.0922, 135.1207],
+        [-52.3528,  85.4204, 109.6194],
+        [-35.3298,  61.5466, 132.6532],
+        [  5.2452,  31.8520,  45.3053],
+        [ -8.5056,  45.4695,  19.5153],
+        [-49.6411,  72.5658, 132.5443],
+        [-42.0690,  56.5439, 135.6855],
+        [-53.2206,  66.9857, 109.3052],
+        [ 22.8905,  21.0352,  23.3914],
+        [-21.6575,  43.6846, 110.6303],
+        [ -2.4468,  29.1901, 108.1432],
+        [ -7.5306,  35.5119,  60.8011],
+        [-61.0522,  41.6859, 135.3460],
+        [-14.1721,  47.8427,  84.7545],
+        [-10.7582,  25.8111, 136.9376],
+        [-15.6927,  32.2149,  86.1779],
+        [ -9.7252,  33.8123, 128.3501],
+        [-51.2451,  35.4918, 133.0249],
+        [-12.6840,  45.4717, 108.6947],
+        [ -1.7881,  32.5444,  34.2503],
+        [ -3.4592,  41.4399,  87.2331],
+        [-14.9642,  50.7464,  60.8196],
+        [  2.0988,  26.8274,  84.4402],
+        [-61.9209,  88.5237, 133.1884],
+        [-13.3199,  28.9395, 109.3361],
+        [-12.3287,  37.9130,  83.8794],
+        [ -4.7044,  21.9568,  88.5860],
+        [-15.9919,  32.3574,  59.9211],
+        [-80.6272,  80.7147, 120.6832],
+        [-21.2681,  13.1293,  69.7676],
+        [-63.3231,  70.1443,  67.1654],
+        [ -7.2011,   5.0138,  19.8057],
+        [-70.1777,  82.6267,  94.4029],
+        [-13.8220,  17.3033,  43.8027],
+        [-71.6311,  66.7776,  96.0006],
+        [-24.8250,  73.1865,  45.2480],
+        [-70.5954,  74.7547,  87.4229],
+        [-61.0686,  77.4592,  93.4376],
+        [-12.2602,  14.9023,  67.8101],
+        [  7.7744,  20.7050, 131.5576],
+        [ -3.3095,  11.2965,  46.5668],
+        [-14.6396,  20.2668,  19.9551],
+        [-58.7862,  67.7677,  43.4708],
+        [-61.5490,  57.9515,  92.3442],
+        [-22.4472,  69.8916,  68.4169],
+        [-11.8829,   7.3521,  43.0268],
+        [-13.8424,  62.9108,  47.6279],
+        [-25.0950,  73.2478,  19.0696],
+        [ 10.5126,  21.4558,  63.3381],
+        [  8.6716,  25.4079,  12.3984],
+        [ 28.3032,  10.2313,  11.2440],
+        [-19.9110,  35.8438, 101.0655],
+        [ 21.5629,  22.6074,  38.5503],
+        [-25.9441,  47.4975, 125.8962],
+        [ 20.7858,   6.2557,  36.9788],
+        [-26.9962,  31.7040, 125.3822],
+        [ 20.9849,  15.0142,  31.3043],
+        [-20.3860,  16.4434,  35.9039],
+        [ 17.5749,  27.1543,   9.8359],
+        [-12.8247,  32.1529,  73.2822],
+        [-15.4313,  41.4091, 128.3599],
+        [-27.3146,  51.2622, 100.9772],
+        [ -9.0558,  26.5747, 122.3146],
+        [-31.0661,  69.4794,  36.0415],
+        [ 17.1774,  10.3145,  12.1935],
+        [-24.0779,  37.5429, 124.8943],
+        [-16.4328,  21.6421, 129.6264],
+        [-27.6273,  32.0126, 101.6096],
+        [-50.3901,  62.4594,  22.4543],
+        [-43.0551,  85.0454, 110.1992],
+        [-75.2175,  69.8918, 108.5474],
+        [-29.0472,  76.8041,  60.1618],
+        [-81.9537,  82.2976, 135.8180],
+        [-25.5982,  16.9841,  84.9830],
+        [-31.4040,  66.5791, 135.0144],
+        [-36.2241,  72.8149,  84.8216],
+        [-82.5995,  74.7148, 128.5158],
+        [-72.1217,  76.0770, 133.2485],
+        [-24.7099,  15.3506, 107.1757],
+        [-21.9176,  73.0825,  32.4662],
+        [-76.3166,  82.3548,  87.4040],
+        [-26.9576,  20.7265,  60.0782],
+        [-69.9826,  67.5443,  81.3490],
+        [-73.3415,  57.7073, 133.3988],
+        [-34.6646,  70.1421, 109.1727],
+        [-33.2266,  78.4994,  83.9749],
+        [-25.6247,  62.5917,  88.6196],
+        [-36.7772,  72.9651,  60.7034],
+        [-55.6780,  46.4991, 111.8660],
+        [ -5.7755,  50.4441,  61.0910],
+        [-37.7251,  35.1422,  59.5863],
+        [  9.2009,  41.3084,  12.4503],
+        [-44.5830,  47.6229,  86.7703],
+        [-50.4530,  54.4289,  34.0065],
+        [  5.9488,  31.9543,  86.3268],
+        [  0.7493,  38.8744,  35.0110],
+        [-45.2286,  40.0367,  79.8476],
+        [-34.8095,  41.4811,  84.4981],
+        [-48.0150,  51.4501,  60.4171],
+        [-27.9151,  57.2096, 123.8850],
+        [-38.6597,  47.3384,  38.6176],
+        [-50.3110,  56.6676,  13.0394],
+        [-33.1779,  32.7973,  35.8625],
+        [-36.0270,  23.0618,  84.5887],
+        [  2.6308,  35.5341,  60.6441],
+        [  4.1848,  43.7902,  35.8426],
+        [ 11.8780,  27.8433,  39.9571],
+        [  0.5537,  38.4098,  13.4211],
+        [ -2.7003,  15.2910,  73.1030],
+        [ -5.4258,  19.9601,  20.3097],
+        [ 14.5622,   4.5159,  18.2536],
+        [-33.6251,  29.9571, 108.4707],
+        [  7.1796,  17.1518,  46.6050],
+        [-39.9955,  41.9949, 133.4211],
+        [-55.2349,  73.3531,  46.0296],
+        [-41.1528,  26.3917, 133.3462],
+        [  8.4756,   8.4207,  39.9537],
+        [ 17.2088,  11.4547,  45.3712],
+        [  5.1983,  19.7829,  20.6217],
+        [-27.5405,  26.7086,  82.9953],
+        [-29.4658,  35.9721, 136.2185],
+        [-40.8150,  44.9529, 109.6159],
+        [-23.4404,  20.7758, 133.5139],
+        [-44.6358,  63.6113,  44.0604],
+        [  4.0152,   4.4757,  21.0172],
+        [-38.2172,  32.0909, 132.2091],
+        [-91.8101,  87.6404, 137.2490],
+        [-41.7426,  26.5665, 109.2411]], device='cuda:0',
+       grad_fn=<AddBackward0>)
+
+--- MD Stability Analysis Failed ---
+
+Resources Used
+
+Total Memory used                        - MEM              : 14GiB
+Total CPU Time                           - CPU_Time         : 00:42:24
+Execution Time                           - Wall_Time        : 00:05:18
+total programme cpu time                 - Total_CPU        : 17:50.381
+Total_CPU / CPU_Time  (%)                - ETA              : 42%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 02:49:36
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+
