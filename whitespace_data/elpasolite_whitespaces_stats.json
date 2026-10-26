@@ -1,0 +1,4263 @@
+{
+  "forced_cubic": [
+    {
+      "composition": "Cs2AlTiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2AlTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-131744",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.1165,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.591117,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.661888,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.0707709999999997
+    },
+    {
+      "composition": "Cs2CdNiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2CdNiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-131700",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -2.83903,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2CdTiI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2CdTiI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-174152",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.464,
+        "soft_frac": 0.037963,
+        "i_curv": 0.003148,
+        "omega_inst": 0.056109,
+        "energy_per_atom_eV": -2.907035,
+        "n_atoms": 40,
+        "n_imaginary": 984,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.151,
+        "soft_frac": 0.000463,
+        "i_curv": 3e-06,
+        "omega_inst": 0.001724,
+        "energy_per_atom_eV": -2.961331,
+        "n_atoms": 20,
+        "n_imaginary": 6,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.0542959999999999
+    },
+    {
+      "composition": "Cs2CdWBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-184226",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -0.6548,
+        "soft_frac": 0.1,
+        "i_curv": 0.02748,
+        "omega_inst": 0.165771,
+        "energy_per_atom_eV": -3.447966,
+        "n_atoms": 40,
+        "n_imaginary": 2592,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0882,
+        "soft_frac": 0.000617,
+        "i_curv": 2e-06,
+        "omega_inst": 0.001322,
+        "energy_per_atom_eV": -3.522894,
+        "n_atoms": 40,
+        "n_imaginary": 16,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.3279,
+          "soft_frac": 0.006327,
+          "i_curv": 0.000352,
+          "omega_inst": 0.018767,
+          "energy_per_atom_eV": -3.463077,
+          "n_atoms": 40,
+          "n_imaginary": 164,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0882,
+          "soft_frac": 0.000617,
+          "i_curv": 2e-06,
+          "omega_inst": 0.001322,
+          "energy_per_atom_eV": -3.522894,
+          "n_atoms": 40,
+          "n_imaginary": 16,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.07492799999999988
+    },
+    {
+      "composition": "Cs2FeGaI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2FeGaI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-190704",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.4296,
+        "soft_frac": 0.001543,
+        "i_curv": 8.2e-05,
+        "omega_inst": 0.009079,
+        "energy_per_atom_eV": -2.953583,
+        "n_atoms": 40,
+        "n_imaginary": 40,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0536,
+        "soft_frac": 0.000154,
+        "i_curv": 0.0,
+        "omega_inst": 0.00067,
+        "energy_per_atom_eV": -3.01776,
+        "n_atoms": 20,
+        "n_imaginary": 2,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.06417699999999993
+    },
+    {
+      "composition": "Cs2FeMoBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2FeMoBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-192920",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.938012,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2FeNbI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2FeNbI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-192925",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.1873,
+        "soft_frac": 0.000926,
+        "i_curv": 3e-06,
+        "omega_inst": 0.001625,
+        "energy_per_atom_eV": -3.559252,
+        "n_atoms": 40,
+        "n_imaginary": 24,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.72947,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.1702180000000002
+    },
+    {
+      "composition": "Cs2GeRuF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2GeRuF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-193138",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.4875,
+        "soft_frac": 0.099074,
+        "i_curv": 0.345154,
+        "omega_inst": 0.587498,
+        "energy_per_atom_eV": -4.655426,
+        "n_atoms": 40,
+        "n_imaginary": 2568,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0015,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.840023,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0013,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.826617,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0015,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.840023,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.18459700000000012
+    },
+    {
+      "composition": "Cs2GeTaBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2GeTaBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-193409",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": 0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.722161,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2MnRuBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2MnRuBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-193414",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.891838,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2MoNiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2MoNiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201433",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.662622,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2MoNiI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2MoNiI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201448",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.29,
+        "soft_frac": 0.000617,
+        "i_curv": 2.2e-05,
+        "omega_inst": 0.004657,
+        "energy_per_atom_eV": -3.286127,
+        "n_atoms": 40,
+        "n_imaginary": 16,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.407057,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.12092999999999998
+    },
+    {
+      "composition": "Cs2NbPdCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2NbPdCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201433",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.3326,
+        "soft_frac": 0.005247,
+        "i_curv": 0.000167,
+        "omega_inst": 0.012906,
+        "energy_per_atom_eV": -4.0882,
+        "n_atoms": 40,
+        "n_imaginary": 136,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0006,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.17107,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.08287000000000067
+    },
+    {
+      "composition": "Cs2NbZnBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2NbZnBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201444",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.5495,
+        "soft_frac": 0.044753,
+        "i_curv": 0.005778,
+        "omega_inst": 0.076012,
+        "energy_per_atom_eV": -3.387621,
+        "n_atoms": 40,
+        "n_imaginary": 1160,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.517064,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.12944299999999975
+    },
+    {
+      "composition": "Cs2NiSnCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2NiSnCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201616",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.510766,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2RuTaF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2RuTaF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-201852",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.8531,
+        "soft_frac": 0.325926,
+        "i_curv": 0.39557,
+        "omega_inst": 0.628944,
+        "energy_per_atom_eV": -5.419075,
+        "n_atoms": 40,
+        "n_imaginary": 8448,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.036,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.816423,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0017,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.777854,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.036,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.816423,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.39734800000000003
+    },
+    {
+      "composition": "Cs2RuZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2RuZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-203707",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.7576,
+        "soft_frac": 0.265432,
+        "i_curv": 0.319539,
+        "omega_inst": 0.565277,
+        "energy_per_atom_eV": -5.416017,
+        "n_atoms": 40,
+        "n_imaginary": 6880,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.65231,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0009,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.65231,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.23629299999999986
+    },
+    {
+      "composition": "Cs2ScZrBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2ScZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-204247",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.050877,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Cs2ScZrI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2ScZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-204653",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.3492,
+        "soft_frac": 0.005556,
+        "i_curv": 0.00042,
+        "omega_inst": 0.020494,
+        "energy_per_atom_eV": -3.620026,
+        "n_atoms": 40,
+        "n_imaginary": 144,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0001,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.765446,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.14541999999999966
+    },
+    {
+      "composition": "Cs2VZrBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Cs2VZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-204801",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.130675,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "K2AlMoBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2AlMoBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-204829",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.2003,
+        "soft_frac": 0.128395,
+        "i_curv": 0.08986,
+        "omega_inst": 0.299767,
+        "energy_per_atom_eV": -3.581516,
+        "n_atoms": 40,
+        "n_imaginary": 3328,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0008,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.761237,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.625294,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0008,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.761237,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.1797209999999998
+    },
+    {
+      "composition": "K2AlScBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2AlScBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-204957",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.3571,
+        "soft_frac": 0.258333,
+        "i_curv": 0.198414,
+        "omega_inst": 0.445437,
+        "energy_per_atom_eV": -3.585796,
+        "n_atoms": 40,
+        "n_imaginary": 6696,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.683873,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.09807699999999997
+    },
+    {
+      "composition": "K2AlTaF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2AlTaF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-205205",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.2641,
+        "soft_frac": 0.043519,
+        "i_curv": 0.090016,
+        "omega_inst": 0.300027,
+        "energy_per_atom_eV": -5.212156,
+        "n_atoms": 40,
+        "n_imaginary": 1128,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.7525,
+        "soft_frac": 0.001389,
+        "i_curv": 0.000317,
+        "omega_inst": 0.017813,
+        "energy_per_atom_eV": -5.621744,
+        "n_atoms": 40,
+        "n_imaginary": 36,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0012,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.577002,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.7525,
+          "soft_frac": 0.001389,
+          "i_curv": 0.000317,
+          "omega_inst": 0.017813,
+          "energy_per_atom_eV": -5.621744,
+          "n_atoms": 40,
+          "n_imaginary": 36,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4095879999999994
+    },
+    {
+      "composition": "K2BiNbBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2BiNbBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-205238",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.3586,
+        "soft_frac": 0.362963,
+        "i_curv": 0.350676,
+        "omega_inst": 0.592179,
+        "energy_per_atom_eV": -3.477914,
+        "n_atoms": 40,
+        "n_imaginary": 9408,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.676907,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.4265,
+          "soft_frac": 0.005556,
+          "i_curv": 0.000818,
+          "omega_inst": 0.028592,
+          "energy_per_atom_eV": -3.649994,
+          "n_atoms": 40,
+          "n_imaginary": 144,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.676907,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.19899299999999975
+    },
+    {
+      "composition": "K2CoPdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2CoPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-205720",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.9056,
+        "soft_frac": 0.083333,
+        "i_curv": 0.030324,
+        "omega_inst": 0.174139,
+        "energy_per_atom_eV": -2.908774,
+        "n_atoms": 40,
+        "n_imaginary": 2160,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.001619,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.09284499999999962
+    },
+    {
+      "composition": "K2CoRuI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-205743",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -2.0187,
+        "soft_frac": 0.212346,
+        "i_curv": 0.347174,
+        "omega_inst": 0.589215,
+        "energy_per_atom_eV": -3.151853,
+        "n_atoms": 40,
+        "n_imaginary": 5504,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.309762,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.15790900000000008
+    },
+    {
+      "composition": "K2CrTiI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2CrTiI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-205720",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.087,
+        "soft_frac": 0.088889,
+        "i_curv": 0.04688,
+        "omega_inst": 0.216518,
+        "energy_per_atom_eV": -3.638967,
+        "n_atoms": 40,
+        "n_imaginary": 2304,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.722748,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.0837810000000001
+    },
+    {
+      "composition": "K2CuGeF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2CuGeF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-210619",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.7696,
+        "soft_frac": 0.054938,
+        "i_curv": 0.583059,
+        "omega_inst": 0.763583,
+        "energy_per_atom_eV": -4.361534,
+        "n_atoms": 40,
+        "n_imaginary": 1424,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0343,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.428519,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0343,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.428519,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.06698499999999985
+    },
+    {
+      "composition": "K2CuWBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2CuWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-211906",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.0691,
+        "soft_frac": 0.077778,
+        "i_curv": 0.035814,
+        "omega_inst": 0.189245,
+        "energy_per_atom_eV": -3.628786,
+        "n_atoms": 40,
+        "n_imaginary": 2016,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.321,
+        "soft_frac": 0.003318,
+        "i_curv": 0.000221,
+        "omega_inst": 0.014883,
+        "energy_per_atom_eV": -3.754735,
+        "n_atoms": 40,
+        "n_imaginary": 86,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.3809,
+          "soft_frac": 0.003318,
+          "i_curv": 0.00016,
+          "omega_inst": 0.012631,
+          "energy_per_atom_eV": -3.752138,
+          "n_atoms": 40,
+          "n_imaginary": 86,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.321,
+          "soft_frac": 0.003318,
+          "i_curv": 0.000221,
+          "omega_inst": 0.014883,
+          "energy_per_atom_eV": -3.754735,
+          "n_atoms": 40,
+          "n_imaginary": 86,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.1259490000000003
+    },
+    {
+      "composition": "K2FeSbBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2FeSbBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-213027",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.0719,
+        "soft_frac": 0.065741,
+        "i_curv": 0.03162,
+        "omega_inst": 0.177822,
+        "energy_per_atom_eV": -3.342023,
+        "n_atoms": 40,
+        "n_imaginary": 1704,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.420677,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0396,
+          "soft_frac": 7.7e-05,
+          "i_curv": 0.0,
+          "omega_inst": 0.000406,
+          "energy_per_atom_eV": -3.416888,
+          "n_atoms": 40,
+          "n_imaginary": 2,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.420677,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.07865399999999978
+    },
+    {
+      "composition": "K2FeZnBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2FeZnBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233052",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.0783,
+        "soft_frac": 0.049691,
+        "i_curv": 0.025896,
+        "omega_inst": 0.160922,
+        "energy_per_atom_eV": -3.147889,
+        "n_atoms": 40,
+        "n_imaginary": 1288,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.187,
+        "soft_frac": 0.000309,
+        "i_curv": 7e-06,
+        "omega_inst": 0.002609,
+        "energy_per_atom_eV": -3.255529,
+        "n_atoms": 10,
+        "n_imaginary": 2,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.10763999999999996
+    },
+    {
+      "composition": "K2FeZnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2FeZnI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233132",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.1557,
+        "soft_frac": 0.134568,
+        "i_curv": 0.061571,
+        "omega_inst": 0.248135,
+        "energy_per_atom_eV": -2.728145,
+        "n_atoms": 40,
+        "n_imaginary": 3488,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -2.892944,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.16479899999999992
+    },
+    {
+      "composition": "K2GaSbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GaSbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233134",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.1673,
+        "soft_frac": 0.200617,
+        "i_curv": 1.895727,
+        "omega_inst": 1.376854,
+        "energy_per_atom_eV": -4.189041,
+        "n_atoms": 40,
+        "n_imaginary": 5200,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.4624,
+        "soft_frac": 0.004244,
+        "i_curv": 0.000343,
+        "omega_inst": 0.018509,
+        "energy_per_atom_eV": -4.449464,
+        "n_atoms": 40,
+        "n_imaginary": 110,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.4624,
+          "soft_frac": 0.004244,
+          "i_curv": 0.000343,
+          "omega_inst": 0.018509,
+          "energy_per_atom_eV": -4.449464,
+          "n_atoms": 40,
+          "n_imaginary": 110,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.2604230000000003
+    },
+    {
+      "composition": "K2GaWF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GaWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233202",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -3.2409,
+        "soft_frac": 0.223765,
+        "i_curv": 1.048194,
+        "omega_inst": 1.023814,
+        "energy_per_atom_eV": -4.735401,
+        "n_atoms": 40,
+        "n_imaginary": 5800,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.3743,
+        "soft_frac": 0.002546,
+        "i_curv": 0.000152,
+        "omega_inst": 0.01234,
+        "energy_per_atom_eV": -4.781284,
+        "n_atoms": 40,
+        "n_imaginary": 66,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.3743,
+          "soft_frac": 0.002546,
+          "i_curv": 0.000152,
+          "omega_inst": 0.01234,
+          "energy_per_atom_eV": -4.781284,
+          "n_atoms": 40,
+          "n_imaginary": 66,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.045882999999999896
+    },
+    {
+      "composition": "K2GeMoF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GeMoF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233205",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -3.0353,
+        "soft_frac": 0.178704,
+        "i_curv": 0.779925,
+        "omega_inst": 0.883133,
+        "energy_per_atom_eV": -4.727855,
+        "n_atoms": 40,
+        "n_imaginary": 4632,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.887962,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.160107
+    },
+    {
+      "composition": "K2GeNbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GeNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233205",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -3.1064,
+        "soft_frac": 0.364815,
+        "i_curv": 1.634512,
+        "omega_inst": 1.27848,
+        "energy_per_atom_eV": -5.0044,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0407,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.344485,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.1791,
+          "soft_frac": 0.000309,
+          "i_curv": 7e-06,
+          "omega_inst": 0.002637,
+          "energy_per_atom_eV": -5.304739,
+          "n_atoms": 40,
+          "n_imaginary": 8,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0407,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.344485,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.3400849999999993
+    },
+    {
+      "composition": "K2GePdBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GePdBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-233232",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.8192,
+        "soft_frac": 0.033951,
+        "i_curv": 0.011264,
+        "omega_inst": 0.106133,
+        "energy_per_atom_eV": -3.120855,
+        "n_atoms": 40,
+        "n_imaginary": 880,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.6732,
+        "soft_frac": 0.011111,
+        "i_curv": 0.001305,
+        "omega_inst": 0.036124,
+        "energy_per_atom_eV": -3.159853,
+        "n_atoms": 20,
+        "n_imaginary": 144,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.038997999999999866
+    },
+    {
+      "composition": "K2GeTaI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2GeTaI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260901-234637",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.0894,
+        "soft_frac": 0.222531,
+        "i_curv": 0.082786,
+        "omega_inst": 0.287725,
+        "energy_per_atom_eV": -3.302254,
+        "n_atoms": 40,
+        "n_imaginary": 5768,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.2528,
+        "soft_frac": 0.006327,
+        "i_curv": 0.000205,
+        "omega_inst": 0.014304,
+        "energy_per_atom_eV": -3.482928,
+        "n_atoms": 20,
+        "n_imaginary": 82,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.18067399999999978
+    },
+    {
+      "composition": "K2MnZrI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2MnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-001458",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.0791,
+        "soft_frac": 0.179938,
+        "i_curv": 0.055813,
+        "omega_inst": 0.236247,
+        "energy_per_atom_eV": -3.677174,
+        "n_atoms": 40,
+        "n_imaginary": 4664,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.829622,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.15244800000000014
+    },
+    {
+      "composition": "K2MoPdBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2MoPdBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-001520",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.193,
+        "soft_frac": 0.084259,
+        "i_curv": 0.060761,
+        "omega_inst": 0.246497,
+        "energy_per_atom_eV": -3.659158,
+        "n_atoms": 40,
+        "n_imaginary": 2184,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0008,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.750788,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.09162999999999988
+    },
+    {
+      "composition": "K2MoRuCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2MoRuCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-002003",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.1461,
+        "soft_frac": 0.083333,
+        "i_curv": 0.179643,
+        "omega_inst": 0.423843,
+        "energy_per_atom_eV": -4.228868,
+        "n_atoms": 40,
+        "n_imaginary": 2160,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0012,
+        "soft_frac": 7.7e-05,
+        "i_curv": 1e-06,
+        "omega_inst": 0.000742,
+        "energy_per_atom_eV": -4.444249,
+        "n_atoms": 80,
+        "n_imaginary": 4,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.3612,
+          "soft_frac": 0.002778,
+          "i_curv": 0.000195,
+          "omega_inst": 0.013949,
+          "energy_per_atom_eV": -4.437194,
+          "n_atoms": 40,
+          "n_imaginary": 72,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0012,
+          "soft_frac": 7.7e-05,
+          "i_curv": 1e-06,
+          "omega_inst": 0.000742,
+          "energy_per_atom_eV": -4.444249,
+          "n_atoms": 80,
+          "n_imaginary": 4,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.21538099999999982
+    },
+    {
+      "composition": "K2MoScF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2MoScF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-003829",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.6165,
+        "soft_frac": 0.205556,
+        "i_curv": 0.713655,
+        "omega_inst": 0.844781,
+        "energy_per_atom_eV": -5.369059,
+        "n_atoms": 40,
+        "n_imaginary": 5328,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "K2MoZrBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2MoZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-004719",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.3926,
+        "soft_frac": 0.077778,
+        "i_curv": 0.07153,
+        "omega_inst": 0.267451,
+        "energy_per_atom_eV": -4.047604,
+        "n_atoms": 40,
+        "n_imaginary": 2016,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0181,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.373608,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3260040000000002
+    },
+    {
+      "composition": "K2NbPdBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2NbPdBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-004848",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.2484,
+        "soft_frac": 0.105556,
+        "i_curv": 0.084163,
+        "omega_inst": 0.290109,
+        "energy_per_atom_eV": -3.690347,
+        "n_atoms": 40,
+        "n_imaginary": 2736,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0006,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.792441,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.790796,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0006,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.792441,
+          "n_atoms": 80,
+          "n_imaginary": 0,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.10209400000000013
+    },
+    {
+      "composition": "K2NbPdF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2NbPdF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005050",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -3.0581,
+        "soft_frac": 0.346605,
+        "i_curv": 1.114896,
+        "omega_inst": 1.055886,
+        "energy_per_atom_eV": -5.072779,
+        "n_atoms": 40,
+        "n_imaginary": 8984,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0013,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.343809,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.27103000000000055
+    },
+    {
+      "composition": "K2NbScI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2NbScI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005322",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.1728,
+        "soft_frac": 0.087037,
+        "i_curv": 0.054768,
+        "omega_inst": 0.234027,
+        "energy_per_atom_eV": -3.598178,
+        "n_atoms": 40,
+        "n_imaginary": 2256,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.795293,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.19711500000000015
+    },
+    {
+      "composition": "K2NbSnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2NbSnI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005323",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.0383,
+        "soft_frac": 0.315741,
+        "i_curv": 0.197549,
+        "omega_inst": 0.444464,
+        "energy_per_atom_eV": -3.202773,
+        "n_atoms": 40,
+        "n_imaginary": 8184,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.324824,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.295705,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.324824,
+          "n_atoms": 80,
+          "n_imaginary": 0,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.12205099999999991
+    },
+    {
+      "composition": "K2NbWF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2NbWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005835",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -3.6511,
+        "soft_frac": 0.246296,
+        "i_curv": 1.5162,
+        "omega_inst": 1.231341,
+        "energy_per_atom_eV": -5.134861,
+        "n_atoms": 40,
+        "n_imaginary": 6384,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0008,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.404161,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 3,
+        "source": "guidance_iter3"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0009,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.379182,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0008,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.400567,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        },
+        {
+          "min_freq_THz": -0.0008,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.404161,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 3
+        }
+      ],
+      "energy_reduction": -0.2693000000000003
+    },
+    {
+      "composition": "K2PdZrI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2PdZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005833",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.9703,
+        "soft_frac": 0.255556,
+        "i_curv": 0.092023,
+        "omega_inst": 0.303354,
+        "energy_per_atom_eV": -3.378729,
+        "n_atoms": 40,
+        "n_imaginary": 6624,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0256,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.531836,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.15310700000000033
+    },
+    {
+      "composition": "K2RuScI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2RuScI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-005833",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.1838,
+        "soft_frac": 0.082407,
+        "i_curv": 0.052197,
+        "omega_inst": 0.228467,
+        "energy_per_atom_eV": -3.472305,
+        "n_atoms": 40,
+        "n_imaginary": 2136,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.622335,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.622335,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.622335,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.1500300000000001
+    },
+    {
+      "composition": "K2RuSnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2RuSnI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-010649",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.0624,
+        "soft_frac": 0.25216,
+        "i_curv": 0.143122,
+        "omega_inst": 0.378314,
+        "energy_per_atom_eV": -3.039378,
+        "n_atoms": 40,
+        "n_imaginary": 6536,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0216,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.125808,
+        "n_atoms": 10,
+        "n_imaginary": 0,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.08643
+    },
+    {
+      "composition": "K2RuZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2RuZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-011911",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.4294,
+        "soft_frac": 0.336728,
+        "i_curv": 0.767066,
+        "omega_inst": 0.875823,
+        "energy_per_atom_eV": -5.373126,
+        "n_atoms": 40,
+        "n_imaginary": 8728,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0018,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.813646,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0018,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.813646,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.44052000000000024
+    },
+    {
+      "composition": "K2ScWF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2ScWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-013054",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -3.6886,
+        "soft_frac": 0.215741,
+        "i_curv": 1.218259,
+        "omega_inst": 1.103748,
+        "energy_per_atom_eV": -5.198114,
+        "n_atoms": 40,
+        "n_imaginary": 5592,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0012,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.435512,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0012,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.435512,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.23739799999999978
+    },
+    {
+      "composition": "K2SnZrCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2SnZrCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033150",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -2.1186,
+        "soft_frac": 0.335185,
+        "i_curv": 0.588986,
+        "omega_inst": 0.767454,
+        "energy_per_atom_eV": -3.951954,
+        "n_atoms": 40,
+        "n_imaginary": 8688,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.208906,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0009,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.200917,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.208906,
+          "n_atoms": 80,
+          "n_imaginary": 0,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.2569519999999996
+    },
+    {
+      "composition": "K2TaYI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2TaYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033228",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -1.089,
+        "soft_frac": 0.134877,
+        "i_curv": 0.051085,
+        "omega_inst": 0.226019,
+        "energy_per_atom_eV": -3.710175,
+        "n_atoms": 40,
+        "n_imaginary": 3496,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.2193,
+        "soft_frac": 0.001389,
+        "i_curv": 3.7e-05,
+        "omega_inst": 0.00609,
+        "energy_per_atom_eV": -3.952504,
+        "n_atoms": 80,
+        "n_imaginary": 72,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0002,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.888893,
+          "n_atoms": 20,
+          "n_imaginary": 0,
+          "n_modes_total": 12960,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.2193,
+          "soft_frac": 0.001389,
+          "i_curv": 3.7e-05,
+          "omega_inst": 0.00609,
+          "energy_per_atom_eV": -3.952504,
+          "n_atoms": 80,
+          "n_imaginary": 72,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.2423289999999998
+    },
+    {
+      "composition": "K2TiZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2TiZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033230",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -2.5124,
+        "soft_frac": 0.137654,
+        "i_curv": 0.404742,
+        "omega_inst": 0.636193,
+        "energy_per_atom_eV": -5.620285,
+        "n_atoms": 40,
+        "n_imaginary": 3568,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.85861,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.23832499999999968
+    },
+    {
+      "composition": "K2ZnZrI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/K2ZnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033330",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -1.1129,
+        "soft_frac": 0.298148,
+        "i_curv": 0.223894,
+        "omega_inst": 0.473174,
+        "energy_per_atom_eV": -2.981918,
+        "n_atoms": 40,
+        "n_imaginary": 7728,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0215,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.106122,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.1242040000000002
+    },
+    {
+      "composition": "Li2AgPdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AgPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033304",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.9647,
+        "soft_frac": 0.389815,
+        "i_curv": 4.280745,
+        "omega_inst": 2.068996,
+        "energy_per_atom_eV": -2.438017,
+        "n_atoms": 40,
+        "n_imaginary": 10104,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.07,
+        "soft_frac": 0.005556,
+        "i_curv": 1.3e-05,
+        "omega_inst": 0.003661,
+        "energy_per_atom_eV": -2.674074,
+        "n_atoms": 20,
+        "n_imaginary": 72,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.23605700000000018
+    },
+    {
+      "composition": "Li2AgTiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AgTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033304",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.863,
+        "soft_frac": 0.365741,
+        "i_curv": 5.658692,
+        "omega_inst": 2.378801,
+        "energy_per_atom_eV": -3.306981,
+        "n_atoms": 40,
+        "n_imaginary": 9480,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0001,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.58075,
+        "n_atoms": 10,
+        "n_imaginary": 0,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.27376900000000015
+    },
+    {
+      "composition": "Li2AlFeBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AlFeBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-033329",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.5065,
+        "soft_frac": 0.314815,
+        "i_curv": 5.076363,
+        "omega_inst": 2.253079,
+        "energy_per_atom_eV": -3.288684,
+        "n_atoms": 40,
+        "n_imaginary": 8160,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.617901,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.593139,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.617901,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.32921699999999987
+    },
+    {
+      "composition": "Li2AlGeI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AlGeI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-034654",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.9055,
+        "soft_frac": 0.288272,
+        "i_curv": 3.360674,
+        "omega_inst": 1.833214,
+        "energy_per_atom_eV": -2.572746,
+        "n_atoms": 40,
+        "n_imaginary": 7472,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0942,
+        "soft_frac": 0.000772,
+        "i_curv": 1e-06,
+        "omega_inst": 0.001134,
+        "energy_per_atom_eV": -2.862736,
+        "n_atoms": 20,
+        "n_imaginary": 10,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.28998999999999997
+    },
+    {
+      "composition": "Li2AlMoCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AlMoCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-041601",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.4889,
+        "soft_frac": 0.307407,
+        "i_curv": 5.095679,
+        "omega_inst": 2.257361,
+        "energy_per_atom_eV": -3.796597,
+        "n_atoms": 40,
+        "n_imaginary": 7968,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.07,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.27337,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.47677299999999967
+    },
+    {
+      "composition": "Li2AlNbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AlNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-041553",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.6233,
+        "soft_frac": 0.337037,
+        "i_curv": 5.235101,
+        "omega_inst": 2.288034,
+        "energy_per_atom_eV": -5.165369,
+        "n_atoms": 40,
+        "n_imaginary": 8736,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0007,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.651964,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0007,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.651964,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.48659500000000033
+    },
+    {
+      "composition": "Li2AlScI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2AlScI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-041959",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.6289,
+        "soft_frac": 0.342593,
+        "i_curv": 2.91896,
+        "omega_inst": 1.708497,
+        "energy_per_atom_eV": -2.97756,
+        "n_atoms": 40,
+        "n_imaginary": 8880,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0215,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.317658,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.34009800000000023
+    },
+    {
+      "composition": "Li2BiCdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-041959",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.9424,
+        "soft_frac": 0.366667,
+        "i_curv": 4.049943,
+        "omega_inst": 2.012447,
+        "energy_per_atom_eV": -2.219702,
+        "n_atoms": 40,
+        "n_imaginary": 9504,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0018,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -2.524103,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "iteration": 3,
+        "source": "guidance_iter3"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -2.493902,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -2.506759,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        },
+        {
+          "min_freq_THz": -0.0018,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -2.524103,
+          "n_atoms": 80,
+          "n_imaginary": 0,
+          "n_modes_total": 51840,
+          "iteration": 3
+        }
+      ],
+      "energy_reduction": -0.30440100000000037
+    },
+    {
+      "composition": "Li2BiFeI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiFeI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-041959",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.2553,
+        "soft_frac": 0.364815,
+        "i_curv": 3.130937,
+        "omega_inst": 1.769445,
+        "energy_per_atom_eV": -2.806282,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.079,
+        "soft_frac": 0.000154,
+        "i_curv": 1e-06,
+        "omega_inst": 0.000973,
+        "energy_per_atom_eV": -3.127087,
+        "n_atoms": 20,
+        "n_imaginary": 2,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.320805
+    },
+    {
+      "composition": "Li2BiGeCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiGeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-043133",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -6.101,
+        "soft_frac": 0.369444,
+        "i_curv": 5.532775,
+        "omega_inst": 2.352185,
+        "energy_per_atom_eV": -3.180615,
+        "n_atoms": 40,
+        "n_imaginary": 9576,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.2228,
+        "soft_frac": 0.000463,
+        "i_curv": 7e-06,
+        "omega_inst": 0.002583,
+        "energy_per_atom_eV": -3.511368,
+        "n_atoms": 20,
+        "n_imaginary": 6,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3307530000000001
+    },
+    {
+      "composition": "Li2BiNbBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiNbBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-043841",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.3024,
+        "soft_frac": 0.398148,
+        "i_curv": 2.222625,
+        "omega_inst": 1.490847,
+        "energy_per_atom_eV": -3.31447,
+        "n_atoms": 40,
+        "n_imaginary": 10320,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.794654,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0004,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.766727,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.794654,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.48018399999999994
+    },
+    {
+      "composition": "Li2BiRuBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiRuBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-044750",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.7388,
+        "soft_frac": 0.366667,
+        "i_curv": 5.114078,
+        "omega_inst": 2.261433,
+        "energy_per_atom_eV": -3.159262,
+        "n_atoms": 40,
+        "n_imaginary": 9504,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0005,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.499928,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.34066600000000014
+    },
+    {
+      "composition": "Li2BiSbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiSbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-044922",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.812,
+        "soft_frac": 0.424074,
+        "i_curv": 3.744631,
+        "omega_inst": 1.935105,
+        "energy_per_atom_eV": -4.041148,
+        "n_atoms": 40,
+        "n_imaginary": 10992,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2BiWF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-045124",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.7596,
+        "soft_frac": 0.447222,
+        "i_curv": 5.402288,
+        "omega_inst": 2.324282,
+        "energy_per_atom_eV": -4.399499,
+        "n_atoms": 40,
+        "n_imaginary": 11592,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0013,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.898574,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0013,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.898574,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.4990750000000004
+    },
+    {
+      "composition": "Li2BiYI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2BiYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-045356",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.4462,
+        "soft_frac": 0.444136,
+        "i_curv": 3.504237,
+        "omega_inst": 1.871961,
+        "energy_per_atom_eV": -2.94372,
+        "n_atoms": 40,
+        "n_imaginary": 11512,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.412176,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0002,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.409054,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.412176,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4684560000000002
+    },
+    {
+      "composition": "Li2CdCrI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CdCrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-045426",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.0151,
+        "soft_frac": 0.369444,
+        "i_curv": 3.544933,
+        "omega_inst": 1.882799,
+        "energy_per_atom_eV": -2.778021,
+        "n_atoms": 40,
+        "n_imaginary": 9576,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0074,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.103805,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3257840000000001
+    },
+    {
+      "composition": "Li2CdWBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-045840",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.5418,
+        "soft_frac": 0.350926,
+        "i_curv": 4.89803,
+        "omega_inst": 2.213149,
+        "energy_per_atom_eV": -3.211735,
+        "n_atoms": 40,
+        "n_imaginary": 9096,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0153,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.634305,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.614612,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0153,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.634305,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4225699999999999
+    },
+    {
+      "composition": "Li2CoFeCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoFeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-051952",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.6098,
+        "soft_frac": 0.358333,
+        "i_curv": 5.725766,
+        "omega_inst": 2.392857,
+        "energy_per_atom_eV": -3.847998,
+        "n_atoms": 40,
+        "n_imaginary": 9288,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.2263,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.130072,
+        "n_atoms": 10,
+        "n_imaginary": 0,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.28207400000000016
+    },
+    {
+      "composition": "Li2CoFeI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoFeI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-052024",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.1144,
+        "soft_frac": 0.387963,
+        "i_curv": 4.542155,
+        "omega_inst": 2.131233,
+        "energy_per_atom_eV": -3.0222,
+        "n_atoms": 40,
+        "n_imaginary": 10056,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0035,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.472802,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.45060199999999995
+    },
+    {
+      "composition": "Li2CoRuI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-053129",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.132,
+        "soft_frac": 0.467901,
+        "i_curv": 4.838053,
+        "omega_inst": 2.199557,
+        "energy_per_atom_eV": -3.032726,
+        "n_atoms": 40,
+        "n_imaginary": 12128,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.353,
+        "soft_frac": 0.001235,
+        "i_curv": 2.7e-05,
+        "omega_inst": 0.005181,
+        "energy_per_atom_eV": -3.419422,
+        "n_atoms": 40,
+        "n_imaginary": 32,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.38669600000000015
+    },
+    {
+      "composition": "Li2CoScI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoScI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-063027",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.313,
+        "soft_frac": 0.362963,
+        "i_curv": 3.768263,
+        "omega_inst": 1.941201,
+        "energy_per_atom_eV": -3.206102,
+        "n_atoms": 40,
+        "n_imaginary": 9408,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0685,
+        "soft_frac": 0.000617,
+        "i_curv": 3e-06,
+        "omega_inst": 0.001849,
+        "energy_per_atom_eV": -3.551373,
+        "n_atoms": 10,
+        "n_imaginary": 4,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3452709999999999
+    },
+    {
+      "composition": "Li2CoTaI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoTaI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-070409",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.0755,
+        "soft_frac": 0.421605,
+        "i_curv": 3.659294,
+        "omega_inst": 1.912928,
+        "energy_per_atom_eV": -3.328144,
+        "n_atoms": 40,
+        "n_imaginary": 10928,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0761,
+        "soft_frac": 0.000154,
+        "i_curv": 0.0,
+        "omega_inst": 0.000234,
+        "energy_per_atom_eV": -3.804207,
+        "n_atoms": 20,
+        "n_imaginary": 2,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.4760629999999999
+    },
+    {
+      "composition": "Li2CoWCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoWCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073157",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.8717,
+        "soft_frac": 0.396296,
+        "i_curv": 6.555921,
+        "omega_inst": 2.560453,
+        "energy_per_atom_eV": -4.120748,
+        "n_atoms": 40,
+        "n_imaginary": 10272,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.520144,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3993960000000003
+    },
+    {
+      "composition": "Li2CoZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CoZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073256",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -6.2597,
+        "soft_frac": 0.442901,
+        "i_curv": 7.30863,
+        "omega_inst": 2.703448,
+        "energy_per_atom_eV": -5.200434,
+        "n_atoms": 40,
+        "n_imaginary": 11480,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1575,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.688772,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.059,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.672779,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.1575,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.688772,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4883380000000006
+    },
+    {
+      "composition": "Li2CrCuCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CrCuCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073300",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.6789,
+        "soft_frac": 0.324691,
+        "i_curv": 5.471867,
+        "omega_inst": 2.339202,
+        "energy_per_atom_eV": -3.824165,
+        "n_atoms": 40,
+        "n_imaginary": 8416,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0004,
+        "soft_frac": 0.000154,
+        "i_curv": 3e-06,
+        "omega_inst": 0.001869,
+        "energy_per_atom_eV": -4.064587,
+        "n_atoms": 40,
+        "n_imaginary": 4,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.24042200000000058
+    },
+    {
+      "composition": "Li2CrCuI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CrCuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073300",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.1134,
+        "soft_frac": 0.369444,
+        "i_curv": 4.390398,
+        "omega_inst": 2.095328,
+        "energy_per_atom_eV": -2.997907,
+        "n_atoms": 40,
+        "n_imaginary": 9576,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1757,
+        "soft_frac": 0.000926,
+        "i_curv": 1.8e-05,
+        "omega_inst": 0.00422,
+        "energy_per_atom_eV": -3.474383,
+        "n_atoms": 20,
+        "n_imaginary": 12,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.4764759999999999
+    },
+    {
+      "composition": "Li2CrFeI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CrFeI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073300",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.1266,
+        "soft_frac": 0.364815,
+        "i_curv": 3.928221,
+        "omega_inst": 1.981974,
+        "energy_per_atom_eV": -3.379811,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.692216,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.31240500000000004
+    },
+    {
+      "composition": "Li2CuMoCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CuMoCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073300",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.9142,
+        "soft_frac": 0.381481,
+        "i_curv": 6.241832,
+        "omega_inst": 2.498366,
+        "energy_per_atom_eV": -3.791968,
+        "n_atoms": 40,
+        "n_imaginary": 9888,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.078396,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.2864279999999999
+    },
+    {
+      "composition": "Li2CuNbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CuNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073357",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -7.1927,
+        "soft_frac": 0.464506,
+        "i_curv": 10.647237,
+        "omega_inst": 3.26301,
+        "energy_per_atom_eV": -4.890466,
+        "n_atoms": 40,
+        "n_imaginary": 12040,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1743,
+        "soft_frac": 0.000154,
+        "i_curv": 4e-06,
+        "omega_inst": 0.002067,
+        "energy_per_atom_eV": -5.354703,
+        "n_atoms": 20,
+        "n_imaginary": 2,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.4642369999999998
+    },
+    {
+      "composition": "Li2CuNiCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CuNiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073326",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.4352,
+        "soft_frac": 0.315741,
+        "i_curv": 5.061644,
+        "omega_inst": 2.24981,
+        "energy_per_atom_eV": -3.238405,
+        "n_atoms": 40,
+        "n_imaginary": 8184,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -1.7046,
+        "soft_frac": 0.001852,
+        "i_curv": 0.000738,
+        "omega_inst": 0.027158,
+        "energy_per_atom_eV": -3.462291,
+        "n_atoms": 10,
+        "n_imaginary": 12,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.2238859999999998
+    },
+    {
+      "composition": "Li2CuNiI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2CuNiI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-073356",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.0743,
+        "soft_frac": 0.382099,
+        "i_curv": 4.49521,
+        "omega_inst": 2.120191,
+        "energy_per_atom_eV": -2.50729,
+        "n_atoms": 40,
+        "n_imaginary": 9904,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.067,
+        "soft_frac": 0.000926,
+        "i_curv": 5e-06,
+        "omega_inst": 0.002283,
+        "energy_per_atom_eV": -2.747902,
+        "n_atoms": 20,
+        "n_imaginary": 12,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.24061200000000005
+    },
+    {
+      "composition": "Li2FePdCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2FePdCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-074735",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.62,
+        "soft_frac": 0.372222,
+        "i_curv": 5.730866,
+        "omega_inst": 2.393923,
+        "energy_per_atom_eV": -3.638708,
+        "n_atoms": 40,
+        "n_imaginary": 9648,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1074,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.927536,
+        "n_atoms": 10,
+        "n_imaginary": 0,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.2888280000000001
+    },
+    {
+      "composition": "Li2FeRuF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2FeRuF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-081527",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -7.0234,
+        "soft_frac": 0.355556,
+        "i_curv": 8.391818,
+        "omega_inst": 2.896863,
+        "energy_per_atom_eV": -4.854938,
+        "n_atoms": 40,
+        "n_imaginary": 9216,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0009,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.173067,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0009,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.173067,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.3181289999999999
+    },
+    {
+      "composition": "Li2FeSnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2FeSnI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-081623",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.958,
+        "soft_frac": 0.374074,
+        "i_curv": 3.084869,
+        "omega_inst": 1.75638,
+        "energy_per_atom_eV": -2.861973,
+        "n_atoms": 40,
+        "n_imaginary": 9696,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1469,
+        "soft_frac": 0.000772,
+        "i_curv": 6e-06,
+        "omega_inst": 0.002478,
+        "energy_per_atom_eV": -3.164839,
+        "n_atoms": 20,
+        "n_imaginary": 10,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.3028660000000003
+    },
+    {
+      "composition": "Li2FeTiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2FeTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-081622",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.5991,
+        "soft_frac": 0.361111,
+        "i_curv": 5.358734,
+        "omega_inst": 2.314894,
+        "energy_per_atom_eV": -3.745236,
+        "n_atoms": 40,
+        "n_imaginary": 9360,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0372,
+        "soft_frac": 7.7e-05,
+        "i_curv": 0.0,
+        "omega_inst": 0.000236,
+        "energy_per_atom_eV": -4.075184,
+        "n_atoms": 40,
+        "n_imaginary": 2,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0372,
+          "soft_frac": 7.7e-05,
+          "i_curv": 0.0,
+          "omega_inst": 0.000236,
+          "energy_per_atom_eV": -4.075184,
+          "n_atoms": 40,
+          "n_imaginary": 2,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.32994800000000035
+    },
+    {
+      "composition": "Li2GaMnBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GaMnBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-081752",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.6106,
+        "soft_frac": 0.371296,
+        "i_curv": 5.168131,
+        "omega_inst": 2.273352,
+        "energy_per_atom_eV": -3.33551,
+        "n_atoms": 40,
+        "n_imaginary": 9624,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.633785,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.625222,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0003,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.633785,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.29827499999999985
+    },
+    {
+      "composition": "Li2GaMnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GaMnI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-081954",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.8754,
+        "soft_frac": 0.37037,
+        "i_curv": 3.511229,
+        "omega_inst": 1.873827,
+        "energy_per_atom_eV": -2.942898,
+        "n_atoms": 40,
+        "n_imaginary": 9600,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0161,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.229498,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.1264,
+          "soft_frac": 0.002778,
+          "i_curv": 3e-05,
+          "omega_inst": 0.005508,
+          "energy_per_atom_eV": -3.225426,
+          "n_atoms": 20,
+          "n_imaginary": 36,
+          "n_modes_total": 12960,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0161,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.229498,
+          "n_atoms": 80,
+          "n_imaginary": 0,
+          "n_modes_total": 51840,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.28659999999999997
+    },
+    {
+      "composition": "Li2GaSbBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GaSbBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-082024",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.7502,
+        "soft_frac": 0.364815,
+        "i_curv": 2.787469,
+        "omega_inst": 1.669572,
+        "energy_per_atom_eV": -2.770251,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0006,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.082449,
+        "n_atoms": 80,
+        "n_imaginary": 0,
+        "n_modes_total": 51840,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.312198
+    },
+    {
+      "composition": "Li2GaTiBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GaTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-082024",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.5697,
+        "soft_frac": 0.378704,
+        "i_curv": 5.066988,
+        "omega_inst": 2.250997,
+        "energy_per_atom_eV": -3.352823,
+        "n_atoms": 40,
+        "n_imaginary": 9816,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0003,
+        "soft_frac": 0.000617,
+        "i_curv": 4e-06,
+        "omega_inst": 0.00196,
+        "energy_per_atom_eV": -3.660024,
+        "n_atoms": 10,
+        "n_imaginary": 4,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.30720100000000006
+    },
+    {
+      "composition": "Li2GePdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GePdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-082024",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.8158,
+        "soft_frac": 0.364815,
+        "i_curv": 3.587848,
+        "omega_inst": 1.894161,
+        "energy_per_atom_eV": -2.64189,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0168,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -2.896654,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.25476399999999977
+    },
+    {
+      "composition": "Li2GeWBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GeWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-083201",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -5.6792,
+        "soft_frac": 0.364815,
+        "i_curv": 5.06896,
+        "omega_inst": 2.251435,
+        "energy_per_atom_eV": -3.508413,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0007,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.924866,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.4164530000000002
+    },
+    {
+      "composition": "Li2GeWCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GeWCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-084009",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.1365,
+        "soft_frac": 0.344444,
+        "i_curv": 4.650372,
+        "omega_inst": 2.156472,
+        "energy_per_atom_eV": -3.886721,
+        "n_atoms": 40,
+        "n_imaginary": 8928,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0013,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.301941,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0016,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.277833,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0013,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.301941,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.41522000000000014
+    },
+    {
+      "composition": "Li2GeWF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2GeWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-084242",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -6.6325,
+        "soft_frac": 0.460802,
+        "i_curv": 8.383917,
+        "omega_inst": 2.895499,
+        "energy_per_atom_eV": -4.606923,
+        "n_atoms": 40,
+        "n_imaginary": 11944,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.001,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.031731,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.42480799999999963
+    },
+    {
+      "composition": "Li2InNiI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2InNiI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-084839",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.984,
+        "soft_frac": 0.364815,
+        "i_curv": 3.576146,
+        "omega_inst": 1.89107,
+        "energy_per_atom_eV": -2.485871,
+        "n_atoms": 40,
+        "n_imaginary": 9456,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.4788,
+        "soft_frac": 0.00841,
+        "i_curv": 0.00162,
+        "omega_inst": 0.040245,
+        "energy_per_atom_eV": -2.98293,
+        "n_atoms": 40,
+        "n_imaginary": 218,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.49705900000000014
+    },
+    {
+      "composition": "Li2InPdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2InPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-084940",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.8281,
+        "soft_frac": 0.383333,
+        "i_curv": 3.523942,
+        "omega_inst": 1.877217,
+        "energy_per_atom_eV": -2.495601,
+        "n_atoms": 40,
+        "n_imaginary": 9936,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.1938,
+        "soft_frac": 0.007407,
+        "i_curv": 0.000148,
+        "omega_inst": 0.01217,
+        "energy_per_atom_eV": -2.77227,
+        "n_atoms": 10,
+        "n_imaginary": 48,
+        "n_modes_total": 6480,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.2766689999999996
+    },
+    {
+      "composition": "Li2InRuF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2InRuF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-085142",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -6.4665,
+        "soft_frac": 0.351235,
+        "i_curv": 7.962144,
+        "omega_inst": 2.821727,
+        "energy_per_atom_eV": -4.432033,
+        "n_atoms": 40,
+        "n_imaginary": 9104,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.648,
+        "soft_frac": 0.002855,
+        "i_curv": 0.000629,
+        "omega_inst": 0.025082,
+        "energy_per_atom_eV": -4.871731,
+        "n_atoms": 40,
+        "n_imaginary": 74,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0012,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.819315,
+          "n_atoms": 20,
+          "n_imaginary": 0,
+          "n_modes_total": 12960,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.648,
+          "soft_frac": 0.002855,
+          "i_curv": 0.000629,
+          "omega_inst": 0.025082,
+          "energy_per_atom_eV": -4.871731,
+          "n_atoms": 40,
+          "n_imaginary": 74,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4396979999999999
+    },
+    {
+      "composition": "Li2InRuI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2InRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-085413",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -4.7394,
+        "soft_frac": 0.365741,
+        "i_curv": 3.276523,
+        "omega_inst": 1.810117,
+        "energy_per_atom_eV": -2.778909,
+        "n_atoms": 40,
+        "n_imaginary": 9480,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.4444,
+        "soft_frac": 0.005556,
+        "i_curv": 0.000496,
+        "omega_inst": 0.022281,
+        "energy_per_atom_eV": -3.183644,
+        "n_atoms": 40,
+        "n_imaginary": 144,
+        "n_modes_total": 25920,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.40473500000000007
+    },
+    {
+      "composition": "Li2InZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2InZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-085445",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -4.2647,
+        "soft_frac": 0.385802,
+        "i_curv": 3.643616,
+        "omega_inst": 1.908826,
+        "energy_per_atom_eV": -5.138313,
+        "n_atoms": 40,
+        "n_imaginary": 10000,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0379,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -5.54375,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 1,
+        "source": "guidance_iter1"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0379,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -5.54375,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        }
+      ],
+      "energy_reduction": -0.40543700000000005
+    },
+    {
+      "composition": "Li2MnNbCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MnNbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-094657",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.4143,
+        "soft_frac": 0.351852,
+        "i_curv": 5.094301,
+        "omega_inst": 2.257056,
+        "energy_per_atom_eV": -4.360268,
+        "n_atoms": 40,
+        "n_imaginary": 9120,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0008,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.698885,
+        "n_atoms": 20,
+        "n_imaginary": 0,
+        "n_modes_total": 12960,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0008,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.697494,
+          "n_atoms": 20,
+          "n_imaginary": 0,
+          "n_modes_total": 12960,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0008,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.698885,
+          "n_atoms": 20,
+          "n_imaginary": 0,
+          "n_modes_total": 12960,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.33861700000000017
+    },
+    {
+      "composition": "Li2MnPdBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MnPdBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-094717",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.3621,
+        "soft_frac": 0.362963,
+        "i_curv": 4.85009,
+        "omega_inst": 2.202292,
+        "energy_per_atom_eV": -3.464675,
+        "n_atoms": 40,
+        "n_imaginary": 9408,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0113,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -3.743151,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0101,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.7231,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0113,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -3.743151,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.27847599999999995
+    },
+    {
+      "composition": "Li2MnTaBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MnTaBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-094750",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.6188,
+        "soft_frac": 0.346296,
+        "i_curv": 5.055711,
+        "omega_inst": 2.248491,
+        "energy_per_atom_eV": -4.016223,
+        "n_atoms": 40,
+        "n_imaginary": 8976,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0005,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.43005,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0394,
+          "soft_frac": 7.7e-05,
+          "i_curv": 0.0,
+          "omega_inst": 0.000131,
+          "energy_per_atom_eV": -4.411647,
+          "n_atoms": 40,
+          "n_imaginary": 2,
+          "n_modes_total": 25920,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0005,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.43005,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.4138269999999995
+    },
+    {
+      "composition": "Li2MnTiCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MnTiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-094854",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.619,
+        "soft_frac": 0.333642,
+        "i_curv": 5.409031,
+        "omega_inst": 2.325732,
+        "energy_per_atom_eV": -4.351259,
+        "n_atoms": 40,
+        "n_imaginary": 8648,
+        "n_modes_total": 25920
+      },
+      "final": {
+        "min_freq_THz": -0.0007,
+        "soft_frac": 0.0,
+        "i_curv": 0.0,
+        "omega_inst": 0.0,
+        "energy_per_atom_eV": -4.627802,
+        "n_atoms": 40,
+        "n_imaginary": 0,
+        "n_modes_total": 25920,
+        "iteration": 2,
+        "source": "guidance_iter2"
+      },
+      "guidance_checks": [
+        {
+          "min_freq_THz": -0.0006,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.62439,
+          "n_atoms": 20,
+          "n_imaginary": 0,
+          "n_modes_total": 12960,
+          "iteration": 1
+        },
+        {
+          "min_freq_THz": -0.0007,
+          "soft_frac": 0.0,
+          "i_curv": 0.0,
+          "omega_inst": 0.0,
+          "energy_per_atom_eV": -4.627802,
+          "n_atoms": 40,
+          "n_imaginary": 0,
+          "n_modes_total": 25920,
+          "iteration": 2
+        }
+      ],
+      "energy_reduction": -0.2765430000000002
+    },
+    {
+      "composition": "Li2MnWCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MnWCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113743",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.6637,
+        "soft_frac": 0.344753,
+        "i_curv": 5.602844,
+        "omega_inst": 2.367033,
+        "energy_per_atom_eV": -4.411528,
+        "n_atoms": 40,
+        "n_imaginary": 8936,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2MoSbCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MoSbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113743",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.3658,
+        "soft_frac": 0.378704,
+        "i_curv": 4.930378,
+        "omega_inst": 2.220446,
+        "energy_per_atom_eV": -3.655485,
+        "n_atoms": 40,
+        "n_imaginary": 9816,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2MoTiF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MoTiF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113745",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -6.5909,
+        "soft_frac": 0.380864,
+        "i_curv": 7.105511,
+        "omega_inst": 2.665616,
+        "energy_per_atom_eV": -5.201606,
+        "n_atoms": 40,
+        "n_imaginary": 9872,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2MoZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2MoZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113745",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -3.4911,
+        "soft_frac": 0.383642,
+        "i_curv": 2.588421,
+        "omega_inst": 1.608857,
+        "energy_per_atom_eV": -5.332679,
+        "n_atoms": 40,
+        "n_imaginary": 9944,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2NbVBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2NbVBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113745",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.5439,
+        "soft_frac": 0.403704,
+        "i_curv": 5.057686,
+        "omega_inst": 2.24893,
+        "energy_per_atom_eV": -3.919059,
+        "n_atoms": 40,
+        "n_imaginary": 10464,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2NbZrF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2NbZrF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113745",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.9566,
+        "soft_frac": 0.576852,
+        "i_curv": 7.04235,
+        "omega_inst": 2.653743,
+        "energy_per_atom_eV": -5.526925,
+        "n_atoms": 40,
+        "n_imaginary": 14952,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2NiPdI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2NiPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-113743",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.0524,
+        "soft_frac": 0.396296,
+        "i_curv": 4.424339,
+        "omega_inst": 2.103411,
+        "energy_per_atom_eV": -2.682619,
+        "n_atoms": 40,
+        "n_imaginary": 10272,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2NiRuCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2NiRuCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-114211",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.5605,
+        "soft_frac": 0.396296,
+        "i_curv": 6.187217,
+        "omega_inst": 2.487412,
+        "energy_per_atom_eV": -3.662481,
+        "n_atoms": 40,
+        "n_imaginary": 10272,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2NiScI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2NiScI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-115429",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.3549,
+        "soft_frac": 0.349074,
+        "i_curv": 3.952387,
+        "omega_inst": 1.988061,
+        "energy_per_atom_eV": -3.092169,
+        "n_atoms": 40,
+        "n_imaginary": 9048,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    },
+    {
+      "composition": "Li2RuScBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/elpasolite_whitespaces_200/forced_cubic/Li2RuScBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1_MACE_GA_phonon_output_20260902-120037",
+      "status": "ga_incomplete",
+      "initial": {
+        "min_freq_THz": -5.2803,
+        "soft_frac": 0.341975,
+        "i_curv": 4.6041,
+        "omega_inst": 2.145717,
+        "energy_per_atom_eV": -3.7579,
+        "n_atoms": 40,
+        "n_imaginary": 8864,
+        "n_modes_total": 25920
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null
+    }
+  ],
+  "transmuted": [
+    {
+      "composition": "Cs2GaNbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Cs2GaNbF6_transmutation_transmuted_from_agm004472018_rank_1_MACE_GA_phonon_output_20260327-223656",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0007,
+        "soft_frac": 0.002,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -5.063262,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "K2BiSbF6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/K2BiSbF6_transmutation_transmuted_from_agm004952962_rank_1_MACE_GA_phonon_output_20260327-223702",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.3294,
+        "soft_frac": 0.013333333333333334,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.331339,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {
+        "min_freq_THz": -0.8526,
+        "soft_frac": 0.010166666666666666,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.497342,
+        "n_atoms": 20,
+        "n_imaginary": null,
+        "n_modes_total": null,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.1660029999999999,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "K2ZnFeI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/K2ZnFeI6_transmutation_transmuted_from_oqmd-5773328_rank_1_MACE_GA_phonon_output_20260327-233300",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0623,
+        "soft_frac": 0.003833333333333333,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -2.860504,
+        "n_atoms": 20,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Li2CdFeBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Li2CdFeBr6_transmutation_transmuted_from_agm004956635_rank_1_MACE_GA_phonon_output_20260327-233254",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0831,
+        "soft_frac": 0.002,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -3.230797,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Li2CoZnI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Li2CoZnI6_transmutation_transmuted_from_agm004957106_rank_1_MACE_GA_phonon_output_20260327-233255",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0428,
+        "soft_frac": 0.005333333333333333,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -2.736202,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Li2CuCrCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Li2CuCrCl6_transmutation_transmuted_from_agm004972658_rank_1_MACE_GA_phonon_output_20260327-233310",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -2.3032,
+        "soft_frac": 0.033666666666666664,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.010336,
+        "n_atoms": 20,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {
+        "min_freq_THz": -0.454,
+        "soft_frac": 0.005,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.064221,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.05388500000000018,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Li2PdZnCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Li2PdZnCl6_transmutation_transmuted_from_agm004957100_rank_1_MACE_GA_phonon_output_20260327-233304",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.6743,
+        "soft_frac": 0.014,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -3.311022,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {
+        "min_freq_THz": -0.2538,
+        "soft_frac": 0.008666666666666666,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -3.323169,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.01214700000000013,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Na2BiNbI6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Na2BiNbI6_transmutation_transmuted_from_agm002175014_rank_1_MACE_GA_phonon_output_20260327-223702",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0013333333333333333,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -3.570409,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Na2CoCrBr6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Na2CoCrBr6_transmutation_transmuted_from_oqmd-8995409_rank_1_MACE_GA_phonon_output_20260327-233320",
+      "status": "stable_no_ga",
+      "initial": {
+        "min_freq_THz": -0.0002,
+        "soft_frac": 0.0005,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -3.783607,
+        "n_atoms": 20,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {},
+      "guidance_checks": [],
+      "energy_reduction": null,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    },
+    {
+      "composition": "Na2CrFeCl6",
+      "output_dir": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/whitespace_structures/Na2CrFeCl6_transmutation_transmuted_from_agm004957375_rank_1_MACE_GA_phonon_output_20260327-223646",
+      "status": "ga_completed",
+      "initial": {
+        "min_freq_THz": -0.1317,
+        "soft_frac": 0.005,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.861161,
+        "n_atoms": 10,
+        "n_imaginary": null,
+        "n_modes_total": null
+      },
+      "final": {
+        "min_freq_THz": -0.0005,
+        "soft_frac": 0.0013333333333333333,
+        "i_curv": null,
+        "omega_inst": null,
+        "energy_per_atom_eV": -4.897088,
+        "n_atoms": 20,
+        "n_imaginary": null,
+        "n_modes_total": null,
+        "source": "final_top1"
+      },
+      "guidance_checks": [],
+      "energy_reduction": -0.03592700000000004,
+      "strategy": "transmuted",
+      "from_old_folder": true
+    }
+  ]
+}

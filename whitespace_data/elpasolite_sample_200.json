@@ -1,0 +1,3298 @@
+[
+  {
+    "formula": "Li2CoRuI6",
+    "elements": [
+      "Co",
+      "I",
+      "Li",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Ru"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2BiCdI6",
+    "elements": [
+      "Bi",
+      "Cd",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Cd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2AlTiBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "Cs",
+      "Ti"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Al",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2InZrF6",
+    "elements": [
+      "F",
+      "In",
+      "Li",
+      "Zr"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "In",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2GeWBr6",
+    "elements": [
+      "Br",
+      "Ge",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ge",
+      "W"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2FeSbBr6",
+    "elements": [
+      "Br",
+      "Fe",
+      "K",
+      "Sb"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Fe",
+      "Sb"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2NbZnBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Nb",
+      "Zn"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Nb",
+      "Zn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2BiWF6",
+    "elements": [
+      "Bi",
+      "F",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2GeWF6",
+    "elements": [
+      "F",
+      "Ge",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ge",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2BiRuBr6",
+    "elements": [
+      "Bi",
+      "Br",
+      "Li",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Ru"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2GeRuF6",
+    "elements": [
+      "Cs",
+      "F",
+      "Ge",
+      "Ru"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ge",
+      "Ru"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2InRuF6",
+    "elements": [
+      "F",
+      "In",
+      "Li",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "In",
+      "Ru"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2TaYI6",
+    "elements": [
+      "I",
+      "K",
+      "Ta",
+      "Y"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ta",
+      "Y"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2NiRuCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Ni",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ni",
+      "Ru"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2AlScI6",
+    "elements": [
+      "Al",
+      "I",
+      "Li",
+      "Sc"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Al",
+      "Sc"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2PdRuCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Pd",
+      "Ru"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Pd",
+      "Ru"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2CoGeCl6",
+    "elements": [
+      "Cl",
+      "Co",
+      "Ge",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Co",
+      "Ge"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2AlScBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "K",
+      "Sc"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Al",
+      "Sc"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2AlMoBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "K",
+      "Mo"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Al",
+      "Mo"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2AlZnI6",
+    "elements": [
+      "Al",
+      "I",
+      "Na",
+      "Zn"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Zn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2GeTaBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Ge",
+      "Ta"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ge",
+      "Ta"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2CuWBr6",
+    "elements": [
+      "Br",
+      "Cu",
+      "K",
+      "W"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Cu",
+      "W"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2InPdCl6",
+    "elements": [
+      "Cl",
+      "In",
+      "Na",
+      "Pd"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "In",
+      "Pd"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2ScTaCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Sc",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sc",
+      "Ta"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2AlFeBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "Fe",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Al",
+      "Fe"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2SnWCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Sn",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Sn",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2CrGaBr6",
+    "elements": [
+      "Br",
+      "Cr",
+      "Ga",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "Ga"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2FeRuF6",
+    "elements": [
+      "F",
+      "Fe",
+      "Li",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Fe",
+      "Ru"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2CrCuI6",
+    "elements": [
+      "Cr",
+      "Cu",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cr",
+      "Cu"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2CuGeF6",
+    "elements": [
+      "Cu",
+      "F",
+      "Ge",
+      "K"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Cu",
+      "Ge"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2CoFeCl6",
+    "elements": [
+      "Cl",
+      "Co",
+      "Fe",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Fe"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Cs2MoNiBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Mo",
+      "Ni"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Mo",
+      "Ni"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Rb2CrZrCl6",
+    "elements": [
+      "Cl",
+      "Cr",
+      "Rb",
+      "Zr"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Cr",
+      "Zr"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2NiVCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Ni",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ni",
+      "V"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2GeScBr6",
+    "elements": [
+      "Br",
+      "Ge",
+      "Na",
+      "Sc"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ge",
+      "Sc"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2TaVF6",
+    "elements": [
+      "F",
+      "Na",
+      "Ta",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ta",
+      "V"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2MnZrI6",
+    "elements": [
+      "I",
+      "K",
+      "Mn",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Mn",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2AgWCl6",
+    "elements": [
+      "Ag",
+      "Cl",
+      "Na",
+      "W"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ag",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2ScWF6",
+    "elements": [
+      "F",
+      "K",
+      "Sc",
+      "W"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Sc",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2SbZrF6",
+    "elements": [
+      "F",
+      "Na",
+      "Sb",
+      "Zr"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sb",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2BiZnI6",
+    "elements": [
+      "Bi",
+      "I",
+      "Na",
+      "Zn"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "Zn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2ScZrI6",
+    "elements": [
+      "Cs",
+      "I",
+      "Sc",
+      "Zr"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Sc",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2CoGeCl6",
+    "elements": [
+      "Cl",
+      "Co",
+      "Ge",
+      "Rb"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Co",
+      "Ge"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2SbScBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Sb",
+      "Sc"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Sb",
+      "Sc"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2BiNbI6",
+    "elements": [
+      "Bi",
+      "I",
+      "Na",
+      "Nb"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "Nb"
+    ],
+    "halogen": "I",
+    "original": true
+  },
+  {
+    "formula": "Cs2FeMoBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Fe",
+      "Mo"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Fe",
+      "Mo"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2ScTaI6",
+    "elements": [
+      "I",
+      "Na",
+      "Sc",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sc",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2TiZrF6",
+    "elements": [
+      "F",
+      "K",
+      "Ti",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ti",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2RuScBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Ru",
+      "Sc"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ru",
+      "Sc"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2AlTaI6",
+    "elements": [
+      "Al",
+      "I",
+      "Na",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2SnZrBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Sn",
+      "Zr"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sn",
+      "Zr"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2BiNbBr6",
+    "elements": [
+      "Bi",
+      "Br",
+      "K",
+      "Nb"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Bi",
+      "Nb"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2MoTiBr6",
+    "elements": [
+      "Br",
+      "Mo",
+      "Na",
+      "Ti"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mo",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2GePdI6",
+    "elements": [
+      "Ge",
+      "I",
+      "Li",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ge",
+      "Pd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2ScTiBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Sc",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Sc",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2SnWCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Sn",
+      "W"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sn",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2GaSbBr6",
+    "elements": [
+      "Br",
+      "Ga",
+      "Li",
+      "Sb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ga",
+      "Sb"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2ScTiF6",
+    "elements": [
+      "F",
+      "Na",
+      "Sc",
+      "Ti"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sc",
+      "Ti"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2AlSnBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "Na",
+      "Sn"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Sn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2GeNbF6",
+    "elements": [
+      "F",
+      "Ge",
+      "K",
+      "Nb"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ge",
+      "Nb"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2CuNiCl6",
+    "elements": [
+      "Cl",
+      "Cu",
+      "Li",
+      "Ni"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cu",
+      "Ni"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2MnTiCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Mn",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mn",
+      "Ti"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2BiTaCl6",
+    "elements": [
+      "Bi",
+      "Cl",
+      "Na",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "Ta"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2RuZnI6",
+    "elements": [
+      "I",
+      "Li",
+      "Ru",
+      "Zn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ru",
+      "Zn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2ScYBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Sc",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sc",
+      "Y"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2AlGeI6",
+    "elements": [
+      "Al",
+      "Ge",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Al",
+      "Ge"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2PdZnCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Pd",
+      "Zn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Pd",
+      "Zn"
+    ],
+    "halogen": "Cl",
+    "original": true
+  },
+  {
+    "formula": "K2MoZrBr6",
+    "elements": [
+      "Br",
+      "K",
+      "Mo",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Mo",
+      "Zr"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2FeZrI6",
+    "elements": [
+      "Fe",
+      "I",
+      "Na",
+      "Zr"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Fe",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2CoFeI6",
+    "elements": [
+      "Co",
+      "Fe",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Fe"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2WZnCl6",
+    "elements": [
+      "Cl",
+      "Rb",
+      "W",
+      "Zn"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "W",
+      "Zn"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2RuSnI6",
+    "elements": [
+      "I",
+      "K",
+      "Ru",
+      "Sn"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ru",
+      "Sn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2InRuI6",
+    "elements": [
+      "I",
+      "In",
+      "Li",
+      "Ru"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "In",
+      "Ru"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2MoPdBr6",
+    "elements": [
+      "Br",
+      "Mo",
+      "Pd",
+      "Rb"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Mo",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2MoYCl6",
+    "elements": [
+      "Cl",
+      "Mo",
+      "Na",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mo",
+      "Y"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2CoSnBr6",
+    "elements": [
+      "Br",
+      "Co",
+      "Na",
+      "Sn"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Co",
+      "Sn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2CuNiI6",
+    "elements": [
+      "Cu",
+      "I",
+      "Li",
+      "Ni"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cu",
+      "Ni"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2AlTaF6",
+    "elements": [
+      "Al",
+      "F",
+      "K",
+      "Ta"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Al",
+      "Ta"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2AlZnBr6",
+    "elements": [
+      "Al",
+      "Br",
+      "Na",
+      "Zn"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Zn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2CrTiI6",
+    "elements": [
+      "Cr",
+      "I",
+      "K",
+      "Ti"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Cr",
+      "Ti"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2ScZrBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Sc",
+      "Zr"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Sc",
+      "Zr"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2NbZrF6",
+    "elements": [
+      "F",
+      "Li",
+      "Nb",
+      "Zr"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Nb",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2MoPdBr6",
+    "elements": [
+      "Br",
+      "K",
+      "Mo",
+      "Pd"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Mo",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2AlInI6",
+    "elements": [
+      "Al",
+      "I",
+      "In",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "In"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2GeVI6",
+    "elements": [
+      "Ge",
+      "I",
+      "Na",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ge",
+      "V"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2InWI6",
+    "elements": [
+      "I",
+      "In",
+      "Na",
+      "W"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "In",
+      "W"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2BiNbBr6",
+    "elements": [
+      "Bi",
+      "Br",
+      "Li",
+      "Nb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Nb"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2NbPdCl6",
+    "elements": [
+      "Cl",
+      "Cs",
+      "Nb",
+      "Pd"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Nb",
+      "Pd"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2CoRuI6",
+    "elements": [
+      "Co",
+      "I",
+      "K",
+      "Ru"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Co",
+      "Ru"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2GaMnI6",
+    "elements": [
+      "Ga",
+      "I",
+      "Li",
+      "Mn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ga",
+      "Mn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2NbTiBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Nb",
+      "Ti"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Nb",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2CdNiBr6",
+    "elements": [
+      "Br",
+      "Cd",
+      "Cs",
+      "Ni"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Cd",
+      "Ni"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2NiZrBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Ni",
+      "Zr"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ni",
+      "Zr"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2MnTaBr6",
+    "elements": [
+      "Br",
+      "Mn",
+      "Na",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mn",
+      "Ta"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2CrMoBr6",
+    "elements": [
+      "Br",
+      "Cr",
+      "Mo",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "Mo"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2CrRuI6",
+    "elements": [
+      "Cr",
+      "I",
+      "Na",
+      "Ru"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "Ru"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2GaNiBr6",
+    "elements": [
+      "Br",
+      "Ga",
+      "Na",
+      "Ni"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ga",
+      "Ni"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2CuNbF6",
+    "elements": [
+      "Cu",
+      "F",
+      "Li",
+      "Nb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cu",
+      "Nb"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2MnTaI6",
+    "elements": [
+      "I",
+      "Mn",
+      "Na",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mn",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2FeGaI6",
+    "elements": [
+      "Cs",
+      "Fe",
+      "Ga",
+      "I"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Fe",
+      "Ga"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2CoVI6",
+    "elements": [
+      "Co",
+      "I",
+      "Rb",
+      "V"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Co",
+      "V"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2AlNbF6",
+    "elements": [
+      "Al",
+      "F",
+      "Li",
+      "Nb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Al",
+      "Nb"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2WYCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "W",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "W",
+      "Y"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2CoPdI6",
+    "elements": [
+      "Co",
+      "I",
+      "K",
+      "Pd"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Co",
+      "Pd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2CdWBr6",
+    "elements": [
+      "Br",
+      "Cd",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cd",
+      "W"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2MnNbCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Mn",
+      "Nb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mn",
+      "Nb"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2GeMoF6",
+    "elements": [
+      "F",
+      "Ge",
+      "K",
+      "Mo"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ge",
+      "Mo"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Cs2CdWBr6",
+    "elements": [
+      "Br",
+      "Cd",
+      "Cs",
+      "W"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Cd",
+      "W"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2CuTaCl6",
+    "elements": [
+      "Cl",
+      "Cu",
+      "Na",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cu",
+      "Ta"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2SnTaBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Sn",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sn",
+      "Ta"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2GePdBr6",
+    "elements": [
+      "Br",
+      "Ge",
+      "K",
+      "Pd"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ge",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2ScYI6",
+    "elements": [
+      "I",
+      "Li",
+      "Sc",
+      "Y"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Sc",
+      "Y"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2CoScI6",
+    "elements": [
+      "Co",
+      "I",
+      "Li",
+      "Sc"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Sc"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2MoNiI6",
+    "elements": [
+      "Cs",
+      "I",
+      "Mo",
+      "Ni"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Mo",
+      "Ni"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2SbVCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Sb",
+      "V"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Sb",
+      "V"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Cs2MnRuBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "Mn",
+      "Ru"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Mn",
+      "Ru"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2FeNbI6",
+    "elements": [
+      "Cs",
+      "Fe",
+      "I",
+      "Nb"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Fe",
+      "Nb"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2NbVBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Nb",
+      "V"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Nb",
+      "V"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2GeTaI6",
+    "elements": [
+      "Ge",
+      "I",
+      "K",
+      "Ta"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ge",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2MoTiF6",
+    "elements": [
+      "F",
+      "Li",
+      "Mo",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mo",
+      "Ti"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2RuSnF6",
+    "elements": [
+      "F",
+      "Li",
+      "Ru",
+      "Sn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ru",
+      "Sn"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2AlMoCl6",
+    "elements": [
+      "Al",
+      "Cl",
+      "Li",
+      "Mo"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Al",
+      "Mo"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Cs2VZrBr6",
+    "elements": [
+      "Br",
+      "Cs",
+      "V",
+      "Zr"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "V",
+      "Zr"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2FeSnI6",
+    "elements": [
+      "Fe",
+      "I",
+      "Li",
+      "Sn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Fe",
+      "Sn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2SbYF6",
+    "elements": [
+      "F",
+      "Na",
+      "Sb",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Sb",
+      "Y"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2MnTaBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Mn",
+      "Ta"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mn",
+      "Ta"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Cs2CdTiI6",
+    "elements": [
+      "Cd",
+      "Cs",
+      "I",
+      "Ti"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Cd",
+      "Ti"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2GaRuBr6",
+    "elements": [
+      "Br",
+      "Ga",
+      "Na",
+      "Ru"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ga",
+      "Ru"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2AlCoI6",
+    "elements": [
+      "Al",
+      "Co",
+      "I",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Co"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2CrPdBr6",
+    "elements": [
+      "Br",
+      "Cr",
+      "Na",
+      "Pd"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2NiPdI6",
+    "elements": [
+      "I",
+      "Li",
+      "Ni",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ni",
+      "Pd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2MoYI6",
+    "elements": [
+      "I",
+      "Mo",
+      "Na",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mo",
+      "Y"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2WYCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "W",
+      "Y"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "W",
+      "Y"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2NbSnI6",
+    "elements": [
+      "I",
+      "K",
+      "Nb",
+      "Sn"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Nb",
+      "Sn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2FeRuF6",
+    "elements": [
+      "F",
+      "Fe",
+      "Na",
+      "Ru"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Fe",
+      "Ru"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2MnPdBr6",
+    "elements": [
+      "Br",
+      "Li",
+      "Mn",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mn",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2CrVBr6",
+    "elements": [
+      "Br",
+      "Cr",
+      "Na",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "V"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2CrFeI6",
+    "elements": [
+      "Cr",
+      "Fe",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cr",
+      "Fe"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2GeTiCl6",
+    "elements": [
+      "Cl",
+      "Ge",
+      "Rb",
+      "Ti"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Ge",
+      "Ti"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2CdMoCl6",
+    "elements": [
+      "Cd",
+      "Cl",
+      "Mo",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cd",
+      "Mo"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2PdZrI6",
+    "elements": [
+      "I",
+      "K",
+      "Pd",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Pd",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2NiScI6",
+    "elements": [
+      "I",
+      "Li",
+      "Ni",
+      "Sc"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ni",
+      "Sc"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2CoZnI6",
+    "elements": [
+      "Co",
+      "I",
+      "Li",
+      "Zn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Zn"
+    ],
+    "halogen": "I",
+    "original": true
+  },
+  {
+    "formula": "Li2CuMoCl6",
+    "elements": [
+      "Cl",
+      "Cu",
+      "Li",
+      "Mo"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cu",
+      "Mo"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2BiFeI6",
+    "elements": [
+      "Bi",
+      "Fe",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Fe"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2GaTiBr6",
+    "elements": [
+      "Br",
+      "Ga",
+      "Li",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ga",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2FeZnBr6",
+    "elements": [
+      "Br",
+      "Fe",
+      "K",
+      "Zn"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Fe",
+      "Zn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2MoScF6",
+    "elements": [
+      "F",
+      "K",
+      "Mo",
+      "Sc"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Mo",
+      "Sc"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2MoSbCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Mo",
+      "Sb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mo",
+      "Sb"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2GaMnBr6",
+    "elements": [
+      "Br",
+      "Ga",
+      "Li",
+      "Mn"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ga",
+      "Mn"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "K2NbPdF6",
+    "elements": [
+      "F",
+      "K",
+      "Nb",
+      "Pd"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Nb",
+      "Pd"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2NbVCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Nb",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Nb",
+      "V"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2CoWCl6",
+    "elements": [
+      "Cl",
+      "Co",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2ZnZrI6",
+    "elements": [
+      "I",
+      "K",
+      "Zn",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Zn",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2NbScCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Nb",
+      "Sc"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Nb",
+      "Sc"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2CdCrI6",
+    "elements": [
+      "Cd",
+      "Cr",
+      "I",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cd",
+      "Cr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Rb2MoVBr6",
+    "elements": [
+      "Br",
+      "Mo",
+      "Rb",
+      "V"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Mo",
+      "V"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2BiSbF6",
+    "elements": [
+      "Bi",
+      "F",
+      "Li",
+      "Sb"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Sb"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2MoRuCl6",
+    "elements": [
+      "Cl",
+      "K",
+      "Mo",
+      "Ru"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Mo",
+      "Ru"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2GeWCl6",
+    "elements": [
+      "Cl",
+      "Ge",
+      "Li",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ge",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2AlNbI6",
+    "elements": [
+      "Al",
+      "I",
+      "Na",
+      "Nb"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Nb"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2RuZrF6",
+    "elements": [
+      "F",
+      "K",
+      "Ru",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ru",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2AlCdI6",
+    "elements": [
+      "Al",
+      "Cd",
+      "I",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Cd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2InPdI6",
+    "elements": [
+      "I",
+      "In",
+      "Li",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "In",
+      "Pd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2BiVBr6",
+    "elements": [
+      "Bi",
+      "Br",
+      "Na",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "V"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2BiYI6",
+    "elements": [
+      "Bi",
+      "I",
+      "Li",
+      "Y"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Y"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2CoZrF6",
+    "elements": [
+      "Co",
+      "F",
+      "Li",
+      "Zr"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2BiZrI6",
+    "elements": [
+      "Bi",
+      "I",
+      "Na",
+      "Zr"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "Zr"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2NbRuF6",
+    "elements": [
+      "F",
+      "Na",
+      "Nb",
+      "Ru"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Nb",
+      "Ru"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Cs2RuTaF6",
+    "elements": [
+      "Cs",
+      "F",
+      "Ru",
+      "Ta"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ru",
+      "Ta"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Na2RuTiCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Ru",
+      "Ti"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ru",
+      "Ti"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2AlYCl6",
+    "elements": [
+      "Al",
+      "Cl",
+      "Na",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Al",
+      "Y"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Na2WYBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "W",
+      "Y"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "W",
+      "Y"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2TaWBr6",
+    "elements": [
+      "Br",
+      "Na",
+      "Ta",
+      "W"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ta",
+      "W"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2RuTaCl6",
+    "elements": [
+      "Cl",
+      "Na",
+      "Ru",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ru",
+      "Ta"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2FePdCl6",
+    "elements": [
+      "Cl",
+      "Fe",
+      "Li",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Fe",
+      "Pd"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2SnZrCl6",
+    "elements": [
+      "Cl",
+      "K",
+      "Sn",
+      "Zr"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Sn",
+      "Zr"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2FeTiBr6",
+    "elements": [
+      "Br",
+      "Fe",
+      "Li",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Fe",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Rb2NiSnI6",
+    "elements": [
+      "I",
+      "Ni",
+      "Rb",
+      "Sn"
+    ],
+    "alkali": "Rb",
+    "metals": [
+      "Ni",
+      "Sn"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2RuVCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Ru",
+      "V"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ru",
+      "V"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2InNiI6",
+    "elements": [
+      "I",
+      "In",
+      "Li",
+      "Ni"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "In",
+      "Ni"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2MoTiI6",
+    "elements": [
+      "I",
+      "Mo",
+      "Na",
+      "Ti"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Mo",
+      "Ti"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2AgPdI6",
+    "elements": [
+      "Ag",
+      "I",
+      "Li",
+      "Pd"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ag",
+      "Pd"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2GaSbF6",
+    "elements": [
+      "F",
+      "Ga",
+      "K",
+      "Sb"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ga",
+      "Sb"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2BiGeCl6",
+    "elements": [
+      "Bi",
+      "Cl",
+      "Ge",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Bi",
+      "Ge"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Cs2RuZrF6",
+    "elements": [
+      "Cs",
+      "F",
+      "Ru",
+      "Zr"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ru",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2RuScI6",
+    "elements": [
+      "I",
+      "K",
+      "Ru",
+      "Sc"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ru",
+      "Sc"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Li2MnWCl6",
+    "elements": [
+      "Cl",
+      "Li",
+      "Mn",
+      "W"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mn",
+      "W"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "K2NbWF6",
+    "elements": [
+      "F",
+      "K",
+      "Nb",
+      "W"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Nb",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2MoZrF6",
+    "elements": [
+      "F",
+      "Li",
+      "Mo",
+      "Zr"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Mo",
+      "Zr"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "Li2CoTaI6",
+    "elements": [
+      "Co",
+      "I",
+      "Li",
+      "Ta"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Co",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2NbPdBr6",
+    "elements": [
+      "Br",
+      "K",
+      "Nb",
+      "Pd"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Nb",
+      "Pd"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Li2CrCuCl6",
+    "elements": [
+      "Cl",
+      "Cr",
+      "Cu",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cr",
+      "Cu"
+    ],
+    "halogen": "Cl",
+    "original": true
+  },
+  {
+    "formula": "Na2BiVI6",
+    "elements": [
+      "Bi",
+      "I",
+      "Na",
+      "V"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Bi",
+      "V"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Cs2NiSnCl6",
+    "elements": [
+      "Cl",
+      "Cs",
+      "Ni",
+      "Sn"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ni",
+      "Sn"
+    ],
+    "halogen": "Cl",
+    "original": false
+  },
+  {
+    "formula": "Li2AgTiBr6",
+    "elements": [
+      "Ag",
+      "Br",
+      "Li",
+      "Ti"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Ag",
+      "Ti"
+    ],
+    "halogen": "Br",
+    "original": false
+  },
+  {
+    "formula": "Na2RuTaI6",
+    "elements": [
+      "I",
+      "Na",
+      "Ru",
+      "Ta"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Ru",
+      "Ta"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "K2GaWF6",
+    "elements": [
+      "F",
+      "Ga",
+      "K",
+      "W"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Ga",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2NbScI6",
+    "elements": [
+      "I",
+      "K",
+      "Nb",
+      "Sc"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Nb",
+      "Sc"
+    ],
+    "halogen": "I",
+    "original": false
+  },
+  {
+    "formula": "Na2FeWF6",
+    "elements": [
+      "F",
+      "Fe",
+      "Na",
+      "W"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Fe",
+      "W"
+    ],
+    "halogen": "F",
+    "original": false
+  },
+  {
+    "formula": "K2BiSbF6",
+    "elements": [
+      "Bi",
+      "F",
+      "K",
+      "Sb"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Bi",
+      "Sb"
+    ],
+    "halogen": "F",
+    "original": true
+  },
+  {
+    "formula": "K2FeZnI6",
+    "elements": [
+      "Fe",
+      "I",
+      "K",
+      "Zn"
+    ],
+    "alkali": "K",
+    "metals": [
+      "Fe",
+      "Zn"
+    ],
+    "halogen": "I",
+    "original": true
+  },
+  {
+    "formula": "Cs2GaNbF6",
+    "elements": [
+      "Cs",
+      "F",
+      "Ga",
+      "Nb"
+    ],
+    "alkali": "Cs",
+    "metals": [
+      "Ga",
+      "Nb"
+    ],
+    "halogen": "F",
+    "original": true
+  },
+  {
+    "formula": "Na2CoCrBr6",
+    "elements": [
+      "Br",
+      "Co",
+      "Cr",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Co",
+      "Cr"
+    ],
+    "halogen": "Br",
+    "original": true
+  },
+  {
+    "formula": "Li2CdFeBr6",
+    "elements": [
+      "Br",
+      "Cd",
+      "Fe",
+      "Li"
+    ],
+    "alkali": "Li",
+    "metals": [
+      "Cd",
+      "Fe"
+    ],
+    "halogen": "Br",
+    "original": true
+  },
+  {
+    "formula": "Na2CrFeCl6",
+    "elements": [
+      "Cl",
+      "Cr",
+      "Fe",
+      "Na"
+    ],
+    "alkali": "Na",
+    "metals": [
+      "Cr",
+      "Fe"
+    ],
+    "halogen": "Cl",
+    "original": true
+  }
+]

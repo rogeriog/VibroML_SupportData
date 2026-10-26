@@ -1,0 +1,69 @@
+--- Phonon Run Summary ---
+Structure Formula: Cu8Zr8
+Total Number of Atoms: 16
+Engine Used: esen
+Units: THz
+Supercell Size: (3, 3, 3)
+Displacement Delta: 0.03
+Fmax for Relaxation: 0.0005
+Most Negative Frequency (overall): -0.0009 THz
+
+--- Validated Stability Metrics (fixed 6x6x6 mesh) ---
+Soft-mode fraction (soft_frac): 0.000000
+I_curv (p=1): 0.000000 THz²
+Omega_inst (sqrt(I_curv)): 0.000000 THz
+Modes: 10368 total, 0 imaginary, 0 excluded (Gamma acoustic)
+Time Taken for Phonon Analysis: 117.31 seconds
+
+Energy of Structure: -100.796570 eV
+Energy per Atom: -6.299786 eV/atom
+
+--- Top 5 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: H1
+   Coordinate (q-point): [-0.6081247453498798, 0.0, 0.3860190375559251]
+   Frequency: 6.5506 THz
+   Band Index: 47
+
+Mode 2:
+   Label: H
+   Coordinate (q-point): [-0.3918752546501202, 0.0, 0.6139809624440749]
+   Frequency: 6.5506 THz
+   Band Index: 47
+
+Mode 3:
+   Label: C
+   Coordinate (q-point): [-0.5, 0.0, 0.5]
+   Frequency: 6.5449 THz
+   Band Index: 47
+
+Mode 4:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: 6.5420 THz
+   Band Index: 47
+
+Mode 5:
+   Label: Y
+   Coordinate (q-point): [0.0, 0.0, 0.5]
+   Frequency: 6.5402 THz
+   Band Index: 47
+
+Path of K-points:
+  G: 0.0000
+  Y: 0.4660
+  H: 0.8227
+  C: 0.9902
+  E: 1.5138
+  M1: 1.6813
+  A: 2.0261
+  X: 2.5497
+  H1: 2.8945
+  M: 2.8945
+  D: 3.2512
+  Z: 3.7172
+  Y: 3.7172
+  D: 4.2408
+
+Space group number: 4
+International symbol: P2_1
