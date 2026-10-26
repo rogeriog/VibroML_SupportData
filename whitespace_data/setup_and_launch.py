@@ -219,7 +219,11 @@ def main():
         env["VIBROML_DATA_DIR"] = str(HERE)
         print(f"\nLaunching VibroML Explorer on port {args.port}...")
         subprocess.run(
-            [sys.executable, "-m", "streamlit", "run", str(EXPLORER_SCRIPT), "--server.port", str(args.port)],
+            [
+                sys.executable, "-m", "streamlit", "run", str(EXPLORER_SCRIPT),
+                "--server.port", str(args.port),
+                "--server.fileWatcherType", "none",
+            ],
             env=env,
             check=True,
         )
