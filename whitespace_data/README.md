@@ -38,6 +38,9 @@ ORDER BY final_softness_fraction;
 
 ## Launching the Database Explorer
 
+Dependencies: `streamlit`, `pandas`, `numpy`, `matplotlib`, `ase`, and
+`py3Dmol` (for 3D structure and phonon-mode viewers).
+
 From the repository root:
 
 ```bash
