@@ -42,10 +42,10 @@ DB_GZ_IN_REPO = HERE / "vibroml_database.db.gz"
 BLOBS_DB_PATH = DB_DIR / "vibroml_blobs.db"
 EXPLORER_SCRIPT = HERE / "vibroml_explorer.py"
 
-# Update this URL/DOI after publishing the Figshare item:
+# Figshare item 34790283, DOI: 10.6084/m9.figshare.34790283
 FIGSHARE_BUNDLE_URL = os.environ.get(
     "VIBROML_FIGSHARE_BUNDLE_URL",
-    "https://ndownloader.figshare.com/files/YOUR_FIGSHARE_FILE_ID",
+    "https://ndownloader.figshare.com/files/70671291",
 )
 
 

@@ -75,5 +75,7 @@ and statistics) when the bundle is not present.
 
 The full collection of 83,562 GA-discovered local-minimum structures
 (including stable guidance-phonon structures for runs without a final GA
-population) in extended XYZ format is deposited separately on Figshare (see
-Data Availability statement in the manuscript).
+population) in extended XYZ format, together with the
+`vibroml_explorer_bundle.tar.gz` database bundle used by the explorer, is
+deposited on Figshare under DOI `10.6084/m9.figshare.34790283` (see Data
+Availability statement in the manuscript).
