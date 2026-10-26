@@ -19,6 +19,8 @@ states, and phonon-mode animations.
 
 ![Aggregate statistics for filtered materials](database_screenshot2.png)
 
+![Initial vs remediated phonon summary in the material detail view](database_screenshot3.png)
+
 <video src="https://github.com/rogeriog/VibroML_SupportData/raw/master/Recording_VibroML_explorer.mp4"
        controls muted style="max-width: 100%;"></video>
 
