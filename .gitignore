@@ -31,6 +31,7 @@ dump/
 # 2. Specifically allow (un-ignore) them ONLY in these specific folder names
 !**/initial_relaxation_for_single_run/**/*.cif
 !**/final_structures/**/*.cif
+!hfo2_literature_validation/*.cif
 
 # Explorer setup artifacts: uncompressed DB and extracted Figshare bundle
 whitespace_data/vibroml_database.db
