@@ -22,7 +22,7 @@ structure-generation strategies (forced-cubic and transmuted).
 
 The database contains four tables:
 
-- `materials`: one row per composition (6,990 total including elpasolite)
+- `materials`: one row per system (6,774 distinct systems: 6,574 Alexandria + 200 elpasolite compositions across forced-cubic and transmuted strategies)
 - `ga_structures`: one row per GA-discovered structure (264,542 rows)
 - `phonon_data`: one row per phonon evaluation (123,865 rows)
 - `phonon_modes`: one row per q-point mode (305,998 rows)

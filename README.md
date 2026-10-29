@@ -11,8 +11,9 @@ crystalline materials using machine-learned potentials"*.
 
 ## Interactive database explorer
 
-A Streamlit application for browsing all 6,990 remediated systems: input and
-optimized structures, GA populations, phonon band structures, densities of
+A Streamlit application for browsing all 6,774 remediated systems (6,574
+abandoned Alexandria systems + 200 white-space elpasolite compositions): input
+and optimized structures, GA populations, phonon band structures, densities of
 states, and phonon-mode animations.
 
 ![Materials table and sidebar filters](database_screenshot1.png)
@@ -42,11 +43,15 @@ options.
 
 ## Repository layout
 
+See [`MANIFEST.md`](MANIFEST.md) for folder naming conventions, model versions,
+and table/figure correspondence.
+
 | Directory | Contents |
 |-----------|----------|
-| [`whitespace_data/`](whitespace_data/) | SQLite database of 6,990 materials / 264,542 GA structures / 305,998 phonon modes, the Streamlit explorer, per-system GA summaries, elpasolite white-space data |
+| [`whitespace_data/`](whitespace_data/) | SQLite database of 6,774 systems (6,574 Alexandria + 200 elpasolite) / 264,542 GA structures / 305,998 phonon modes, the Streamlit explorer, per-system GA summaries, elpasolite white-space data |
 | [`b2_intermetallics/`](b2_intermetallics/) | Phonon metrics for the B2 intermetallic validation set (CuN, ZnCu, ZrCu across MACE-OMAT, eSEN, UMA) |
-| [`LiF_anomaly_tests/`](LiF_anomaly_tests/) | MLIP-vs-DFT path analysis for the LiF transition-state anomaly |
+| [`hfo2_literature_validation/`](hfo2_literature_validation/) | Relaxed CIFs and comparison script for the VibroML-discovered HfO2 polymorphs benchmarked against Zhao et al. (2026) and Qi & Rabe (2025) |
+| [`LiF_anomaly_tests/`](LiF_anomaly_tests/) | MLIP-vs-DFT path analysis for the LiF steric-clash anomaly |
 | [`neb_results/`](neb_results/) | DFT and MLIP NEB barriers and image data for the benchmark compounds |
 | [`phonon_and_md_benchmarking/`](phonon_and_md_benchmarking/) | Phonon and molecular-dynamics evaluation summaries across all engines |
 | [`remediation_results/`](remediation_results/) | Unique-structure compilations, timing, and stability-remediation outputs for the benchmark compounds |
