@@ -19,3 +19,9 @@ Section "Evaluating Phase Transition Pathways" and Supplementary Section S9
   panels (`*_comparison.png`).
 - `plot_comparison_DFT_MLIP_neb_paths.py` — script used to generate the
   comparison figures from the CSV data.
+- `dft_perp_force_analysis/` — DFT static single points on the MLIP-NEB
+  images decomposed into path-parallel and path-perpendicular force
+  components (`decompose_forces.py`, `perp_force_summary.csv`,
+  `perp_force_per_image.csv`), the data behind SI Table S12. VASP input
+  files and licensed POTCARs are not distributed; `run_all_vasp.sh`
+  documents the execution workflow.

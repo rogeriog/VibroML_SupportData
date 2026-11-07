@@ -1,0 +1,592 @@
+[
+ {
+  "comp": "LiF",
+  "sg": "Pnma",
+  "sg_num": 62,
+  "dE": -276.8,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.47766940340689706,
+  "P": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    -1
+   ],
+   [
+    0,
+    -2,
+    2
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_GA_phonon_output_20250904-001338/final_structures/top_4_iter2_sample10_LiFsimplecubic_energy_m4p8001_freqp20p1142THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "F-43m",
+  "sg_num": 216,
+  "dE": -292.5,
+  "abstract_subgroup": false,
+  "supercell_match": true,
+  "rmsd": 0.3523757473780335,
+  "P": [
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    -1,
+    0,
+    1
+   ],
+   [
+    -1,
+    0,
+    0
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/unique_13_iter1_sample58_LiFsimplecubic_energy_m4p8158_primitive_freqp16p6563THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "P42/mnm",
+  "sg_num": 136,
+  "dE": -296.4,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.39585877849870044,
+  "P": [
+   [
+    -1,
+    -1,
+    0
+   ],
+   [
+    -2,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_GA5it_phonon_output_20250831-152432/final_structures/top_4_iter4_sample88_LiFsimplecubic_energy_m4p8197_freqp19p1670THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "Fm-3m",
+  "sg_num": 225,
+  "dE": -297.2,
+  "abstract_subgroup": false,
+  "supercell_match": true,
+  "rmsd": 5.3832660734764664e-17,
+  "P": [
+   [
+    -1,
+    -1,
+    0
+   ],
+   [
+    0,
+    -1,
+    -1
+   ],
+   [
+    0,
+    -1,
+    0
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/unique_12_iter5_sample12_LiFsimplecubic_energy_m4p8205_primitive_freqp17p6978THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "P63mc",
+  "sg_num": 186,
+  "dE": -303.1,
+  "abstract_subgroup": false,
+  "supercell_match": true,
+  "rmsd": 0.4003477752757347,
+  "P": [
+   [
+    -1,
+    -1,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/unique_10_iter1_sample76_LiFsimplecubic_energy_m4p8264_primitive_freqp19p5097THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "P1",
+  "sg_num": 1,
+  "dE": -4088.3,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.4903094496433584,
+  "P": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    -1,
+    -2,
+    0
+   ],
+   [
+    0,
+    0,
+    2
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/unique_1_iter1_sample12_LiFsimplecubic_energy_m8p6116_freqm8p7304THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "Pm",
+  "sg_num": 6,
+  "dE": -7347.9,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/top_4_iterfinal_sample4_LiFsimplecubic_energy_m11p8712_primitive_freqp511p2674THz.cif"
+ },
+ {
+  "comp": "LiF",
+  "sg": "Cm",
+  "sg_num": 8,
+  "dE": -14042.8,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_freqm16p2287THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "C2/m",
+  "sg_num": 12,
+  "dE": -18.1,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/final_structures/unique_20_iter4_sample42_CsPbI3_energy_m2p8113_primitive_freqm1p3818THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "Cm",
+  "sg_num": 8,
+  "dE": -23.0,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.1810835483799543,
+  "P": [
+   [
+    -1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1,
+    1
+   ],
+   [
+    0,
+    2,
+    0
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_TRADITIONAL_phonon_output_20251002-224829/final_structures/top_1_iter2_sample12_CsPbI3_energy_m2p8191_primitive_freqp3p1979THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "Pnma",
+  "sg_num": 62,
+  "dE": -29.3,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.19507815427350694,
+  "P": [
+   [
+    -1,
+    -1,
+    0
+   ],
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    -2
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/final_structures/top_5_iter1_sample5_CsPbI3_energy_m2p8254_freqp3p1575THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "P-1",
+  "sg_num": 2,
+  "dE": -29.9,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_MACE_OPT_RANDOM_phonon_output_20251229-001913/final_structures/top_1_iterfinal_sample1_CsPbI3_energy_m2p8260_freqp3p3597THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "P21/m",
+  "sg_num": 11,
+  "dE": -33.3,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/final_structures/top_3_iter5_sample18_CsPbI3_energy_m2p8294_freqp3p2115THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "Cmcm",
+  "sg_num": 63,
+  "dE": -34.9,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/final_structures/top_2_iter3_sample94_CsPbI3_energy_m2p8310_primitive_freqm1p4210THz.cif"
+ },
+ {
+  "comp": "CsPbI3",
+  "sg": "Pnma",
+  "sg_num": 62,
+  "dE": -44.2,
+  "abstract_subgroup": true,
+  "supercell_match": false,
+  "rmsd": null,
+  "P": null,
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/final_structures/top_1_iter5_sample1_CsPbI3_energy_m2p8403_primitive_freqp3p2515THz.cif"
+ },
+ {
+  "comp": "HfO2",
+  "sg": "P42/nmc",
+  "sg_num": 137,
+  "dE": -12.2,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.09535098248436606,
+  "P": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    -1,
+    -1,
+    1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_MACE_TRADITIONAL_phonon_output_20260108-162322/final_structures/top_2_iter2_sample20_HfO2_Fm3m_energy_m10p1296_primitive_freqm2p5924THz.cif"
+ },
+ {
+  "comp": "HfO2",
+  "sg": "P21/m",
+  "sg_num": 11,
+  "dE": -18.5,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.16585938973640646,
+  "P": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    -1,
+    0
+   ],
+   [
+    1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/final_structures/unique_3_iter1_sample28_HfO2_Fm3m_energy_m10p1359_primitive_freqp23p0691THz.cif"
+ },
+ {
+  "comp": "HfO2",
+  "sg": "Pnma",
+  "sg_num": 62,
+  "dE": -21.7,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.2884519150185637,
+  "P": [
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    1,
+    -1
+   ],
+   [
+    2,
+    -2,
+    0
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/final_structures/unique_2_iter1_sample37_HfO2_Fm3m_energy_m10p1391_primitive_freqp22p0336THz.cif"
+ },
+ {
+  "comp": "HfO2",
+  "sg": "Pbcn",
+  "sg_num": 60,
+  "dE": -38.5,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.28070103888032494,
+  "P": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_MACE_TRADITIONAL_phonon_output_20260108-162322/final_structures/top_1_iter4_sample2_HfO2_Fm3m_energy_m10p1559_freqp24p5876THz.cif"
+ },
+ {
+  "comp": "HfO2",
+  "sg": "P21/c",
+  "sg_num": 14,
+  "dE": -48.5,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.2641198348962816,
+  "P": [
+   [
+    1,
+    -1,
+    -1
+   ],
+   [
+    -1,
+    -1,
+    1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/final_structures/top_1_iter3_sample26_HfO2_Fm3m_energy_m10p1659_freqp25p0436THz.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "P212121",
+  "sg_num": 19,
+  "dE": 20.7,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.0783428902220231,
+  "P": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/final_structures/final_3_iterfinal_sample3_Sn2Bi2O7_energy_m6p0314_conventional.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "P21",
+  "sg_num": 4,
+  "dE": 12.7,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.0741264762372406,
+  "P": [
+   [
+    1,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/final_structures/final_5_iterfinal_sample5_Sn2Bi2O7_energy_m6p0308_primitive.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "Cc",
+  "sg_num": 9,
+  "dE": -12.6,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.07034766167681375,
+  "P": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_phonon_output_20251229-145533/final_structures/top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_primitive_freqm1p9753THz.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "P21",
+  "sg_num": 4,
+  "dE": -13.1,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.0741264762372406,
+  "P": [
+   [
+    1,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/final_structures/final_5_iterfinal_sample5_Sn2Bi2O7_energy_m6p0308_primitive.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "P212121",
+  "sg_num": 19,
+  "dE": -13.7,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.0783428902220231,
+  "P": [
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    -1
+   ],
+   [
+    -1,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/final_structures/final_3_iterfinal_sample3_Sn2Bi2O7_energy_m6p0314_conventional.cif"
+ },
+ {
+  "comp": "Bi2Sn2O7",
+  "sg": "Cc",
+  "sg_num": 9,
+  "dE": -14.1,
+  "abstract_subgroup": true,
+  "supercell_match": true,
+  "rmsd": 0.07034766167681375,
+  "P": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    -1
+   ]
+  ],
+  "cif": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_phonon_output_20251229-145533/final_structures/top_3_iter3_sample19_Sn2Bi2O7_energy_m6p0303_primitive_freqm1p9753THz.cif"
+ }
+]

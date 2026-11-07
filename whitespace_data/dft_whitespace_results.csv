@@ -1,0 +1,201 @@
+run_dir,material,dataset,elements,e_mace_init,e_mace_winner,dE_mace,E0_initial,E0_winner,natoms_initial,natoms_winner,dE_dft_total,dE_dft_per_atom
+quaternary_Sr2NbPdO6,Sr2NbPdO6,quaternary,"['Nb', 'O', 'Pd', 'Sr']",-7.032907,-7.0701,-0.037193000000000254,-142.08369,-571.84488,20,80,-429.76119,-0.04387650000000054
+quaternary_ZrAlCO,ZrAlCO,quaternary,"['Al', 'C', 'O', 'Zr']",-8.097077,-8.1046,-0.007522999999999058,-64.488144,-777.06638,8,96,-712.578236,-0.033423458333333045
+quaternary_NbGeMoRu,NbGeMoRu,quaternary,"['Ge', 'Mo', 'Nb', 'Ru']",-8.841156,-8.8799,-0.038743999999999446,-35.492524,-71.293041,4,8,-35.800517,-0.03849912499999952
+quaternary_KSrSeCl,KSrSeCl,quaternary,"['Cl', 'K', 'Se', 'Sr']",-3.922059,-3.9397,-0.01764100000000024,-15.695739,-15.789997,4,4,-0.09425799999999995,-0.023564499999999988
+elpasolite_forced_cubic_Rb2MoVBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Rb2MoVBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Br', 'Mo', 'Rb', 'V']",-4.075058,-4.2222,-0.14714199999999966,-99.900473,-84.858161,40,20,15.04231200000001,-1.7453962249999995
+elpasolite_forced_cubic_Li2MoSbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2MoSbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Li', 'Mo', 'Sb']",-3.655485,-4.1461,-0.4906149999999996,-12.201449,-329.95318,40,80,-317.75173099999995,-3.819378525
+elpasolite_forced_cubic_Li2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Co', 'I', 'Li', 'Ru']",-3.032726,-3.3844,-0.35167400000000004,21.433468,-542.00715,40,160,-563.440618,-3.9233813875
+elpasolite_transmuted_Na2AlYCl6_transmutation_transmuted_from,Na2AlYCl6_transmutation_transmuted_from,elpasolite_transmuted,"['Al', 'Cl', 'Na', 'Y']",-3.895621,-4.1595,-0.26387900000000064,-39.079462,-83.047119,10,20,-43.967656999999996,-0.24440974999999954
+quaternary_VCoCuGe,VCoCuGe,quaternary,"['Co', 'Cu', 'Ge', 'V']",-6.077547,-6.213,-0.13545300000000005,-24.304016,-396.34396,4,64,-372.039944,-0.11687037499999953
+quaternary_Cs2SiAsCl6,Cs2SiAsCl6,quaternary,"['As', 'Cl', 'Cs', 'Si']",-3.393502,-3.5946,-0.201098,-33.671286,-143.96149,10,40,-110.29020399999999,-0.23190864999999983
+quaternary_Cs2PSeI6,Cs2PSeI6,quaternary,"['Cs', 'I', 'P', 'Se']",-2.587735,-2.6004,-0.012665000000000148,-25.776556,-104.7264,10,40,-78.949844,-0.04050440000000011
+quaternary_LiAlZnSn,LiAlZnSn,quaternary,"['Al', 'Li', 'Sn', 'Zn']",-2.698002,-2.7764,-0.07839800000000041,-10.783188,-22.233363,4,8,-11.450175,-0.08337337499999986
+elpasolite_transmuted_K2GePdBr6_database_exact_match_oqmd-6432027_rank_1,K2GePdBr6_database_exact_match_oqmd-6432027_rank_1,elpasolite_transmuted,"['Br', 'Ge', 'K', 'Pd']",-3.120855,-3.178,-0.05714499999999978,-31.092625,-255.47402,10,80,-224.381395,-0.08416274999999951
+quaternary_LiAlInGe,LiAlInGe,quaternary,"['Al', 'Ge', 'In', 'Li']",-3.201592,-3.3144,-0.1128079999999998,-12.681336,-52.732085,4,16,-40.050748999999996,-0.12542131249999988
+quaternary_MnNiAsPd,MnNiAsPd,quaternary,"['As', 'Mn', 'Ni', 'Pd']",-6.207215,-6.3032,-0.09598500000000065,-24.852039,-403.04062,4,64,-378.188581,-0.08449993749999951
+quaternary_Cs2SiPBr6,Cs2SiPBr6,quaternary,"['Br', 'Cs', 'P', 'Si']",-3.081106,-3.2186,-0.13749399999999978,-30.693033,-126.61426,10,40,-95.921227,-0.09605320000000006
+quaternary_ZnCuAgSn,ZnCuAgSn,quaternary,"['Ag', 'Cu', 'Sn', 'Zn']",-2.731575,-2.8445,-0.11292500000000016,-10.841007,-90.928704,4,32,-80.08769699999999,-0.13127025000000003
+quintenary_CsCaAlGeH,CsCaAlGeH,quintenary,"['Al', 'Ca', 'Cs', 'Ge', 'H']",-3.090252,-3.1902,-0.09994799999999993,-15.458036,-253.72038,5,80,-238.262344,-0.0798975500000001
+quaternary_MgCuMoF6,MgCuMoF6,quaternary,"['Cu', 'F', 'Mg', 'Mo']",-5.039442,-5.087,-0.047557999999999545,-95.371921,-384.02162,18,72,-288.649699,-0.03519355555555492
+quintenary_Ba4MnCo2RuO12,Ba4MnCo2RuO12,quintenary,"['Ba', 'Co', 'Mn', 'O', 'Ru']",-6.451798,-6.4524,-0.0006019999999997694,-135.20206,-135.11363,20,20,0.08842999999998824,0.004421499999999412
+elpasolite_transmuted_Li2NiRuCl6_transmutation_transmuted_from,Li2NiRuCl6_transmutation_transmuted_from,elpasolite_transmuted,"['Cl', 'Li', 'Ni', 'Ru']",-3.91301,-3.9624,-0.04939000000000027,-15.79235,-159.37092,10,40,-143.57857,-2.4050380000000002
+quaternary_BaSrAgBr,BaSrAgBr,quaternary,"['Ag', 'Ba', 'Br', 'Sr']",-2.714092,-2.9225,-0.20840799999999993,-10.877559,-93.151605,4,32,-82.274046,-0.19159790625000017
+quaternary_Cs2SrSiF6,Cs2SrSiF6,quaternary,"['Cs', 'F', 'Si', 'Sr']",-4.769821,-4.9618,-0.1919789999999999,-47.55483,-99.208625,10,20,-51.653794999999995,-0.20494825000000017
+quaternary_CrNiPdRu,CrNiPdRu,quaternary,"['Cr', 'Ni', 'Pd', 'Ru']",-7.201007,-7.3181,-0.11709300000000056,-28.511205,-234.35051,4,32,-205.83930500000002,-0.19565218750000035
+quaternary_LiZrTeSe,LiZrTeSe,quaternary,"['Li', 'Se', 'Te', 'Zr']",-5.393994,-5.8372,-0.443206,-21.573402,90.387567,4,64,111.960969,6.805656234375
+quaternary_CaV(SO4)2,CaV(SO4)2,quaternary,"['Ca', 'O', 'S', 'V']",-6.59365,-6.6306,-0.03695000000000004,-80.396653,-646.66863,12,96,-566.271977,-0.0364104791666664
+quintenary_BaTiNbGaO6,BaTiNbGaO6,quintenary,"['Ba', 'Ga', 'Nb', 'O', 'Ti']",-7.729156,-7.7894,-0.060243999999999964,-78.137572,-1251.772,10,160,-1173.6344279999998,-0.009817799999999544
+quaternary_MgMnGaPd,MgMnGaPd,quaternary,"['Ga', 'Mg', 'Mn', 'Pd']",-4.925443,-5.0073,-0.08185700000000029,-19.748448,-160.73931,4,32,-140.990862,-0.08599143749999971
+quintenary_SrCaZrFeO6,SrCaZrFeO6,quintenary,"['Ca', 'Fe', 'O', 'Sr', 'Zr']",-7.276031,-7.3157,-0.039668999999999954,-75.578307,-303.36673,10,40,-227.78842300000002,-0.02633755000000093
+quaternary_MgScAgGe,MgScAgGe,quaternary,"['Ag', 'Ge', 'Mg', 'Sc']",-4.127514,-4.2284,-0.10088600000000003,-16.466498,-33.801702,4,8,-17.335203999999997,-0.1085882499999995
+quaternary_AlCuMoRu,AlCuMoRu,quaternary,"['Al', 'Cu', 'Mo', 'Ru']",-7.006076,-7.0933,-0.08722399999999997,-28.220585,-56.702284,4,8,-28.481699,-0.0326392499999999
+quaternary_Cr6Co2HN,Cr6Co2HN,quaternary,"['Co', 'Cr', 'H', 'N']",-8.355648,-8.3863,-0.0306519999999999,-83.180723,-666.38966,10,80,-583.2089370000001,-0.011798450000000571
+quaternary_MgGaAgGe,MgGaAgGe,quaternary,"['Ag', 'Ga', 'Ge', 'Mg']",-2.91253,-2.9635,-0.05096999999999996,-11.609289,-47.490328,4,16,-35.881039,-0.06582324999999978
+quaternary_Mg3Al3FeGe2,Mg3Al3FeGe2,quaternary,"['Al', 'Fe', 'Ge', 'Mg']",-3.824818,-3.8263,-0.0014819999999997613,-34.527326,-68.950387,9,18,-34.423061000000004,0.005792499999999645
+quaternary_LiBeAlGa,LiBeAlGa,quaternary,"['Al', 'Be', 'Ga', 'Li']",-3.031154,-3.1474,-0.1162460000000003,-12.059597,-100.34125,4,32,-88.281653,-0.12076481250000004
+quaternary_CrCdMoF6,CrCdMoF6,quaternary,"['Cd', 'Cr', 'F', 'Mo']",-5.133756,-5.2325,-0.09874399999999994,-98.352988,-201.96651,18,36,-103.613522,-0.14612594444444493
+quintenary_Ni3H6Pd(ClO3)2,Ni3H6Pd(ClO3)2,quintenary,"['Cl', 'H', 'Ni', 'O', 'Pd']",-4.605532,-4.6642,-0.05866799999999994,-88.391847,-89.952813,18,18,-1.5609660000000076,-0.08672033333333307
+quaternary_MgScMnIn,MgScMnIn,quaternary,"['In', 'Mg', 'Mn', 'Sc']",-4.856533,-4.9532,-0.09666700000000006,-19.459331,-158.00222,4,32,-138.542889,-0.07273662500000011
+quaternary_Rb2AlRuBr6,Rb2AlRuBr6,quaternary,"['Al', 'Br', 'Rb', 'Ru']",-3.381806,-3.5357,-0.15389399999999975,-33.635285,-141.65411,10,40,-108.01882499999999,-0.17782425000000002
+quintenary_CaTiNbSnO6,CaTiNbSnO6,quintenary,"['Ca', 'Nb', 'O', 'Sn', 'Ti']",-7.790036,-7.8604,-0.07036400000000054,-78.619892,-316.39157,10,40,-237.771678,-0.04780005000000109
+elpasolite_transmuted_Rb2MoPdBr6_transmutation_transmuted_from,Rb2MoPdBr6_transmutation_transmuted_from,elpasolite_transmuted,"['Br', 'Mo', 'Pd', 'Rb']",-3.665383,-3.7213,-0.055916999999999994,-26.266267,-74.4648,10,20,-48.198533,-1.0966132999999996
+quaternary_MgScAlCd,MgScAlCd,quaternary,"['Al', 'Cd', 'Mg', 'Sc']",-3.27313,-3.3365,-0.06336999999999993,-13.13729,-106.75778,4,32,-93.62048999999999,-0.051858124999999866
+quintenary_NaSrYSeO6,NaSrYSeO6,quintenary,"['Na', 'O', 'Se', 'Sr', 'Y']",-6.301586,-6.3265,-0.02491399999999988,-62.910442,-253.11656,10,40,-190.206118,-0.03686979999999984
+quaternary_BeSbAsO6,BeSbAsO6,quaternary,"['As', 'Be', 'O', 'Sb']",-6.154282,-6.1543,-1.7999999999851468e-05,-110.78441,-221.56415,18,36,-110.77974000000002,0.00012972222222185081
+quintenary_KCaInWO6,KCaInWO6,quintenary,"['Ca', 'In', 'K', 'O', 'W']",-6.342055,-6.3903,-0.04824499999999965,-69.519271,-280.28751,10,40,-210.768239,-0.055260649999999245
+quaternary_Ba2CrSiH6,Ba2CrSiH6,quaternary,"['Ba', 'Cr', 'H', 'Si']",-4.060581,-4.1583,-0.09771899999999967,-39.800146,-82.745619,10,20,-42.94547300000001,-0.15726635000000044
+quaternary_BaNaLiAl,BaNaLiAl,quaternary,"['Al', 'Ba', 'Li', 'Na']",-2.152115,-2.3692,-0.21708500000000042,-8.5977881,,4,32,,
+quaternary_K2MgNiBr6,K2MgNiBr6,quaternary,"['Br', 'K', 'Mg', 'Ni']",-3.108348,-3.146,-0.03765200000000002,-62.347298,-31.562934,20,10,30.784364000000004,-0.03892849999999992
+quaternary_GaCuNiF6,GaCuNiF6,quaternary,"['Cu', 'F', 'Ga', 'Ni']",-4.270965,-4.2903,-0.01933499999999988,-80.683206,-161.18608,18,36,-80.502874,0.0050092222222222205
+quaternary_LiInAgAs,LiInAgAs,quaternary,"['Ag', 'As', 'In', 'Li']",-3.114309,-3.1869,-0.07259100000000007,-12.471743,-102.26434,4,32,-89.792597,-0.07782487500000013
+quaternary_YZrBeRu,YZrBeRu,quaternary,"['Be', 'Ru', 'Y', 'Zr']",-7.147132,-7.2566,-0.10946799999999968,-28.573298,-58.039592,4,8,-29.466293999999998,-0.11162449999999957
+quaternary_CuPdRuW,CuPdRuW,quaternary,"['Cu', 'Pd', 'Ru', 'W']",-7.643713,-7.7583,-0.11458700000000022,-30.436748,-61.865744,4,8,-31.428995999999998,-0.12403099999999956
+quaternary_Cs2ScAlI6,Cs2ScAlI6,quaternary,"['Al', 'Cs', 'I', 'Sc']",-3.210647,-3.2357,-0.025053000000000214,-32.234612,-129.90579,10,40,-97.671178,-0.024183550000000054
+quaternary_Li2ScCuCl6,Li2ScCuCl6,quaternary,"['Cl', 'Cu', 'Li', 'Sc']",-3.854478,-4.1308,-0.27632199999999996,-38.728204,-82.642477,10,20,-43.914273,-0.25930345000000043
+quaternary_Rb2ZnMoBr6,Rb2ZnMoBr6,quaternary,"['Br', 'Mo', 'Rb', 'Zn']",-3.342306,-3.4718,-0.12949399999999978,-33.400827,-278.57424,10,80,-245.17341299999998,-0.1420952999999998
+quaternary_Cs2Sc(ZnH4)3,Cs2Sc(ZnH4)3,quaternary,"['Cs', 'H', 'Sc', 'Zn']",-2.921425,-3.0281,-0.10667499999999963,-51.897093,-109.89879,18,36,-58.00169700000001,-0.16957233333333344
+quaternary_Rb2TiSiI6,Rb2TiSiI6,quaternary,"['I', 'Rb', 'Si', 'Ti']",-3.158493,-3.2869,-0.12840700000000016,-31.739618,-263.41242,10,80,-231.672802,-0.11869345000000031
+quaternary_ScAgSnPd,ScAgSnPd,quaternary,"['Ag', 'Pd', 'Sc', 'Sn']",-5.08391,-5.0851,-0.0011899999999993582,-20.358508,-162.77278,4,32,-142.414272,0.0029776249999997617
+elpasolite_forced_cubic_Li2GeWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2GeWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['F', 'Ge', 'Li', 'W']",-4.606923,-5.0436,-0.43667699999999954,-181.39863,-217.28342,40,40,-35.88479000000001,-0.8971197500000008
+quaternary_CaCdGaGe,CaCdGaGe,quaternary,"['Ca', 'Cd', 'Ga', 'Ge']",-2.738438,-2.8763,-0.13786200000000015,-10.924865,-46.165118,4,16,-35.240252999999996,-0.15410362499999986
+quaternary_LiAlGaSn,LiAlGaSn,quaternary,"['Al', 'Ga', 'Li', 'Sn']",-3.177039,-3.2205,-0.04346099999999975,-12.606337,-102.68045,4,32,-90.074113,-0.057179812499999816
+elpasolite_transmuted_K2ZnZrI6_transmutation_transmuted_from,K2ZnZrI6_transmutation_transmuted_from,elpasolite_transmuted,"['I', 'K', 'Zn', 'Zr']",-2.981918,-3.1019,-0.11998200000000026,-29.882337,-62.265913,10,20,-32.383576,-0.1250619500000001
+elpasolite_forced_cubic_Cs2AlTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Cs2AlTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Al', 'Br', 'Cs', 'Ti']",-3.591117,-3.6619,-0.07078300000000004,-107.5579,-146.78295,40,40,-39.225049999999996,-0.9806262499999998
+quaternary_LiMgZnSi,LiMgZnSi,quaternary,"['Li', 'Mg', 'Si', 'Zn']",-2.547616,-3.0439,-0.4962839999999997,-10.207591,-235.27163,4,64,-225.06403899999998,-1.1242214687499996
+quaternary_MgInSnSb,MgInSnSb,quaternary,"['In', 'Mg', 'Sb', 'Sn']",-2.9951,-3.0783,-0.08320000000000016,-11.922161,-395.85774,4,128,-383.93557899999996,-0.11209834375000005
+quaternary_Y3In4AgTe8,Y3In4AgTe8,quaternary,"['Ag', 'In', 'Te', 'Y']",-4.34445,-4.3583,-0.013849999999999696,-69.567275,-139.30265,16,32,-69.735375,-0.005253125000000303
+quaternary_Rb2GaAsI6,Rb2GaAsI6,quaternary,"['As', 'Ga', 'I', 'Rb']",-2.597812,-2.6616,-0.06378800000000018,-26.210146,-213.73106,10,80,-187.520914,-0.05062364999999991
+quaternary_MnVCrSb,MnVCrSb,quaternary,"['Cr', 'Mn', 'Sb', 'V']",-7.870022,-7.8723,-0.0022780000000004463,-31.397281,-62.814916,4,8,-31.417634999999997,-0.0025442499999996926
+quaternary_ZrScNbMo,ZrScNbMo,quaternary,"['Mo', 'Nb', 'Sc', 'Zr']",-8.845248,-8.9248,-0.07955199999999962,-35.435523,-1144.4747,4,128,-1109.0391769999999,-0.08232784374999902
+quaternary_Rb2CrCoI6,Rb2CrCoI6,quaternary,"['Co', 'Cr', 'I', 'Rb']",-3.378265,-3.4684,-0.09013500000000008,-33.947419,,10,80,,
+quaternary_GaCuRuO6,GaCuRuO6,quaternary,"['Cu', 'Ga', 'O', 'Ru']",-5.933665,-6.0276,-0.09393499999999921,-106.84061,-217.52553,18,36,-110.68492,-0.10678638888888958
+elpasolite_forced_cubic_Na2SnZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Na2SnZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Br', 'Na', 'Sn', 'Zr']",-3.452048,-3.7709,-0.31885200000000014,42.289645,-601.35328,40,160,-643.642925,-4.815699125
+quintenary_Cs2RbSrNb2O8,Cs2RbSrNb2O8,quintenary,"['Cs', 'Nb', 'O', 'Rb', 'Sr']",-6.908242,-6.9217,-0.01345799999999997,-97.251413,-194.86201,14,28,-97.610597,-0.012828000000000728
+quaternary_InCuNiRu,InCuNiRu,quaternary,"['Cu', 'In', 'Ni', 'Ru']",-5.063598,-5.201,-0.1374019999999998,-20.236074,-333.65027,4,64,-313.414196,-0.15426696875
+quaternary_MgCdAgGe,MgCdAgGe,quaternary,"['Ag', 'Cd', 'Ge', 'Mg']",-2.388528,-2.4295,-0.04097200000000001,-9.4554746,-19.328119,4,8,-9.8726444,-0.05214622499999999
+quaternary_Mn3Ga3Ge2Pd,Mn3Ga3Ge2Pd,quaternary,"['Ga', 'Ge', 'Mn', 'Pd']",-5.57393,-5.6956,-0.12166999999999994,-50.102849,-411.04459,9,72,-360.94174100000004,-0.14196941666666696
+quaternary_ZrTiGaCo,ZrTiGaCo,quaternary,"['Co', 'Ga', 'Ti', 'Zr']",-6.871763,-6.9931,-0.12133700000000047,-27.636129,-223.82445,4,32,-196.188321,-0.08548181250000031
+elpasolite_forced_cubic_Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Bi', 'Cd', 'I', 'Li']",-2.219702,-2.564,-0.3442980000000002,140.36577,,40,160,,
+quaternary_BaTa(BeH4)2,BaTa(BeH4)2,quaternary,"['Ba', 'Be', 'H', 'Ta']",-4.088307,-4.2732,-0.18489299999999975,-49.470501,-204.16461,12,48,-154.69410900000003,-0.13088762500000062
+quaternary_TiCdInCu,TiCdInCu,quaternary,"['Cd', 'Cu', 'In', 'Ti']",-3.600968,-3.763,-0.16203199999999995,-14.437639,-60.198494,4,16,-45.76085499999999,-0.1529961249999996
+quaternary_MgCrCdF6,MgCrCdF6,quaternary,"['Cd', 'Cr', 'F', 'Mg']",-5.009284,-5.0259,-0.016615999999999964,-92.100189,-369.8174,18,72,-277.717211,-0.01967561111111138
+quaternary_ZrGaAgPd,ZrGaAgPd,quaternary,"['Ag', 'Ga', 'Pd', 'Zr']",-5.257733,-5.2952,-0.03746700000000036,-21.125841,-170.18801,4,32,-149.06216899999998,-0.03691506249999943
+quaternary_LiAlInSn,LiAlInSn,quaternary,"['Al', 'In', 'Li', 'Sn']",-3.070504,-3.0944,-0.023895999999999695,-12.14204,-12.328914,4,4,-0.18687399999999954,-0.046718499999999885
+quaternary_MgZrTiIn,MgZrTiIn,quaternary,"['In', 'Mg', 'Ti', 'Zr']",-5.102145,-5.2224,-0.12025500000000022,-20.39935,-41.681186,4,8,-21.281836,-0.11031075000000001
+quaternary_LiTaCrH6,LiTaCrH6,quaternary,"['Cr', 'H', 'Li', 'Ta']",-4.63434,-4.9758,-0.34145999999999965,-41.640408,-25.276413,9,9,16.363995,1.818221666666667
+elpasolite_forced_cubic_Na2ScYBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Na2ScYBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Br', 'Na', 'Sc', 'Y']",-3.881904,-4.106,-0.22409599999999985,-66.901563,-326.59324,40,80,-259.69167699999997,-2.4098764249999998
+quaternary_ZrScTiW,ZrScTiW,quaternary,"['Sc', 'Ti', 'W', 'Zr']",-8.739858,-8.7961,-0.05624199999999924,-34.936679,-281.34247,4,32,-246.405791,-0.05778243750000023
+quaternary_ZrCuSnRu,ZrCuSnRu,quaternary,"['Cu', 'Ru', 'Sn', 'Zr']",-6.634872,-6.6424,-0.007528000000000645,-26.522257,-851.19904,4,128,-824.676783,-0.019428249999999814
+elpasolite_forced_cubic_Li2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Br', 'Cd', 'Li', 'W']",-3.211735,-3.6421,-0.4303650000000001,104.9072,-291.85812,40,80,-396.76532,-6.2709065
+quaternary_VCuSnPd,VCuSnPd,quaternary,"['Cu', 'Pd', 'Sn', 'V']",-5.474471,-5.6037,-0.1292289999999996,-21.947203,-179.44142,4,32,-157.494217,-0.12074362500000024
+quaternary_ZnCoCuRu,ZnCoCuRu,quaternary,"['Co', 'Cu', 'Ru', 'Zn']",-5.11439,-5.2229,-0.10850999999999988,-20.463746,-83.590236,4,16,-63.126490000000004,-0.10845325000000017
+quaternary_Rb2TiCrCl6,Rb2TiCrCl6,quaternary,"['Cl', 'Cr', 'Rb', 'Ti']",-4.520561,-4.5525,-0.031939000000000384,-45.072131,,10,40,,
+quintenary_TiFeAsHS,TiFeAsHS,quintenary,"['As', 'Fe', 'H', 'S', 'Ti']",-6.082562,-6.196,-0.11343799999999948,,-496.07586,5,80,,
+quaternary_Cs2NbHI6,Cs2NbHI6,quaternary,"['Cs', 'H', 'I', 'Nb']",-3.088988,-3.3131,-0.22411199999999987,-31.039407,-132.60646,10,40,-101.567053,-0.2112208
+quaternary_TaTiCoNi,TaTiCoNi,quaternary,"['Co', 'Ni', 'Ta', 'Ti']",-8.257287,-8.3474,-0.09011300000000055,-33.054681,-267.5151,4,32,-234.460419,-0.09617662500000002
+quaternary_Na3Y3WS8,Na3Y3WS8,quaternary,"['Na', 'S', 'W', 'Y']",-6.125927,-6.1259,2.700000000022129e-05,-91.810811,-734.39643,15,120,-642.585619,0.0007504833333333849
+quaternary_TaCuNiPd,TaCuNiPd,quaternary,"['Cu', 'Ni', 'Pd', 'Ta']",-6.716541,-6.824,-0.10745899999999953,-26.76142,-54.463784,4,8,-27.702363999999996,-0.11761799999999933
+quaternary_MnAl3Ge2Mo3,MnAl3Ge2Mo3,quaternary,"['Al', 'Ge', 'Mn', 'Mo']",-6.907315,-7.039,-0.13168500000000005,-62.137017,-63.135261,9,9,-0.9982439999999997,-0.11091600000000046
+quaternary_Cs3Y3TaS8,Cs3Y3TaS8,quaternary,"['Cs', 'S', 'Ta', 'Y']",-6.095703,-6.1084,-0.012696999999999292,-91.370266,-365.92836,15,60,-274.558094,-0.007454933333333358
+quaternary_ZnCrRuW,ZnCrRuW,quaternary,"['Cr', 'Ru', 'W', 'Zn']",-8.10904,-8.1359,-0.026859999999999218,-32.458035,-130.23999,4,16,-97.78195500000001,-0.025490624999999767
+quaternary_Cs2AlGeBr6,Cs2AlGeBr6,quaternary,"['Al', 'Br', 'Cs', 'Ge']",-3.159144,-3.2562,-0.09705600000000025,-31.468062,-65.033897,10,20,-33.56583499999999,-0.10488864999999992
+elpasolite_transmuted_Li2RuVCl6_transmutation_transmuted_from,Li2RuVCl6_transmutation_transmuted_from,elpasolite_transmuted,"['Cl', 'Li', 'Ru', 'V']",-4.232197,-4.5495,-0.3173029999999999,-8.375123,-60.526216,10,10,-52.151092999999996,-5.2151093
+quaternary_GaGeAsO6,GaGeAsO6,quaternary,"['As', 'Ga', 'Ge', 'O']",-5.998164,-6.1175,-0.11933599999999966,-108.33857,-438.98489,18,72,-330.64632,-0.07820291666666623
+quaternary_Al3V3Si2Pd,Al3V3Si2Pd,quaternary,"['Al', 'Pd', 'Si', 'V']",-6.344187,-6.385,-0.04081299999999999,-57.203525,-114.69255,9,18,-57.489025,-0.01586111111111066
+quaternary_Ba2Li3ZrH12,Ba2Li3ZrH12,quaternary,"['Ba', 'H', 'Li', 'Zr']",-3.482845,-3.5947,-0.11185499999999982,-62.796183,-1052.0999,18,288,-989.3037169999999,-0.1644478194444443
+quaternary_Al3Cr3CuGe2,Al3Cr3CuGe2,quaternary,"['Al', 'Cr', 'Cu', 'Ge']",-5.811862,-5.8728,-0.06093800000000016,-52.076181,-105.38502,9,18,-53.308839,-0.06848100000000024
+elpasolite_forced_cubic_K2TaYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,K2TaYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['I', 'K', 'Ta', 'Y']",-3.710175,-4.0168,-0.3066249999999999,-103.8606,-160.42565,40,40,-56.565049999999985,-1.4141262499999998
+quaternary_TiNiSbRu,TiNiSbRu,quaternary,"['Ni', 'Ru', 'Sb', 'Ti']",-6.960112,-7.054,-0.09388800000000064,-27.947994,-453.5126,4,64,-425.564606,-0.09913587499999998
+quaternary_MgCuGeRu,MgCuGeRu,quaternary,"['Cu', 'Ge', 'Mg', 'Ru']",-4.79736,-4.9179,-0.12054000000000009,-19.131345,-312.9276,4,64,-293.796255,-0.10665749999999985
+elpasolite_forced_cubic_Li2MnNbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2MnNbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Li', 'Mn', 'Nb']",-4.360268,-4.8477,-0.4874320000000001,-41.99467444,-619.52642,40,160,-577.53174556,-2.8221732640000003
+quaternary_Cs2InRuBr6,Cs2InRuBr6,quaternary,"['Br', 'Cs', 'In', 'Ru']",-3.331779,-3.3338,-0.0020210000000000505,-33.224541,-33.250196,10,10,-0.025655000000000427,-0.0025654999999997763
+quaternary_NbAlCuPd,NbAlCuPd,quaternary,"['Al', 'Cu', 'Nb', 'Pd']",-5.974672,-6.0842,-0.10952800000000007,-24.067563,-97.347571,4,16,-73.28000800000001,-0.06733243750000018
+quaternary_CoGeWO6,CoGeWO6,quaternary,"['Co', 'Ge', 'O', 'W']",-6.756203,-6.7954,-0.039196999999999704,-135.88493,-136.86092,18,18,-0.9759899999999959,-0.054221666666666835
+quaternary_AgGeWO6,AgGeWO6,quaternary,"['Ag', 'Ge', 'O', 'W']",-6.25704,-6.304,-0.046960000000000335,-124.75484,-500.25856,18,72,-375.50372,-0.017211111111111066
+quaternary_Cs2CaNiI6,Cs2CaNiI6,quaternary,"['Ca', 'Cs', 'I', 'Ni']",-2.902968,-2.9563,-0.05333200000000016,-29.146134,-59.342175,10,20,-30.196040999999997,-0.05249535000000005
+quaternary_In2Cu3MoH12,In2Cu3MoH12,quaternary,"['Cu', 'H', 'In', 'Mo']",-3.482469,-3.6293,-0.14683100000000016,-62.953326,-130.81043,18,36,-67.85710399999999,-0.13621605555555538
+quintenary_CaMnSnWO6,CaMnSnWO6,quintenary,"['Ca', 'Mn', 'O', 'Sn', 'W']",-6.928621,-7.0554,-0.12677899999999998,-76.53855,-77.791681,10,10,-1.2531309999999962,-0.12531309999999962
+quaternary_RbBaLiSn,RbBaLiSn,quaternary,"['Ba', 'Li', 'Rb', 'Sn']",-2.370743,-2.4428,-0.07205700000000004,-9.5715414,-9.594248,4,4,-0.02270660000000113,-0.005676650000000283
+quaternary_Cs2InRuI6,Cs2InRuI6,quaternary,"['Cs', 'I', 'In', 'Ru']",-2.987586,-3.0169,-0.029314000000000284,-29.843786,-119.99081,10,40,-90.14702399999999,-0.015391649999999757
+quaternary_ScNiSbPd,ScNiSbPd,quaternary,"['Ni', 'Pd', 'Sb', 'Sc']",-5.904792,-5.9602,-0.05540800000000079,-23.64724,-191.06007,4,32,-167.41282999999999,-0.05881718749999987
+quaternary_TiZnMoW,TiZnMoW,quaternary,"['Mo', 'Ti', 'W', 'Zn']",-8.149124,-8.2378,-0.08867599999999953,-32.775175,-132.30393,4,16,-99.52875500000002,-0.0752018750000012
+quaternary_ZrAlNiAg,ZrAlNiAg,quaternary,"['Ag', 'Al', 'Ni', 'Zr']",-5.451972,-5.4856,-0.03362800000000021,-21.806894,-174.92338,4,32,-153.116486,-0.014632125000000329
+quaternary_MgScTiSn,MgScTiSn,quaternary,"['Mg', 'Sc', 'Sn', 'Ti']",-5.029426,-5.1159,-0.08647399999999994,-20.103392,-81.785495,4,16,-61.682103,-0.08574543749999997
+quaternary_K2B2PdS6,K2B2PdS6,quaternary,"['B', 'K', 'Pd', 'S']",-4.604162,-4.8035,-0.19933800000000002,-50.548442,-53.129757,11,11,-2.5813149999999965,-0.23466499999999968
+quintenary_CaZrTiSnO6,CaZrTiSnO6,quintenary,"['Ca', 'O', 'Sn', 'Ti', 'Zr']",-7.869402,-7.9775,-0.10809800000000003,-78.79395,-160.02825,10,20,-81.23430000000002,-0.122017500000001
+quaternary_ZrMnZnGa,ZrMnZnGa,quaternary,"['Ga', 'Mn', 'Zn', 'Zr']",-5.555297,-5.638,-0.08270299999999953,-22.209491,-181.24875,4,32,-159.03925900000002,-0.11165068750000007
+quaternary_Cs2CrWF6,Cs2CrWF6,quaternary,"['Cr', 'Cs', 'F', 'W']",-5.131892,-5.1356,-0.0037080000000004887,-55.521138,-891.22289,10,160,-835.701752,-0.01802926249999981
+quaternary_ZrGaNiAg,ZrGaNiAg,quaternary,"['Ag', 'Ga', 'Ni', 'Zr']",-5.172,-5.3096,-0.13759999999999994,-20.750006,-340.0921,4,64,-319.34209400000003,-0.1264375625000005
+quaternary_ZrMnBeV,ZrMnBeV,quaternary,"['Be', 'Mn', 'V', 'Zr']",-7.547297,-7.653,-0.10570299999999921,-30.097107,-61.231634,4,8,-31.134527,-0.12967749999999967
+quintenary_BaNaTiSbO6,BaNaTiSbO6,quintenary,"['Ba', 'Na', 'O', 'Sb', 'Ti']",-6.776356,-6.7958,-0.019444000000000017,-67.892366,-68.147173,10,10,-0.25480699999999956,-0.025480700000000134
+quaternary_LiY(CrAs)2,LiY(CrAs)2,quaternary,"['As', 'Cr', 'Li', 'Y']",-6.54396,-6.651,-0.10703999999999958,-39.392634,-79.651443,6,12,-40.258809,-0.07218124999999986
+quaternary_ScVGaMo,ScVGaMo,quaternary,"['Ga', 'Mo', 'Sc', 'V']",-7.387582,-7.4643,-0.07671799999999962,-29.579167,-59.878426,4,8,-30.299258999999996,-0.09001149999999924
+quaternary_SrFe2AgCl8,SrFe2AgCl8,quaternary,"['Ag', 'Cl', 'Fe', 'Sr']",-4.068511,-4.1266,-0.058088999999999835,-48.674401,,12,192,,
+quaternary_CrFeCoW,CrFeCoW,quaternary,"['Co', 'Cr', 'Fe', 'W']",-9.277641,-9.3691,-0.0914590000000004,-37.12231,-149.53187,4,16,-112.40956,-0.06516437500000016
+quaternary_LiBeCuGe,LiBeCuGe,quaternary,"['Be', 'Cu', 'Ge', 'Li']",-3.519299,-3.632,-0.11270099999999994,-13.968052,-115.4764,4,32,-101.508348,-0.11662449999999991
+quaternary_LiAlFeRu,LiAlFeRu,quaternary,"['Al', 'Fe', 'Li', 'Ru']",-5.981428,-6.4592,-0.47777199999999986,-23.9348,-19.515135,4,8,4.419664999999998,3.5443081249999997
+quaternary_ScTiNiPd,ScTiNiPd,quaternary,"['Ni', 'Pd', 'Sc', 'Ti']",-6.681884,-6.7528,-0.07091599999999953,-26.764613,-53.985718,4,8,-27.221104999999998,-0.057061499999999654
+quintenary_Rb2MnNi(CN)6,Rb2MnNi(CN)6,quintenary,"['C', 'Mn', 'N', 'Ni', 'Rb']",-7.556528,-7.6312,-0.07467199999999963,,-244.25327,16,32,,
+quaternary_LiCrMoF6,LiCrMoF6,quaternary,"['Cr', 'F', 'Li', 'Mo']",-5.622013,-6.1051,-0.48308700000000027,,,18,144,,
+elpasolite_forced_cubic_K2MnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,K2MnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['I', 'K', 'Mn', 'Zr']",-3.677174,-3.851,-0.17382600000000004,-114.03111,-308.71559,40,80,-194.68448,-1.0081671250000004
+elpasolite_forced_cubic_Li2CuNiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2CuNiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Cu', 'Li', 'Ni']",-3.238405,-3.4623,-0.22389499999999973,-74.305234,-34.527393,40,10,39.777841,-1.5951084499999997
+quaternary_Rb2MgRuI6,Rb2MgRuI6,quaternary,"['I', 'Mg', 'Rb', 'Ru']",-2.933033,-3.0445,-0.1114670000000002,-29.160266,-243.7956,10,80,-214.635334,-0.13141840000000027
+quintenary_KZrSnSbO6,KZrSnSbO6,quintenary,"['K', 'O', 'Sb', 'Sn', 'Zr']",-6.724666,-6.7948,-0.07013400000000036,-67.301676,-136.52186,10,20,-69.220184,-0.0959254000000005
+quaternary_MgNbAlRu,MgNbAlRu,quaternary,"['Al', 'Mg', 'Nb', 'Ru']",-6.330875,-6.3772,-0.046325000000000394,-25.681609,-25.809977,4,4,-0.12836799999999826,-0.032091999999999565
+quaternary_NbVCrW,NbVCrW,quaternary,"['Cr', 'Nb', 'V', 'W']",-10.384481,-10.3901,-0.005619000000001151,-41.656417,-41.657691,4,4,-0.0012740000000022178,-0.00031850000000055445
+quaternary_Cs2BaRuI6,Cs2BaRuI6,quaternary,"['Ba', 'Cs', 'I', 'Ru']",-3.258557,-3.2922,-0.033642999999999645,-32.49735,-65.877009,10,20,-33.379659000000004,-0.044115450000000056
+elpasolite_transmuted_Li2CoRuI6_transmutation_transmuted_from,Li2CoRuI6_transmutation_transmuted_from,elpasolite_transmuted,"['Co', 'I', 'Li', 'Ru']",-3.032726,-3.4974,-0.46467400000000003,-30.125679,,10,40,,
+quintenary_SrYMnAsO6,SrYMnAsO6,quintenary,"['As', 'Mn', 'O', 'Sr', 'Y']",-7.136823,-7.2844,-0.14757700000000007,-72.566312,-295.64757,10,40,-223.081258,-0.13455804999999987
+quaternary_Cs2TaVI6,Cs2TaVI6,quaternary,"['Cs', 'I', 'Ta', 'V']",-3.752915,-3.9858,-0.232885,-37.483304,-80.227671,10,20,-42.744367000000004,-0.2630531500000002
+quaternary_LiInNiGe,LiInNiGe,quaternary,"['Ge', 'In', 'Li', 'Ni']",-3.812759,-3.8699,-0.05714100000000011,-15.150217,-61.767211,4,16,-46.616994000000005,-0.0728964375000003
+quaternary_MnSnMoF6,MnSnMoF6,quaternary,"['F', 'Mn', 'Mo', 'Sn']",-5.492169,-5.5552,-0.0630310000000005,-103.87835,-422.67618,18,72,-318.79783,-0.09948305555555503
+quaternary_CrCoNiMo,CrCoNiMo,quaternary,"['Co', 'Cr', 'Mo', 'Ni']",-8.075984,-8.2218,-0.14581599999999995,-32.2548,-526.25431,4,64,-493.99951000000004,-0.15902359374999975
+quaternary_Cs2BaTaI6,Cs2BaTaI6,quaternary,"['Ba', 'Cs', 'I', 'Ta']",-3.500874,-3.6181,-0.11722600000000005,-34.979452,-288.55716,10,80,-253.577708,-0.10901929999999993
+quintenary_SrCaZrSnO6,SrCaZrSnO6,quintenary,"['Ca', 'O', 'Sn', 'Sr', 'Zr']",-7.245753,-7.3409,-0.09514700000000076,-72.631088,-294.12719,10,40,-221.49610199999998,-0.09007094999999943
+quaternary_TiVCrGe,TiVCrGe,quaternary,"['Cr', 'Ge', 'Ti', 'V']",-7.908032,-7.9922,-0.08416800000000002,-31.471517,-127.61222,4,16,-96.140703,-0.10788449999999994
+quaternary_Rb2ZrPdI6,Rb2ZrPdI6,quaternary,"['I', 'Pd', 'Rb', 'Zr']",-3.395009,-3.5252,-0.13019099999999995,-34.072068,-70.701333,10,20,-36.629265000000004,-0.1278598500000001
+quaternary_TiCdCuNi,TiCdCuNi,quaternary,"['Cd', 'Cu', 'Ni', 'Ti']",-4.555375,-4.6018,-0.04642500000000016,-18.204878,-18.460509,4,4,-0.2556309999999975,-0.06390774999999937
+elpasolite_transmuted_Na2SnTaBr6_transmutation_transmuted_from,Na2SnTaBr6_transmutation_transmuted_from,elpasolite_transmuted,"['Br', 'Na', 'Sn', 'Ta']",-3.659056,-3.8152,-0.15614399999999984,-24.025211,-305.13103,20,80,-281.105819,-2.6128773250000004
+quaternary_KRb2SiI6,KRb2SiI6,quaternary,"['I', 'K', 'Rb', 'Si']",-2.625831,-2.7686,-0.14276900000000037,-26.243858,-221.91291,10,80,-195.66905200000002,-0.1495255750000002
+quaternary_Cs2SiMoI6,Cs2SiMoI6,quaternary,"['Cs', 'I', 'Mo', 'Si']",-3.277953,-3.4265,-0.14854699999999976,-32.822433,-68.057572,10,20,-35.235139,-0.1206353
+quaternary_Ba3Al3NiGe2,Ba3Al3NiGe2,quaternary,"['Al', 'Ba', 'Ge', 'Ni']",-3.732889,-3.9045,-0.17161099999999996,-33.547782,-140.00875,9,36,-106.460968,-0.16160061111111101
+quaternary_NbVFeNi,NbVFeNi,quaternary,"['Fe', 'Nb', 'Ni', 'V']",-8.214765,-8.3236,-0.1088350000000009,-32.951721,-33.39628,4,4,-0.44455899999999815,-0.11113974999999954
+quaternary_LiInMoRu,LiInMoRu,quaternary,"['In', 'Li', 'Mo', 'Ru']",-6.120897,-6.1276,-0.0067029999999999035,-24.702646,-197.73011,4,32,-173.027464,-0.003404437499999524
+quaternary_InGaAgGe,InGaAgGe,quaternary,"['Ag', 'Ga', 'Ge', 'In']",-3.034717,-3.1147,-0.07998299999999992,-12.077593,-25.01971,4,8,-12.942117,-0.10806549999999993
+quaternary_K2RbYH6,K2RbYH6,quaternary,"['H', 'K', 'Rb', 'Y']",-3.14961,-3.2948,-0.14518999999999993,-31.824163,-529.7186,10,160,-497.89443700000004,-0.12832495000000055
+quaternary_Cs2LiWI6,Cs2LiWI6,quaternary,"['Cs', 'I', 'Li', 'W']",-3.360948,-3.4408,-0.07985199999999981,-33.708916,-273.92408,10,80,-240.21516400000002,-0.053159399999999746
+elpasolite_forced_cubic_Li2CuNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2CuNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cu', 'F', 'Li', 'Nb']",-4.890466,-5.3431,-0.45263399999999976,-183.99607187,-215.11561,40,40,-31.119538129999995,-0.7779884532499999
+quaternary_CaYCdGe,CaYCdGe,quaternary,"['Ca', 'Cd', 'Ge', 'Y']",-3.870966,-3.9398,-0.06883399999999984,-15.456297,-31.52313,4,8,-16.066833,-0.07631699999999997
+elpasolite_transmuted_Na2ScYBr6_transmutation_transmuted_from,Na2ScYBr6_transmutation_transmuted_from,elpasolite_transmuted,"['Br', 'Na', 'Sc', 'Y']",-3.881904,-4.1035,-0.22159600000000035,-38.894358,-40.796773,10,10,-1.9024150000000049,-0.1902415000000004
+quaternary_Ni3SnGeS2,Ni3SnGeS2,quaternary,"['Ge', 'Ni', 'S', 'Sn']",-5.04397,-5.0641,-0.02012999999999998,-35.305251,-282.38486,7,56,-247.079609,0.0010205000000000908
+elpasolite_transmuted_Na2MoTiI6_transmutation_transmuted_from,Na2MoTiI6_transmutation_transmuted_from,elpasolite_transmuted,"['I', 'Mo', 'Na', 'Ti']",-3.485411,-3.7886,-0.30318900000000015,-21.317359,,10,160,,
+quaternary_Mg3ZnNi9P2,Mg3ZnNi9P2,quaternary,"['Mg', 'Ni', 'P', 'Zn']",-4.525998,-4.7273,-0.2013019999999992,-67.789549,-141.59916,15,30,-73.80961100000002,-0.2006687333333339
+elpasolite_forced_cubic_K2CoPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,K2CoPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Co', 'I', 'K', 'Pd']",-2.908774,-2.9961,-0.08732600000000001,-67.39854524,-240.99751,40,80,-173.59896476,-1.3275052440000001
+elpasolite_forced_cubic_Na2WYCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Na2WYCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Na', 'W', 'Y']",-4.445746,-4.8529,-0.40715400000000024,-51.769454,-96.326601,40,20,-44.55714699999999,-3.522093699999999
+quaternary_InFeNiPd,InFeNiPd,quaternary,"['Fe', 'In', 'Ni', 'Pd']",-5.452422,-5.4932,-0.04077799999999954,-21.811939,-43.849833,4,8,-22.037893999999998,-0.028244374999999877
+elpasolite_forced_cubic_Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1,Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Cr', 'Fe', 'Na']",-4.246781,-4.3767,-0.12991899999999923,,,40,40,,
+elpasolite_forced_cubic_Cs2ScZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Cs2ScZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cs', 'I', 'Sc', 'Zr']",-3.620026,-3.7654,-0.1453739999999999,-118.42347,-149.99949,40,40,-31.576020000000014,-0.7894005000000002
+elpasolite_transmuted_Na2SnWCl6_transmutation_transmuted_from_oqmd-8991666_rank_1,Na2SnWCl6_transmutation_transmuted_from_oqmd-8991666_rank_1,elpasolite_transmuted,"['Cl', 'Na', 'Sn', 'W']",-4.018611,-4.1892,-0.17058899999999966,-28.467539,-333.79575,20,80,-305.328211,-2.7490699250000006
+quaternary_Cs2NiPdI6,Cs2NiPdI6,quaternary,"['Cs', 'I', 'Ni', 'Pd']",-2.811971,-2.8735,-0.06152899999999972,-28.294065,-230.34721,10,80,-202.053145,-0.04993362499999954
+quaternary_MnZnGaMo,MnZnGaMo,quaternary,"['Ga', 'Mn', 'Mo', 'Zn']",-5.872355,-5.9682,-0.09584500000000062,-23.479611,-191.27999,4,32,-167.800379,-0.10759693750000032
+quaternary_CaMgGaSn,CaMgGaSn,quaternary,"['Ca', 'Ga', 'Mg', 'Sn']",-2.878557,-3.3612,-0.4826430000000004,-11.431502,266.29755,4,16,277.729052,19.501472375
+quintenary_Rb2MnCo(CN)6,Rb2MnCo(CN)6,quintenary,"['C', 'Co', 'Mn', 'N', 'Rb']",-7.733876,-7.7484,-0.01452399999999976,-124.0391,-247.81307,16,32,-123.77397,0.008285312499999975
+quaternary_Rb2GaRuF6,Rb2GaRuF6,quaternary,"['F', 'Ga', 'Rb', 'Ru']",-4.615974,-4.7349,-0.11892600000000009,-45.999676,,10,80,,
+quaternary_TiGaNiAg,TiGaNiAg,quaternary,"['Ag', 'Ga', 'Ni', 'Ti']",-4.917669,-5.0184,-0.10073099999999968,-19.808731,-160.55139,4,32,-140.742659,-0.06504818749999952
+quaternary_Sc8Co3HSe3,Sc8Co3HSe3,quaternary,"['Co', 'H', 'Sc', 'Se']",-6.329815,-6.4417,-0.11188500000000001,-94.680335,-1545.2528,15,240,-1450.572465,-0.12653099999999995
+quaternary_Ba2TiCrS6,Ba2TiCrS6,quaternary,"['Ba', 'Cr', 'S', 'Ti']",-5.965152,-6.0263,-0.0611480000000002,-119.47395,-241.24031,20,40,-121.76635999999999,-0.05731024999999956
+quintenary_NaZrCuWO6,NaZrCuWO6,quintenary,"['Cu', 'Na', 'O', 'W', 'Zr']",-7.085274,-7.2149,-0.12962600000000002,-76.957842,-783.76017,10,100,-706.802328,-0.14181750000000015
+quaternary_Cs2BaBeCl6,Cs2BaBeCl6,quaternary,"['Ba', 'Be', 'Cl', 'Cs']",-3.678606,-3.8664,-0.18779400000000024,-36.844262,-154.72792,10,40,-117.88365800000001,-0.1837718000000006
+quaternary_Rb2Mg3In12Ag,Rb2Mg3In12Ag,quaternary,"['Ag', 'In', 'Mg', 'Rb']",-2.185766,-2.2935,-0.10773399999999977,-39.258588,-327.90286,18,144,-288.644272,-0.09607052777777758
+quaternary_K2ZrVH8,K2ZrVH8,quaternary,"['H', 'K', 'V', 'Zr']",-3.741792,-4.101,-0.3592080000000002,-45.145988,-197.58782,12,48,-152.44183199999998,-0.3542472499999998
+quaternary_Rb2MnRuBr6,Rb2MnRuBr6,quaternary,"['Br', 'Mn', 'Rb', 'Ru']",-3.886996,-3.978,-0.0910040000000003,-38.785173,-79.802284,10,20,-41.017111,-0.11159689999999989
+elpasolite_forced_cubic_Li2CoFeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,Li2CoFeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,elpasolite_forced_cubic,"['Cl', 'Co', 'Fe', 'Li']",-3.847998,-4.1189,-0.270902,-99.007814,-164.49705949,40,40,-65.48924549,-1.6372311372499997
+quaternary_TiGaWO6,TiGaWO6,quaternary,"['Ga', 'O', 'Ti', 'W']",-7.517059,-7.5679,-0.050841000000000136,-146.8648,-1182.5885,18,144,-1035.7237,-0.05326458333333406
+quaternary_CdIn4SnSe8,CdIn4SnSe8,quaternary,"['Cd', 'In', 'Se', 'Sn']",-3.538122,-3.5574,-0.019277999999999906,-49.548408,-99.681092,14,28,-50.132684000000005,-0.02086699999999997
+quaternary_CdInCuNi,CdInCuNi,quaternary,"['Cd', 'Cu', 'In', 'Ni']",-3.118075,-3.1628,-0.04472499999999968,-12.480511,-50.411739,4,16,-37.931228,-0.030605937499999847
+quintenary_KSrMnSnO6,KSrMnSnO6,quintenary,"['K', 'Mn', 'O', 'Sn', 'Sr']",-6.024292,-6.0304,-0.006108000000000224,-62.930382,-126.41555,10,20,-63.485167999999994,-0.027739300000000355
+quintenary_KSrLiZnF6,KSrLiZnF6,quintenary,"['F', 'K', 'Li', 'Sr', 'Zn']",-4.638883,-5.038,-0.3991170000000004,-46.430015,-388.509,10,80,-342.078985,-0.2133610000000008
+quaternary_LiCdSeCl,LiCdSeCl,quaternary,"['Cd', 'Cl', 'Li', 'Se']",-3.125584,-3.1637,-0.03811600000000004,-12.540844,-203.13024,4,64,-190.589396,-0.03869899999999982
+quaternary_LiTa(CuP)2,LiTa(CuP)2,quaternary,"['Cu', 'Li', 'P', 'Ta']",-5.624019,-6.094,-0.46998100000000065,-33.729684,,6,24,,
+quaternary_NbGaSbO6,NbGaSbO6,quaternary,"['Ga', 'Nb', 'O', 'Sb']",-7.021401,-7.1087,-0.0872989999999998,-127.92184,-1038.9123,18,144,-910.99046,-0.10789986111111016

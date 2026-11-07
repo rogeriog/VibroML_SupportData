@@ -1,0 +1,2823 @@
+[
+ {
+  "run_dir": "quaternary_Sr2NbPdO6",
+  "material": "Sr2NbPdO6",
+  "dataset": "quaternary",
+  "e_mace_init": -7.032907,
+  "e_mace_winner": -7.0701,
+  "dE_mace": -0.037193000000000254,
+  "elements": [
+   "Nb",
+   "O",
+   "Pd",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrAlCO",
+  "material": "ZrAlCO",
+  "dataset": "quaternary",
+  "e_mace_init": -8.097077,
+  "e_mace_winner": -8.1046,
+  "dE_mace": -0.007522999999999058,
+  "elements": [
+   "Al",
+   "C",
+   "O",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_NbGeMoRu",
+  "material": "NbGeMoRu",
+  "dataset": "quaternary",
+  "e_mace_init": -8.841156,
+  "e_mace_winner": -8.8799,
+  "dE_mace": -0.038743999999999446,
+  "elements": [
+   "Ge",
+   "Mo",
+   "Nb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_KSrSeCl",
+  "material": "KSrSeCl",
+  "dataset": "quaternary",
+  "e_mace_init": -3.922059,
+  "e_mace_winner": -3.9397,
+  "dE_mace": -0.01764100000000024,
+  "elements": [
+   "Cl",
+   "K",
+   "Se",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Rb2MoVBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Rb2MoVBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.075058,
+  "e_mace_winner": -4.2222,
+  "dE_mace": -0.14714199999999966,
+  "elements": [
+   "Br",
+   "Mo",
+   "Rb",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2MoSbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2MoSbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.655485,
+  "e_mace_winner": -4.1461,
+  "dE_mace": -0.4906149999999996,
+  "elements": [
+   "Cl",
+   "Li",
+   "Mo",
+   "Sb"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2CoRuI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.032726,
+  "e_mace_winner": -3.3844,
+  "dE_mace": -0.35167400000000004,
+  "elements": [
+   "Co",
+   "I",
+   "Li",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Na2AlYCl6_transmutation_transmuted_from",
+  "material": "Na2AlYCl6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.895621,
+  "e_mace_winner": -4.1595,
+  "dE_mace": -0.26387900000000064,
+  "elements": [
+   "Al",
+   "Cl",
+   "Na",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_VCoCuGe",
+  "material": "VCoCuGe",
+  "dataset": "quaternary",
+  "e_mace_init": -6.077547,
+  "e_mace_winner": -6.213,
+  "dE_mace": -0.13545300000000005,
+  "elements": [
+   "Co",
+   "Cu",
+   "Ge",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2SiAsCl6",
+  "material": "Cs2SiAsCl6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.393502,
+  "e_mace_winner": -3.5946,
+  "dE_mace": -0.201098,
+  "elements": [
+   "As",
+   "Cl",
+   "Cs",
+   "Si"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2PSeI6",
+  "material": "Cs2PSeI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.587735,
+  "e_mace_winner": -2.6004,
+  "dE_mace": -0.012665000000000148,
+  "elements": [
+   "Cs",
+   "I",
+   "P",
+   "Se"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiAlZnSn",
+  "material": "LiAlZnSn",
+  "dataset": "quaternary",
+  "e_mace_init": -2.698002,
+  "e_mace_winner": -2.7764,
+  "dE_mace": -0.07839800000000041,
+  "elements": [
+   "Al",
+   "Li",
+   "Sn",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_K2GePdBr6_database_exact_match_oqmd-6432027_rank_1",
+  "material": "K2GePdBr6_database_exact_match_oqmd-6432027_rank_1",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.120855,
+  "e_mace_winner": -3.178,
+  "dE_mace": -0.05714499999999978,
+  "elements": [
+   "Br",
+   "Ge",
+   "K",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiAlInGe",
+  "material": "LiAlInGe",
+  "dataset": "quaternary",
+  "e_mace_init": -3.201592,
+  "e_mace_winner": -3.3144,
+  "dE_mace": -0.1128079999999998,
+  "elements": [
+   "Al",
+   "Ge",
+   "In",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MnNiAsPd",
+  "material": "MnNiAsPd",
+  "dataset": "quaternary",
+  "e_mace_init": -6.207215,
+  "e_mace_winner": -6.3032,
+  "dE_mace": -0.09598500000000065,
+  "elements": [
+   "As",
+   "Mn",
+   "Ni",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2SiPBr6",
+  "material": "Cs2SiPBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.081106,
+  "e_mace_winner": -3.2186,
+  "dE_mace": -0.13749399999999978,
+  "elements": [
+   "Br",
+   "Cs",
+   "P",
+   "Si"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZnCuAgSn",
+  "material": "ZnCuAgSn",
+  "dataset": "quaternary",
+  "e_mace_init": -2.731575,
+  "e_mace_winner": -2.8445,
+  "dE_mace": -0.11292500000000016,
+  "elements": [
+   "Ag",
+   "Cu",
+   "Sn",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quintenary_CsCaAlGeH",
+  "material": "CsCaAlGeH",
+  "dataset": "quintenary",
+  "e_mace_init": -3.090252,
+  "e_mace_winner": -3.1902,
+  "dE_mace": -0.09994799999999993,
+  "elements": [
+   "Al",
+   "Ca",
+   "Cs",
+   "Ge",
+   "H"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgCuMoF6",
+  "material": "MgCuMoF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.039442,
+  "e_mace_winner": -5.087,
+  "dE_mace": -0.047557999999999545,
+  "elements": [
+   "Cu",
+   "F",
+   "Mg",
+   "Mo"
+  ]
+ },
+ {
+  "run_dir": "quintenary_Ba4MnCo2RuO12",
+  "material": "Ba4MnCo2RuO12",
+  "dataset": "quintenary",
+  "e_mace_init": -6.451798,
+  "e_mace_winner": -6.4524,
+  "dE_mace": -0.0006019999999997694,
+  "elements": [
+   "Ba",
+   "Co",
+   "Mn",
+   "O",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Li2NiRuCl6_transmutation_transmuted_from",
+  "material": "Li2NiRuCl6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.91301,
+  "e_mace_winner": -3.9624,
+  "dE_mace": -0.04939000000000027,
+  "elements": [
+   "Cl",
+   "Li",
+   "Ni",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_BaSrAgBr",
+  "material": "BaSrAgBr",
+  "dataset": "quaternary",
+  "e_mace_init": -2.714092,
+  "e_mace_winner": -2.9225,
+  "dE_mace": -0.20840799999999993,
+  "elements": [
+   "Ag",
+   "Ba",
+   "Br",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2SrSiF6",
+  "material": "Cs2SrSiF6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.769821,
+  "e_mace_winner": -4.9618,
+  "dE_mace": -0.1919789999999999,
+  "elements": [
+   "Cs",
+   "F",
+   "Si",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CrNiPdRu",
+  "material": "CrNiPdRu",
+  "dataset": "quaternary",
+  "e_mace_init": -7.201007,
+  "e_mace_winner": -7.3181,
+  "dE_mace": -0.11709300000000056,
+  "elements": [
+   "Cr",
+   "Ni",
+   "Pd",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiZrTeSe",
+  "material": "LiZrTeSe",
+  "dataset": "quaternary",
+  "e_mace_init": -5.393994,
+  "e_mace_winner": -5.8372,
+  "dE_mace": -0.443206,
+  "elements": [
+   "Li",
+   "Se",
+   "Te",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CaV(SO4)2",
+  "material": "CaV(SO4)2",
+  "dataset": "quaternary",
+  "e_mace_init": -6.59365,
+  "e_mace_winner": -6.6306,
+  "dE_mace": -0.03695000000000004,
+  "elements": [
+   "Ca",
+   "O",
+   "S",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quintenary_BaTiNbGaO6",
+  "material": "BaTiNbGaO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.729156,
+  "e_mace_winner": -7.7894,
+  "dE_mace": -0.060243999999999964,
+  "elements": [
+   "Ba",
+   "Ga",
+   "Nb",
+   "O",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgMnGaPd",
+  "material": "MgMnGaPd",
+  "dataset": "quaternary",
+  "e_mace_init": -4.925443,
+  "e_mace_winner": -5.0073,
+  "dE_mace": -0.08185700000000029,
+  "elements": [
+   "Ga",
+   "Mg",
+   "Mn",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quintenary_SrCaZrFeO6",
+  "material": "SrCaZrFeO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.276031,
+  "e_mace_winner": -7.3157,
+  "dE_mace": -0.039668999999999954,
+  "elements": [
+   "Ca",
+   "Fe",
+   "O",
+   "Sr",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgScAgGe",
+  "material": "MgScAgGe",
+  "dataset": "quaternary",
+  "e_mace_init": -4.127514,
+  "e_mace_winner": -4.2284,
+  "dE_mace": -0.10088600000000003,
+  "elements": [
+   "Ag",
+   "Ge",
+   "Mg",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quaternary_AlCuMoRu",
+  "material": "AlCuMoRu",
+  "dataset": "quaternary",
+  "e_mace_init": -7.006076,
+  "e_mace_winner": -7.0933,
+  "dE_mace": -0.08722399999999997,
+  "elements": [
+   "Al",
+   "Cu",
+   "Mo",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cr6Co2HN",
+  "material": "Cr6Co2HN",
+  "dataset": "quaternary",
+  "e_mace_init": -8.355648,
+  "e_mace_winner": -8.3863,
+  "dE_mace": -0.0306519999999999,
+  "elements": [
+   "Co",
+   "Cr",
+   "H",
+   "N"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgGaAgGe",
+  "material": "MgGaAgGe",
+  "dataset": "quaternary",
+  "e_mace_init": -2.91253,
+  "e_mace_winner": -2.9635,
+  "dE_mace": -0.05096999999999996,
+  "elements": [
+   "Ag",
+   "Ga",
+   "Ge",
+   "Mg"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Mg3Al3FeGe2",
+  "material": "Mg3Al3FeGe2",
+  "dataset": "quaternary",
+  "e_mace_init": -3.824818,
+  "e_mace_winner": -3.8263,
+  "dE_mace": -0.0014819999999997613,
+  "elements": [
+   "Al",
+   "Fe",
+   "Ge",
+   "Mg"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiBeAlGa",
+  "material": "LiBeAlGa",
+  "dataset": "quaternary",
+  "e_mace_init": -3.031154,
+  "e_mace_winner": -3.1474,
+  "dE_mace": -0.1162460000000003,
+  "elements": [
+   "Al",
+   "Be",
+   "Ga",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CrCdMoF6",
+  "material": "CrCdMoF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.133756,
+  "e_mace_winner": -5.2325,
+  "dE_mace": -0.09874399999999994,
+  "elements": [
+   "Cd",
+   "Cr",
+   "F",
+   "Mo"
+  ]
+ },
+ {
+  "run_dir": "quintenary_Ni3H6Pd(ClO3)2",
+  "material": "Ni3H6Pd(ClO3)2",
+  "dataset": "quintenary",
+  "e_mace_init": -4.605532,
+  "e_mace_winner": -4.6642,
+  "dE_mace": -0.05866799999999994,
+  "elements": [
+   "Cl",
+   "H",
+   "Ni",
+   "O",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgScMnIn",
+  "material": "MgScMnIn",
+  "dataset": "quaternary",
+  "e_mace_init": -4.856533,
+  "e_mace_winner": -4.9532,
+  "dE_mace": -0.09666700000000006,
+  "elements": [
+   "In",
+   "Mg",
+   "Mn",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2AlRuBr6",
+  "material": "Rb2AlRuBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.381806,
+  "e_mace_winner": -3.5357,
+  "dE_mace": -0.15389399999999975,
+  "elements": [
+   "Al",
+   "Br",
+   "Rb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quintenary_CaTiNbSnO6",
+  "material": "CaTiNbSnO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.790036,
+  "e_mace_winner": -7.8604,
+  "dE_mace": -0.07036400000000054,
+  "elements": [
+   "Ca",
+   "Nb",
+   "O",
+   "Sn",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Rb2MoPdBr6_transmutation_transmuted_from",
+  "material": "Rb2MoPdBr6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.665383,
+  "e_mace_winner": -3.7213,
+  "dE_mace": -0.055916999999999994,
+  "elements": [
+   "Br",
+   "Mo",
+   "Pd",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgScAlCd",
+  "material": "MgScAlCd",
+  "dataset": "quaternary",
+  "e_mace_init": -3.27313,
+  "e_mace_winner": -3.3365,
+  "dE_mace": -0.06336999999999993,
+  "elements": [
+   "Al",
+   "Cd",
+   "Mg",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quintenary_NaSrYSeO6",
+  "material": "NaSrYSeO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.301586,
+  "e_mace_winner": -6.3265,
+  "dE_mace": -0.02491399999999988,
+  "elements": [
+   "Na",
+   "O",
+   "Se",
+   "Sr",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_BeSbAsO6",
+  "material": "BeSbAsO6",
+  "dataset": "quaternary",
+  "e_mace_init": -6.154282,
+  "e_mace_winner": -6.1543,
+  "dE_mace": -1.7999999999851468e-05,
+  "elements": [
+   "As",
+   "Be",
+   "O",
+   "Sb"
+  ]
+ },
+ {
+  "run_dir": "quintenary_KCaInWO6",
+  "material": "KCaInWO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.342055,
+  "e_mace_winner": -6.3903,
+  "dE_mace": -0.04824499999999965,
+  "elements": [
+   "Ca",
+   "In",
+   "K",
+   "O",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Ba2CrSiH6",
+  "material": "Ba2CrSiH6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.060581,
+  "e_mace_winner": -4.1583,
+  "dE_mace": -0.09771899999999967,
+  "elements": [
+   "Ba",
+   "Cr",
+   "H",
+   "Si"
+  ]
+ },
+ {
+  "run_dir": "quaternary_BaNaLiAl",
+  "material": "BaNaLiAl",
+  "dataset": "quaternary",
+  "e_mace_init": -2.152115,
+  "e_mace_winner": -2.3692,
+  "dE_mace": -0.21708500000000042,
+  "elements": [
+   "Al",
+   "Ba",
+   "Li",
+   "Na"
+  ]
+ },
+ {
+  "run_dir": "quaternary_K2MgNiBr6",
+  "material": "K2MgNiBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.108348,
+  "e_mace_winner": -3.146,
+  "dE_mace": -0.03765200000000002,
+  "elements": [
+   "Br",
+   "K",
+   "Mg",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_GaCuNiF6",
+  "material": "GaCuNiF6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.270965,
+  "e_mace_winner": -4.2903,
+  "dE_mace": -0.01933499999999988,
+  "elements": [
+   "Cu",
+   "F",
+   "Ga",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiInAgAs",
+  "material": "LiInAgAs",
+  "dataset": "quaternary",
+  "e_mace_init": -3.114309,
+  "e_mace_winner": -3.1869,
+  "dE_mace": -0.07259100000000007,
+  "elements": [
+   "Ag",
+   "As",
+   "In",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_YZrBeRu",
+  "material": "YZrBeRu",
+  "dataset": "quaternary",
+  "e_mace_init": -7.147132,
+  "e_mace_winner": -7.2566,
+  "dE_mace": -0.10946799999999968,
+  "elements": [
+   "Be",
+   "Ru",
+   "Y",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CuPdRuW",
+  "material": "CuPdRuW",
+  "dataset": "quaternary",
+  "e_mace_init": -7.643713,
+  "e_mace_winner": -7.7583,
+  "dE_mace": -0.11458700000000022,
+  "elements": [
+   "Cu",
+   "Pd",
+   "Ru",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2ScAlI6",
+  "material": "Cs2ScAlI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.210647,
+  "e_mace_winner": -3.2357,
+  "dE_mace": -0.025053000000000214,
+  "elements": [
+   "Al",
+   "Cs",
+   "I",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Li2ScCuCl6",
+  "material": "Li2ScCuCl6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.854478,
+  "e_mace_winner": -4.1308,
+  "dE_mace": -0.27632199999999996,
+  "elements": [
+   "Cl",
+   "Cu",
+   "Li",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2ZnMoBr6",
+  "material": "Rb2ZnMoBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.342306,
+  "e_mace_winner": -3.4718,
+  "dE_mace": -0.12949399999999978,
+  "elements": [
+   "Br",
+   "Mo",
+   "Rb",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2Sc(ZnH4)3",
+  "material": "Cs2Sc(ZnH4)3",
+  "dataset": "quaternary",
+  "e_mace_init": -2.921425,
+  "e_mace_winner": -3.0281,
+  "dE_mace": -0.10667499999999963,
+  "elements": [
+   "Cs",
+   "H",
+   "Sc",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2TiSiI6",
+  "material": "Rb2TiSiI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.158493,
+  "e_mace_winner": -3.2869,
+  "dE_mace": -0.12840700000000016,
+  "elements": [
+   "I",
+   "Rb",
+   "Si",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ScAgSnPd",
+  "material": "ScAgSnPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.08391,
+  "e_mace_winner": -5.0851,
+  "dE_mace": -0.0011899999999993582,
+  "elements": [
+   "Ag",
+   "Pd",
+   "Sc",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2GeWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2GeWF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.606923,
+  "e_mace_winner": -5.0436,
+  "dE_mace": -0.43667699999999954,
+  "elements": [
+   "F",
+   "Ge",
+   "Li",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CaCdGaGe",
+  "material": "CaCdGaGe",
+  "dataset": "quaternary",
+  "e_mace_init": -2.738438,
+  "e_mace_winner": -2.8763,
+  "dE_mace": -0.13786200000000015,
+  "elements": [
+   "Ca",
+   "Cd",
+   "Ga",
+   "Ge"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiAlGaSn",
+  "material": "LiAlGaSn",
+  "dataset": "quaternary",
+  "e_mace_init": -3.177039,
+  "e_mace_winner": -3.2205,
+  "dE_mace": -0.04346099999999975,
+  "elements": [
+   "Al",
+   "Ga",
+   "Li",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_K2ZnZrI6_transmutation_transmuted_from",
+  "material": "K2ZnZrI6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -2.981918,
+  "e_mace_winner": -3.1019,
+  "dE_mace": -0.11998200000000026,
+  "elements": [
+   "I",
+   "K",
+   "Zn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Cs2AlTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Cs2AlTiBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.591117,
+  "e_mace_winner": -3.6619,
+  "dE_mace": -0.07078300000000004,
+  "elements": [
+   "Al",
+   "Br",
+   "Cs",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiMgZnSi",
+  "material": "LiMgZnSi",
+  "dataset": "quaternary",
+  "e_mace_init": -2.547616,
+  "e_mace_winner": -3.0439,
+  "dE_mace": -0.4962839999999997,
+  "elements": [
+   "Li",
+   "Mg",
+   "Si",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgInSnSb",
+  "material": "MgInSnSb",
+  "dataset": "quaternary",
+  "e_mace_init": -2.9951,
+  "e_mace_winner": -3.0783,
+  "dE_mace": -0.08320000000000016,
+  "elements": [
+   "In",
+   "Mg",
+   "Sb",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Y3In4AgTe8",
+  "material": "Y3In4AgTe8",
+  "dataset": "quaternary",
+  "e_mace_init": -4.34445,
+  "e_mace_winner": -4.3583,
+  "dE_mace": -0.013849999999999696,
+  "elements": [
+   "Ag",
+   "In",
+   "Te",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2GaAsI6",
+  "material": "Rb2GaAsI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.597812,
+  "e_mace_winner": -2.6616,
+  "dE_mace": -0.06378800000000018,
+  "elements": [
+   "As",
+   "Ga",
+   "I",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MnVCrSb",
+  "material": "MnVCrSb",
+  "dataset": "quaternary",
+  "e_mace_init": -7.870022,
+  "e_mace_winner": -7.8723,
+  "dE_mace": -0.0022780000000004463,
+  "elements": [
+   "Cr",
+   "Mn",
+   "Sb",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrScNbMo",
+  "material": "ZrScNbMo",
+  "dataset": "quaternary",
+  "e_mace_init": -8.845248,
+  "e_mace_winner": -8.9248,
+  "dE_mace": -0.07955199999999962,
+  "elements": [
+   "Mo",
+   "Nb",
+   "Sc",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2CrCoI6",
+  "material": "Rb2CrCoI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.378265,
+  "e_mace_winner": -3.4684,
+  "dE_mace": -0.09013500000000008,
+  "elements": [
+   "Co",
+   "Cr",
+   "I",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_GaCuRuO6",
+  "material": "GaCuRuO6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.933665,
+  "e_mace_winner": -6.0276,
+  "dE_mace": -0.09393499999999921,
+  "elements": [
+   "Cu",
+   "Ga",
+   "O",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Na2SnZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Na2SnZrBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.452048,
+  "e_mace_winner": -3.7709,
+  "dE_mace": -0.31885200000000014,
+  "elements": [
+   "Br",
+   "Na",
+   "Sn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quintenary_Cs2RbSrNb2O8",
+  "material": "Cs2RbSrNb2O8",
+  "dataset": "quintenary",
+  "e_mace_init": -6.908242,
+  "e_mace_winner": -6.9217,
+  "dE_mace": -0.01345799999999997,
+  "elements": [
+   "Cs",
+   "Nb",
+   "O",
+   "Rb",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_InCuNiRu",
+  "material": "InCuNiRu",
+  "dataset": "quaternary",
+  "e_mace_init": -5.063598,
+  "e_mace_winner": -5.201,
+  "dE_mace": -0.1374019999999998,
+  "elements": [
+   "Cu",
+   "In",
+   "Ni",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgCdAgGe",
+  "material": "MgCdAgGe",
+  "dataset": "quaternary",
+  "e_mace_init": -2.388528,
+  "e_mace_winner": -2.4295,
+  "dE_mace": -0.04097200000000001,
+  "elements": [
+   "Ag",
+   "Cd",
+   "Ge",
+   "Mg"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Mn3Ga3Ge2Pd",
+  "material": "Mn3Ga3Ge2Pd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.57393,
+  "e_mace_winner": -5.6956,
+  "dE_mace": -0.12166999999999994,
+  "elements": [
+   "Ga",
+   "Ge",
+   "Mn",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrTiGaCo",
+  "material": "ZrTiGaCo",
+  "dataset": "quaternary",
+  "e_mace_init": -6.871763,
+  "e_mace_winner": -6.9931,
+  "dE_mace": -0.12133700000000047,
+  "elements": [
+   "Co",
+   "Ga",
+   "Ti",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -2.219702,
+  "e_mace_winner": -2.564,
+  "dE_mace": -0.3442980000000002,
+  "elements": [
+   "Bi",
+   "Cd",
+   "I",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_BaTa(BeH4)2",
+  "material": "BaTa(BeH4)2",
+  "dataset": "quaternary",
+  "e_mace_init": -4.088307,
+  "e_mace_winner": -4.2732,
+  "dE_mace": -0.18489299999999975,
+  "elements": [
+   "Ba",
+   "Be",
+   "H",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiCdInCu",
+  "material": "TiCdInCu",
+  "dataset": "quaternary",
+  "e_mace_init": -3.600968,
+  "e_mace_winner": -3.763,
+  "dE_mace": -0.16203199999999995,
+  "elements": [
+   "Cd",
+   "Cu",
+   "In",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgCrCdF6",
+  "material": "MgCrCdF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.009284,
+  "e_mace_winner": -5.0259,
+  "dE_mace": -0.016615999999999964,
+  "elements": [
+   "Cd",
+   "Cr",
+   "F",
+   "Mg"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrGaAgPd",
+  "material": "ZrGaAgPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.257733,
+  "e_mace_winner": -5.2952,
+  "dE_mace": -0.03746700000000036,
+  "elements": [
+   "Ag",
+   "Ga",
+   "Pd",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiAlInSn",
+  "material": "LiAlInSn",
+  "dataset": "quaternary",
+  "e_mace_init": -3.070504,
+  "e_mace_winner": -3.0944,
+  "dE_mace": -0.023895999999999695,
+  "elements": [
+   "Al",
+   "In",
+   "Li",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgZrTiIn",
+  "material": "MgZrTiIn",
+  "dataset": "quaternary",
+  "e_mace_init": -5.102145,
+  "e_mace_winner": -5.2224,
+  "dE_mace": -0.12025500000000022,
+  "elements": [
+   "In",
+   "Mg",
+   "Ti",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiTaCrH6",
+  "material": "LiTaCrH6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.63434,
+  "e_mace_winner": -4.9758,
+  "dE_mace": -0.34145999999999965,
+  "elements": [
+   "Cr",
+   "H",
+   "Li",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Na2ScYBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Na2ScYBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.881904,
+  "e_mace_winner": -4.106,
+  "dE_mace": -0.22409599999999985,
+  "elements": [
+   "Br",
+   "Na",
+   "Sc",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrScTiW",
+  "material": "ZrScTiW",
+  "dataset": "quaternary",
+  "e_mace_init": -8.739858,
+  "e_mace_winner": -8.7961,
+  "dE_mace": -0.05624199999999924,
+  "elements": [
+   "Sc",
+   "Ti",
+   "W",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrCuSnRu",
+  "material": "ZrCuSnRu",
+  "dataset": "quaternary",
+  "e_mace_init": -6.634872,
+  "e_mace_winner": -6.6424,
+  "dE_mace": -0.007528000000000645,
+  "elements": [
+   "Cu",
+   "Ru",
+   "Sn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2CdWBr6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.211735,
+  "e_mace_winner": -3.6421,
+  "dE_mace": -0.4303650000000001,
+  "elements": [
+   "Br",
+   "Cd",
+   "Li",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_VCuSnPd",
+  "material": "VCuSnPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.474471,
+  "e_mace_winner": -5.6037,
+  "dE_mace": -0.1292289999999996,
+  "elements": [
+   "Cu",
+   "Pd",
+   "Sn",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZnCoCuRu",
+  "material": "ZnCoCuRu",
+  "dataset": "quaternary",
+  "e_mace_init": -5.11439,
+  "e_mace_winner": -5.2229,
+  "dE_mace": -0.10850999999999988,
+  "elements": [
+   "Co",
+   "Cu",
+   "Ru",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2TiCrCl6",
+  "material": "Rb2TiCrCl6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.520561,
+  "e_mace_winner": -4.5525,
+  "dE_mace": -0.031939000000000384,
+  "elements": [
+   "Cl",
+   "Cr",
+   "Rb",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quintenary_TiFeAsHS",
+  "material": "TiFeAsHS",
+  "dataset": "quintenary",
+  "e_mace_init": -6.082562,
+  "e_mace_winner": -6.196,
+  "dE_mace": -0.11343799999999948,
+  "elements": [
+   "As",
+   "Fe",
+   "H",
+   "S",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2NbHI6",
+  "material": "Cs2NbHI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.088988,
+  "e_mace_winner": -3.3131,
+  "dE_mace": -0.22411199999999987,
+  "elements": [
+   "Cs",
+   "H",
+   "I",
+   "Nb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TaTiCoNi",
+  "material": "TaTiCoNi",
+  "dataset": "quaternary",
+  "e_mace_init": -8.257287,
+  "e_mace_winner": -8.3474,
+  "dE_mace": -0.09011300000000055,
+  "elements": [
+   "Co",
+   "Ni",
+   "Ta",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Na3Y3WS8",
+  "material": "Na3Y3WS8",
+  "dataset": "quaternary",
+  "e_mace_init": -6.125927,
+  "e_mace_winner": -6.1259,
+  "dE_mace": 2.700000000022129e-05,
+  "elements": [
+   "Na",
+   "S",
+   "W",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TaCuNiPd",
+  "material": "TaCuNiPd",
+  "dataset": "quaternary",
+  "e_mace_init": -6.716541,
+  "e_mace_winner": -6.824,
+  "dE_mace": -0.10745899999999953,
+  "elements": [
+   "Cu",
+   "Ni",
+   "Pd",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MnAl3Ge2Mo3",
+  "material": "MnAl3Ge2Mo3",
+  "dataset": "quaternary",
+  "e_mace_init": -6.907315,
+  "e_mace_winner": -7.039,
+  "dE_mace": -0.13168500000000005,
+  "elements": [
+   "Al",
+   "Ge",
+   "Mn",
+   "Mo"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs3Y3TaS8",
+  "material": "Cs3Y3TaS8",
+  "dataset": "quaternary",
+  "e_mace_init": -6.095703,
+  "e_mace_winner": -6.1084,
+  "dE_mace": -0.012696999999999292,
+  "elements": [
+   "Cs",
+   "S",
+   "Ta",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZnCrRuW",
+  "material": "ZnCrRuW",
+  "dataset": "quaternary",
+  "e_mace_init": -8.10904,
+  "e_mace_winner": -8.1359,
+  "dE_mace": -0.026859999999999218,
+  "elements": [
+   "Cr",
+   "Ru",
+   "W",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2AlGeBr6",
+  "material": "Cs2AlGeBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.159144,
+  "e_mace_winner": -3.2562,
+  "dE_mace": -0.09705600000000025,
+  "elements": [
+   "Al",
+   "Br",
+   "Cs",
+   "Ge"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Li2RuVCl6_transmutation_transmuted_from",
+  "material": "Li2RuVCl6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -4.232197,
+  "e_mace_winner": -4.5495,
+  "dE_mace": -0.3173029999999999,
+  "elements": [
+   "Cl",
+   "Li",
+   "Ru",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_GaGeAsO6",
+  "material": "GaGeAsO6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.998164,
+  "e_mace_winner": -6.1175,
+  "dE_mace": -0.11933599999999966,
+  "elements": [
+   "As",
+   "Ga",
+   "Ge",
+   "O"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Al3V3Si2Pd",
+  "material": "Al3V3Si2Pd",
+  "dataset": "quaternary",
+  "e_mace_init": -6.344187,
+  "e_mace_winner": -6.385,
+  "dE_mace": -0.04081299999999999,
+  "elements": [
+   "Al",
+   "Pd",
+   "Si",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Ba2Li3ZrH12",
+  "material": "Ba2Li3ZrH12",
+  "dataset": "quaternary",
+  "e_mace_init": -3.482845,
+  "e_mace_winner": -3.5947,
+  "dE_mace": -0.11185499999999982,
+  "elements": [
+   "Ba",
+   "H",
+   "Li",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Al3Cr3CuGe2",
+  "material": "Al3Cr3CuGe2",
+  "dataset": "quaternary",
+  "e_mace_init": -5.811862,
+  "e_mace_winner": -5.8728,
+  "dE_mace": -0.06093800000000016,
+  "elements": [
+   "Al",
+   "Cr",
+   "Cu",
+   "Ge"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_K2TaYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "K2TaYI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.710175,
+  "e_mace_winner": -4.0168,
+  "dE_mace": -0.3066249999999999,
+  "elements": [
+   "I",
+   "K",
+   "Ta",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiNiSbRu",
+  "material": "TiNiSbRu",
+  "dataset": "quaternary",
+  "e_mace_init": -6.960112,
+  "e_mace_winner": -7.054,
+  "dE_mace": -0.09388800000000064,
+  "elements": [
+   "Ni",
+   "Ru",
+   "Sb",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgCuGeRu",
+  "material": "MgCuGeRu",
+  "dataset": "quaternary",
+  "e_mace_init": -4.79736,
+  "e_mace_winner": -4.9179,
+  "dE_mace": -0.12054000000000009,
+  "elements": [
+   "Cu",
+   "Ge",
+   "Mg",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2MnNbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2MnNbCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.360268,
+  "e_mace_winner": -4.8477,
+  "dE_mace": -0.4874320000000001,
+  "elements": [
+   "Cl",
+   "Li",
+   "Mn",
+   "Nb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2InRuBr6",
+  "material": "Cs2InRuBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.331779,
+  "e_mace_winner": -3.3338,
+  "dE_mace": -0.0020210000000000505,
+  "elements": [
+   "Br",
+   "Cs",
+   "In",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_NbAlCuPd",
+  "material": "NbAlCuPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.974672,
+  "e_mace_winner": -6.0842,
+  "dE_mace": -0.10952800000000007,
+  "elements": [
+   "Al",
+   "Cu",
+   "Nb",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CoGeWO6",
+  "material": "CoGeWO6",
+  "dataset": "quaternary",
+  "e_mace_init": -6.756203,
+  "e_mace_winner": -6.7954,
+  "dE_mace": -0.039196999999999704,
+  "elements": [
+   "Co",
+   "Ge",
+   "O",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_AgGeWO6",
+  "material": "AgGeWO6",
+  "dataset": "quaternary",
+  "e_mace_init": -6.25704,
+  "e_mace_winner": -6.304,
+  "dE_mace": -0.046960000000000335,
+  "elements": [
+   "Ag",
+   "Ge",
+   "O",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2CaNiI6",
+  "material": "Cs2CaNiI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.902968,
+  "e_mace_winner": -2.9563,
+  "dE_mace": -0.05333200000000016,
+  "elements": [
+   "Ca",
+   "Cs",
+   "I",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_In2Cu3MoH12",
+  "material": "In2Cu3MoH12",
+  "dataset": "quaternary",
+  "e_mace_init": -3.482469,
+  "e_mace_winner": -3.6293,
+  "dE_mace": -0.14683100000000016,
+  "elements": [
+   "Cu",
+   "H",
+   "In",
+   "Mo"
+  ]
+ },
+ {
+  "run_dir": "quintenary_CaMnSnWO6",
+  "material": "CaMnSnWO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.928621,
+  "e_mace_winner": -7.0554,
+  "dE_mace": -0.12677899999999998,
+  "elements": [
+   "Ca",
+   "Mn",
+   "O",
+   "Sn",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_RbBaLiSn",
+  "material": "RbBaLiSn",
+  "dataset": "quaternary",
+  "e_mace_init": -2.370743,
+  "e_mace_winner": -2.4428,
+  "dE_mace": -0.07205700000000004,
+  "elements": [
+   "Ba",
+   "Li",
+   "Rb",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2InRuI6",
+  "material": "Cs2InRuI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.987586,
+  "e_mace_winner": -3.0169,
+  "dE_mace": -0.029314000000000284,
+  "elements": [
+   "Cs",
+   "I",
+   "In",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ScNiSbPd",
+  "material": "ScNiSbPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.904792,
+  "e_mace_winner": -5.9602,
+  "dE_mace": -0.05540800000000079,
+  "elements": [
+   "Ni",
+   "Pd",
+   "Sb",
+   "Sc"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiZnMoW",
+  "material": "TiZnMoW",
+  "dataset": "quaternary",
+  "e_mace_init": -8.149124,
+  "e_mace_winner": -8.2378,
+  "dE_mace": -0.08867599999999953,
+  "elements": [
+   "Mo",
+   "Ti",
+   "W",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrAlNiAg",
+  "material": "ZrAlNiAg",
+  "dataset": "quaternary",
+  "e_mace_init": -5.451972,
+  "e_mace_winner": -5.4856,
+  "dE_mace": -0.03362800000000021,
+  "elements": [
+   "Ag",
+   "Al",
+   "Ni",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgScTiSn",
+  "material": "MgScTiSn",
+  "dataset": "quaternary",
+  "e_mace_init": -5.029426,
+  "e_mace_winner": -5.1159,
+  "dE_mace": -0.08647399999999994,
+  "elements": [
+   "Mg",
+   "Sc",
+   "Sn",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_K2B2PdS6",
+  "material": "K2B2PdS6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.604162,
+  "e_mace_winner": -4.8035,
+  "dE_mace": -0.19933800000000002,
+  "elements": [
+   "B",
+   "K",
+   "Pd",
+   "S"
+  ]
+ },
+ {
+  "run_dir": "quintenary_CaZrTiSnO6",
+  "material": "CaZrTiSnO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.869402,
+  "e_mace_winner": -7.9775,
+  "dE_mace": -0.10809800000000003,
+  "elements": [
+   "Ca",
+   "O",
+   "Sn",
+   "Ti",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrMnZnGa",
+  "material": "ZrMnZnGa",
+  "dataset": "quaternary",
+  "e_mace_init": -5.555297,
+  "e_mace_winner": -5.638,
+  "dE_mace": -0.08270299999999953,
+  "elements": [
+   "Ga",
+   "Mn",
+   "Zn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2CrWF6",
+  "material": "Cs2CrWF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.131892,
+  "e_mace_winner": -5.1356,
+  "dE_mace": -0.0037080000000004887,
+  "elements": [
+   "Cr",
+   "Cs",
+   "F",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrGaNiAg",
+  "material": "ZrGaNiAg",
+  "dataset": "quaternary",
+  "e_mace_init": -5.172,
+  "e_mace_winner": -5.3096,
+  "dE_mace": -0.13759999999999994,
+  "elements": [
+   "Ag",
+   "Ga",
+   "Ni",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ZrMnBeV",
+  "material": "ZrMnBeV",
+  "dataset": "quaternary",
+  "e_mace_init": -7.547297,
+  "e_mace_winner": -7.653,
+  "dE_mace": -0.10570299999999921,
+  "elements": [
+   "Be",
+   "Mn",
+   "V",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quintenary_BaNaTiSbO6",
+  "material": "BaNaTiSbO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.776356,
+  "e_mace_winner": -6.7958,
+  "dE_mace": -0.019444000000000017,
+  "elements": [
+   "Ba",
+   "Na",
+   "O",
+   "Sb",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiY(CrAs)2",
+  "material": "LiY(CrAs)2",
+  "dataset": "quaternary",
+  "e_mace_init": -6.54396,
+  "e_mace_winner": -6.651,
+  "dE_mace": -0.10703999999999958,
+  "elements": [
+   "As",
+   "Cr",
+   "Li",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ScVGaMo",
+  "material": "ScVGaMo",
+  "dataset": "quaternary",
+  "e_mace_init": -7.387582,
+  "e_mace_winner": -7.4643,
+  "dE_mace": -0.07671799999999962,
+  "elements": [
+   "Ga",
+   "Mo",
+   "Sc",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_SrFe2AgCl8",
+  "material": "SrFe2AgCl8",
+  "dataset": "quaternary",
+  "e_mace_init": -4.068511,
+  "e_mace_winner": -4.1266,
+  "dE_mace": -0.058088999999999835,
+  "elements": [
+   "Ag",
+   "Cl",
+   "Fe",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CrFeCoW",
+  "material": "CrFeCoW",
+  "dataset": "quaternary",
+  "e_mace_init": -9.277641,
+  "e_mace_winner": -9.3691,
+  "dE_mace": -0.0914590000000004,
+  "elements": [
+   "Co",
+   "Cr",
+   "Fe",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiBeCuGe",
+  "material": "LiBeCuGe",
+  "dataset": "quaternary",
+  "e_mace_init": -3.519299,
+  "e_mace_winner": -3.632,
+  "dE_mace": -0.11270099999999994,
+  "elements": [
+   "Be",
+   "Cu",
+   "Ge",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiAlFeRu",
+  "material": "LiAlFeRu",
+  "dataset": "quaternary",
+  "e_mace_init": -5.981428,
+  "e_mace_winner": -6.4592,
+  "dE_mace": -0.47777199999999986,
+  "elements": [
+   "Al",
+   "Fe",
+   "Li",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_ScTiNiPd",
+  "material": "ScTiNiPd",
+  "dataset": "quaternary",
+  "e_mace_init": -6.681884,
+  "e_mace_winner": -6.7528,
+  "dE_mace": -0.07091599999999953,
+  "elements": [
+   "Ni",
+   "Pd",
+   "Sc",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quintenary_Rb2MnNi(CN)6",
+  "material": "Rb2MnNi(CN)6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.556528,
+  "e_mace_winner": -7.6312,
+  "dE_mace": -0.07467199999999963,
+  "elements": [
+   "C",
+   "Mn",
+   "N",
+   "Ni",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiCrMoF6",
+  "material": "LiCrMoF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.622013,
+  "e_mace_winner": -6.1051,
+  "dE_mace": -0.48308700000000027,
+  "elements": [
+   "Cr",
+   "F",
+   "Li",
+   "Mo"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_K2MnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "K2MnZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.677174,
+  "e_mace_winner": -3.851,
+  "dE_mace": -0.17382600000000004,
+  "elements": [
+   "I",
+   "K",
+   "Mn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2CuNiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2CuNiCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.238405,
+  "e_mace_winner": -3.4623,
+  "dE_mace": -0.22389499999999973,
+  "elements": [
+   "Cl",
+   "Cu",
+   "Li",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2MgRuI6",
+  "material": "Rb2MgRuI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.933033,
+  "e_mace_winner": -3.0445,
+  "dE_mace": -0.1114670000000002,
+  "elements": [
+   "I",
+   "Mg",
+   "Rb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quintenary_KZrSnSbO6",
+  "material": "KZrSnSbO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.724666,
+  "e_mace_winner": -6.7948,
+  "dE_mace": -0.07013400000000036,
+  "elements": [
+   "K",
+   "O",
+   "Sb",
+   "Sn",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MgNbAlRu",
+  "material": "MgNbAlRu",
+  "dataset": "quaternary",
+  "e_mace_init": -6.330875,
+  "e_mace_winner": -6.3772,
+  "dE_mace": -0.046325000000000394,
+  "elements": [
+   "Al",
+   "Mg",
+   "Nb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_NbVCrW",
+  "material": "NbVCrW",
+  "dataset": "quaternary",
+  "e_mace_init": -10.384481,
+  "e_mace_winner": -10.3901,
+  "dE_mace": -0.005619000000001151,
+  "elements": [
+   "Cr",
+   "Nb",
+   "V",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2BaRuI6",
+  "material": "Cs2BaRuI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.258557,
+  "e_mace_winner": -3.2922,
+  "dE_mace": -0.033642999999999645,
+  "elements": [
+   "Ba",
+   "Cs",
+   "I",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Li2CoRuI6_transmutation_transmuted_from",
+  "material": "Li2CoRuI6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.032726,
+  "e_mace_winner": -3.4974,
+  "dE_mace": -0.46467400000000003,
+  "elements": [
+   "Co",
+   "I",
+   "Li",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quintenary_SrYMnAsO6",
+  "material": "SrYMnAsO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.136823,
+  "e_mace_winner": -7.2844,
+  "dE_mace": -0.14757700000000007,
+  "elements": [
+   "As",
+   "Mn",
+   "O",
+   "Sr",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2TaVI6",
+  "material": "Cs2TaVI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.752915,
+  "e_mace_winner": -3.9858,
+  "dE_mace": -0.232885,
+  "elements": [
+   "Cs",
+   "I",
+   "Ta",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiInNiGe",
+  "material": "LiInNiGe",
+  "dataset": "quaternary",
+  "e_mace_init": -3.812759,
+  "e_mace_winner": -3.8699,
+  "dE_mace": -0.05714100000000011,
+  "elements": [
+   "Ge",
+   "In",
+   "Li",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MnSnMoF6",
+  "material": "MnSnMoF6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.492169,
+  "e_mace_winner": -5.5552,
+  "dE_mace": -0.0630310000000005,
+  "elements": [
+   "F",
+   "Mn",
+   "Mo",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CrCoNiMo",
+  "material": "CrCoNiMo",
+  "dataset": "quaternary",
+  "e_mace_init": -8.075984,
+  "e_mace_winner": -8.2218,
+  "dE_mace": -0.14581599999999995,
+  "elements": [
+   "Co",
+   "Cr",
+   "Mo",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2BaTaI6",
+  "material": "Cs2BaTaI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.500874,
+  "e_mace_winner": -3.6181,
+  "dE_mace": -0.11722600000000005,
+  "elements": [
+   "Ba",
+   "Cs",
+   "I",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "quintenary_SrCaZrSnO6",
+  "material": "SrCaZrSnO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.245753,
+  "e_mace_winner": -7.3409,
+  "dE_mace": -0.09514700000000076,
+  "elements": [
+   "Ca",
+   "O",
+   "Sn",
+   "Sr",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiVCrGe",
+  "material": "TiVCrGe",
+  "dataset": "quaternary",
+  "e_mace_init": -7.908032,
+  "e_mace_winner": -7.9922,
+  "dE_mace": -0.08416800000000002,
+  "elements": [
+   "Cr",
+   "Ge",
+   "Ti",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2ZrPdI6",
+  "material": "Rb2ZrPdI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.395009,
+  "e_mace_winner": -3.5252,
+  "dE_mace": -0.13019099999999995,
+  "elements": [
+   "I",
+   "Pd",
+   "Rb",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiCdCuNi",
+  "material": "TiCdCuNi",
+  "dataset": "quaternary",
+  "e_mace_init": -4.555375,
+  "e_mace_winner": -4.6018,
+  "dE_mace": -0.04642500000000016,
+  "elements": [
+   "Cd",
+   "Cu",
+   "Ni",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Na2SnTaBr6_transmutation_transmuted_from",
+  "material": "Na2SnTaBr6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.659056,
+  "e_mace_winner": -3.8152,
+  "dE_mace": -0.15614399999999984,
+  "elements": [
+   "Br",
+   "Na",
+   "Sn",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "quaternary_KRb2SiI6",
+  "material": "KRb2SiI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.625831,
+  "e_mace_winner": -2.7686,
+  "dE_mace": -0.14276900000000037,
+  "elements": [
+   "I",
+   "K",
+   "Rb",
+   "Si"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2SiMoI6",
+  "material": "Cs2SiMoI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.277953,
+  "e_mace_winner": -3.4265,
+  "dE_mace": -0.14854699999999976,
+  "elements": [
+   "Cs",
+   "I",
+   "Mo",
+   "Si"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Ba3Al3NiGe2",
+  "material": "Ba3Al3NiGe2",
+  "dataset": "quaternary",
+  "e_mace_init": -3.732889,
+  "e_mace_winner": -3.9045,
+  "dE_mace": -0.17161099999999996,
+  "elements": [
+   "Al",
+   "Ba",
+   "Ge",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quaternary_NbVFeNi",
+  "material": "NbVFeNi",
+  "dataset": "quaternary",
+  "e_mace_init": -8.214765,
+  "e_mace_winner": -8.3236,
+  "dE_mace": -0.1088350000000009,
+  "elements": [
+   "Fe",
+   "Nb",
+   "Ni",
+   "V"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiInMoRu",
+  "material": "LiInMoRu",
+  "dataset": "quaternary",
+  "e_mace_init": -6.120897,
+  "e_mace_winner": -6.1276,
+  "dE_mace": -0.0067029999999999035,
+  "elements": [
+   "In",
+   "Li",
+   "Mo",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_InGaAgGe",
+  "material": "InGaAgGe",
+  "dataset": "quaternary",
+  "e_mace_init": -3.034717,
+  "e_mace_winner": -3.1147,
+  "dE_mace": -0.07998299999999992,
+  "elements": [
+   "Ag",
+   "Ga",
+   "Ge",
+   "In"
+  ]
+ },
+ {
+  "run_dir": "quaternary_K2RbYH6",
+  "material": "K2RbYH6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.14961,
+  "e_mace_winner": -3.2948,
+  "dE_mace": -0.14518999999999993,
+  "elements": [
+   "H",
+   "K",
+   "Rb",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2LiWI6",
+  "material": "Cs2LiWI6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.360948,
+  "e_mace_winner": -3.4408,
+  "dE_mace": -0.07985199999999981,
+  "elements": [
+   "Cs",
+   "I",
+   "Li",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2CuNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2CuNbF6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.890466,
+  "e_mace_winner": -5.3431,
+  "dE_mace": -0.45263399999999976,
+  "elements": [
+   "Cu",
+   "F",
+   "Li",
+   "Nb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CaYCdGe",
+  "material": "CaYCdGe",
+  "dataset": "quaternary",
+  "e_mace_init": -3.870966,
+  "e_mace_winner": -3.9398,
+  "dE_mace": -0.06883399999999984,
+  "elements": [
+   "Ca",
+   "Cd",
+   "Ge",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Na2ScYBr6_transmutation_transmuted_from",
+  "material": "Na2ScYBr6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.881904,
+  "e_mace_winner": -4.1035,
+  "dE_mace": -0.22159600000000035,
+  "elements": [
+   "Br",
+   "Na",
+   "Sc",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Ni3SnGeS2",
+  "material": "Ni3SnGeS2",
+  "dataset": "quaternary",
+  "e_mace_init": -5.04397,
+  "e_mace_winner": -5.0641,
+  "dE_mace": -0.02012999999999998,
+  "elements": [
+   "Ge",
+   "Ni",
+   "S",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Na2MoTiI6_transmutation_transmuted_from",
+  "material": "Na2MoTiI6_transmutation_transmuted_from",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -3.485411,
+  "e_mace_winner": -3.7886,
+  "dE_mace": -0.30318900000000015,
+  "elements": [
+   "I",
+   "Mo",
+   "Na",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Mg3ZnNi9P2",
+  "material": "Mg3ZnNi9P2",
+  "dataset": "quaternary",
+  "e_mace_init": -4.525998,
+  "e_mace_winner": -4.7273,
+  "dE_mace": -0.2013019999999992,
+  "elements": [
+   "Mg",
+   "Ni",
+   "P",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_K2CoPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "K2CoPdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -2.908774,
+  "e_mace_winner": -2.9961,
+  "dE_mace": -0.08732600000000001,
+  "elements": [
+   "Co",
+   "I",
+   "K",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Na2WYCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Na2WYCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.445746,
+  "e_mace_winner": -4.8529,
+  "dE_mace": -0.40715400000000024,
+  "elements": [
+   "Cl",
+   "Na",
+   "W",
+   "Y"
+  ]
+ },
+ {
+  "run_dir": "quaternary_InFeNiPd",
+  "material": "InFeNiPd",
+  "dataset": "quaternary",
+  "e_mace_init": -5.452422,
+  "e_mace_winner": -5.4932,
+  "dE_mace": -0.04077799999999954,
+  "elements": [
+   "Fe",
+   "In",
+   "Ni",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1",
+  "material": "Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -4.246781,
+  "e_mace_winner": -4.3767,
+  "dE_mace": -0.12991899999999923,
+  "elements": [
+   "Cl",
+   "Cr",
+   "Fe",
+   "Na"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Cs2ScZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Cs2ScZrI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.620026,
+  "e_mace_winner": -3.7654,
+  "dE_mace": -0.1453739999999999,
+  "elements": [
+   "Cs",
+   "I",
+   "Sc",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_transmuted_Na2SnWCl6_transmutation_transmuted_from_oqmd-8991666_rank_1",
+  "material": "Na2SnWCl6_transmutation_transmuted_from_oqmd-8991666_rank_1",
+  "dataset": "elpasolite_transmuted",
+  "e_mace_init": -4.018611,
+  "e_mace_winner": -4.1892,
+  "dE_mace": -0.17058899999999966,
+  "elements": [
+   "Cl",
+   "Na",
+   "Sn",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2NiPdI6",
+  "material": "Cs2NiPdI6",
+  "dataset": "quaternary",
+  "e_mace_init": -2.811971,
+  "e_mace_winner": -2.8735,
+  "dE_mace": -0.06152899999999972,
+  "elements": [
+   "Cs",
+   "I",
+   "Ni",
+   "Pd"
+  ]
+ },
+ {
+  "run_dir": "quaternary_MnZnGaMo",
+  "material": "MnZnGaMo",
+  "dataset": "quaternary",
+  "e_mace_init": -5.872355,
+  "e_mace_winner": -5.9682,
+  "dE_mace": -0.09584500000000062,
+  "elements": [
+   "Ga",
+   "Mn",
+   "Mo",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CaMgGaSn",
+  "material": "CaMgGaSn",
+  "dataset": "quaternary",
+  "e_mace_init": -2.878557,
+  "e_mace_winner": -3.3612,
+  "dE_mace": -0.4826430000000004,
+  "elements": [
+   "Ca",
+   "Ga",
+   "Mg",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quintenary_Rb2MnCo(CN)6",
+  "material": "Rb2MnCo(CN)6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.733876,
+  "e_mace_winner": -7.7484,
+  "dE_mace": -0.01452399999999976,
+  "elements": [
+   "C",
+   "Co",
+   "Mn",
+   "N",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2GaRuF6",
+  "material": "Rb2GaRuF6",
+  "dataset": "quaternary",
+  "e_mace_init": -4.615974,
+  "e_mace_winner": -4.7349,
+  "dE_mace": -0.11892600000000009,
+  "elements": [
+   "F",
+   "Ga",
+   "Rb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiGaNiAg",
+  "material": "TiGaNiAg",
+  "dataset": "quaternary",
+  "e_mace_init": -4.917669,
+  "e_mace_winner": -5.0184,
+  "dE_mace": -0.10073099999999968,
+  "elements": [
+   "Ag",
+   "Ga",
+   "Ni",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Sc8Co3HSe3",
+  "material": "Sc8Co3HSe3",
+  "dataset": "quaternary",
+  "e_mace_init": -6.329815,
+  "e_mace_winner": -6.4417,
+  "dE_mace": -0.11188500000000001,
+  "elements": [
+   "Co",
+   "H",
+   "Sc",
+   "Se"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Ba2TiCrS6",
+  "material": "Ba2TiCrS6",
+  "dataset": "quaternary",
+  "e_mace_init": -5.965152,
+  "e_mace_winner": -6.0263,
+  "dE_mace": -0.0611480000000002,
+  "elements": [
+   "Ba",
+   "Cr",
+   "S",
+   "Ti"
+  ]
+ },
+ {
+  "run_dir": "quintenary_NaZrCuWO6",
+  "material": "NaZrCuWO6",
+  "dataset": "quintenary",
+  "e_mace_init": -7.085274,
+  "e_mace_winner": -7.2149,
+  "dE_mace": -0.12962600000000002,
+  "elements": [
+   "Cu",
+   "Na",
+   "O",
+   "W",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Cs2BaBeCl6",
+  "material": "Cs2BaBeCl6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.678606,
+  "e_mace_winner": -3.8664,
+  "dE_mace": -0.18779400000000024,
+  "elements": [
+   "Ba",
+   "Be",
+   "Cl",
+   "Cs"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2Mg3In12Ag",
+  "material": "Rb2Mg3In12Ag",
+  "dataset": "quaternary",
+  "e_mace_init": -2.185766,
+  "e_mace_winner": -2.2935,
+  "dE_mace": -0.10773399999999977,
+  "elements": [
+   "Ag",
+   "In",
+   "Mg",
+   "Rb"
+  ]
+ },
+ {
+  "run_dir": "quaternary_K2ZrVH8",
+  "material": "K2ZrVH8",
+  "dataset": "quaternary",
+  "e_mace_init": -3.741792,
+  "e_mace_winner": -4.101,
+  "dE_mace": -0.3592080000000002,
+  "elements": [
+   "H",
+   "K",
+   "V",
+   "Zr"
+  ]
+ },
+ {
+  "run_dir": "quaternary_Rb2MnRuBr6",
+  "material": "Rb2MnRuBr6",
+  "dataset": "quaternary",
+  "e_mace_init": -3.886996,
+  "e_mace_winner": -3.978,
+  "dE_mace": -0.0910040000000003,
+  "elements": [
+   "Br",
+   "Mn",
+   "Rb",
+   "Ru"
+  ]
+ },
+ {
+  "run_dir": "elpasolite_forced_cubic_Li2CoFeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "material": "Li2CoFeCl6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1",
+  "dataset": "elpasolite_forced_cubic",
+  "e_mace_init": -3.847998,
+  "e_mace_winner": -4.1189,
+  "dE_mace": -0.270902,
+  "elements": [
+   "Cl",
+   "Co",
+   "Fe",
+   "Li"
+  ]
+ },
+ {
+  "run_dir": "quaternary_TiGaWO6",
+  "material": "TiGaWO6",
+  "dataset": "quaternary",
+  "e_mace_init": -7.517059,
+  "e_mace_winner": -7.5679,
+  "dE_mace": -0.050841000000000136,
+  "elements": [
+   "Ga",
+   "O",
+   "Ti",
+   "W"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CdIn4SnSe8",
+  "material": "CdIn4SnSe8",
+  "dataset": "quaternary",
+  "e_mace_init": -3.538122,
+  "e_mace_winner": -3.5574,
+  "dE_mace": -0.019277999999999906,
+  "elements": [
+   "Cd",
+   "In",
+   "Se",
+   "Sn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_CdInCuNi",
+  "material": "CdInCuNi",
+  "dataset": "quaternary",
+  "e_mace_init": -3.118075,
+  "e_mace_winner": -3.1628,
+  "dE_mace": -0.04472499999999968,
+  "elements": [
+   "Cd",
+   "Cu",
+   "In",
+   "Ni"
+  ]
+ },
+ {
+  "run_dir": "quintenary_KSrMnSnO6",
+  "material": "KSrMnSnO6",
+  "dataset": "quintenary",
+  "e_mace_init": -6.024292,
+  "e_mace_winner": -6.0304,
+  "dE_mace": -0.006108000000000224,
+  "elements": [
+   "K",
+   "Mn",
+   "O",
+   "Sn",
+   "Sr"
+  ]
+ },
+ {
+  "run_dir": "quintenary_KSrLiZnF6",
+  "material": "KSrLiZnF6",
+  "dataset": "quintenary",
+  "e_mace_init": -4.638883,
+  "e_mace_winner": -5.038,
+  "dE_mace": -0.3991170000000004,
+  "elements": [
+   "F",
+   "K",
+   "Li",
+   "Sr",
+   "Zn"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiCdSeCl",
+  "material": "LiCdSeCl",
+  "dataset": "quaternary",
+  "e_mace_init": -3.125584,
+  "e_mace_winner": -3.1637,
+  "dE_mace": -0.03811600000000004,
+  "elements": [
+   "Cd",
+   "Cl",
+   "Li",
+   "Se"
+  ]
+ },
+ {
+  "run_dir": "quaternary_LiTa(CuP)2",
+  "material": "LiTa(CuP)2",
+  "dataset": "quaternary",
+  "e_mace_init": -5.624019,
+  "e_mace_winner": -6.094,
+  "dE_mace": -0.46998100000000065,
+  "elements": [
+   "Cu",
+   "Li",
+   "P",
+   "Ta"
+  ]
+ },
+ {
+  "run_dir": "quaternary_NbGaSbO6",
+  "material": "NbGaSbO6",
+  "dataset": "quaternary",
+  "e_mace_init": -7.021401,
+  "e_mace_winner": -7.1087,
+  "dE_mace": -0.0872989999999998,
+  "elements": [
+   "Ga",
+   "Nb",
+   "O",
+   "Sb"
+  ]
+ }
+]

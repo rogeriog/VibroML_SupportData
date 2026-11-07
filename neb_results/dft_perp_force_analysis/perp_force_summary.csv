@@ -1,0 +1,8 @@
+path,F_maxatom_tot,F_3N_tot_max_interior,F_perp_3N_max_interior,F_endpoint_max
+CuN_ESEN_poly01_Amm2,0.370,0.589,0.587,0.146
+CuN_MACE_poly01_Amm2,1.869,2.885,2.875,0.596
+CuN_UMA_poly01_Amm2,0.586,0.800,0.800,0.075
+ZnCu_ESEN_to_gs,0.794,1.498,1.494,0.017
+ZnCu_UMA_to_gs,1.192,2.025,2.018,0.026
+ZrCu_ESEN_to_gs,0.398,1.026,1.015,0.217
+ZrCu_UMA_to_gs,0.371,0.825,0.825,0.288

@@ -15,6 +15,11 @@ structure-generation strategies (forced-cubic and transmuted).
 | `elpasolite_sample_200.json` | The 200-composition elpasolite sample (seed=42) with composition, alkali, metal, and halogen labels. |
 | `elpasolite_whitespaces_stats.json` | Aggregate statistics for the elpasolite whitespace runs (forced-cubic and transmuted). |
 | `vibroml_database.db.gz` | Gzip-compressed SQLite database (22 MB, 218 MB uncompressed) containing the full structured data: materials, GA structures, phonon data, and phonon modes. Decompress with `gunzip vibroml_database.db.gz`, or let `setup_and_launch.py` handle it automatically. |
+| `steric_clash_flags.csv` | Per-structure steric-clash screen of every GA structure in the database (see note below). Columns: ga_structure_id, material_name, struct_type, rank, energy_per_atom_eV, min_distance_angstrom, min_distance_over_covalent, closest_pair, status (`ok`/`clashed`/`missing`/`error`). |
+| `corrected_clash_systems.csv` | Per-system corrections for the 134 systems whose top-ranked GA structure is flagged: reported best energy, best clash-free energy, energy inflation, and corrected energy reduction relative to the initial structure. |
+| `dft_whitespace_results.csv` | DFT single-point verification of a 200-system uniform random subsample (seed 42): static VASP energies for each system's initial structure and top-ranked GA structure at the stored geometries, alongside the MACE energies. Columns: run_dir, material, dataset, elements, e_mace_init, e_mace_winner, dE_mace, E0_initial, E0_winner, natoms_initial, natoms_winner, dE_dft_total, dE_dft_per_atom. 187 of 200 systems have converged DFT on both sides; restricting to the 174 clash-free systems, 166 (95.4%) retain a lower DFT energy than the initial structure (median DFT stabilization -96 meV/atom vs -89 meV/atom predicted by MACE; 175/187 = 93.6% counting all converged systems). |
+| `dft_whitespace_failures.csv` | Per-run-directory failure modes for the 13 sampled systems whose DFT did not converge on at least one side: SCF non-convergence across multiple solver choices (predominantly magnetic metallic systems), oversized supercells exceeding the 48-hour wall limit, or never-launched directories. |
+| `analysis_scripts/` | Reproduction scripts: `scan_steric_clashes.py` (writes `steric_clash_flags.csv` and `corrected_clash_systems.csv`), `prepare_dft_sample.py` + `sample_manifest.json` (the 200-system DFT sample, seed 42), and `analyze_results.py` (writes `dft_whitespace_results.csv`/`dft_whitespace_failures.csv`, requiring genuine SCF convergence). Local paths inside the scripts need adjusting. |
 | `vibroml_explorer.py` | Streamlit web application for interactive exploration of the database: material summaries, structure viewers, phonon band structures, DOS, and phonon-mode animations. |
 | `setup_and_launch.py` | Setup script that decompresses the metadata database, optionally downloads the Figshare phonon/structure bundle (`vibroml_explorer_bundle.tar.gz`), and launches the explorer. |
 
@@ -70,6 +75,41 @@ original `.cif`, `.txt`, and `.traj` files on disk instead.
 
 The explorer also runs against the metadata database alone (summary tables
 and statistics) when the bundle is not present.
+
+## Note on the steric-clash screen
+
+A post-hoc geometric audit scanned every GA structure in the database for
+unphysical short contacts, defined as any atom pair closer than half the sum
+of the covalent radii (`min_distance_over_covalent < 0.5`). Approximately
+8.5% of the ~155,000 structures that could be re-read from disk are flagged
+(~74,000 database rows point to files no longer on disk and are marked
+`missing`; the flagged count is therefore a lower bound). The artifact is
+strongly enriched in light-cation compounds (predominantly H-bearing
+hydrides and lithium compounds), where a small mobile cation can relax
+onto a neighbouring site and produce a spurious deep MLIP minimum that
+passes the energy- and volume-based termination criteria.
+
+Consequences for downstream use:
+
+- The top-ranked structure is flagged in 115 of the 3,225 GA-completed
+  Alexandria systems (and a further 19 elpasolite systems). Energies and
+  phonon metrics reported for these entries are unreliable; corrected
+  energies based on the best clash-free structure per system are given in
+  `corrected_clash_systems.csv` (101 Alexandria systems have a clash-free
+  substitute within the same run; 14 retain their reported values).
+- Corrected aggregate statistics (best clash-free substitution): mean
+  stabilization -104 meV/atom (median -83), 4.2% of systems reaching the
+  hull, 20.9% within 50 meV/atom. The f_soft < 2% completion rate is 96%.
+- In the DFT-verification subsample, flagged systems separate into
+  MLIP-only extrapolation errors (repulsive in DFT) and inherited DFT
+  artifacts (the DFT well lying deeper than the MLIP prediction); the
+  class breakdown is given in the manuscript SI.
+- The deposited Figshare XYZ dataset is not filtered; join it against
+  `steric_clash_flags.csv` to exclude flagged frames before using the
+  structures as DFT/MLIP training data.
+- A steric-clash termination criterion (`--steric_clash_ratio`, default
+  0.5) has been added to the VibroML workflow so future runs reject such
+  candidates automatically.
 
 ## Note on the assembled XYZ dataset
 

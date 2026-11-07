@@ -1,0 +1,16 @@
+run_dir,side,dataset,natoms,failure_mode
+quaternary_BaNaLiAl,winner,quaternary,32,"SCF non-converged (last |dE|=-0.52490E+02, tried ALGO Fast/Normal/Damped + restart)"
+quaternary_Rb2CrCoI6,winner,quaternary,80,"SCF non-converged (last |dE|=-0.20787E-04, tried ALGO Fast/Normal/Damped + restart)"
+elpasolite_forced_cubic_Li2BiCdI6_manual_base_transmuted_from_provided_base_K2NaAlF6_rank_1,winner,elpasolite_forced_cubic,160,cell too large (160 at) - hit 48h wall mid-SCF
+quaternary_Rb2TiCrCl6,winner,quaternary,40,"SCF non-converged (last |dE|=-0.88727E+02, tried ALGO Fast/Normal/Damped + restart)"
+quintenary_TiFeAsHS,initial,quintenary,5,"SCF non-converged (last |dE|=-0.43401E+01, tried ALGO Fast/Normal/Damped + restart)"
+quaternary_SrFe2AgCl8,winner,quaternary,192,cell too large (192 at) - hit 48h wall mid-SCF
+quintenary_Rb2MnNi(CN)6,initial,quintenary,16,"SCF non-converged (last |dE|=-0.14986E+02, tried ALGO Fast/Normal/Damped + restart)"
+quaternary_LiCrMoF6,initial,quaternary,18,"SCF non-converged (last |dE|=-0.49900E+01, tried ALGO Fast/Normal/Damped + restart)"
+quaternary_LiCrMoF6,winner,quaternary,144,"SCF non-converged (last |dE|=-0.88849E+02, tried ALGO Fast/Normal/Damped + restart)"
+elpasolite_transmuted_Li2CoRuI6_transmutation_transmuted_from,winner,elpasolite_transmuted,40,"SCF non-converged (last |dE|=-0.93618E+02, tried ALGO Fast/Normal/Damped + restart)"
+elpasolite_transmuted_Na2MoTiI6_transmutation_transmuted_from,winner,elpasolite_transmuted,160,cell too large (160 at) - hit 48h wall mid-SCF
+elpasolite_forced_cubic_Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1,initial,elpasolite_forced_cubic,40,never completed a run
+elpasolite_forced_cubic_Na2CrFeCl6_manual_base_transmuted_from_provided_K2NaAlF6_rank_1,winner,elpasolite_forced_cubic,40,never completed a run
+quaternary_Rb2GaRuF6,winner,quaternary,80,"SCF non-converged (last |dE|=-0.29838E+02, tried ALGO Fast/Normal/Damped + restart)"
+quaternary_LiTa(CuP)2,winner,quaternary,24,"SCF non-converged (last |dE|=-0.83171E+02, tried ALGO Fast/Normal/Damped + restart)"
