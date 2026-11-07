@@ -92,7 +92,9 @@ evaluated with static VASP single points; "DFT attempted" also includes the
 the MLIP and DFT energy reductions side by side, the sign-confirmation
 flag, and the max per-atom residual force on each stored geometry.
 Per-atom force vectors are provided in `dft_whitespace_forces.csv.gz`.
-Work toward the full DFT dataset for all deposited structures is ongoing.
+Full DFT evaluation of all 83,562 deposited structures is roughly two
+orders of magnitude beyond the present subsample and is planned as a
+separate, dedicated study.
 
 ## Note on the steric-clash screen
 
