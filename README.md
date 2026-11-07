@@ -22,6 +22,8 @@ states, and phonon-mode animations.
 
 ![Initial vs remediated phonon summary in the material detail view](database_screenshot3.png)
 
+![DFT-verified entries filtered in the explorer](screenshot_DFT_verified_database.png)
+
 <video src="https://github.com/rogeriog/VibroML_SupportData/raw/master/Recording_VibroML_explorer.mp4"
        controls muted style="max-width: 100%;"></video>
 
