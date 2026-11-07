@@ -233,6 +233,17 @@ JMOL_COLORS = {
 
 
 @st.cache_data
+def load_dft():
+    conn = sqlite3.connect(DATABASE_PATH)
+    try:
+        d = pd.read_sql_query("SELECT * FROM dft_verification", conn)
+    except Exception:
+        d = pd.DataFrame()
+    conn.close()
+    return d
+
+
+@st.cache_data
 def load_data():
     conn = sqlite3.connect(DATABASE_PATH)
     df = pd.read_sql_query("SELECT * FROM materials", conn)
@@ -455,10 +466,34 @@ def main():
         st.session_state["view"] = "table"
 
     df = load_data()
+    dft_df = load_dft()
+    if not dft_df.empty:
+        conv = dft_df[dft_df["converged"] == 1]
+        df["has_dft"] = df["id"].isin(set(dft_df["material_id"]))
+        df["dft_converged"] = df["id"].isin(set(conv["material_id"]))
+        df = df.merge(
+            conv[["material_id", "de_dft_per_atom", "clash_flag"]].rename(
+                columns={"de_dft_per_atom": "dft_de_per_atom",
+                         "clash_flag": "dft_clash_flag"}),
+            left_on="id", right_on="material_id", how="left")
+        df = df.drop(columns=["material_id"])
+    else:
+        df["has_dft"] = False
+        df["dft_converged"] = False
+
+    st.info(
+        "🔬 DFT verification: a 200-system random subsample was evaluated "
+        "with static VASP single points (187 converged). Filter **DFT "
+        "verified** in the sidebar to browse them. Work toward the full "
+        "DFT dataset for all deposited structures is ongoing."
+    )
 
     # ── Sidebar filters ──────────────────────────────────────────────
     st.sidebar.header("Filters")
     st.sidebar.markdown(f"**{len(df)} total materials**")
+
+    dft_opts = {"All": "all", "DFT verified": "verified", "DFT attempted": "attempted"}
+    dft_sel = st.sidebar.selectbox("DFT data", options=list(dft_opts.keys()), index=0)
 
     dataset_opts = sorted(df["dataset"].dropna().unique().tolist())
     dataset = st.sidebar.multiselect("Dataset", options=dataset_opts, default=dataset_opts)
@@ -507,6 +542,10 @@ def main():
         mask_init & mask_final &
         mask_sg & mask_ehull
     ]
+    if dft_opts[dft_sel] == "verified":
+        df_filtered = df_filtered[df_filtered["dft_converged"]]
+    elif dft_opts[dft_sel] == "attempted":
+        df_filtered = df_filtered[df_filtered["has_dft"]]
 
     if search:
         m = (
@@ -527,18 +566,21 @@ def main():
             df_filtered["e_above_hull_alexandria_eV_per_atom"] + df_filtered["energy_reduction_vs_initial_eV_per_atom"]
         )
         df_filtered["energy_reduction_meV_per_atom"] = df_filtered["energy_reduction_vs_initial_eV_per_atom"] * 1000
+        df_filtered["dft_marker"] = df_filtered["dft_converged"].map({True: "✓", False: ""})
+        df_filtered["dft_de_meV_per_atom"] = df_filtered["dft_de_per_atom"] * 1000
 
         display_cols = [
-            "cif_stem", "material_name", "dataset", "space_group",
+            "cif_stem", "material_name", "dft_marker", "dataset", "space_group",
             "e_above_hull_alexandria_eV_per_atom",
             "initial_stability", "final_stability", "run_status",
             "initial_phonon_min_freq_THz", "final_phonon_min_freq_THz",
             "energy_reduction_meV_per_atom", "predicted_final_ehull_eV_per_atom",
+            "dft_de_meV_per_atom",
             "ga_n_main_iterations", "ga_total_relaxations", "ga_unique_structures",
             "runtime_hours",
         ]
         col_rename = {
-            "material_name": "Name", "dataset": "Dataset", "space_group": "SG",
+            "material_name": "Name", "dft_marker": "DFT", "dataset": "Dataset", "space_group": "SG",
             "e_above_hull_alexandria_eV_per_atom": "E_hull",
             "initial_stability": "Init. Stability", "final_stability": "Final Stability",
             "run_status": "Status", "ga_n_main_iterations": "GA Iters",
@@ -548,10 +590,12 @@ def main():
             "final_phonon_min_freq_THz": "Final MinFreq (THz)",
             "energy_reduction_meV_per_atom": "Energy Reduction (meV/atom)",
             "predicted_final_ehull_eV_per_atom": "Predicted Final Ehull (eV/atom)",
+            "dft_de_meV_per_atom": "ΔE DFT (meV/atom)",
         }
         df_show = df_filtered[display_cols].rename(columns=col_rename).copy()
         for col in ["E_hull", "Runtime (h)", "Init MinFreq (THz)", "Final MinFreq (THz)",
-                   "Energy Reduction (meV/atom)", "Predicted Final Ehull (eV/atom)"]:
+                   "Energy Reduction (meV/atom)", "Predicted Final Ehull (eV/atom)",
+                   "ΔE DFT (meV/atom)"]:
             if col in df_show.columns:
                 df_show[col] = pd.to_numeric(df_show[col], errors="coerce").round(4)
 
@@ -757,6 +801,42 @@ def main():
                 c2b.metric("Softness", f"{float(m['final_softness_fraction'])*100:.2f}%" if pd.notna(m["final_softness_fraction"]) else "—")
                 if m["last_phonon_source"] and m["last_phonon_source"] != "none":
                     st.caption(f"Source: `{m['last_phonon_source']}`")
+
+            if mid in set(dft_df["material_id"]):
+                r = dft_df[dft_df["material_id"] == mid].iloc[0]
+                st.divider()
+                st.subheader("DFT Verification (static single point)")
+                if r["converged"]:
+                    dc1, dc2, dc3, dc4, dc5 = st.columns(5)
+                    dc1.metric("ΔE MLIP (meV/atom)",
+                               f"{r['de_mlip_per_atom']*1000:.1f}" if pd.notna(r["de_mlip_per_atom"]) else "—")
+                    dc2.metric("ΔE DFT (meV/atom)",
+                               f"{r['de_dft_per_atom']*1000:.1f}" if pd.notna(r["de_dft_per_atom"]) else "—")
+                    dc3.metric("Sign confirmed",
+                               "✓ yes" if r["confirmed"] == 1 else "✗ no")
+                    dc4.metric("max |F| initial (eV/Å)",
+                               f"{r['fmax_initial']:.3f}" if pd.notna(r["fmax_initial"]) else "—")
+                    dc5.metric("max |F| winner (eV/Å)",
+                               f"{r['fmax_winner']:.3f}" if pd.notna(r["fmax_winner"]) else "—")
+                    st.caption(
+                        "Static VASP single points (PBE, ENCUT 520 eV, ISPIN 2, "
+                        "k-density 3000/atom) at the stored initial and top-ranked "
+                        "geometries — no ionic relaxation. Residual forces show how "
+                        "far each stored geometry sits from a DFT force zero."
+                    )
+                    if r["clash_flag"]:
+                        st.warning(
+                            "Top-ranked structure is flagged by the steric-clash "
+                            "audit (unphysical short contact). The corrected, "
+                            "clash-free energies for this system are given in "
+                            "`corrected_clash_systems.csv`."
+                        )
+                else:
+                    st.warning(
+                        "DFT single point attempted for this system but did not "
+                        "converge"
+                        + (f": {r['failure_note']}" if pd.notna(r.get("failure_note")) else ".")
+                    )
 
             settings = load_initial_settings(m["output_dir_path"])
             if settings:

@@ -19,7 +19,7 @@ the companion Figshare deposit (`https://doi.org/10.6084/m9.figshare.34790283`).
 | Manuscript / SI Item | Repository Path | Key Files / Scripts |
 |----------------------|-----------------|---------------------|
 | **Table 1** (Benchmark remediation) | `remediation_results/`, `phonon_and_md_benchmarking/` | `remediation_results/<Compound>/`, `vibroml_master_eval_summary.csv` |
-| **Table 2, Fig. 4, SI Sec. S15, Fig. S24** (6,574 Alexandria systems) | `whitespace_data/` | `quaternary_ga_summary.csv`, `quintenary_ga_summary.csv`, `ehull_approx_data.csv`, `vibroml_database.db.gz`, `steric_clash_flags.csv`, `corrected_clash_systems.csv`, `dft_whitespace_results.csv`, `dft_whitespace_failures.csv`, `analysis_scripts/` |
+| **Table 2, Fig. 4, SI Sec. S15, Fig. S24** (6,574 Alexandria systems) | `whitespace_data/` | `quaternary_ga_summary.csv`, `quintenary_ga_summary.csv`, `ehull_approx_data.csv`, `vibroml_database.db.gz`, `steric_clash_flags.csv`, `corrected_clash_systems.csv`, `dft_whitespace_results.csv`, `dft_whitespace_failures.csv`, `dft_whitespace_forces.csv.gz`, `dft_whitespace_force_stats.csv`, `analysis_scripts/` |
 | **Table 3** (200 white-space elpasolites) | `whitespace_data/` | `elpasolite_sample_200.json`, `elpasolite_whitespaces_stats.json`, `vibroml_database.db.gz` |
 | **SI Sec. S1, Tables S8--S10** (Phonon metrics & rankings) | `phonon_and_md_benchmarking/` | `MACE_evals/`, `MACEMP_evals/`, `ESEN_evals/`, `UMA_evals/`, `extract_evals_all.py` |
 | **SI Sec. S2, Tables S4 & S11** (MD thermal stability) | `phonon_and_md_benchmarking/` | `MACE_MD_evals/`, `MACEMP_MD_evals/`, `ESEN_MD_evals/`, `UMA_MD_evals/`, `extract_md_evals_all.py` |

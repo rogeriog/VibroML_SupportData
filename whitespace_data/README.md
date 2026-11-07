@@ -14,12 +14,14 @@ structure-generation strategies (forced-cubic and transmuted).
 | `ehull_approx_data.csv` | Approximate post-remediation Ehull for all 6,574 systems, computed as `Ehull_init + dE_MLIP`. Columns: material, dataset, ehull_init, dE_mlip, ehull_post_approx, run_status. |
 | `elpasolite_sample_200.json` | The 200-composition elpasolite sample (seed=42) with composition, alkali, metal, and halogen labels. |
 | `elpasolite_whitespaces_stats.json` | Aggregate statistics for the elpasolite whitespace runs (forced-cubic and transmuted). |
-| `vibroml_database.db.gz` | Gzip-compressed SQLite database (22 MB, 218 MB uncompressed) containing the full structured data: materials, GA structures, phonon data, and phonon modes. Decompress with `gunzip vibroml_database.db.gz`, or let `setup_and_launch.py` handle it automatically. |
+| `vibroml_database.db.gz` | Gzip-compressed SQLite database (19 MB, ~190 MB uncompressed) containing the full structured data: materials, GA structures, phonon data, phonon modes, and the DFT-verification table. Decompress with `gunzip vibroml_database.db.gz`, or let `setup_and_launch.py` handle it automatically. |
 | `steric_clash_flags.csv` | Per-structure steric-clash screen of every GA structure in the database (see note below). Columns: ga_structure_id, material_name, struct_type, rank, energy_per_atom_eV, min_distance_angstrom, min_distance_over_covalent, closest_pair, status (`ok`/`clashed`/`missing`/`error`). |
 | `corrected_clash_systems.csv` | Per-system corrections for the 134 systems whose top-ranked GA structure is flagged: reported best energy, best clash-free energy, energy inflation, and corrected energy reduction relative to the initial structure. |
 | `dft_whitespace_results.csv` | DFT single-point verification of a 200-system uniform random subsample (seed 42): static VASP energies for each system's initial structure and top-ranked GA structure at the stored geometries, alongside the MACE energies. Columns: run_dir, material, dataset, elements, e_mace_init, e_mace_winner, dE_mace, E0_initial, E0_winner, natoms_initial, natoms_winner, dE_dft_total, dE_dft_per_atom. 187 of 200 systems have converged DFT on both sides; restricting to the 174 clash-free systems, 166 (95.4%) retain a lower DFT energy than the initial structure (median DFT stabilization -96 meV/atom vs -89 meV/atom predicted by MACE; 175/187 = 93.6% counting all converged systems). |
 | `dft_whitespace_failures.csv` | Per-run-directory failure modes for the 13 sampled systems whose DFT did not converge on at least one side: SCF non-convergence across multiple solver choices (predominantly magnetic metallic systems), oversized supercells exceeding the 48-hour wall limit, or never-launched directories. |
-| `analysis_scripts/` | Reproduction scripts: `scan_steric_clashes.py` (writes `steric_clash_flags.csv` and `corrected_clash_systems.csv`), `prepare_dft_sample.py` + `sample_manifest.json` (the 200-system DFT sample, seed 42), and `analyze_results.py` (writes `dft_whitespace_results.csv`/`dft_whitespace_failures.csv`, requiring genuine SCF convergence). Local paths inside the scripts need adjusting. |
+| `dft_whitespace_forces.csv.gz` | Per-atom DFT force vectors (eV/Angstrom) on the stored geometries for every converged verification run: material, side (initial/winner), atom_index, element, fx, fy, fz. 391 converged sides, 11,138 atom rows. |
+| `dft_whitespace_force_stats.csv` | Per-structure force magnitudes derived from the same runs: n_atoms, E0 (where recoverable), max |F|, RMS |F|. The large force outliers are exactly the steric-clash-flagged structures. |
+| `analysis_scripts/` | Reproduction scripts: `scan_steric_clashes.py` (writes `steric_clash_flags.csv` and `corrected_clash_systems.csv`), `prepare_dft_sample.py` + `sample_manifest.json` (the 200-system DFT sample, seed 42), `analyze_results.py` (writes `dft_whitespace_results.csv`/`dft_whitespace_failures.csv`, requiring genuine SCF convergence), `parse_dft_forces.py` (writes `dft_whitespace_forces.csv.gz` and `dft_whitespace_force_stats.csv` from the VASP outputs), and `add_dft_verification.py` (migrates the `dft_verification` table into the database). Local paths inside the scripts need adjusting. |
 | `vibroml_explorer.py` | Streamlit web application for interactive exploration of the database: material summaries, structure viewers, phonon band structures, DOS, and phonon-mode animations. |
 | `setup_and_launch.py` | Setup script that decompresses the metadata database, optionally downloads the Figshare phonon/structure bundle (`vibroml_explorer_bundle.tar.gz`), and launches the explorer. |
 
@@ -31,6 +33,11 @@ The database contains four tables:
 - `ga_structures`: one row per GA-discovered structure (264,542 rows)
 - `phonon_data`: one row per phonon evaluation (123,865 rows)
 - `phonon_modes`: one row per q-point mode (305,998 rows)
+- `dft_verification`: one row per system in the 200-system DFT verification
+  subsample (187 converged): static VASP energies for the stored initial and
+  top-ranked geometries, per-atom-derived max/RMS force magnitudes, the
+  steric-clash flag of the winner, and the failure mode for non-converged
+  runs
 
 Query example:
 
@@ -75,6 +82,17 @@ original `.cif`, `.txt`, and `.traj` files on disk instead.
 
 The explorer also runs against the metadata database alone (summary tables
 and statistics) when the bundle is not present.
+
+### DFT-verified entries
+
+The sidebar includes a **DFT data** filter. Selecting "DFT verified" shows
+the 187 systems whose initial and top-ranked GA structures were both
+evaluated with static VASP single points; "DFT attempted" also includes the
+13 sampled systems whose runs did not converge. Verified entries display
+the MLIP and DFT energy reductions side by side, the sign-confirmation
+flag, and the max per-atom residual force on each stored geometry.
+Per-atom force vectors are provided in `dft_whitespace_forces.csv.gz`.
+Work toward the full DFT dataset for all deposited structures is ongoing.
 
 ## Note on the steric-clash screen
 
