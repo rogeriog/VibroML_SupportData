@@ -484,8 +484,7 @@ def main():
     st.info(
         "🔬 DFT verification: a 200-system random subsample was evaluated "
         "with static VASP single points (187 converged). Filter **DFT "
-        "verified** in the sidebar to browse them. Full DFT coverage of all "
-        "83,562 deposited structures is planned as a separate study."
+        "verified** in the sidebar to browse them."
     )
 
     # ── Sidebar filters ──────────────────────────────────────────────
