@@ -1,0 +1,57 @@
+--- Phonon Run Summary ---
+Structure Formula: CuZn
+Total Number of Atoms: 2
+Engine Used: mace
+Units: THz
+Supercell Size: (2, 2, 2)
+Displacement Delta: 0.05
+Fmax for Relaxation: 0.001
+Most Negative Frequency (overall): 0.0539 THz
+
+--- Validated Stability Metrics (fixed 6x6x6 mesh) ---
+Soft-mode fraction (soft_frac): 0.000000
+I_curv (p=1): 0.000000 THz²
+Omega_inst (sqrt(I_curv)): 0.000000 THz
+Modes: 1296 total, 0 imaginary, 0 excluded (Gamma acoustic)
+Time Taken for Phonon Analysis: 7.16 seconds
+
+Energy of Structure: -5.033809 eV
+Energy per Atom: -2.516904 eV/atom
+
+--- Top 4 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: M
+   Coordinate (q-point): [0.5, 0.5, 0.0]
+   Frequency: 6.6479 THz
+   Band Index: 5
+
+Mode 2:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: 5.8894 THz
+   Band Index: 5
+
+Mode 3:
+   Label: X
+   Coordinate (q-point): [0.0, 0.5, 0.0]
+   Frequency: 5.2165 THz
+   Band Index: 5
+
+Mode 4:
+   Label: R
+   Coordinate (q-point): [0.5, 0.5, 0.5]
+   Frequency: 4.7963 THz
+   Band Index: 5
+
+Path of K-points:
+  G: 0.0000
+  X: 1.0617
+  M: 2.1234
+  G: 3.6249
+  R: 5.4638
+  X: 6.9653
+  M: 6.9653
+  R: 8.0270
+
+Space group number: 221
+International symbol: Pm-3m
