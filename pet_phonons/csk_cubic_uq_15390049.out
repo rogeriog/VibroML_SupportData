@@ -1,0 +1,100 @@
+============================================
+CsPbI3 cubic Pm-3m — full metric computation
+Job ID: 15390049
+Date: Sat Aug 29 22:32:50 CEST 2026
+============================================
+
+=== Step 1: MACE-OMAT I_curv ===
+Engine: mace
+Model: medium-omat-0
+Structures: 1
+Q-mesh: [8, 8, 8]
+Delta: 0.05
+Relax: True
+Symmetry constrained: True
+Phonon UQ: False
+Output: omega_inst_cspbi3_cubic_mace.json
+CSV output: omega_inst_cspbi3_cubic_mace.csv
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  Loading MACE calculator (model=medium-omat-0, device=cuda)...
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+
+[1/1] CsPbI3 (benchmark)
+
+  Loading: CsPbI3_relaxed.cif
+  Relaxing with mace...
+    Symmetry-constrained relaxation (symprec=0.01)...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(8, 8, 8))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (8, 8, 8) mesh (512 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=0.0432 THz^2, omega_min=-0.7361 THz, soft_frac=0.2048, n_imag=1568/7656, time=4.7s
+
+============================================================
+Completed: 1/1
+Results saved to: omega_inst_cspbi3_cubic_mace.json
+CSV saved to: omega_inst_cspbi3_cubic_mace.csv
+
+Summary:
+compound                  cat                 I_curv     wmin   soft%    time
+CsPbI3                    benchmark           0.0432  -0.7361    20.5     4.7s
+MACE I_curv done. Results:
+[
+  {
+    "i_curv": 0.043210064713886866,
+    "omega_inst": 0.20787030743684118,
+    "omega_min": -0.736059891434937,
+    "soft_frac": 0.20480668756530826,
+    "n_modes": 7656,
+    "n_imag": 1568,
+    "n_excluded": 24,
+    "engine": "mace",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed.cif",
+    "natoms": 5,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "symmetry_constrained": true,
+    "space_group_no": 221,
+    "space_group_sym": "Pm-3m (221)",
+    "space_group_no_relaxed": 221,
+    "space_group_sym_relaxed": "Pm-3m (221)",
+    "time_s": 4.661897420883179,
+    "compound": "CsPbI3",
+    "category": "benchmark",
+    "idx": 0
+  }
+]
+=== Step 2: PET-MAD UQ + I_curv (comprehensive) ===
+Resuming: 142 structures already completed, -36 remaining
+
+Loading MACE I_curv results...
+  Loaded MACE I_curv for 105 structures from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/omega_inst_full_mace.json
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.4GiB
+Total CPU Time                           - CPU_Time         : 00:04:48
+Execution Time                           - Wall_Time        : 00:00:36
+total programme cpu time                 - Total_CPU        : 00:11.704
+Total_CPU / CPU_Time  (%)                - ETA              : 3%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:19:12
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

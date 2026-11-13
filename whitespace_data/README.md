@@ -30,7 +30,7 @@ structure-generation strategies (forced-cubic and transmuted).
 The database contains four tables:
 
 - `materials`: one row per system (6,774 distinct systems: 6,574 Alexandria + 200 elpasolite compositions across forced-cubic and transmuted strategies)
-- `ga_structures`: one row per GA-discovered structure (264,542 rows)
+- `ga_structures`: one row per GA-discovered structure (276,336 rows)
 - `phonon_data`: one row per phonon evaluation (123,865 rows)
 - `phonon_modes`: one row per q-point mode (305,998 rows)
 - `dft_verification`: one row per system in the 200-system DFT verification
@@ -92,7 +92,7 @@ evaluated with static VASP single points; "DFT attempted" also includes the
 the MLIP and DFT energy reductions side by side, the sign-confirmation
 flag, and the max per-atom residual force on each stored geometry.
 Per-atom force vectors are provided in `dft_whitespace_forces.csv.gz`.
-Full DFT evaluation of all 83,562 deposited structures is roughly two
+Full DFT evaluation of all 186,653 deposited structures is roughly two
 orders of magnitude beyond the present subsample and is planned as a
 separate, dedicated study.
 
@@ -131,9 +131,35 @@ Consequences for downstream use:
   0.5) has been added to the VibroML workflow so future runs reject such
   candidates automatically.
 
+## Note on q-point sampling for the stability metrics
+
+The reported `f_soft` / `omega_min` values were evaluated on different
+q-point grids depending on the campaign:
+
+- **Alexandria runs**: evaluated along the 100-point seekpath
+  high-symmetry dispersion path stored in each run's
+  `band_structure_energies_*.txt` files. The path samples Gamma and all
+  zone-boundary special points; the small nonzero residuals in otherwise
+  stable runs are acoustic-Gamma numerical artifacts (unprojected
+  acoustic modes), not physical instabilities.
+- **Elpasolite runs**: `initial_settings.json` records
+  `"stability_q_mesh_mode": "fixed"`, i.e. the unshifted 6x6x6
+  Monkhorst-Pack mesh, and run summaries are labelled
+  `--- Validated Stability Metrics (fixed 6x6x6 mesh) ---`. This is
+  numerically identical to the adaptive q-mesh protocol that is the
+  code default in the released version (target q-spacing 0.30 1/Angstrom,
+  floor 6x6x6), because the elpasolite unit cells are large enough that
+  the adaptive rule selects the 6x6x6 floor in every case. The recorded
+  fixed setting is kept for provenance; it does not change any reported
+  value.
+- In all cases the run-level analysis additionally reports the softest
+  modes at the high-symmetry special points (`special_point_analysis.json`
+  and the run summaries), so both the uniform-mesh and the special-point
+  evaluations are available per structure.
+
 ## Note on the assembled XYZ dataset
 
-The full collection of 83,562 GA-discovered local-minimum structures
+The full collection of 186,653 GA-discovered local-minimum structures
 (including stable guidance-phonon structures for runs without a final GA
 population) in extended XYZ format, together with the
 `vibroml_explorer_bundle.tar.gz` database bundle used by the explorer, is

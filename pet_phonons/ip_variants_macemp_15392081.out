@@ -1,0 +1,166 @@
+Engine: macemp
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_macemp.json
+Freqs dir: ip_variants_freqs_macemp
+
+Loading calculator: engine=macemp, model=medium
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+MACE calculator initialized.
+Calculator loaded: MACECalculator
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  omega_min=-6.8935, I_p_1=6.753214, Omega_p_1=2.598695, I_p_2=13.603430, soft_frac=0.3102, time=1.6s
+
+[2/44] idx=2: LiF (literature_stable)
+  omega_min=-0.9261, I_p_1=0.000331, Omega_p_1=0.018190, I_p_2=0.016845, soft_frac=0.0004, time=2.4s
+
+[3/44] idx=3: LiF (literature_stable)
+  omega_min=-2.7627, I_p_1=0.048214, Omega_p_1=0.219578, I_p_2=0.476819, soft_frac=0.0123, time=0.3s
+
+[4/44] idx=4: LiF (literature_stable)
+  omega_min=0.0000, I_p_1=0.000000, Omega_p_1=0.000000, I_p_2=0.000000, soft_frac=0.0000, time=1.3s
+
+[5/44] idx=5: LiF (literature_stable)
+  omega_min=-1.6381, I_p_1=0.003627, Omega_p_1=0.060225, I_p_2=0.081465, soft_frac=0.0027, time=1.3s
+
+[6/44] idx=6: LiF (literature_stable)
+  omega_min=-3.3152, I_p_1=0.025760, Omega_p_1=0.160499, I_p_2=0.381201, soft_frac=0.0089, time=1.4s
+
+[7/44] idx=7: LiF (literature_stable)
+  FAILED: '0x-'
+
+[8/44] idx=8: LiF (literature_stable)
+  omega_min=-1.2206, I_p_1=0.001790, Omega_p_1=0.042314, I_p_2=0.047383, soft_frac=0.0015, time=0.6s
+
+[9/44] idx=9: LiF (anomaly)
+  omega_min=-1.0525, I_p_1=0.000576, Omega_p_1=0.023995, I_p_2=0.022450, soft_frac=0.0012, time=1.4s
+
+[10/44] idx=10: LiF (anomaly)
+  omega_min=-10.4721, I_p_1=8.748250, Omega_p_1=2.957744, I_p_2=22.208958, soft_frac=0.2894, time=0.6s
+
+[11/44] idx=11: LiF (anomaly)
+  omega_min=-3.7091, I_p_1=0.171798, Omega_p_1=0.414485, I_p_2=1.122609, soft_frac=0.0340, time=0.3s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  FAILED: '0x-'
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  FAILED: '0x-'
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 192 into shape (8,20,3)
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 192 into shape (8,20,3)
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  FAILED: cannot reshape array of size 192 into shape (8,20,3)
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 96 into shape (8,20,3)
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 192 into shape (8,40,3)
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  FAILED: '0x-'
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  FAILED: 'NoneType' object is not subscriptable
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  FAILED: 'NoneType' object is not subscriptable
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  FAILED: operands could not be broadcast together with shapes (96,3) (160,3) 
+
+[23/44] idx=23: HfO2 (literature_stable)
+  omega_min=-1.6731, I_p_1=0.013243, Omega_p_1=0.115080, I_p_2=0.159700, soft_frac=0.0087, time=0.9s
+
+[24/44] idx=24: HfO2 (literature_quasi)
+  omega_min=-4.0487, I_p_1=0.235408, Omega_p_1=0.485189, I_p_2=1.339041, soft_frac=0.0530, time=0.9s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  omega_min=-2.4708, I_p_1=0.041545, Omega_p_1=0.203827, I_p_2=0.369362, soft_frac=0.0195, time=2.4s
+
+[26/44] idx=26: HfO2 (ga_discovered)
+  omega_min=-2.3591, I_p_1=0.010417, Omega_p_1=0.102064, I_p_2=0.186114, soft_frac=0.0062, time=0.9s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  FAILED: '0x-'
+
+[28/44] idx=28: HfO2 (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,24,3)
+
+[29/44] idx=29: HfO2 (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,12,3)
+
+[30/44] idx=30: HfO2 (literature_quasi)
+  omega_min=-2.6049, I_p_1=0.048420, Omega_p_1=0.220046, I_p_2=0.403952, soft_frac=0.0201, time=0.9s
+
+[31/44] idx=31: HfO2 (literature_quasi)
+  omega_min=-3.1309, I_p_1=0.104218, Omega_p_1=0.322828, I_p_2=0.707779, soft_frac=0.0363, time=2.4s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  omega_min=-3.5835, I_p_1=0.183304, Omega_p_1=0.428140, I_p_2=1.013574, soft_frac=0.0509, time=0.9s
+
+[33/44] idx=33: HfO2 (literature_stable)
+  omega_min=-2.9329, I_p_1=0.047094, Omega_p_1=0.217011, I_p_2=0.398023, soft_frac=0.0242, time=2.4s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  FAILED: cannot reshape array of size 960 into shape (1,88,3)
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,44,3)
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  FAILED: cannot reshape array of size 480 into shape (8,44,3)
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  FAILED: cannot reshape array of size 288 into shape (1,176,3)
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  FAILED: cannot reshape array of size 288 into shape (1,352,3)
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  FAILED: cannot reshape array of size 1056 into shape (1,176,3)
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  omega_min=-74.3318, I_p_1=22.711973, Omega_p_1=4.765708, I_p_2=198.637746, soft_frac=0.1120, time=17.7s
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  FAILED: operands could not be broadcast together with shapes (176,3) (352,3) 
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  FAILED: cannot reshape array of size 528 into shape (8,44,3)
+
+[43/44] idx=43: Bi2Sn2O7 (literature_stable)
+  omega_min=-2.3398, I_p_1=0.044178, Omega_p_1=0.210185, I_p_2=0.346968, soft_frac=0.0271, time=19.1s
+
+[44/44] idx=44: CsPbI3 (high_sym_unstable)
+  omega_min=-0.6525, I_p_1=0.018753, Omega_p_1=0.136941, I_p_2=0.073801, soft_frac=0.0840, time=0.7s
+
+============================================================
+Completed: 21/44
+Results: ip_variants_macemp.json
+Raw freqs: ip_variants_freqs_macemp/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.3GiB
+Total CPU Time                           - CPU_Time         : 01:08:16
+Execution Time                           - Wall_Time        : 00:08:32
+total programme cpu time                 - Total_CPU        : 10:25.161
+Total_CPU / CPU_Time  (%)                - ETA              : 15%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 04:33:04
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

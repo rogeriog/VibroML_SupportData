@@ -1,0 +1,57 @@
+=== VibroML PET-MAD UQ Validation Batch ===
+Job ID: 15337782  |  Node: cna049
+NVIDIA A100-SXM4-40GB, 40960 MiB
+Wed Aug 26 20:38:27 CEST 2026
+
+[1/28] LiF (Quasi) freq=-3.063 THz, 2 atoms, sc=3x3x3
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_LiF_Quasi_unique_22_iter1_sample45_LiFsimplecubic_
+  FAILED (exit 1) in 49.0s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[2/28] LiF (Quasi) freq=-2.911 THz, 4 atoms, sc=3x3x3
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_LiF_Quasi_unique_18_iter5_sample4_LiFsimplecubic_e
+  FAILED (exit 1) in 63.0s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[3/28] CsPbI3 (Stable) freq=-0.704 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_CsPbI3_Stable_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  FAILED (exit 1) in 69.4s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[4/28] HfO2 (Quasi) freq=-2.594 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/04_HfO2_Quasi_unique_19_iter1_sample97_HfO2_Fm3m_energ
+  FAILED (exit 1) in 75.7s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[5/28] HfO2 (Quasi) freq=-2.592 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/05_HfO2_Quasi_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  FAILED (exit 1) in 76.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[6/28] LiF (Quasi) freq=-3.225 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/06_LiF_Quasi_unique_13_iter1_sample4_LiFsimplecubic_e
+[2026-08-26T20:44:35.510] error: *** JOB 15337782 ON cna049 CANCELLED AT 2026-08-26T20:44:35 DUE to SIGNAL Terminated ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.8GiB
+Total CPU Time                           - CPU_Time         : 00:49:20
+Execution Time                           - Wall_Time        : 00:06:10
+total programme cpu time                 - Total_CPU        : 06:47.479
+Total_CPU / CPU_Time  (%)                - ETA              : 13%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 03:17:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

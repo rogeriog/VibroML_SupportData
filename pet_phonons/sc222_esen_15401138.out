@@ -1,0 +1,37 @@
+Restricted to idx [34, 39]: 2 structure(s) selected
+Engine: esen
+Structures: 2 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_esen_sc222.json
+Freqs dir: ip_variants_freqs_esen_sc222
+
+Loading calculator: engine=esen, model=default
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+ESEN calculator initialized.
+Calculator loaded: OCPCalculator
+
+[1/2] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  FAILED: CUDA out of memory. Tried to allocate 616.00 MiB. GPU 0 has a total capacity of 39.49 GiB of which 460.12 MiB is free. Including non-PyTorch memory, this process has 39.04 GiB memory in use. Of the allocated memory 38.26 GiB is allocated by PyTorch, and 295.03 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+[2/2] idx=39: Bi2Sn2O7 (literature_stable)
+  FAILED: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 39.49 GiB of which 306.12 MiB is free. Including non-PyTorch memory, this process has 39.19 GiB memory in use. Of the allocated memory 38.47 GiB is allocated by PyTorch, and 231.98 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+============================================================
+Completed: 0/2
+Results: ip_variants_esen_sc222.json
+Raw freqs: ip_variants_freqs_esen_sc222/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.4GiB
+Total CPU Time                           - CPU_Time         : 00:06:32
+Execution Time                           - Wall_Time        : 00:00:49
+total programme cpu time                 - Total_CPU        : 00:16.860
+Total_CPU / CPU_Time  (%)                - ETA              : 4%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:26:08
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -8,6 +8,9 @@ crystalline materials using machine-learned potentials"*.
 - **ProtoCSP**: https://github.com/rogeriog/ProtoCSP
 - **Figshare deposit** (GA local-minima XYZ dataset and explorer database
   bundle): https://doi.org/10.6084/m9.figshare.34790283
+- **Headline-number provenance**: [`PROVENANCE.md`](PROVENANCE.md) — exact
+  commands to reproduce every numerical claim in the manuscript, SI, and
+  response letter from the files in this repository.
 
 ## Interactive database explorer
 
@@ -50,7 +53,7 @@ and table/figure correspondence.
 
 | Directory | Contents |
 |-----------|----------|
-| [`whitespace_data/`](whitespace_data/) | SQLite database of 6,774 systems (6,574 Alexandria + 200 elpasolite) / 264,542 GA structures / 305,998 phonon modes, the Streamlit explorer, per-system GA summaries, elpasolite white-space data |
+| [`whitespace_data/`](whitespace_data/) | SQLite database of 6,774 systems (6,574 Alexandria + 200 elpasolite) / 276,336 GA structures / 305,998 phonon modes, the Streamlit explorer, per-system GA summaries, elpasolite white-space data |
 | [`b2_intermetallics/`](b2_intermetallics/) | Phonon metrics for the B2 intermetallic validation set (CuN, ZnCu, ZrCu across MACE-OMAT, eSEN, UMA) |
 | [`hfo2_literature_validation/`](hfo2_literature_validation/) | Relaxed CIFs and comparison script for the VibroML-discovered HfO2 polymorphs benchmarked against Zhao et al. (2026) and Qi & Rabe (2025) |
 | [`LiF_anomaly_tests/`](LiF_anomaly_tests/) | MLIP-vs-DFT path analysis for the LiF steric-clash anomaly |

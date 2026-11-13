@@ -1,0 +1,22 @@
+[
+  {
+    "order": 44,
+    "category": "benchmark",
+    "compound": "CsPbI3",
+    "space_group": "Pm\\bar{3}m",
+    "space_group_labeled": "Pm\\bar{3}m",
+    "space_group_actual": "Pm-3m (221)",
+    "space_group_no": 221,
+    "space_group_no_actual": 221,
+    "filename": "CsPbI3_relaxed.cif",
+    "filepath": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed.cif",
+    "natoms": 5,
+    "natoms_actual": 5,
+    "supercell": 2,
+    "stability_label": "high_sym_unstable",
+    "stability_note": "CsPbI3 Pm-3m cubic aristotype \u2014 known unstable high-symmetry reference",
+    "mace_omega_min": -0.7678,
+    "mace_soft_frac": null,
+    "is_high_sym_reference": true
+  }
+]

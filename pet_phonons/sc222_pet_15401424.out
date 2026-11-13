@@ -1,0 +1,36 @@
+Restricted to idx [34, 39]: 2 structure(s) selected
+Engine: pet
+Structures: 2 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_pet_sc222.json
+Freqs dir: ip_variants_freqs_pet_sc222
+
+Loading calculator: engine=pet, model=pet-mad-xs
+Initializing PET calculator with model: pet-mad-xs on device: cuda...
+PET calculator initialized.
+Calculator loaded: UPETCalculator
+
+[1/2] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-4.2250, I_p_1=0.390530, Omega_p_1=0.624924, I_p_2=1.587407, soft_frac=0.0894, time=22.5s
+
+[2/2] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-2.8857, I_p_1=0.051282, Omega_p_1=0.226456, I_p_2=0.439816, soft_frac=0.0234, time=49.4s
+
+============================================================
+Completed: 2/2
+Results: ip_variants_pet_sc222.json
+Raw freqs: ip_variants_freqs_pet_sc222/
+
+Resources Used
+
+Total Memory used                        - MEM              : 3.0GiB
+Total CPU Time                           - CPU_Time         : 00:17:28
+Execution Time                           - Wall_Time        : 00:02:11
+total programme cpu time                 - Total_CPU        : 02:22.741
+Total_CPU / CPU_Time  (%)                - ETA              : 13%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 01:09:52
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

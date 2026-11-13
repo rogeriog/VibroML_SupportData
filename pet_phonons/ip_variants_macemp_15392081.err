@@ -1,0 +1,272 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1788058999.323704 2479718 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1788058999.327447 2479718 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1788058999.338004 2479718 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1788058999.338028 2479718 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1788058999.338035 2479718 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1788058999.338041 2479718 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/mace/calculators/mace.py:143: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py:89: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  return ds["number"], str(spglib.get_spacegroup(cell, symprec=symprec))
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 167, in __getitem__
+    return self.backend.read(path)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 47, in read
+    return read_json(fname, always_array=False)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/__init__.py", line 596, in iofunc
+    fd = open(str(file), self.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'phonon_temp_ip/cache.0x-.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 169, in __getitem__
+    missing(key)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 16, in missing
+    raise KeyError(key)
+KeyError: '0x-'
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 167, in __getitem__
+    return self.backend.read(path)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 47, in read
+    return read_json(fname, always_array=False)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/__init__.py", line 596, in iofunc
+    fd = open(str(file), self.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'phonon_temp_ip/cache.0x-.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 169, in __getitem__
+    missing(key)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 16, in missing
+    raise KeyError(key)
+KeyError: '0x-'
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 167, in __getitem__
+    return self.backend.read(path)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 47, in read
+    return read_json(fname, always_array=False)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/__init__.py", line 596, in iofunc
+    fd = open(str(file), self.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'phonon_temp_ip/cache.0x-.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 169, in __getitem__
+    missing(key)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 16, in missing
+    raise KeyError(key)
+KeyError: '0x-'
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 192 into shape (8,20,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 192 into shape (8,20,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 192 into shape (8,20,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 96 into shape (8,20,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 192 into shape (8,40,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 167, in __getitem__
+    return self.backend.read(path)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 47, in read
+    return read_json(fname, always_array=False)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/__init__.py", line 596, in iofunc
+    fd = open(str(file), self.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'phonon_temp_ip/cache.0x-.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 169, in __getitem__
+    missing(key)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 16, in missing
+    raise KeyError(key)
+KeyError: '0x-'
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 444, in read
+    fplus_av = self.cache[basename + '+']['forces']
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 451, in read
+    C_av = fminus_av - fplus_av
+ValueError: operands could not be broadcast together with shapes (96,3) (160,3) 
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 167, in __getitem__
+    return self.backend.read(path)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 47, in read
+    return read_json(fname, always_array=False)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/__init__.py", line 596, in iofunc
+    fd = open(str(file), self.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'phonon_temp_ip/cache.0x-.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 443, in read
+    fminus_av = self.cache[basename + '-']['forces']
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 169, in __getitem__
+    missing(key)
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/utils/filecache.py", line 16, in missing
+    raise KeyError(key)
+KeyError: '0x-'
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 480 into shape (8,24,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 480 into shape (8,12,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 960 into shape (1,88,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 480 into shape (8,44,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 480 into shape (8,44,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 288 into shape (1,176,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 288 into shape (1,352,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 1056 into shape (1,176,3)
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 451, in read
+    C_av = fminus_av - fplus_av
+ValueError: operands could not be broadcast together with shapes (176,3) (352,3) 
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 275, in main
+    freqs, gamma_indices = compute_phonon_freqs_uniform(
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/compute_ip_variants.py", line 107, in compute_phonon_freqs_uniform
+    ph.read()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/04_envs_and_archives/vibroml_env/lib/python3.9/site-packages/ase/phonons.py", line 455, in read
+    C_Nav = C_av.reshape((N, len(self.atoms), 3))[:, self.indices]
+ValueError: cannot reshape array of size 528 into shape (8,44,3)

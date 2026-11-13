@@ -1,0 +1,74 @@
+============================================
+Omega_inst symmetry-constrained PET-MAD test
+Job ID: 15356897
+Date: Thu Aug 27 16:08:30 CEST 2026
+============================================
+
+========== PET-MAD (symmetry-constrained) ==========
+Started: Thu Aug 27 16:08:30 CEST 2026
+Engine: pet
+Model: pet-mad-xs
+Structures: 3
+Q-mesh: [6, 6, 6]
+Delta: 0.05
+Relax: True
+Symmetry constrained: True
+Output: test_omega_inst_pet_symconstrained.json
+  Loading PET-MAD calculator (model=pet-mad-xs, device=cuda)...
+
+[1/3] LiF_simple_cubic (benchmark_unstable)
+
+  Loading: LiFsimplecubic.cif
+  Relaxing with pet...
+    Symmetry-constrained relaxation (symprec=0.01)...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+  PHONON COMPUTATION FAILED: Repeat is not compatible with your atoms' constraints. Use atoms.set_constraint() before calling repeat to remove your constraints.
+
+[2/3] TiMnInFe (quaternary_abandoned)
+
+  Loading: TiMnInFe_agm001294796_SG216_E0.1824.cif
+  Relaxing with pet...
+    Symmetry-constrained relaxation (symprec=0.01)...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+  PHONON COMPUTATION FAILED: Repeat is not compatible with your atoms' constraints. Use atoms.set_constraint() before calling repeat to remove your constraints.
+
+[3/3] LiF_stable_polymorph (benchmark_stable)
+
+  Loading: top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_conventional_freqm16p2287THz.cif
+  Relaxing with pet...
+    Symmetry-constrained relaxation (symprec=0.01)...
+    Relaxed: fmax=0.000458 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+  PHONON COMPUTATION FAILED: Repeat is not compatible with your atoms' constraints. Use atoms.set_constraint() before calling repeat to remove your constraints.
+
+============================================================
+Completed: 0/3
+Results saved to: test_omega_inst_pet_symconstrained.json
+
+Summary:
+compound                  cat              I_curv(THz^2)  omega_inst(THz)  omega_min(THz)  soft_frac   n_imag
+PET-MAD (symconstrained) finished: Thu Aug 27 16:08:45 CEST 2026
+
+============================================
+COMPARISON: unconstrained vs symmetry-constrained PET-MAD
+============================================
+
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.0GiB
+Total CPU Time                           - CPU_Time         : 00:02:24
+Execution Time                           - Wall_Time        : 00:00:18
+total programme cpu time                 - Total_CPU        : 00:17.952
+Total_CPU / CPU_Time  (%)                - ETA              : 11%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:09:36
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

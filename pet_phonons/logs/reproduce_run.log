@@ -1,0 +1,46 @@
+Warp CUDA warning: Could not find or load the NVIDIA CUDA driver. GPU execution will not be available.
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/metatomic_ase/_neighbors.py:78: UserWarning: `compute_requested_neighbors_from_options` is deprecated and will be removed in a future version. Please use `neighbor_lists_for_model` to get the calculators and call them directly.
+  vesin.metatomic.compute_requested_neighbors_from_options(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/metatomic_ase/_neighbors.py:78: UserWarning: `compute_requested_neighbors_from_options` is deprecated and will be removed in a future version. Please use `neighbor_lists_for_model` to get the calculators and call them directly.
+  vesin.metatomic.compute_requested_neighbors_from_options(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/upet/calculator.py:221: UserWarning: Some of the atomic energy uncertainties are larger than the threshold of 0.1 eV. The prediction is above the threshold for atoms [1].
+  self.calculator.calculate(atoms, properties, system_changes)
+Initialising PET-MAD calculator …
+Exporting TorchScript model to model_xs.pt …
+
+============================================================
+1. Al (FCC) — constrained relaxation + deterministic phonons
+============================================================
+  Al FCC (relaxed, constrained)        Fm-3m (225)
+
+--- Al FCC ---
+  1 displacements | 27 atoms/supercell
+  Saved → al_phonons_deterministic.png
+
+============================================================
+2. Al (FCC) — UQ ensemble phonons
+============================================================
+
+--- Al FCC UQ (UQ ensemble) ---
+  128 ensemble members | 1 displacements | 27 atoms/supercell
+  Saved → al_phonons_uq_ensemble.png
+  Saved → al_phonons_uq_mean_std.png
+
+============================================================
+3. BaTiO3 cubic — constrained relaxation + UQ phonons
+============================================================
+  BTO cubic (relaxed, constrained)     Pm-3m (221)
+
+--- BTO cubic UQ (UQ ensemble) ---
+  128 ensemble members | 3 displacements | 40 atoms/supercell
+  Saved → bto_cubic_phonons_uq_ensemble.png
+  Saved → bto_cubic_phonons_uq_mean_std.png
+
+============================================================
+All done. Saved plots:
+  al_phonons_deterministic.png
+  al_phonons_uq_ensemble.png
+  al_phonons_uq_mean_std.png
+  bto_cubic_phonons_uq_ensemble.png
+  bto_cubic_phonons_uq_mean_std.png
+============================================================

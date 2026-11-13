@@ -1,0 +1,48 @@
+=== UQ Comprehensive Run: LARGE structures only (gpu) ===
+Job ID: 15372422
+Node: cna021
+Fri Aug 28 15:01:53 CEST 2026
+Resuming: 36 structures already completed, 69 remaining
+
+Loading MACE I_curv results...
+  Loaded MACE I_curv for 105 structures from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/omega_inst_full_mace.json
+
+Loading PET-MAD calculator...
+
+[37/105] Bi2Sn2O7 (benchmark) ω=-3.407 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/037_Bi2Sn2O7_benc_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000616 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML TIMEOUT
+
+[38/105] Bi2Sn2O7 (benchmark) ω=-4.089 THz, 355 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/038_Bi2Sn2O7_benc_unique_4_sg_P1_energy_m6p029892_primitiv
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.005048 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML TIMEOUT
+
+[39/105] Bi2Sn2O7 (benchmark) ω=-3.414 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/039_Bi2Sn2O7_benc_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000526 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML TIMEOUT
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (36 entries)
+
+idx             category        compound MACE_Icurv  PET_Icurv MACE_ωmin  PET_ωmin   σ@min   σ_max
+
+Resources Used
+
+Total Memory used                        - MEM              : 12GiB
+Total CPU Time                           - CPU_Time         : 1-00:07:36
+Execution Time                           - Wall_Time        : 03:00:57
+total programme cpu time                 - Total_CPU        : 15:43:55
+Total_CPU / CPU_Time  (%)                - ETA              : 65%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 4-00:30:24
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -1,0 +1,176 @@
+=== VibroML PET-MAD UQ Validation Batch ===
+Job ID: 15337819  |  Node: cna049
+NVIDIA A100-SXM4-40GB, 40960 MiB
+Wed Aug 26 20:59:26 CEST 2026
+
+[1/25] CsPbI3 (Stable) freq=-0.704 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_CsPbI3_Stable_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  FAILED (exit 1) in 70.4s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[2/25] HfO2 (Quasi) freq=-2.594 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_HfO2_Quasi_unique_19_iter1_sample97_HfO2_Fm3m_energ
+  FAILED (exit 1) in 77.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[3/25] HfO2 (Quasi) freq=-2.592 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_HfO2_Quasi_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  FAILED (exit 1) in 76.5s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[4/25] LiF (Quasi) freq=-3.225 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/04_LiF_Quasi_unique_13_iter1_sample4_LiFsimplecubic_e
+  FAILED (exit 1) in 95.5s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[5/25] LiF (Stable) freq=16.497 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/05_LiF_Stable_top_3_iter2_sample14_LiFsimplecubic_ener
+  FAILED (exit 1) in 57.4s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[6/25] CsPbI3 (Stable) freq=-0.256 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/06_CsPbI3_Stable_top_4_iter1_sample18_CsPbI3_energy_m2p82
+  FAILED (exit 1) in 114.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[7/25] CsPbI3 (Stable) freq=-0.225 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/07_CsPbI3_Stable_top_3_iter2_sample17_CsPbI3_energy_m2p82
+  FAILED (exit 1) in 113.9s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[8/25] CsPbI3 (Stable) freq=-0.221 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/08_CsPbI3_Stable_unique_26_iter1_sample43_CsPbI3_energy_m
+  FAILED (exit 1) in 115.4s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[9/25] HfO2 (Unstable) freq=-5.606 THz, 12 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/09_HfO2_Unstable_unique_26_iter1_sample169_HfO2_Fm3m_ener
+  FAILED (exit 1) in 75.4s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[10/25] LiF (Unstable) freq=-5.503 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/10_LiF_Unstable_unique_7_iter1_sample64_LiFsimplecubic_e
+  FAILED (exit 1) in 178.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[11/25] LiF (Unstable) freq=-5.043 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/11_LiF_Unstable_unique_6_iter1_sample16_LiFsimplecubic_e
+  FAILED (exit 1) in 178.5s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[12/25] LiF (Unstable) freq=-4.658 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/12_LiF_Unstable_unique_14_iter5_sample66_LiFsimplecubic_
+  FAILED (exit 1) in 174.9s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[13/25] LiF (Quasi) freq=-3.192 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/13_LiF_Quasi_unique_9_iter1_sample88_LiFsimplecubic_e
+  FAILED (exit 1) in 176.6s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[14/25] LiF (Stable) freq=-0.535 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/14_LiF_Stable_unique_5_iter1_sample72_LiFsimplecubic_e
+  FAILED (exit 1) in 179.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[15/25] LiF (Stable) freq=-0.248 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/15_LiF_Stable_unique_4_iter1_sample80_LiFsimplecubic_e
+  FAILED (exit 1) in 176.3s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[16/25] HfO2 (Quasi) freq=-3.293 THz, 24 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/16_HfO2_Quasi_unique_80_iter1_sample61_HfO2_Fm3m_energ
+  FAILED (exit 1) in 275.8s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[17/25] Bi2Sn2O7 (Stable) freq=20.299 THz, 44 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/17_Bi2Sn2O7_Stable_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+  FAILED (exit 1) in 457.9s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[18/25] HfO2 (Quasi) freq=-3.058 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/18_HfO2_Quasi_unique_81_iter2_sample21_HfO2_Fm3m_energ
+  FAILED (exit 1) in 731.9s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[19/25] HfO2 (Stable) freq=-0.474 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/19_HfO2_Stable_unique_69_iter2_sample85_HfO2_Fm3m_energ
+  FAILED (exit 1) in 726.5s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[20/25] HfO2 (Stable) freq=-0.369 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/20_HfO2_Stable_unique_78_iter1_sample94_HfO2_Fm3m_energ
+  FAILED (exit 1) in 720.2s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[21/25] HfO2 (Stable) freq=-0.341 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/21_HfO2_Stable_unique_4_iter5_sample97_HfO2_Fm3m_energy
+  FAILED (exit 1) in 416.8s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[22/25] HfO2 (Stable) freq=-0.316 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/22_HfO2_Stable_unique_56_iter1_sample148_HfO2_Fm3m_ener
+  FAILED (exit 1) in 726.1s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[23/25] HfO2 (Quasi) freq=-3.372 THz, 96 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/23_HfO2_Quasi_unique_13_iter2_sample97_HfO2_Fm3m_energ
+[2026-08-26T22:59:24.006] error: *** JOB 15337819 ON cna049 CANCELLED AT 2026-08-26T22:59:24 DUE TO TIME LIMIT ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 6.9GiB
+Total CPU Time                           - CPU_Time         : 16:00:00
+Execution Time                           - Wall_Time        : 02:00:00
+total programme cpu time                 - Total_CPU        : 06:35:30
+Total_CPU / CPU_Time  (%)                - ETA              : 41%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 2-16:00:00
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

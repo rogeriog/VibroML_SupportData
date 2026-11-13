@@ -1,0 +1,34 @@
+=== VibroML PET-MAD UQ Validation Batch ===
+Job ID: 15346415  |  Node: cna049
+NVIDIA A100-SXM4-40GB, 40960 MiB
+Wed Aug 26 23:10:28 CEST 2026
+
+[1/25] CsPbI3 (Stable) freq=-0.704 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_CsPbI3_Stable_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  No summary file found in /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_CsPbI3_Stable_unique_3_iter1_sample9_CsPbI3_energy_m2p
+
+[2/25] HfO2 (Quasi) freq=-2.594 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_HfO2_Quasi_unique_19_iter1_sample97_HfO2_Fm3m_energ
+  No summary file found in /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_HfO2_Quasi_unique_19_iter1_sample97_HfO2_Fm3m_energ
+
+[3/25] HfO2 (Quasi) freq=-2.592 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_HfO2_Quasi_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  No summary file found in /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_HfO2_Quasi_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+
+[4/25] LiF (Quasi) freq=-3.225 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/04_LiF_Quasi_unique_13_iter1_sample4_LiFsimplecubic_e
+[2026-08-26T23:14:24.299] error: *** JOB 15346415 ON cna049 CANCELLED AT 2026-08-26T23:14:24 DUE to SIGNAL Terminated ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.8GiB
+Total CPU Time                           - CPU_Time         : 00:31:44
+Execution Time                           - Wall_Time        : 00:03:58
+total programme cpu time                 - Total_CPU        : 04:17.466
+Total_CPU / CPU_Time  (%)                - ETA              : 13%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 02:06:56
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

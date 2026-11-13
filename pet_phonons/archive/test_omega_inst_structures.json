@@ -1,0 +1,23 @@
+[
+  {
+    "filepath": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic.cif",
+    "compound": "LiF_simple_cubic",
+    "category": "benchmark_unstable",
+    "supercell": 2,
+    "natoms": 5
+  },
+  {
+    "filepath": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/quaternary_abandoned_all/TiMnInFe_agm001294796_SG216_E0.1824.cif",
+    "compound": "TiMnInFe",
+    "category": "quaternary_abandoned",
+    "supercell": 2,
+    "natoms": 4
+  },
+  {
+    "filepath": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_conventional_freqm16p2287THz.cif",
+    "compound": "LiF_stable_polymorph",
+    "category": "benchmark_stable",
+    "supercell": 2,
+    "natoms": 5
+  }
+]

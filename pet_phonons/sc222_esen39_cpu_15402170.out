@@ -1,0 +1,28 @@
+Restricted to idx [39]: 1 structure(s) selected
+Engine: esen
+Structures: 1 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_esen_sc222_idx39.json
+Freqs dir: ip_variants_freqs_esen_sc222_idx39
+
+Loading calculator: engine=esen, model=default
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: True
+ESEN calculator initialized.
+Calculator loaded: OCPCalculator
+
+[1/1] idx=39: Bi2Sn2O7 (literature_stable)
+
+Resources Used
+
+Total Memory used                        - MEM              : 93GiB
+Total CPU Time                           - CPU_Time         : 10:55:44
+Execution Time                           - Wall_Time        : 00:40:59
+total programme cpu time                 - Total_CPU        : 08:11:52
+Total_CPU / CPU_Time  (%)                - ETA              : 75%
+Number of alloc CPU                      - NCPUS            : 16
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 64
+Mobilized Resources x Execution Time     - R_Wall_Time      : 1-19:42:56
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

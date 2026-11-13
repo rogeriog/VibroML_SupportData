@@ -1,0 +1,12 @@
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/metatomic_ase/_neighbors.py:78: UserWarning: `compute_requested_neighbors_from_options` is deprecated and will be removed in a future version. Please use `neighbor_lists_for_model` to get the calculators and call them directly.
+  vesin.metatomic.compute_requested_neighbors_from_options(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/upet/calculator.py:221: UserWarning: Some of the atomic energy uncertainties are larger than the threshold of 0.1 eV. The prediction is above the threshold for atoms [0].
+  self.calculator.calculate(atoms, properties, system_changes)
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/metatomic_ase/_neighbors.py:78: UserWarning: `compute_requested_neighbors_from_options` is deprecated and will be removed in a future version. Please use `neighbor_lists_for_model` to get the calculators and call them directly.
+  vesin.metatomic.compute_requested_neighbors_from_options(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/upet/calculator.py:221: UserWarning: Some of the atomic energy uncertainties are larger than the threshold of 0.1 eV. The prediction is above the threshold for atoms [ 0  2  4  6  8 10 12 14].
+  self.calculator.calculate(atoms, properties, system_changes)
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/upet/calculator.py:221: UserWarning: Some of the atomic energy uncertainties are larger than the threshold of 0.1 eV. The prediction is above the threshold for atoms [0 1 2 3].
+  self.calculator.calculate(atoms, properties, system_changes)
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/upet/calculator.py:221: UserWarning: Some of the atomic energy uncertainties are larger than the threshold of 0.1 eV. The prediction is above the threshold for atoms [0 1].
+  self.calculator.calculate(atoms, properties, system_changes)

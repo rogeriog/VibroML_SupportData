@@ -1,0 +1,18 @@
+=== UQ Expanded Run (40 new quaternary) ===
+Job ID: 15376984
+Manifest: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_structures_expanded.json
+Fri Aug 28 22:09:22 CEST 2026
+Resuming: 102 structures already completed, 43 remaining
+
+Loading MACE I_curv results...
+  Loaded MACE I_curv for 105 structures from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/omega_inst_full_mace.json
+
+Loading PET-MAD calculator...
+Traceback (most recent call last):
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/run_uq_validation_comprehensive.py", line 569, in <module>
+    main()
+  File "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/run_uq_validation_comprehensive.py", line 520, in main
+    from upet.calculator import UPETCalculator
+ModuleNotFoundError: No module named 'upet'
+done
+Fri Aug 28 22:09:24 CEST 2026

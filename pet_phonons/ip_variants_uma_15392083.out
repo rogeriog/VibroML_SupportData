@@ -1,0 +1,163 @@
+Engine: uma
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_uma.json
+Freqs dir: ip_variants_freqs_uma
+
+Loading calculator: engine=uma, model=default
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+UMA calculator initialized.
+Calculator loaded: FAIRChemCalculator
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  omega_min=-6.3612, I_p_1=4.945919, Omega_p_1=2.223942, I_p_2=10.438699, soft_frac=0.2917, time=4.4s
+
+[2/44] idx=2: LiF (literature_stable)
+  omega_min=-2.1594, I_p_1=0.012691, Omega_p_1=0.112654, I_p_2=0.183582, soft_frac=0.0066, time=13.7s
+
+[3/44] idx=3: LiF (literature_stable)
+  omega_min=-3.9464, I_p_1=0.117562, Omega_p_1=0.342873, I_p_2=1.016013, soft_frac=0.0185, time=1.9s
+
+[4/44] idx=4: LiF (literature_stable)
+  omega_min=-1.2370, I_p_1=0.000877, Omega_p_1=0.029614, I_p_2=0.031924, soft_frac=0.0012, time=14.5s
+
+[5/44] idx=5: LiF (literature_stable)
+  omega_min=-2.5400, I_p_1=0.029497, Omega_p_1=0.171747, I_p_2=0.338927, soft_frac=0.0112, time=16.1s
+
+[6/44] idx=6: LiF (literature_stable)
+  omega_min=-5.1812, I_p_1=0.466665, Omega_p_1=0.683129, I_p_2=2.363115, soft_frac=0.0629, time=16.8s
+
+[7/44] idx=7: LiF (literature_stable)
+  omega_min=-1.5548, I_p_1=0.001865, Omega_p_1=0.043188, I_p_2=0.067148, soft_frac=0.0008, time=4.7s
+
+[8/44] idx=8: LiF (literature_stable)
+  omega_min=-2.9875, I_p_1=0.012260, Omega_p_1=0.110723, I_p_2=0.314448, soft_frac=0.0015, time=4.8s
+
+[9/44] idx=9: LiF (anomaly)
+  omega_min=-2.0047, I_p_1=0.013044, Omega_p_1=0.114210, I_p_2=0.185491, soft_frac=0.0062, time=16.9s
+
+[10/44] idx=10: LiF (anomaly)
+  omega_min=-14.0928, I_p_1=12.611196, Omega_p_1=3.551225, I_p_2=33.758776, soft_frac=0.3248, time=4.8s
+
+[11/44] idx=11: LiF (anomaly)
+  omega_min=-5.6107, I_p_1=0.536409, Omega_p_1=0.732399, I_p_2=2.841966, soft_frac=0.0602, time=1.8s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  omega_min=-0.5509, I_p_1=0.005440, Omega_p_1=0.073756, I_p_2=0.030831, soft_frac=0.0469, time=4.4s
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  omega_min=-0.8096, I_p_1=0.009059, Omega_p_1=0.095178, I_p_2=0.051134, soft_frac=0.0491, time=8.9s
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 1056 into shape (8,20,3)
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 1056 into shape (8,20,3)
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  omega_min=-0.8208, I_p_1=0.005300, Omega_p_1=0.072802, I_p_2=0.037578, soft_frac=0.0335, time=21.5s
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  omega_min=-0.8872, I_p_1=0.011476, Omega_p_1=0.107126, I_p_2=0.065215, soft_frac=0.0491, time=21.2s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  FAILED: operands could not be broadcast together with shapes (320,3) (352,3) 
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  omega_min=-0.5968, I_p_1=0.002278, Omega_p_1=0.047724, I_p_2=0.020235, soft_frac=0.0187, time=22.3s
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  omega_min=-1.1784, I_p_1=0.020115, Omega_p_1=0.141827, I_p_2=0.113096, soft_frac=0.0500, time=8.7s
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  omega_min=-0.5241, I_p_1=0.001557, Omega_p_1=0.039458, I_p_2=0.014843, soft_frac=0.0164, time=23.4s
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  omega_min=-6.0981, I_p_1=0.409522, Omega_p_1=0.639939, I_p_2=2.400159, soft_frac=0.0628, time=30.5s
+
+[23/44] idx=23: HfO2 (literature_stable)
+  omega_min=-2.1393, I_p_1=0.016172, Omega_p_1=0.127167, I_p_2=0.204388, soft_frac=0.0082, time=8.5s
+
+[24/44] idx=24: HfO2 (literature_quasi)
+  omega_min=-3.9781, I_p_1=0.154581, Omega_p_1=0.393168, I_p_2=1.090337, soft_frac=0.0350, time=8.5s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  omega_min=-2.9900, I_p_1=0.054692, Omega_p_1=0.233864, I_p_2=0.502520, soft_frac=0.0190, time=29.0s
+
+[26/44] idx=26: HfO2 (ga_discovered)
+  omega_min=-1.6143, I_p_1=0.005778, Omega_p_1=0.076011, I_p_2=0.102049, soft_frac=0.0041, time=8.4s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  omega_min=-3.2923, I_p_1=0.035405, Omega_p_1=0.188162, I_p_2=0.447423, soft_frac=0.0105, time=28.5s
+
+[28/44] idx=28: HfO2 (literature_stable)
+  omega_min=-4.3749, I_p_1=0.086883, Omega_p_1=0.294759, I_p_2=0.837358, soft_frac=0.0211, time=105.9s
+
+[29/44] idx=29: HfO2 (literature_stable)
+  omega_min=-3.0176, I_p_1=0.044600, Omega_p_1=0.211188, I_p_2=0.440946, soft_frac=0.0172, time=30.5s
+
+[30/44] idx=30: HfO2 (literature_quasi)
+  omega_min=-3.0182, I_p_1=0.043572, Omega_p_1=0.208740, I_p_2=0.428579, soft_frac=0.0165, time=8.3s
+
+[31/44] idx=31: HfO2 (literature_quasi)
+  omega_min=-3.5305, I_p_1=0.122645, Omega_p_1=0.350206, I_p_2=0.838268, soft_frac=0.0352, time=29.4s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  omega_min=-3.0464, I_p_1=0.076699, Omega_p_1=0.276946, I_p_2=0.569619, soft_frac=0.0293, time=7.5s
+
+[33/44] idx=33: HfO2 (literature_stable)
+  omega_min=-2.9818, I_p_1=0.033113, Omega_p_1=0.181970, I_p_2=0.347322, soft_frac=0.0172, time=29.8s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-2.1025, I_p_1=0.113187, Omega_p_1=0.336432, I_p_2=0.591815, soft_frac=0.0758, time=170.3s
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.9211, I_p_1=0.118115, Omega_p_1=0.343679, I_p_2=0.839609, soft_frac=0.0359, time=282.6s
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.1714, I_p_1=0.094479, Omega_p_1=0.307374, I_p_2=0.660047, soft_frac=0.0364, time=279.1s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  FAILED: '0x-'
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  FAILED: '0x-'
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000060, I_p_2=0.000000, soft_frac=0.0057, time=603.2s
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.4368, I_p_1=0.102705, Omega_p_1=0.320475, I_p_2=0.694490, soft_frac=0.0371, time=279.8s
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.4368, I_p_1=0.102705, Omega_p_1=0.320476, I_p_2=0.694492, soft_frac=0.0371, time=279.7s
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.9211, I_p_1=0.118117, Omega_p_1=0.343681, I_p_2=0.839615, soft_frac=0.0359, time=282.5s
+
+[43/44] idx=43: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.5200, I_p_1=0.100376, Omega_p_1=0.316821, I_p_2=0.732807, soft_frac=0.0337, time=278.9s
+
+[44/44] idx=44: CsPbI3 (high_sym_unstable)
+  omega_min=-0.7080, I_p_1=0.035015, Omega_p_1=0.187122, I_p_2=0.097651, soft_frac=0.1981, time=4.3s
+
+============================================================
+Completed: 39/44
+Results: ip_variants_uma.json
+Raw freqs: ip_variants_freqs_uma/
+
+Resources Used
+
+Total Memory used                        - MEM              : 22GiB
+Total CPU Time                           - CPU_Time         : 12:28:32
+Execution Time                           - Wall_Time        : 01:33:34
+total programme cpu time                 - Total_CPU        : 03:09:09
+Total_CPU / CPU_Time  (%)                - ETA              : 25%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 2-01:54:08
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

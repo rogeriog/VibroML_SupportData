@@ -1,0 +1,117 @@
+=== VibroML PET-MAD UQ Validation Batch ===
+Job ID: 15346437  |  Node: cna049
+NVIDIA A100-SXM4-40GB, 40960 MiB
+Wed Aug 26 23:15:14 CEST 2026
+
+[1/25] CsPbI3 (Stable) freq=-0.704 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_CsPbI3_Stable_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  DONE in 70.6s | min_freq=-0.6525 THz, max_std=0.3836 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (1 entries)
+
+[2/25] HfO2 (Quasi) freq=-2.594 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_HfO2_Quasi_unique_19_iter1_sample97_HfO2_Fm3m_energ
+  DONE in 77.1s | min_freq=-2.9551 THz, max_std=0.9593 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (2 entries)
+
+[3/25] HfO2 (Quasi) freq=-2.592 THz, 6 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_HfO2_Quasi_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  DONE in 77.1s | min_freq=-2.9551 THz, max_std=0.9593 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (3 entries)
+
+[4/25] LiF (Quasi) freq=-3.225 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/04_LiF_Quasi_unique_13_iter1_sample4_LiFsimplecubic_e
+  DONE in 95.7s | min_freq=-0.8098 THz, max_std=1.2231 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (4 entries)
+
+[5/25] LiF (Stable) freq=16.497 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/05_LiF_Stable_top_3_iter2_sample14_LiFsimplecubic_ener
+  DONE in 58.1s | min_freq=-0.5635 THz, max_std=1.7821 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (5 entries)
+
+[6/25] CsPbI3 (Stable) freq=-0.256 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/06_CsPbI3_Stable_top_4_iter1_sample18_CsPbI3_energy_m2p82
+  DONE in 114.4s | min_freq=-0.2248 THz, max_std=0.3624 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (6 entries)
+
+[7/25] CsPbI3 (Stable) freq=-0.225 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/07_CsPbI3_Stable_top_3_iter2_sample17_CsPbI3_energy_m2p82
+  DONE in 113.4s | min_freq=-0.3466 THz, max_std=0.6326 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (7 entries)
+
+[8/25] CsPbI3 (Stable) freq=-0.221 THz, 10 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/08_CsPbI3_Stable_unique_26_iter1_sample43_CsPbI3_energy_m
+  DONE in 115.9s | min_freq=-0.4536 THz, max_std=0.5633 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (8 entries)
+
+[9/25] HfO2 (Unstable) freq=-5.606 THz, 12 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/09_HfO2_Unstable_unique_26_iter1_sample169_HfO2_Fm3m_ener
+  DONE in 76.0s | min_freq=-5.6778 THz, max_std=1.8424 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (9 entries)
+
+[10/25] LiF (Unstable) freq=-5.503 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/10_LiF_Unstable_unique_7_iter1_sample64_LiFsimplecubic_e
+  DONE in 178.4s | min_freq=-0.0181 THz, max_std=0.6825 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (10 entries)
+
+[11/25] LiF (Unstable) freq=-5.043 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/11_LiF_Unstable_unique_6_iter1_sample16_LiFsimplecubic_e
+  DONE in 179.6s | min_freq=-0.6267 THz, max_std=1.1471 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (11 entries)
+
+[12/25] LiF (Unstable) freq=-4.658 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/12_LiF_Unstable_unique_14_iter5_sample66_LiFsimplecubic_
+  DONE in 127.3s | min_freq=-0.1935 THz, max_std=1.6267 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (12 entries)
+
+[13/25] LiF (Quasi) freq=-3.192 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/13_LiF_Quasi_unique_9_iter1_sample88_LiFsimplecubic_e
+  DONE in 182.9s | min_freq=-0.2335 THz, max_std=3.7382 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (13 entries)
+
+[14/25] LiF (Stable) freq=-0.535 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/14_LiF_Stable_unique_5_iter1_sample72_LiFsimplecubic_e
+  DONE in 179.0s | min_freq=-0.0123 THz, max_std=0.6821 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (14 entries)
+
+[15/25] LiF (Stable) freq=-0.248 THz, 16 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/15_LiF_Stable_unique_4_iter1_sample80_LiFsimplecubic_e
+  DONE in 177.3s | min_freq=-0.2785 THz, max_std=2.2071 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (15 entries)
+
+[16/25] HfO2 (Quasi) freq=-3.293 THz, 24 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/16_HfO2_Quasi_unique_80_iter1_sample61_HfO2_Fm3m_energ
+  DONE in 276.5s | min_freq=-0.5699 THz, max_std=0.9118 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (16 entries)
+
+[17/25] Bi2Sn2O7 (Stable) freq=20.299 THz, 44 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/17_Bi2Sn2O7_Stable_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+  DONE in 459.0s | min_freq=-3.4281 THz, max_std=0.5673 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (17 entries)
+
+[18/25] HfO2 (Quasi) freq=-3.058 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/18_HfO2_Quasi_unique_81_iter2_sample21_HfO2_Fm3m_energ
+  DONE in 730.0s | min_freq=-2.7544 THz, max_std=1.4405 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (18 entries)
+
+[19/25] HfO2 (Stable) freq=-0.474 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/19_HfO2_Stable_unique_69_iter2_sample85_HfO2_Fm3m_energ
+  DONE in 735.5s | min_freq=-0.5131 THz, max_std=0.711 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (19 entries)
+
+[20/25] HfO2 (Stable) freq=-0.369 THz, 48 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/20_HfO2_Stable_unique_78_iter1_sample94_HfO2_Fm3m_energ
+[2026-08-27T00:33:04.930] error: *** JOB 15346437 ON cna049 CANCELLED AT 2026-08-27T00:33:04 DUE to SIGNAL Terminated ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 7.1GiB
+Total CPU Time                           - CPU_Time         : 10:22:56
+Execution Time                           - Wall_Time        : 01:17:52
+total programme cpu time                 - Total_CPU        : 03:02:15
+Total_CPU / CPU_Time  (%)                - ETA              : 29%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 1-17:31:44
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

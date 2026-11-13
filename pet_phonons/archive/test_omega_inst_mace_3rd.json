@@ -1,0 +1,54 @@
+[
+  {
+    "omega_inst": 1.917984717371404,
+    "omega_min": -5.667800489944504,
+    "soft_frac": 0.25,
+    "n_modes": 384,
+    "n_imag": 96,
+    "n_excluded": 0,
+    "engine": "mace",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic.cif",
+    "natoms": 2,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "compound": "LiF_simple_cubic",
+    "category": "benchmark_unstable",
+    "idx": 0
+  },
+  {
+    "omega_inst": 0.0,
+    "omega_min": 1.3482895428968287,
+    "soft_frac": 0.0,
+    "n_modes": 768,
+    "n_imag": 0,
+    "n_excluded": 0,
+    "engine": "mace",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/quaternary_abandoned_all/TiMnInFe_agm001294796_SG216_E0.1824.cif",
+    "natoms": 4,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "compound": "TiMnInFe",
+    "category": "quaternary_abandoned",
+    "idx": 1
+  }
+]

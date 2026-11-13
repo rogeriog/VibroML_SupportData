@@ -1,0 +1,83 @@
+[
+  {
+    "i_curv": 142.1242229868515,
+    "omega_inst": 11.921586429114688,
+    "omega_min": -18.27729086416923,
+    "soft_frac": 0.808641975308642,
+    "n_modes": 1296,
+    "n_imag": 1048,
+    "n_excluded": 0,
+    "engine": "pet",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic.cif",
+    "natoms": 2,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "compound": "LiF_simple_cubic",
+    "category": "benchmark_unstable",
+    "idx": 0
+  },
+  {
+    "i_curv": 0.0,
+    "omega_inst": 0.0,
+    "omega_min": 0.0,
+    "soft_frac": 0.0,
+    "n_modes": 2592,
+    "n_imag": 0,
+    "n_excluded": 0,
+    "engine": "pet",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/candidates_lowcoverage_cif/quaternary_abandoned_all/TiMnInFe_agm001294796_SG216_E0.1824.cif",
+    "natoms": 4,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "compound": "TiMnInFe",
+    "category": "quaternary_abandoned",
+    "idx": 1
+  },
+  {
+    "i_curv": 0.3605843033949161,
+    "omega_inst": 0.6004867220804437,
+    "omega_min": -4.859382457949494,
+    "soft_frac": 0.05478395061728395,
+    "n_modes": 2592,
+    "n_imag": 142,
+    "n_excluded": 0,
+    "engine": "pet",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_MACE_OPT_RANDOM_phonon_output_20251229-142329/final_structures/top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_conventional_freqm16p2287THz.cif",
+    "natoms": 4,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "compound": "LiF_stable_polymorph",
+    "category": "benchmark_stable",
+    "idx": 2
+  }
+]

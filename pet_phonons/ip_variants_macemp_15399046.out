@@ -1,0 +1,104 @@
+Engine: macemp
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_macemp.json
+Freqs dir: ip_variants_freqs_macemp
+Resuming: 21 completed, 23 remaining
+
+Loading calculator: engine=macemp, model=medium
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head Default out of ['Default']
+MACE calculator initialized.
+Calculator loaded: MACECalculator
+
+[7/44] idx=7: LiF (literature_stable)
+  omega_min=-1.3416, I_p_1=0.001389, Omega_p_1=0.037268, I_p_2=0.049999, soft_frac=0.0008, time=4.4s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  omega_min=-0.5301, I_p_1=0.005138, Omega_p_1=0.071683, I_p_2=0.029504, soft_frac=0.0469, time=1.2s
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  omega_min=-0.3341, I_p_1=0.000331, Omega_p_1=0.018204, I_p_2=0.004509, soft_frac=0.0086, time=2.0s
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  omega_min=-0.2980, I_p_1=0.000234, Omega_p_1=0.015309, I_p_2=0.003184, soft_frac=0.0085, time=2.9s
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  omega_min=-0.4006, I_p_1=0.002468, Omega_p_1=0.049675, I_p_2=0.015305, soft_frac=0.0340, time=2.8s
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  omega_min=-0.3505, I_p_1=0.000390, Omega_p_1=0.019752, I_p_2=0.004704, soft_frac=0.0119, time=2.8s
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  omega_min=-0.6734, I_p_1=0.005501, Omega_p_1=0.074166, I_p_2=0.037147, soft_frac=0.0361, time=2.8s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  omega_min=-0.5313, I_p_1=0.000792, Omega_p_1=0.028137, I_p_2=0.010637, soft_frac=0.0100, time=9.2s
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  omega_min=-0.4387, I_p_1=0.000787, Omega_p_1=0.028046, I_p_2=0.008551, soft_frac=0.0136, time=2.9s
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  omega_min=-0.8563, I_p_1=0.006759, Omega_p_1=0.082214, I_p_2=0.051165, soft_frac=0.0318, time=1.4s
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  omega_min=-0.3923, I_p_1=0.000451, Omega_p_1=0.021238, I_p_2=0.006036, soft_frac=0.0096, time=2.9s
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  omega_min=-3.7714, I_p_1=0.087990, Omega_p_1=0.296631, I_p_2=0.687255, soft_frac=0.0303, time=2.5s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  omega_min=-2.8421, I_p_1=0.031904, Omega_p_1=0.178617, I_p_2=0.370552, soft_frac=0.0123, time=2.2s
+
+[28/44] idx=28: HfO2 (literature_stable)
+  omega_min=-2.8696, I_p_1=0.060947, Omega_p_1=0.246875, I_p_2=0.514782, soft_frac=0.0217, time=7.9s
+
+[29/44] idx=29: HfO2 (literature_stable)
+  omega_min=-2.6931, I_p_1=0.042831, Omega_p_1=0.206956, I_p_2=0.394328, soft_frac=0.0198, time=2.4s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-2.5063, I_p_1=0.222585, Omega_p_1=0.471789, I_p_2=0.930203, soft_frac=0.0985, time=16.8s
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  omega_min=-2.4662, I_p_1=0.047162, Omega_p_1=0.217169, I_p_2=0.362387, soft_frac=0.0281, time=20.6s
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  omega_min=-2.1374, I_p_1=0.038120, Omega_p_1=0.195244, I_p_2=0.292490, soft_frac=0.0282, time=19.7s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0022, I_p_1=0.000000, Omega_p_1=0.000119, I_p_2=0.000000, soft_frac=0.0038, time=51.1s
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0018, I_p_1=0.000000, Omega_p_1=0.000072, I_p_2=0.000000, soft_frac=0.0028, time=183.4s
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-0.0026, I_p_1=0.000000, Omega_p_1=0.000146, I_p_2=0.000000, soft_frac=0.0038, time=48.5s
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  omega_min=-2.1503, I_p_1=0.044532, Omega_p_1=0.211027, I_p_2=0.328610, soft_frac=0.0285, time=19.7s
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  omega_min=-2.4662, I_p_1=0.047162, Omega_p_1=0.217169, I_p_2=0.362387, soft_frac=0.0281, time=20.4s
+
+============================================================
+Completed: 44/44
+Results: ip_variants_macemp.json
+Raw freqs: ip_variants_freqs_macemp/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.8GiB
+Total CPU Time                           - CPU_Time         : 01:07:20
+Execution Time                           - Wall_Time        : 00:08:25
+total programme cpu time                 - Total_CPU        : 14:31.769
+Total_CPU / CPU_Time  (%)                - ETA              : 21%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 04:29:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

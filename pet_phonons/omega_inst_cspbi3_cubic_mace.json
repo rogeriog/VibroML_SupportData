@@ -1,0 +1,35 @@
+[
+  {
+    "i_curv": 0.043210064713886866,
+    "omega_inst": 0.20787030743684118,
+    "omega_min": -0.736059891434937,
+    "soft_frac": 0.20480668756530826,
+    "n_modes": 7656,
+    "n_imag": 1568,
+    "n_excluded": 24,
+    "engine": "mace",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed.cif",
+    "natoms": 5,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "delta": 0.05,
+    "relaxed": true,
+    "symmetry_constrained": true,
+    "space_group_no": 221,
+    "space_group_sym": "Pm-3m (221)",
+    "space_group_no_relaxed": 221,
+    "space_group_sym_relaxed": "Pm-3m (221)",
+    "time_s": 4.661897420883179,
+    "compound": "CsPbI3",
+    "category": "benchmark",
+    "idx": 0
+  }
+]

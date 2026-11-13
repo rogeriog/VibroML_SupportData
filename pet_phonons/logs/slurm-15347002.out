@@ -1,0 +1,104 @@
+=== UQ Validation Batch ===
+Date: Thu Aug 27 01:32:01 CEST 2026
+Node: cna049
+Job ID: 15347002
+CPUs: 8, GPUs: 1
+
+
+[1/105] LiF (benchmark) ω=-6.070 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/001_LiF_benc_LiFsimplecubic
+  FAILED (exit 1) in 19.7s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787128.984053 3021318 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787128.989359 3021318 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787129.494279 3021318 computation_placer.cc:
+
+[2/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/002_LiF_benc_top_4_iter2_sample10_LiFsimplecubic_ener
+  FAILED (exit 1) in 7.8s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787143.203670 3021406 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787143.207493 3021406 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787143.217772 3021406 computation_placer.cc:
+
+[3/105] LiF (benchmark) ω=-0.910 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/003_LiF_benc_unique_13_iter1_sample58_LiFsimplecubic_
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787150.835880 3021430 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787150.839736 3021430 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787150.850007 3021430 computation_placer.cc:
+
+[4/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/004_LiF_benc_top_4_iter4_sample88_LiFsimplecubic_ener
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787157.844796 3021455 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787157.848392 3021455 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787157.858665 3021455 computation_placer.cc:
+
+[5/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/005_LiF_benc_top_2_iter2_sample2_LiFsimplecubic_energ
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787164.888170 3021478 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787164.892198 3021478 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787164.902514 3021478 computation_placer.cc:
+
+[6/105] LiF (benchmark) ω=-8.730 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/006_LiF_benc_unique_1_iter1_sample12_LiFsimplecubic_e
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787171.883791 3021503 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787171.887716 3021503 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787171.898043 3021503 computation_placer.cc:
+
+[7/105] LiF (benchmark) ω=-0.000 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/007_LiF_benc_top_1_iter2_sample4_LiFsimplecubic_energ
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787178.905681 3021538 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787178.909987 3021538 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787178.920508 3021538 computation_placer.cc:
+
+[8/105] LiF (benchmark) ω=-0.411 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/008_LiF_benc_top_1_iter4_sample40_LiFsimplecubic_ener
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787185.905663 3021610 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787185.909794 3021610 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787185.920104 3021610 computation_placer.cc:
+
+[9/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/009_LiF_benc_unique_9_iter2_sample67_LiFsimplecubic_e
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787192.940161 3021646 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787192.944088 3021646 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787192.954334 3021646 computation_placer.cc:
+
+[10/105] LiF (benchmark) ω=-0.023 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/010_LiF_benc_top_5_iterfinal_sample5_LiFsimplecubic_e
+  FAILED (exit 1) in 7.0s
+  stderr: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1787787199.913871 3021664 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1787787199.917827 3021664 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1787787199.928192 3021664 computation_placer.cc:
+
+[11/105] LiF (benchmark) ω=-16.229 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/011_LiF_benc_top_1_iterfinal_sample1_LiFsimplecubic_e
+[2026-08-27T01:33:28.108] error: *** JOB 15347002 ON cna049 CANCELLED AT 2026-08-27T01:33:28 DUE to SIGNAL Terminated ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 1018MiB
+Total CPU Time                           - CPU_Time         : 00:12:00
+Execution Time                           - Wall_Time        : 00:01:30
+total programme cpu time                 - Total_CPU        : 01:25.464
+Total_CPU / CPU_Time  (%)                - ETA              : 11%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:48:00
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

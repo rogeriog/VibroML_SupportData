@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Three-tier classification results for the ground-truth benchmark. ``Exact'' = correctly classified as Stable or Unstable. ``Quasi'' = landed in the Quasi-Stable buffer zone. ``Dangerous'' = stable$\to$unstable or unstable$\to$stable. Four of five engines produce zero dangerous errors; MACE-MP yields one false-unstable on a Bi$_2$Sn$_2$O$_7$ structure ($\omega_\mathrm{min}=-74$~THz, a model-specific artifact not reproduced by any other engine).}
+\label{tab:si_three_tier}
+\begin{tabular}{lcccc}
+\toprule
+Engine & $N$ & Exact & Quasi & Dangerous \\
+\midrule
+mace & 24 & 11 & 13 & 0 \\
+pet & 24 & 11 & 13 & 0 \\
+macemp & 24 & 16 & 7 & 1 \\
+esen & 24 & 15 & 9 & 0 \\
+uma & 24 & 14 & 10 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

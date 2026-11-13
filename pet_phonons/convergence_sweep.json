@@ -1,0 +1,326 @@
+[
+  {
+    "compound": "LiF",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "q_mesh_size": 4,
+    "natoms": 2,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 1.6054651737213135,
+    "soft_frac": 0.25,
+    "I_curv": 3.678665376070485,
+    "omega_min": -5.667800489944598,
+    "n_modes_total": 384,
+    "n_modes_used": 384,
+    "n_neg": 96
+  },
+  {
+    "compound": "LiF",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "q_mesh_size": 6,
+    "natoms": 2,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 0.3241615295410156,
+    "soft_frac": 0.2916666666666667,
+    "I_curv": 4.821245903805269,
+    "omega_min": -6.528682295516928,
+    "n_modes_total": 1296,
+    "n_modes_used": 1296,
+    "n_neg": 378
+  },
+  {
+    "compound": "LiF",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "q_mesh_size": 8,
+    "natoms": 2,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 0.3342418670654297,
+    "soft_frac": 0.248046875,
+    "I_curv": 4.739453370377626,
+    "omega_min": -6.32118292687651,
+    "n_modes_total": 3072,
+    "n_modes_used": 3072,
+    "n_neg": 762
+  },
+  {
+    "compound": "CsPbI3",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "q_mesh_size": 4,
+    "natoms": 5,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 1.2472913265228271,
+    "soft_frac": 0.20208333333333334,
+    "I_curv": 0.04318061069838574,
+    "omega_min": -0.7301167611129808,
+    "n_modes_total": 960,
+    "n_modes_used": 960,
+    "n_neg": 194
+  },
+  {
+    "compound": "CsPbI3",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "q_mesh_size": 6,
+    "natoms": 5,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 0.749567985534668,
+    "soft_frac": 0.20246913580246914,
+    "I_curv": 0.04309435072703475,
+    "omega_min": -0.7335059178225246,
+    "n_modes_total": 3240,
+    "n_modes_used": 3240,
+    "n_neg": 656
+  },
+  {
+    "compound": "CsPbI3",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "q_mesh_size": 8,
+    "natoms": 5,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 0.7733139991760254,
+    "soft_frac": 0.20442708333333334,
+    "I_curv": 0.04307563297987147,
+    "omega_min": -0.7360598914349047,
+    "n_modes_total": 7680,
+    "n_modes_used": 7680,
+    "n_neg": 1570
+  },
+  {
+    "compound": "HfO2",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/initial_relaxation_for_single_run/HfO2_Fm3m_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "q_mesh_size": 4,
+    "natoms": 12,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 3.2802274227142334,
+    "soft_frac": 0.04861111111111111,
+    "I_curv": 0.22455673769603576,
+    "omega_min": -5.053031064371509,
+    "n_modes_total": 2304,
+    "n_modes_used": 2304,
+    "n_neg": 112
+  },
+  {
+    "compound": "HfO2",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/initial_relaxation_for_single_run/HfO2_Fm3m_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "q_mesh_size": 6,
+    "natoms": 12,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 2.5959177017211914,
+    "soft_frac": 0.044753086419753084,
+    "I_curv": 0.2321990181021735,
+    "omega_min": -4.878381628851846,
+    "n_modes_total": 7776,
+    "n_modes_used": 7776,
+    "n_neg": 348
+  },
+  {
+    "compound": "HfO2",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/initial_relaxation_for_single_run/HfO2_Fm3m_relaxed_symrelaxed.cif",
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "q_mesh_size": 8,
+    "natoms": 12,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 2.634549140930176,
+    "soft_frac": 0.045355902777777776,
+    "I_curv": 0.23345722200083247,
+    "omega_min": -4.965940858908201,
+    "n_modes_total": 18432,
+    "n_modes_used": 18432,
+    "n_neg": 836
+  },
+  {
+    "compound": "Bi2Sn2O7",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/initial_relaxation_for_single_run/Sn2Bi2O7_relaxed_symrelaxed.cif",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "q_mesh": [
+      4,
+      4,
+      4
+    ],
+    "q_mesh_size": 4,
+    "natoms": 88,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 16.872707843780518,
+    "soft_frac": 0.06818181818181818,
+    "I_curv": 0.10024088111979025,
+    "omega_min": -1.9855695835424734,
+    "n_modes_total": 16896,
+    "n_modes_used": 16896,
+    "n_neg": 1152
+  },
+  {
+    "compound": "Bi2Sn2O7",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/initial_relaxation_for_single_run/Sn2Bi2O7_relaxed_symrelaxed.cif",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "q_mesh_size": 6,
+    "natoms": 88,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 17.6839702129364,
+    "soft_frac": 0.07196969696969698,
+    "I_curv": 0.1002408811197856,
+    "omega_min": -1.9855695835424265,
+    "n_modes_total": 57024,
+    "n_modes_used": 57024,
+    "n_neg": 4104
+  },
+  {
+    "compound": "Bi2Sn2O7",
+    "stability_label": "high_sym_unstable",
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/initial_relaxation_for_single_run/Sn2Bi2O7_relaxed_symrelaxed.cif",
+    "supercell": [
+      1,
+      1,
+      1
+    ],
+    "q_mesh": [
+      8,
+      8,
+      8
+    ],
+    "q_mesh_size": 8,
+    "natoms": 88,
+    "engine": "mace",
+    "model_name": "medium-omat-0",
+    "delta": 0.05,
+    "time_s": 19.47206139564514,
+    "soft_frac": 0.07196969696969698,
+    "I_curv": 0.10024088111980498,
+    "omega_min": -1.985569583542489,
+    "n_modes_total": 135168,
+    "n_modes_used": 135168,
+    "n_neg": 9728
+  }
+]

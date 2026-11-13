@@ -1,0 +1,47 @@
+Engine: uma
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_uma.json
+Freqs dir: ip_variants_freqs_uma
+Resuming: 39 completed, 5 remaining
+
+Loading calculator: engine=uma, model=default
+Initializing UMA calculator...
+Initializing UMA calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/uma-m-1p1.pt...
+UMA using device: cuda
+UMA calculator initialized.
+Calculator loaded: FAIRChemCalculator
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  omega_min=-0.7675, I_p_1=0.005282, Omega_p_1=0.072677, I_p_2=0.036854, soft_frac=0.0352, time=23.4s
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  omega_min=-0.4465, I_p_1=0.001516, Omega_p_1=0.038933, I_p_2=0.011952, soft_frac=0.0231, time=22.3s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  omega_min=-0.6616, I_p_1=0.002398, Omega_p_1=0.048968, I_p_2=0.021361, soft_frac=0.0196, time=76.8s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000062, I_p_2=0.000000, soft_frac=0.0057, time=600.0s
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0011, I_p_1=0.000000, Omega_p_1=0.000047, I_p_2=0.000000, soft_frac=0.0019, time=2268.7s
+
+============================================================
+Completed: 44/44
+Results: ip_variants_uma.json
+Raw freqs: ip_variants_freqs_uma/
+
+Resources Used
+
+Total Memory used                        - MEM              : 22GiB
+Total CPU Time                           - CPU_Time         : 06:47:20
+Execution Time                           - Wall_Time        : 00:50:55
+total programme cpu time                 - Total_CPU        : 01:37:08
+Total_CPU / CPU_Time  (%)                - ETA              : 23%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 1-03:09:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

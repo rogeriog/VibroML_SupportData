@@ -1,0 +1,46 @@
+============================================
+CsPbI3 cubic Pm-3m — PET-MAD UQ + I_curv
+Job ID: 15390073
+Date: Sat Aug 29 22:35:43 CEST 2026
+============================================
+Processing CsPbI3 cubic Pm-3m (idx=106)
+  filepath: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed.cif
+  natoms: 5
+  supercell: 2
+  MACE I_curv: 0.0432 THz²
+
+Loading PET-MAD calculator...
+
+[106/1] CsPbI3 (benchmark) ω=-0.768 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/106_CsPbI3_benc_CsPbI3_relaxed
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 62.6s | min_freq=-2.801 THz, I_curv=0.11637745044491413 THz², max_std=0.9866 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (142 entries)
+
+Result appended to /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv
+
+Key metrics:
+  MACE I_curv:     0.043210064713886866 THz²
+  PET I_curv:      0.11637745044491413 THz²
+  PET omega_min:   -2.801 THz
+  PET std_at_min:  0.2006 THz
+  PET max_std:     0.9866 THz
+
+All done: Sat Aug 29 22:37:04 CEST 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 4.7GiB
+Total CPU Time                           - CPU_Time         : 00:11:04
+Execution Time                           - Wall_Time        : 00:01:23
+total programme cpu time                 - Total_CPU        : 01:03.598
+Total_CPU / CPU_Time  (%)                - ETA              : 9%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:44:16
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -1,0 +1,33 @@
+=== VibroML PET-MAD UQ Validation Batch ===
+Job ID: 15336559  |  Node: cna049
+NVIDIA A100-SXM4-40GB, 40960 MiB
+Wed Aug 26 17:33:43 CEST 2026
+
+[1/28] Bi2Sn2O7 (Quasi) freq=-1.993 THz, 176 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/01_Bi2Sn2O7_Quasi_top_1_iter3_sample21_Sn2Bi2O7_energy_m6p
+  TIMEOUT after 3600.4s
+
+[2/28] Bi2Sn2O7 (Quasi) freq=-1.975 THz, 176 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/02_Bi2Sn2O7_Quasi_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p
+  FAILED (exit 1) in 3427.6s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[3/28] Bi2Sn2O7 (Stable) freq=20.299 THz, 44 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/03_Bi2Sn2O7_Stable_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+[2026-08-26T19:33:50.005] error: *** JOB 15336559 ON cna049 CANCELLED AT 2026-08-26T19:33:50 DUE TO TIME LIMIT ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 15GiB
+Total CPU Time                           - CPU_Time         : 16:02:08
+Execution Time                           - Wall_Time        : 02:00:16
+total programme cpu time                 - Total_CPU        : 12:42:11
+Total_CPU / CPU_Time  (%)                - ETA              : 79%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 2-16:08:32
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

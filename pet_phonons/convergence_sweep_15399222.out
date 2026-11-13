@@ -1,0 +1,91 @@
+============================================
+Convergence sweep (MACE-OMAT)
+Job ID: 15399222
+Date:   Sun Aug 30 13:21:28 CEST 2026
+Node:   cna048
+GPUs:   1  CPUs: 8
+============================================
+======================================================================
+Convergence sweep: phonon stability metrics vs q-mesh size
+======================================================================
+Engine:      mace
+Model:       medium-omat-0
+Device:      cuda
+Structures:  4 (['LiF', 'CsPbI3', 'HfO2', 'Bi2Sn2O7'])
+Q-meshes:    [4, 6, 8]
+Output JSON: convergence_sweep.json
+Output CSV:  convergence_sweep.csv
+Figure dir:  figures_5eng
+Symrelaxed:  True
+======================================================================
+
+Loading calculator: engine=mace, model=medium-omat-0
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+MACE calculator initialized.
+Calculator loaded: MACECalculator
+
+--- LiF (high_sym_unstable) ---
+  CIF: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic_symrelaxed.cif
+  Supercell: (2, 2, 2)
+  Natoms (primitive): 2
+  q-mesh (4, 4, 4) ... soft_frac=0.2500 I_curv=3.678665 omega_min=-5.6678 (1.6s)
+  q-mesh (6, 6, 6) ... soft_frac=0.2917 I_curv=4.821246 omega_min=-6.5287 (0.3s)
+  q-mesh (8, 8, 8) ... soft_frac=0.2480 I_curv=4.739453 omega_min=-6.3212 (0.3s)
+
+--- CsPbI3 (high_sym_unstable) ---
+  CIF: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/CsPbI3/CsPbI3_GA5it_phonon_output_20251003-002011/N3x3x3_D0.03_F0.0005/CsPbI3_relaxed_symrelaxed.cif
+  Supercell: (2, 2, 2)
+  Natoms (primitive): 5
+  q-mesh (4, 4, 4) ... soft_frac=0.2021 I_curv=0.043181 omega_min=-0.7301 (1.2s)
+  q-mesh (6, 6, 6) ... soft_frac=0.2025 I_curv=0.043094 omega_min=-0.7335 (0.7s)
+  q-mesh (8, 8, 8) ... soft_frac=0.2044 I_curv=0.043076 omega_min=-0.7361 (0.8s)
+
+--- HfO2 (high_sym_unstable) ---
+  CIF: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/HfO2/HfO2_Fm3m_GA_phonon_output_20250826-161333/initial_relaxation_for_single_run/HfO2_Fm3m_relaxed_symrelaxed.cif
+  Supercell: (2, 2, 2)
+  Natoms (primitive): 12
+  q-mesh (4, 4, 4) ... soft_frac=0.0486 I_curv=0.224557 omega_min=-5.0530 (3.3s)
+  q-mesh (6, 6, 6) ... soft_frac=0.0448 I_curv=0.232199 omega_min=-4.8784 (2.6s)
+  q-mesh (8, 8, 8) ... soft_frac=0.0454 I_curv=0.233457 omega_min=-4.9659 (2.6s)
+
+--- Bi2Sn2O7 (high_sym_unstable) ---
+  CIF: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/initial_relaxation_for_single_run/Sn2Bi2O7_relaxed_symrelaxed.cif
+  Supercell: (1, 1, 1)
+  Natoms (primitive): 88
+  q-mesh (4, 4, 4) ... soft_frac=0.0682 I_curv=0.100241 omega_min=-1.9856 (16.9s)
+  q-mesh (6, 6, 6) ... soft_frac=0.0720 I_curv=0.100241 omega_min=-1.9856 (17.7s)
+  q-mesh (8, 8, 8) ... soft_frac=0.0720 I_curv=0.100241 omega_min=-1.9856 (19.5s)
+
+CSV written: convergence_sweep.csv
+Convergence figure saved: figures_5eng/convergence_sweep.pdf
+Convergence figure saved: figures_5eng/convergence_sweep.png
+
+======================================================================
+Convergence sweep complete
+  Records: 12
+  JSON:    convergence_sweep.json
+  CSV:     convergence_sweep.csv
+======================================================================
+
+All done: Sun Aug 30 13:22:46 CEST 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.3GiB
+Total CPU Time                           - CPU_Time         : 00:14:40
+Execution Time                           - Wall_Time        : 00:01:50
+total programme cpu time                 - Total_CPU        : 02:26.071
+Total_CPU / CPU_Time  (%)                - ETA              : 16%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:58:40
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

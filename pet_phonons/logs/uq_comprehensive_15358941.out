@@ -1,0 +1,421 @@
+============================================
+Comprehensive UQ validation run
+Job ID: 15358941
+Date: Thu Aug 27 17:14:55 CEST 2026
+============================================
+
+Loading PET-MAD calculator...
+
+[1/105] LiF (benchmark) ω=-6.070 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/001_LiF_benc_LiFsimplecubic
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[2/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/002_LiF_benc_top_4_iter2_sample10_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000994 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[3/105] LiF (benchmark) ω=-0.910 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/003_LiF_benc_unique_13_iter1_sample58_LiFsimplecubic_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[4/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/004_LiF_benc_top_4_iter4_sample88_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000640 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[5/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/005_LiF_benc_top_2_iter2_sample2_LiFsimplecubic_energ
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000725 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[6/105] LiF (benchmark) ω=-8.730 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/006_LiF_benc_unique_1_iter1_sample12_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000893 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[7/105] LiF (benchmark) ω=-0.000 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/007_LiF_benc_top_1_iter2_sample4_LiFsimplecubic_energ
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[8/105] LiF (benchmark) ω=-0.411 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/008_LiF_benc_top_1_iter4_sample40_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000307 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[9/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/009_LiF_benc_unique_9_iter2_sample67_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000748 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[10/105] LiF (benchmark) ω=-0.023 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/010_LiF_benc_top_5_iterfinal_sample5_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000368 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[11/105] LiF (benchmark) ω=-16.229 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/011_LiF_benc_top_1_iterfinal_sample1_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000307 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[12/105] CsPbI3 (benchmark) ω=-0.704 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/012_CsPbI3_benc_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000637 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[13/105] CsPbI3 (benchmark) ω=-0.820 THz, 13 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/013_CsPbI3_benc_unique_16_iter1_sample18_CsPbI3_energy_m
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000903 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[14/105] CsPbI3 (benchmark) ω=-0.160 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/014_CsPbI3_benc_top_1_iter2_sample12_CsPbI3_energy_m2p81
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000471 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[15/105] CsPbI3 (benchmark) ω=-0.213 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/015_CsPbI3_benc_unique_1_iter2_sample98_CsPbI3_energy_m2
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000889 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[16/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/016_CsPbI3_benc_top_2_iter1_sample4_CsPbI3_energy_m2p825
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000848 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[17/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/017_CsPbI3_benc_top_1_iterfinal_sample1_CsPbI3_energy_m2
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000645 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[18/105] CsPbI3 (benchmark) ω=-0.135 THz, 43 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/018_CsPbI3_benc_top_4_iter5_sample56_CsPbI3_energy_m2p82
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000594 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[19/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/019_CsPbI3_benc_top_3_iter5_sample18_CsPbI3_energy_m2p82
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000844 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[20/105] CsPbI3 (benchmark) ω=-1.060 THz, 13 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/020_CsPbI3_benc_top_1_iter2_sample1_CsPbI3_energy_m2p831
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000910 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[21/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/021_CsPbI3_benc_top_1_iter5_sample1_CsPbI3_energy_m2p840
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000955 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[22/105] HfO2 (benchmark) ω=-4.270 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/022_HfO2_benc_HfO2_Fm3m_relaxed
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[23/105] HfO2 (benchmark) ω=-2.577 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/023_HfO2_benc_unique_6_iter4_sample68_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000494 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[24/105] HfO2 (benchmark) ω=-2.592 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/024_HfO2_benc_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000775 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[25/105] HfO2 (benchmark) ω=-0.658 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/025_HfO2_benc_unique_4_iter5_sample97_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000645 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[26/105] HfO2 (benchmark) ω=-0.001 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/026_HfO2_benc_unique_3_iter1_sample28_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000826 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[27/105] HfO2 (benchmark) ω=-0.000 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/027_HfO2_benc_unique_2_iter1_sample37_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000687 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[28/105] HfO2 (benchmark) ω=-0.001 THz, 27 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/028_HfO2_benc_unique_1_iter2_sample63_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000880 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[29/105] HfO2 (benchmark) ω=-1.362 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/029_HfO2_benc_top_5_iter3_sample6_HfO2_Fm3m_energy_m10
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000376 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[30/105] HfO2 (benchmark) ω=-2.000 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/030_HfO2_benc_top_4_iter3_sample76_HfO2_Fm3m_energy_m1
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000535 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[31/105] HfO2 (benchmark) ω=-1.245 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/031_HfO2_benc_top_3_iter3_sample36_HfO2_Fm3m_energy_m1
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000771 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[32/105] HfO2 (benchmark) ω=-2.390 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/032_HfO2_benc_top_2_iter1_sample43_HfO2_Fm3m_energy_m1
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000393 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[33/105] HfO2 (benchmark) ω=-0.001 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/033_HfO2_benc_top_5_iterfinal_sample5_HfO2_Fm3m_energy
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000788 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[34/105] Bi2Sn2O7 (benchmark) ω=-4.150 THz, 91 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/034_Bi2Sn2O7_benc_Sn2Bi2O7_relaxed
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000946 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[35/105] Bi2Sn2O7 (benchmark) ω=-3.098 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/035_Bi2Sn2O7_benc_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000715 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[36/105] Bi2Sn2O7 (benchmark) ω=-4.089 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/036_Bi2Sn2O7_benc_unique_9_sg_P2_1_energy_m6p004968_primit
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000708 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[37/105] Bi2Sn2O7 (benchmark) ω=-3.407 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/037_Bi2Sn2O7_benc_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000611 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[38/105] Bi2Sn2O7 (benchmark) ω=-4.089 THz, 355 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/038_Bi2Sn2O7_benc_unique_4_sg_P1_energy_m6p029892_primitiv
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.002296 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[39/105] Bi2Sn2O7 (benchmark) ω=-3.414 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/039_Bi2Sn2O7_benc_top_3_iter3_sample19_Sn2Bi2O7_energy_m6p
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000526 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[40/105] Bi2Sn2O7 (benchmark) ω=-2.742 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/040_Bi2Sn2O7_benc_top_2_iterfinal_sample2_Sn2Bi2O7_energy_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000677 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[41/105] Bi2Sn2O7 (benchmark) ω=-2.742 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/041_Bi2Sn2O7_benc_top_2_iterfinal_sample2_Sn2Bi2O7_energy_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000676 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[42/105] Bi2Sn2O7 (benchmark) ω=-3.098 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/042_Bi2Sn2O7_benc_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000715 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[43/105] Bi2Sn2O7 (benchmark) ω=-3.301 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/043_Bi2Sn2O7_benc_primitive_for_guidance_main_iter_2
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000721 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[44/105] Cs2K0.9Na0.1InI3Br3 (protocsp_final) ω=0.000 THz, 123 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/044_Cs2K0.9Na0.1InI3Br3_prot_Cs2K0.9Na0.1InI3Br3_manual_base_doping_d
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.023032 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  VIBROML FAILED (exit 1)
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python: Error while finding module specification for 'vibroml.main' (ModuleNotFoundError: No module named 'vibroml')
+
+
+[45/105] K0.6Ba0.4Ta0.6Zr0.4Se2.1O0.9 (protocsp_final) ω=0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/045_K0.6Ba0.4Ta0.6Zr0.4Se2.1O0.9_prot_K0.6Ba0.4Ta0.6Zr0.4Se2.1O0.9_manual_base
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.0GiB
+Total CPU Time                           - CPU_Time         : 00:10:16
+Execution Time                           - Wall_Time        : 00:01:17
+total programme cpu time                 - Total_CPU        : 00:01:16
+Total_CPU / CPU_Time  (%)                - ETA              : 12%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:41:04
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

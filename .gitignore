@@ -1,3 +1,5 @@
+MISSING_RUN_RECOVERY_REPORT.md
+
 # Ignore Molecular Dynamics trajectory files
 *.traj
 *.xyz
@@ -38,3 +40,6 @@ whitespace_data/vibroml_database.db
 whitespace_data/database/
 whitespace_data/vibroml_explorer_bundle.tar.gz
 vibroml_explorer_bundle.tar.gz
+# Internal backups
+*.bak.db
+cluster_operations_directive.md

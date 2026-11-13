@@ -1,0 +1,155 @@
+============================================
+Omega_inst test run
+Job ID: 15356801
+Date: Thu Aug 27 15:41:14 CEST 2026
+Structures: test_omega_inst_structures.json
+Q-mesh: 6 6 6
+============================================
+
+========== MACE-OMAT ==========
+Started: Thu Aug 27 15:41:14 CEST 2026
+Engine: mace
+Model: medium-omat-0
+Structures: 3
+Q-mesh: [6, 6, 6]
+Delta: 0.05
+Relax: True
+Output: test_omega_inst_mace.json
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  Loading MACE calculator (model=medium-omat-0, device=cuda)...
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+
+[1/3] LiF_simple_cubic (benchmark_unstable)
+
+  Loading: LiFsimplecubic.cif
+  Relaxing with mace...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=4.8212 THz^2, omega_inst=2.1957 THz, omega_min=-6.5287 THz, soft_frac=0.2917, n_imag=378/1296
+
+[2/3] TiMnInFe (quaternary_abandoned)
+
+  Loading: TiMnInFe_agm001294796_SG216_E0.1824.cif
+  Relaxing with mace...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=0.0000 THz^2, omega_inst=0.0000 THz, omega_min=0.9165 THz, soft_frac=0.0000, n_imag=0/2592
+
+[3/3] LiF_stable_polymorph (benchmark_stable)
+
+  Loading: top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_conventional_freqm16p2287THz.cif
+  Relaxing with mace...
+    Relaxed: fmax=0.000193 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=179.5930 THz^2, omega_inst=13.4012 THz, omega_min=-38.7283 THz, soft_frac=0.1698, n_imag=440/2592
+
+============================================================
+Completed: 3/3
+Results saved to: test_omega_inst_mace.json
+
+Summary:
+compound                  cat              I_curv(THz^2)  omega_inst(THz)  omega_min(THz)  soft_frac   n_imag
+LiF_simple_cubic          benchmark_unstable         4.8212           2.1957         -6.5287     0.2917      378
+TiMnInFe                  quaternary_abandoned         0.0000           0.0000          0.9165     0.0000        0
+LiF_stable_polymorph      benchmark_stable       179.5930          13.4012        -38.7283     0.1698      440
+MACE finished: Thu Aug 27 15:41:26 CEST 2026
+
+========== PET-MAD ==========
+Started: Thu Aug 27 15:41:26 CEST 2026
+Engine: pet
+Model: pet-mad-xs
+Structures: 3
+Q-mesh: [6, 6, 6]
+Delta: 0.05
+Relax: True
+Output: test_omega_inst_pet.json
+  Loading PET-MAD calculator (model=pet-mad-xs, device=cuda)...
+
+[1/3] LiF_simple_cubic (benchmark_unstable)
+
+  Loading: LiFsimplecubic.cif
+  Relaxing with pet...
+    Relaxed: fmax=0.000615 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=7.6081 THz^2, omega_inst=2.7583 THz, omega_min=-8.0494 THz, soft_frac=0.3935, n_imag=510/1296
+
+[2/3] TiMnInFe (quaternary_abandoned)
+
+  Loading: TiMnInFe_agm001294796_SG216_E0.1824.cif
+  Relaxing with pet...
+    Relaxed: fmax=0.000812 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=0.0000 THz^2, omega_inst=0.0000 THz, omega_min=1.4248 THz, soft_frac=0.0000, n_imag=0/2592
+
+[3/3] LiF_stable_polymorph (benchmark_stable)
+
+  Loading: top_1_iterfinal_sample1_LiFsimplecubic_energy_m18p5661_conventional_freqm16p2287THz.cif
+  Relaxing with pet...
+    Relaxed: fmax=0.000656 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+  RESULT: I_curv=0.3581 THz^2, omega_inst=0.5985 THz, omega_min=-4.8502 THz, soft_frac=0.0548, n_imag=142/2592
+
+============================================================
+Completed: 3/3
+Results saved to: test_omega_inst_pet.json
+
+Summary:
+compound                  cat              I_curv(THz^2)  omega_inst(THz)  omega_min(THz)  soft_frac   n_imag
+LiF_simple_cubic          benchmark_unstable         7.6081           2.7583         -8.0494     0.3935      510
+TiMnInFe                  quaternary_abandoned         0.0000           0.0000          1.4248     0.0000        0
+LiF_stable_polymorph      benchmark_stable         0.3581           0.5985         -4.8502     0.0548      142
+PET-MAD finished: Thu Aug 27 15:41:50 CEST 2026
+
+============================================
+SUMMARY
+============================================
+
+--- MACE-OMAT ---
+compound                   I_curv(THz^2)  omega_min(THz)  soft_frac   n_imag
+LiF_simple_cubic                  4.8212         -6.5287     0.2917      378
+TiMnInFe                          0.0000          0.9165     0.0000        0
+LiF_stable_polymorph            179.5930        -38.7283     0.1698      440
+
+--- PET-MAD ---
+compound                   I_curv(THz^2)  omega_min(THz)  soft_frac   n_imag
+LiF_simple_cubic                  7.6081         -8.0494     0.3935      510
+TiMnInFe                          0.0000          1.4248     0.0000        0
+LiF_stable_polymorph              0.3581         -4.8502     0.0548      142
+
+All done: Thu Aug 27 15:41:51 CEST 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.0GiB
+Total CPU Time                           - CPU_Time         : 00:05:12
+Execution Time                           - Wall_Time        : 00:00:39
+total programme cpu time                 - Total_CPU        : 00:31.531
+Total_CPU / CPU_Time  (%)                - ETA              : 9%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:20:48
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

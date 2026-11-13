@@ -1,0 +1,60 @@
+============================================
+PET-MAD UQ test (1 structure: LiF simple cubic)
+Job ID: 15358480
+Date: Thu Aug 27 16:54:23 CEST 2026
+============================================
+Engine: pet
+Model: pet-mad-xs
+Structures: 1
+Q-mesh: [6, 6, 6]
+Delta: 0.05
+Relax: True
+Symmetry constrained: True
+Phonon UQ: True
+Output: test_uq_single.json.json
+CSV output: test_uq_single.csv
+  Loading PET-MAD calculator (model=pet-mad-xs, device=cuda)...
+
+[1/1] LiF_simple_cubic (benchmark_unstable)
+
+  Loading: LiFsimplecubic.cif
+  Relaxing with pet...
+    Symmetry-constrained relaxation (symprec=0.01)...
+    Relaxed: fmax=0.000000 eV/A
+  Computing PET-MAD ensemble UQ phonons...
+    Reusing cached TorchScript model: /gpfs/home/acad/ucl-modl/rgouvea/.cache/vibroml_pet_models/pet_mad_xs.pt
+    Setting up PhononEnsemble (supercell=(2, 2, 2), delta=0.05)...
+    Running i-PI ensemble forces (workdir=/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/_uqphonon_omega_inst)...
+    Computing ensemble phonon bands on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric from ensemble mean...
+  UQ: max_std=4.8470, std_at_min=1.4225, min_minus_3std=-22.3352 (n_ens=128)
+  RESULT: I_curv=142.1982 THz^2, omega_min=-18.0677 THz, soft_frac=0.8025, n_imag=1040/1296, time=18.2s
+
+============================================================
+Completed: 1/1
+Results saved to: test_uq_single.json.json
+CSV saved to: test_uq_single.csv
+
+Summary:
+compound                  cat                 I_curv     wmin   soft%    time
+LiF_simple_cubic          benchmark_unstable   142.1982 -18.0677    80.2    18.2s
+
+Done: Thu Aug 27 16:54:56 CEST 2026
+
+=== CSV contents ===
+idx,category,compound,space_group_no,space_group_sym,space_group_no_relaxed,space_group_sym_relaxed,natoms,supercell,q_mesh,delta,engine,relaxed,symmetry_constrained,i_curv,omega_inst,omega_min,soft_frac,n_modes,n_imag,n_excluded,max_std,std_at_min,min_minus_3std,n_ensemble,time_s,cif_path
+0,benchmark_unstable,LiF_simple_cubic,-1,unknown,-1,unknown,2,2x2x2,6x6x6,0.05,pet,True,True,142.19824938026775,11.924690745686773,-18.067731938178568,0.8024691358024691,1296,1040,0,4.847015653885345,1.4224974791762974,-22.33522437570746,128,18.168047666549683,/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/LiF_simple_cubic/LiFsimplecubic.cif
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.1GiB
+Total CPU Time                           - CPU_Time         : 00:05:04
+Execution Time                           - Wall_Time        : 00:00:38
+total programme cpu time                 - Total_CPU        : 00:28.159
+Total_CPU / CPU_Time  (%)                - ETA              : 9%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:20:16
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

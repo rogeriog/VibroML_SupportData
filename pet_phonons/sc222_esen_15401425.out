@@ -1,0 +1,37 @@
+Restricted to idx [34, 39]: 2 structure(s) selected
+Engine: esen
+Structures: 2 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_esen_sc222.json
+Freqs dir: ip_variants_freqs_esen_sc222
+
+Loading calculator: engine=esen, model=default
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+ESEN calculator initialized.
+Calculator loaded: OCPCalculator
+
+[1/2] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-4.6257, I_p_1=0.352493, Omega_p_1=0.593711, I_p_2=1.616734, soft_frac=0.0808, time=655.7s
+
+[2/2] idx=39: Bi2Sn2O7 (literature_stable)
+  FAILED: CUDA out of memory. Tried to allocate 510.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 412.75 MiB is free. Including non-PyTorch memory, this process has 78.84 GiB memory in use. Of the allocated memory 78.07 GiB is allocated by PyTorch, and 241.26 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+============================================================
+Completed: 1/2
+Results: ip_variants_esen_sc222.json
+Raw freqs: ip_variants_freqs_esen_sc222/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.5GiB
+Total CPU Time                           - CPU_Time         : 01:37:28
+Execution Time                           - Wall_Time        : 00:12:11
+total programme cpu time                 - Total_CPU        : 18:07.332
+Total_CPU / CPU_Time  (%)                - ETA              : 18%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 64
+Mobilized Resources x Execution Time     - R_Wall_Time      : 12:59:44
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 12%
+Energy (Joules)                                             : unknown
+

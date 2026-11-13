@@ -1,0 +1,37 @@
+=== UQ Validation Batch ===
+Date: Thu Aug 27 12:18:31 CEST 2026
+Node: cna049
+Job ID: 15351493
+CPUs: 8, GPUs: 1
+Python: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python
+
+Resuming: 35 structures already completed, 70 remaining
+
+[25/105] HfO2 (benchmark) ω=-0.658 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/025_HfO2_benc_unique_4_iter5_sample97_HfO2_Fm3m_energy
+  FAILED (exit 1) in 53.0s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[37/105] Bi2Sn2O7 (benchmark) ω=-3.407 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/037_Bi2Sn2O7_benc_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p
+  TIMEOUT after 3600.4s
+
+[38/105] Bi2Sn2O7 (benchmark) ω=-4.089 THz, 355 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/038_Bi2Sn2O7_benc_unique_4_sg_P1_energy_m6p029892_primitiv
+[2026-08-27T14:18:45.007] error: *** JOB 15351493 ON cna049 CANCELLED AT 2026-08-27T14:18:45 DUE TO TIME LIMIT ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 8.2GiB
+Total CPU Time                           - CPU_Time         : 16:02:08
+Execution Time                           - Wall_Time        : 02:00:16
+total programme cpu time                 - Total_CPU        : 08:37:35
+Total_CPU / CPU_Time  (%)                - ETA              : 53%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 2-16:08:32
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

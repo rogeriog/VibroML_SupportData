@@ -1,0 +1,48 @@
+============================================
+Omega_inst test run
+Job ID: 15356791
+Date: Thu Aug 27 15:39:14 CEST 2026
+Structures: test_omega_inst_structures.json
+Q-mesh: 6 6 6
+============================================
+
+========== MACE-OMAT ==========
+Started: Thu Aug 27 15:39:14 CEST 2026
+Engine: mace
+Model: medium-omat-0
+Structures: 3
+Q-mesh: [6, 6, 6]
+Delta: 0.05
+Relax: True
+Output: test_omega_inst_mace.json
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+  Loading MACE calculator (model=medium-omat-0, device=cuda)...
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+
+[1/3] LiF_simple_cubic (benchmark_unstable)
+
+  Loading: LiFsimplecubic.cif
+  Relaxing with mace...
+    Relaxed: fmax=0.000000 eV/A
+  Computing phonons (supercell=(2, 2, 2), q_mesh=(6, 6, 6))...
+    Computing force constants (supercell=(2, 2, 2), delta=0.05)...
+    Computing eigenvalues on (6, 6, 6) mesh (216 q-points)...
+  Computing instability metric...
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.2GiB
+Total CPU Time                           - CPU_Time         : 00:03:20
+Execution Time                           - Wall_Time        : 00:00:25
+total programme cpu time                 - Total_CPU        : 00:08.975
+Total_CPU / CPU_Time  (%)                - ETA              : 4%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:13:20
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

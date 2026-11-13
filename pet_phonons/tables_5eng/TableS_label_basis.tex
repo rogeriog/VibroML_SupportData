@@ -1,0 +1,38 @@
+\begin{table}[htbp]
+\centering\footnotesize
+\caption{\textbf{Provenance of every reference-set label.} ``SG (labelled)'' is the space group on which the stability label is based; ``SG (evaluated)'' is the space group detected in the geometry actually used for the phonon calculation. Basis tiers: A, the space group is an experimentally observed polymorph of that compound; B, the space group is discussed in the literature but its experimental status is less certain; C, the space group is a hypothetical polymorph recovered by the search and is therefore not an independent anchor for a ``dynamically stable'' label; X, the entry contains a metadata inconsistency and is excluded from the reference set. No entry has had its dynamical stability confirmed by DFT phonons in this work (Section~\ref{sec:si_label_provenance}).}
+\label{tab:si_label_basis}
+\begin{tabular}{r l l l c p{5.4cm}}
+\toprule
+Idx & Compound & SG (labelled) & SG (evaluated) & Basis & Note \\
+\midrule
+\multicolumn{6}{l}{\textit{Known-unstable aristotypes (positives)}} \\
+1 & \ce{LiF} & $Pm\bar{3}m$ & Pm-3m (221) & A & high-symmetry aristotype, unstable at ambient \\
+22 & \ce{HfO2} & $Fm\bar{3}m$ & Fm-3m (225) & A & high-symmetry aristotype, unstable at ambient \\
+34 & \ce{Bi2Sn2O7} & $Fd\bar{3}m$ & Fd-3m (227) & A & high-symmetry aristotype, unstable at ambient \\
+44 & \ce{CsPbI3} & $Pm\bar{3}m$ & Pm-3m (221) & A & high-symmetry aristotype, unstable at ambient \\
+\midrule
+\multicolumn{6}{l}{\textit{Reported lower-symmetry polymorphs (negatives)}} \\
+2 & \ce{LiF} & $Pnma$ & Pnma (62) & C & \ce{LiF} retains B1 to very high pressure; not reported \\
+3 & \ce{LiF} & $F\bar{4}3m$ & F-43m (216) & C & zincblende \ce{LiF}; hypothetical \\
+4 & \ce{LiF} & $P4_2/mnm$ & P4\_2/mnm (136) & C & hypothetical \\
+5 & \ce{LiF} & $P6_3mc$ & P6\_3mc (186) & C & wurtzite \ce{LiF}; hypothetical \\
+6 & \ce{LiF} & $Fm\bar{3}m$ & P1 (1) & X & labelled $Fm\overline{3}m$ but evaluated geometry is $P1$; recorded energy ($-8.61$~eV) is far below the physical polymorphs ($\approx-4.82$~eV) and clusters with the steric-clash anomalies \\
+7 & \ce{LiF} & $P6_3/mmc$ & P6\_3/mmc (194) & C & hypothetical \\
+8 & \ce{LiF} & $P6_3mc$ & P6\_3mc (186) & C & wurtzite \ce{LiF}; hypothetical \\
+16 & \ce{CsPbI3} & $Pnma$ & Pnma (62) & A & $\delta$/$\gamma$-\ce{CsPbI3}, experimentally reported \\
+21 & \ce{CsPbI3} & $Pnma$ & Pnma (62) & A & $\delta$/$\gamma$-\ce{CsPbI3}, experimentally reported \\
+23 & \ce{HfO2} & $Pmn2_1$ & Pmn2\_1 (31) & B & polar orthorhombic \ce{HfO2}; confirm experimental status \\
+25 & \ce{HfO2} & $Fdd2$ & Fdd2 (43) & B & polar \ce{HfO2} phase; confirm experimental status \\
+28 & \ce{HfO2} & $P2_1/c$ & P2\_1/c (14) & A & monoclinic baddeleyite, ambient phase of \ce{HfO2} \\
+29 & \ce{HfO2} & $Pca2_1$ & Pca2\_1 (29) & A & polar orthorhombic (o-III) ferroelectric \ce{HfO2} \\
+32 & \ce{HfO2} & $I4_1/amd$ & I4\_1/amd (141) & B & not a standard \ce{HfO2} polymorph; confirm \\
+33 & \ce{HfO2} & $P2_1/c$ & P2\_1/c (14) & A & monoclinic baddeleyite, ambient phase of \ce{HfO2} \\
+35 & \ce{Bi2Sn2O7} & $P2_12_12_1$ & P2\_12\_12\_1 (19) & B & $\beta$-\ce{Bi2Sn2O7} symmetry is debated; confirm \\
+39 & \ce{Bi2Sn2O7} & $Cc$ & Cc (9) & A & $\alpha$-\ce{Bi2Sn2O7}, low-temperature phase \\
+40 & \ce{Bi2Sn2O7} & $Pna2_1$ & P2\_1 (4) & B & confirm experimental status \\
+42 & \ce{Bi2Sn2O7} & $P2_12_12_1$ & P2\_12\_12\_1 (19) & B & $\beta$-\ce{Bi2Sn2O7} symmetry is debated; confirm \\
+43 & \ce{Bi2Sn2O7} & $Cc$ & Cc (9) & A & $\alpha$-\ce{Bi2Sn2O7}, low-temperature phase \\
+\bottomrule
+\end{tabular}
+\end{table}

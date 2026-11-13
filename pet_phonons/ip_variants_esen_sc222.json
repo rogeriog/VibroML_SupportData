@@ -1,0 +1,52 @@
+[
+  {
+    "omega_min": -4.625681174627951,
+    "soft_frac_no_thresh": 0.08077300785634119,
+    "soft_frac_0p05": 0.08077300785634119,
+    "n_modes": 57024,
+    "n_neg": 4606,
+    "n_neg_thresh": 4606,
+    "i_p_0.5": 0.023999084239176086,
+    "omega_p_0.5": 0.154916378214752,
+    "i_p_0.75": 0.14057734887566567,
+    "omega_p_0.75": 0.37493645978440887,
+    "i_p_1.0": 0.35249277571116616,
+    "omega_p_1.0": 0.593711020372004,
+    "i_p_1.5": 0.9395053591865579,
+    "omega_p_1.5": 0.969280846394149,
+    "i_p_2.0": 1.6167336396030063,
+    "omega_p_2.0": 1.2715084111412738,
+    "i_p_3.0": 3.021566695510118,
+    "omega_p_3.0": 1.7382654272320202,
+    "i_p_4.0": 4.372403477814917,
+    "omega_p_4.0": 2.091029286694693,
+    "i_p_6.0": 6.705832220844302,
+    "omega_p_6.0": 2.5895621677890457,
+    "i_p_10.0": 9.961644803516558,
+    "omega_p_10.0": 3.156207344823302,
+    "i_p_20.0": 14.036303367797347,
+    "omega_p_20.0": 3.7465054874906225,
+    "i_p_50.0": 21.396926329307423,
+    "omega_p_50.0": 4.625681174627951,
+    "i_p_inf": 21.396926329307423,
+    "omega_p_inf": 4.625681174627951,
+    "idx": 34,
+    "compound": "Bi2Sn2O7",
+    "stability_label": "high_sym_unstable",
+    "space_group": "Fd-3m (227)",
+    "natoms": 88,
+    "supercell": [
+      2,
+      2,
+      2
+    ],
+    "q_mesh": [
+      6,
+      6,
+      6
+    ],
+    "cif_path": "/gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/VibroML_SupportData/remediation_results/Bi2Sn2O7/Sn2Bi2O7_MACE_TRADITIONAL_ALL_phonon_output_20260123-012716/initial_relaxation_for_single_run/Sn2Bi2O7_relaxed_symrelaxed.cif",
+    "time_s": 655.7488889694214,
+    "freqs_file": "ip_variants_freqs_esen_sc222/idx_034_Bi2Sn2O7_freqs.npz"
+  }
+]

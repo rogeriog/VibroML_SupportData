@@ -1,0 +1,315 @@
+============================================
+I_p variants computation (MACE + PET)
+Job ID: 15391028
+Date: Sun Aug 30 00:21:20 CEST 2026
+============================================
+
+=== Step 1: MACE-OMAT ===
+Engine: mace
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_mace.json
+Freqs dir: ip_variants_freqs_mace
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  omega_min=-6.5287, I_p_1=4.821246, Omega_p_1=2.195734, I_p_2=10.362870, soft_frac=0.2917, time=1.9s
+
+[2/44] idx=2: LiF (literature_stable)
+  omega_min=-2.1727, I_p_1=0.012704, Omega_p_1=0.112711, I_p_2=0.197992, soft_frac=0.0062, time=3.3s
+
+[3/44] idx=3: LiF (literature_stable)
+  omega_min=-2.3466, I_p_1=0.032460, Omega_p_1=0.180168, I_p_2=0.370008, soft_frac=0.0093, time=0.3s
+
+[4/44] idx=4: LiF (literature_stable)
+  omega_min=-1.3549, I_p_1=0.000830, Omega_p_1=0.028817, I_p_2=0.036590, soft_frac=0.0008, time=1.4s
+
+[5/44] idx=5: LiF (literature_stable)
+  omega_min=-2.1662, I_p_1=0.022507, Omega_p_1=0.150023, I_p_2=0.264773, soft_frac=0.0100, time=1.4s
+
+[6/44] idx=6: LiF (literature_stable)
+  omega_min=-16.5659, I_p_1=9.700885, Omega_p_1=3.114624, I_p_2=44.147314, soft_frac=0.0756, time=1.5s
+
+[7/44] idx=7: LiF (literature_stable)
+  omega_min=-2.3099, I_p_1=0.016704, Omega_p_1=0.129243, I_p_2=0.272026, soft_frac=0.0039, time=0.6s
+
+[8/44] idx=8: LiF (literature_stable)
+  omega_min=-3.2917, I_p_1=0.014294, Omega_p_1=0.119559, I_p_2=0.369081, soft_frac=0.0015, time=0.6s
+
+[9/44] idx=9: LiF (anomaly)
+  omega_min=-2.3689, I_p_1=0.018424, Omega_p_1=0.135735, I_p_2=0.263335, soft_frac=0.0062, time=1.5s
+
+[10/44] idx=10: LiF (anomaly)
+  omega_min=-2.9794, I_p_1=0.007935, Omega_p_1=0.089081, I_p_2=0.248992, soft_frac=0.0023, time=0.6s
+
+[11/44] idx=11: LiF (anomaly)
+  omega_min=-42.2944, I_p_1=261.361250, Omega_p_1=16.166671, I_p_2=575.737649, soft_frac=0.3148, time=0.3s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  omega_min=-0.6490, I_p_1=0.017209, Omega_p_1=0.131183, I_p_2=0.067312, soft_frac=0.0914, time=0.7s
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  omega_min=-0.7689, I_p_1=0.008662, Omega_p_1=0.093067, I_p_2=0.048343, soft_frac=0.0556, time=1.7s
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  omega_min=-0.7140, I_p_1=0.004830, Omega_p_1=0.069496, I_p_2=0.033902, soft_frac=0.0329, time=3.5s
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  omega_min=-0.5904, I_p_1=0.003394, Omega_p_1=0.058258, I_p_2=0.023110, soft_frac=0.0358, time=3.1s
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  omega_min=-0.7740, I_p_1=0.005640, Omega_p_1=0.075102, I_p_2=0.038472, soft_frac=0.0346, time=3.0s
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  omega_min=-0.8070, I_p_1=0.009781, Omega_p_1=0.098897, I_p_2=0.056602, soft_frac=0.0441, time=3.1s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  omega_min=-0.5582, I_p_1=0.001454, Omega_p_1=0.038131, I_p_2=0.014476, soft_frac=0.0159, time=9.7s
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  omega_min=-0.6240, I_p_1=0.002357, Omega_p_1=0.048548, I_p_2=0.022086, soft_frac=0.0177, time=3.1s
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  omega_min=-1.1746, I_p_1=0.017328, Omega_p_1=0.131634, I_p_2=0.102694, soft_frac=0.0454, time=1.5s
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  omega_min=-0.5492, I_p_1=0.001429, Omega_p_1=0.037809, I_p_2=0.014604, soft_frac=0.0157, time=3.1s
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  omega_min=-4.8784, I_p_1=0.232199, Omega_p_1=0.481870, I_p_2=1.494247, soft_frac=0.0448, time=2.5s
+
+[23/44] idx=23: HfO2 (literature_stable)
+  omega_min=-3.4619, I_p_1=0.070132, Omega_p_1=0.264824, I_p_2=0.678283, soft_frac=0.0180, time=0.9s
+
+[24/44] idx=24: HfO2 (literature_quasi)
+  omega_min=-4.0503, I_p_1=0.212958, Omega_p_1=0.461474, I_p_2=1.338518, soft_frac=0.0437, time=0.9s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  omega_min=-3.4005, I_p_1=0.099260, Omega_p_1=0.315056, I_p_2=0.789163, soft_frac=0.0262, time=2.5s
+
+[26/44] idx=26: HfO2 (ga_discovered)
+  omega_min=-2.5029, I_p_1=0.026269, Omega_p_1=0.162076, I_p_2=0.299070, soft_frac=0.0118, time=0.9s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  omega_min=-3.7632, I_p_1=0.052718, Omega_p_1=0.229604, I_p_2=0.607500, soft_frac=0.0147, time=2.3s
+
+[28/44] idx=28: HfO2 (literature_stable)
+  omega_min=-3.8253, I_p_1=0.111875, Omega_p_1=0.334477, I_p_2=0.897980, soft_frac=0.0264, time=7.9s
+
+[29/44] idx=29: HfO2 (literature_stable)
+  omega_min=-3.8343, I_p_1=0.103824, Omega_p_1=0.322218, I_p_2=0.838770, soft_frac=0.0273, time=2.5s
+
+[30/44] idx=30: HfO2 (literature_quasi)
+  omega_min=-3.0844, I_p_1=0.050016, Omega_p_1=0.223644, I_p_2=0.469611, soft_frac=0.0190, time=0.9s
+
+[31/44] idx=31: HfO2 (literature_quasi)
+  omega_min=-3.7512, I_p_1=0.134182, Omega_p_1=0.366309, I_p_2=0.923801, soft_frac=0.0360, time=2.5s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  omega_min=-3.2999, I_p_1=0.137771, Omega_p_1=0.371176, I_p_2=0.816609, soft_frac=0.0401, time=0.9s
+
+[33/44] idx=33: HfO2 (literature_stable)
+  omega_min=-3.6777, I_p_1=0.086973, Omega_p_1=0.294912, I_p_2=0.695575, soft_frac=0.0265, time=2.5s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-1.9040, I_p_1=0.088507, Omega_p_1=0.297501, I_p_2=0.487132, soft_frac=0.0492, time=17.6s
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.9028, I_p_1=0.144173, Omega_p_1=0.379701, I_p_2=0.952559, soft_frac=0.0424, time=20.0s
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.1496, I_p_1=0.110675, Omega_p_1=0.332678, I_p_2=0.711300, soft_frac=0.0415, time=20.0s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0013, I_p_1=0.000000, Omega_p_1=0.000068, I_p_2=0.000000, soft_frac=0.0057, time=52.4s
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000050, I_p_2=0.000000, soft_frac=0.0028, time=184.1s
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-0.1332, I_p_1=0.000034, Omega_p_1=0.005816, I_p_2=0.000772, soft_frac=0.0057, time=49.5s
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.6193, I_p_1=0.133485, Omega_p_1=0.365356, I_p_2=0.840451, soft_frac=0.0437, time=20.0s
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.6193, I_p_1=0.133485, Omega_p_1=0.365356, I_p_2=0.840451, soft_frac=0.0437, time=20.0s
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.9028, I_p_1=0.144173, Omega_p_1=0.379701, I_p_2=0.952559, soft_frac=0.0424, time=20.2s
+
+[43/44] idx=43: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.4923, I_p_1=0.122374, Omega_p_1=0.349820, I_p_2=0.818235, soft_frac=0.0412, time=19.7s
+
+[44/44] idx=44: CsPbI3 (high_sym_unstable)
+  omega_min=-0.7335, I_p_1=0.043094, Omega_p_1=0.207592, I_p_2=0.119674, soft_frac=0.2025, time=0.8s
+
+============================================================
+Completed: 44/44
+Results: ip_variants_mace.json
+Raw freqs: ip_variants_freqs_mace/
+
+=== Step 2: PET-MAD ===
+Engine: pet
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_pet.json
+Freqs dir: ip_variants_freqs_pet
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  omega_min=-18.2773, I_p_1=142.124215, Omega_p_1=11.921586, I_p_2=183.986035, soft_frac=0.8086, time=12.8s
+
+[2/44] idx=2: LiF (literature_stable)
+  omega_min=-1.1793, I_p_1=0.000938, Omega_p_1=0.030625, I_p_2=0.032231, soft_frac=0.0012, time=1.0s
+
+[3/44] idx=3: LiF (literature_stable)
+  omega_min=-3.0498, I_p_1=0.064051, Omega_p_1=0.253082, I_p_2=0.620346, soft_frac=0.0123, time=0.3s
+
+[4/44] idx=4: LiF (literature_stable)
+  omega_min=0.0000, I_p_1=0.000000, Omega_p_1=0.000000, I_p_2=0.000000, soft_frac=0.0000, time=1.0s
+
+[5/44] idx=5: LiF (literature_stable)
+  omega_min=-1.9284, I_p_1=0.004515, Omega_p_1=0.067197, I_p_2=0.108442, soft_frac=0.0027, time=1.0s
+
+[6/44] idx=6: LiF (literature_stable)
+  omega_min=-5.6317, I_p_1=0.278752, Omega_p_1=0.527970, I_p_2=2.064499, soft_frac=0.0347, time=1.0s
+
+[7/44] idx=7: LiF (literature_stable)
+  omega_min=-3.5037, I_p_1=0.046498, Omega_p_1=0.215634, I_p_2=0.654479, soft_frac=0.0062, time=0.5s
+
+[8/44] idx=8: LiF (literature_stable)
+  omega_min=0.0000, I_p_1=0.000000, Omega_p_1=0.000000, I_p_2=0.000000, soft_frac=0.0000, time=0.5s
+
+[9/44] idx=9: LiF (anomaly)
+  omega_min=-2.3519, I_p_1=0.022276, Omega_p_1=0.149252, I_p_2=0.277651, soft_frac=0.0093, time=1.0s
+
+[10/44] idx=10: LiF (anomaly)
+  omega_min=-9.7285, I_p_1=4.871343, Omega_p_1=2.207112, I_p_2=16.283205, soft_frac=0.1273, time=0.5s
+
+[11/44] idx=11: LiF (anomaly)
+  omega_min=-4.6868, I_p_1=0.361003, Omega_p_1=0.600835, I_p_2=1.911074, soft_frac=0.0586, time=0.3s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  omega_min=-1.0524, I_p_1=0.028482, Omega_p_1=0.168765, I_p_2=0.132975, soft_frac=0.0611, time=0.6s
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  omega_min=-1.0346, I_p_1=0.021450, Omega_p_1=0.146459, I_p_2=0.102641, soft_frac=0.0691, time=1.2s
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  omega_min=-0.9019, I_p_1=0.010893, Omega_p_1=0.104367, I_p_2=0.063819, soft_frac=0.0463, time=2.7s
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  omega_min=-0.6944, I_p_1=0.008327, Omega_p_1=0.091253, I_p_2=0.047064, soft_frac=0.0474, time=2.4s
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  omega_min=-0.9305, I_p_1=0.009320, Omega_p_1=0.096538, I_p_2=0.058015, soft_frac=0.0418, time=2.4s
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  omega_min=-1.2264, I_p_1=0.043884, Omega_p_1=0.209484, I_p_2=0.174672, soft_frac=0.0954, time=2.4s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  omega_min=-0.8531, I_p_1=0.005956, Omega_p_1=0.077178, I_p_2=0.046746, soft_frac=0.0265, time=5.5s
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  omega_min=-0.6895, I_p_1=0.004992, Omega_p_1=0.070657, I_p_2=0.036128, soft_frac=0.0282, time=2.4s
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  omega_min=-1.2107, I_p_1=0.035383, Omega_p_1=0.188104, I_p_2=0.151411, soft_frac=0.0858, time=1.2s
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  omega_min=-0.5942, I_p_1=0.002632, Omega_p_1=0.051306, I_p_2=0.023212, soft_frac=0.0188, time=2.5s
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  omega_min=-5.7636, I_p_1=0.369282, Omega_p_1=0.607686, I_p_2=2.085703, soft_frac=0.0635, time=1.5s
+
+[23/44] idx=23: HfO2 (literature_stable)
+  omega_min=-2.9202, I_p_1=0.023502, Omega_p_1=0.153304, I_p_2=0.314975, soft_frac=0.0093, time=0.7s
+
+[24/44] idx=24: HfO2 (literature_quasi)
+  omega_min=-4.0798, I_p_1=0.149936, Omega_p_1=0.387215, I_p_2=1.077108, soft_frac=0.0324, time=0.7s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  omega_min=-4.5096, I_p_1=0.215352, Omega_p_1=0.464061, I_p_2=1.446975, soft_frac=0.0373, time=1.5s
+
+[26/44] idx=26: HfO2 (ga_discovered)
+  omega_min=-1.3823, I_p_1=0.001645, Omega_p_1=0.040557, I_p_2=0.048748, soft_frac=0.0015, time=0.7s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  omega_min=-1.6848, I_p_1=0.005008, Omega_p_1=0.070768, I_p_2=0.093472, soft_frac=0.0039, time=1.5s
+
+[28/44] idx=28: HfO2 (literature_stable)
+  omega_min=-3.1993, I_p_1=0.074184, Omega_p_1=0.272368, I_p_2=0.647087, soft_frac=0.0207, time=3.1s
+
+[29/44] idx=29: HfO2 (literature_stable)
+  omega_min=-3.2616, I_p_1=0.063191, Omega_p_1=0.251377, I_p_2=0.565877, soft_frac=0.0201, time=1.5s
+
+[30/44] idx=30: HfO2 (literature_quasi)
+  omega_min=-3.6442, I_p_1=0.148103, Omega_p_1=0.384842, I_p_2=0.960208, soft_frac=0.0427, time=0.7s
+
+[31/44] idx=31: HfO2 (literature_quasi)
+  omega_min=-4.4212, I_p_1=0.444987, Omega_p_1=0.667074, I_p_2=1.979793, soft_frac=0.0784, time=1.5s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  omega_min=-3.0005, I_p_1=0.090071, Omega_p_1=0.300119, I_p_2=0.615457, soft_frac=0.0340, time=0.7s
+
+[33/44] idx=33: HfO2 (literature_stable)
+  omega_min=-2.8911, I_p_1=0.047187, Omega_p_1=0.217226, I_p_2=0.426140, soft_frac=0.0208, time=1.5s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-2.2995, I_p_1=0.211281, Omega_p_1=0.459653, I_p_2=0.888324, soft_frac=0.0758, time=12.0s
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.6053, I_p_1=0.106349, Omega_p_1=0.326112, I_p_2=0.751923, soft_frac=0.0352, time=6.2s
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.0997, I_p_1=0.094243, Omega_p_1=0.306990, I_p_2=0.621606, soft_frac=0.0383, time=6.2s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.1754, I_p_1=0.000065, Omega_p_1=0.008035, I_p_2=0.001347, soft_frac=0.0038, time=27.1s
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.9762, I_p_1=0.024522, Omega_p_1=0.156595, I_p_2=0.529748, soft_frac=0.0076, time=68.1s
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-0.0922, I_p_1=0.000017, Omega_p_1=0.004110, I_p_2=0.000371, soft_frac=0.0057, time=26.8s
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  omega_min=-2.9242, I_p_1=0.074368, Omega_p_1=0.272705, I_p_2=0.529575, soft_frac=0.0315, time=6.2s
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  omega_min=-2.9242, I_p_1=0.074368, Omega_p_1=0.272704, I_p_2=0.529575, soft_frac=0.0315, time=6.2s
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.6053, I_p_1=0.106351, Omega_p_1=0.326114, I_p_2=0.751932, soft_frac=0.0352, time=6.4s
+
+[43/44] idx=43: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.2726, I_p_1=0.124157, Omega_p_1=0.352359, I_p_2=0.801322, soft_frac=0.0408, time=6.2s
+
+[44/44] idx=44: CsPbI3 (high_sym_unstable)
+  omega_min=-1.4936, I_p_1=0.116162, Omega_p_1=0.340826, I_p_2=0.342268, soft_frac=0.1704, time=0.6s
+
+============================================================
+Completed: 44/44
+Results: ip_variants_pet.json
+Raw freqs: ip_variants_freqs_pet/
+
+All done: Sun Aug 30 00:34:01 CEST 2026
+
+Resources Used
+
+Total Memory used                        - MEM              : 2.1GiB
+Total CPU Time                           - CPU_Time         : 01:42:08
+Execution Time                           - Wall_Time        : 00:12:46
+total programme cpu time                 - Total_CPU        : 22:52.547
+Total_CPU / CPU_Time  (%)                - ETA              : 22%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 06:48:32
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

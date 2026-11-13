@@ -1,0 +1,133 @@
+Engine: esen
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_esen.json
+Freqs dir: ip_variants_freqs_esen
+Resuming: 10 completed, 34 remaining
+
+Loading calculator: engine=esen, model=default
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+ESEN calculator initialized.
+Calculator loaded: OCPCalculator
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  omega_min=-6.5252, I_p_1=5.101549, Omega_p_1=2.258661, I_p_2=10.812323, soft_frac=0.2901, time=5.5s
+
+[2/44] idx=2: LiF (literature_stable)
+  omega_min=-2.2049, I_p_1=0.014049, Omega_p_1=0.118528, I_p_2=0.198057, soft_frac=0.0069, time=10.0s
+
+[3/44] idx=3: LiF (literature_stable)
+  omega_min=-3.9807, I_p_1=0.121061, Omega_p_1=0.347939, I_p_2=1.038188, soft_frac=0.0185, time=1.5s
+
+[4/44] idx=4: LiF (literature_stable)
+  omega_min=-1.3365, I_p_1=0.001143, Omega_p_1=0.033802, I_p_2=0.038542, soft_frac=0.0015, time=10.2s
+
+[5/44] idx=5: LiF (literature_stable)
+  omega_min=-2.9038, I_p_1=0.036805, Omega_p_1=0.191846, I_p_2=0.412142, soft_frac=0.0123, time=11.1s
+
+[6/44] idx=6: LiF (literature_stable)
+  omega_min=-5.2237, I_p_1=0.154186, Omega_p_1=0.392666, I_p_2=1.451149, soft_frac=0.0185, time=11.5s
+
+[7/44] idx=7: LiF (literature_stable)
+  omega_min=-2.1134, I_p_1=0.011960, Omega_p_1=0.109364, I_p_2=0.198237, soft_frac=0.0039, time=3.7s
+
+[9/44] idx=9: LiF (anomaly)
+  omega_min=-2.0549, I_p_1=0.014047, Omega_p_1=0.118520, I_p_2=0.197836, soft_frac=0.0062, time=11.7s
+
+[10/44] idx=10: LiF (anomaly)
+  omega_min=-9.2670, I_p_1=5.616799, Omega_p_1=2.369979, I_p_2=15.741072, soft_frac=0.2076, time=3.7s
+
+[11/44] idx=11: LiF (anomaly)
+  omega_min=-5.5745, I_p_1=0.520156, Omega_p_1=0.721218, I_p_2=2.777594, soft_frac=0.0586, time=1.5s
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  omega_min=-0.5840, I_p_1=0.007041, Omega_p_1=0.083909, I_p_2=0.036548, soft_frac=0.0556, time=3.3s
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  omega_min=-0.8049, I_p_1=0.009413, Omega_p_1=0.097021, I_p_2=0.052095, soft_frac=0.0500, time=6.8s
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  omega_min=-0.7577, I_p_1=0.005215, Omega_p_1=0.072212, I_p_2=0.036112, soft_frac=0.0349, time=16.6s
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  omega_min=-0.4417, I_p_1=0.001373, Omega_p_1=0.037051, I_p_2=0.011512, soft_frac=0.0215, time=16.7s
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  omega_min=-0.8182, I_p_1=0.005184, Omega_p_1=0.072002, I_p_2=0.036793, soft_frac=0.0332, time=16.6s
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  omega_min=-0.8881, I_p_1=0.011709, Omega_p_1=0.108207, I_p_2=0.065858, soft_frac=0.0497, time=16.2s
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  omega_min=-0.6602, I_p_1=0.002376, Omega_p_1=0.048741, I_p_2=0.021472, soft_frac=0.0187, time=53.3s
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  omega_min=-0.5966, I_p_1=0.002343, Omega_p_1=0.048409, I_p_2=0.020437, soft_frac=0.0193, time=17.5s
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  omega_min=-1.1839, I_p_1=0.020435, Omega_p_1=0.142950, I_p_2=0.114484, soft_frac=0.0503, time=6.9s
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  omega_min=-0.5299, I_p_1=0.001701, Omega_p_1=0.041246, I_p_2=0.015704, soft_frac=0.0174, time=17.8s
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  omega_min=-5.7620, I_p_1=0.353382, Omega_p_1=0.594459, I_p_2=2.109198, soft_frac=0.0586, time=20.5s
+
+[23/44] idx=23: HfO2 (literature_stable)
+  omega_min=-2.1978, I_p_1=0.017635, Omega_p_1=0.132797, I_p_2=0.218867, soft_frac=0.0082, time=6.5s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  omega_min=-3.0223, I_p_1=0.058605, Omega_p_1=0.242084, I_p_2=0.527377, soft_frac=0.0198, time=19.5s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  omega_min=-3.3483, I_p_1=0.037439, Omega_p_1=0.193491, I_p_2=0.466590, soft_frac=0.0111, time=19.3s
+
+[28/44] idx=28: HfO2 (literature_stable)
+  omega_min=-4.4079, I_p_1=0.091173, Omega_p_1=0.301949, I_p_2=0.861917, soft_frac=0.0219, time=67.4s
+
+[29/44] idx=29: HfO2 (literature_stable)
+  omega_min=-3.0408, I_p_1=0.045500, Omega_p_1=0.213306, I_p_2=0.447671, soft_frac=0.0175, time=20.5s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  omega_min=-3.1991, I_p_1=0.094650, Omega_p_1=0.307652, I_p_2=0.660088, soft_frac=0.0334, time=5.6s
+
+[33/44] idx=33: HfO2 (literature_stable)
+  omega_min=-2.9987, I_p_1=0.035160, Omega_p_1=0.187510, I_p_2=0.359075, soft_frac=0.0180, time=20.1s
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-2.2011, I_p_1=0.133969, Omega_p_1=0.366017, I_p_2=0.657929, soft_frac=0.0795, time=119.1s
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  omega_min=-4.0260, I_p_1=0.120914, Omega_p_1=0.347727, I_p_2=0.862455, soft_frac=0.0361, time=176.4s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000062, I_p_2=0.000000, soft_frac=0.0057, time=388.4s
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000048, I_p_2=0.000000, soft_frac=0.0019, time=1425.1s
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-0.0012, I_p_1=0.000000, Omega_p_1=0.000059, I_p_2=0.000000, soft_frac=0.0057, time=391.7s
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.5243, I_p_1=0.104299, Omega_p_1=0.322953, I_p_2=0.708423, soft_frac=0.0372, time=175.1s
+
+============================================================
+Completed: 44/44
+Results: ip_variants_esen.json
+Raw freqs: ip_variants_freqs_esen/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.6GiB
+Total CPU Time                           - CPU_Time         : 06:59:12
+Execution Time                           - Wall_Time        : 00:52:24
+total programme cpu time                 - Total_CPU        : 02:22:58
+Total_CPU / CPU_Time  (%)                - ETA              : 34%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 1-03:56:48
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

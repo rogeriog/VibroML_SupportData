@@ -1,0 +1,23 @@
+Restricted to idx [34, 39]: 2 structure(s) selected
+Engine: pet
+Structures: 2 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_pet_sc222.json
+Freqs dir: ip_variants_freqs_pet_sc222
+
+Loading calculator: engine=pet, model=pet-mad-xs
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+
+Resources Used
+
+Total Memory used                        - MEM              : 1006MiB
+Total CPU Time                           - CPU_Time         : 00:05:12
+Execution Time                           - Wall_Time        : 00:00:39
+total programme cpu time                 - Total_CPU        : 00:10.812
+Total_CPU / CPU_Time  (%)                - ETA              : 3%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 00:20:48
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

@@ -1,0 +1,162 @@
+Engine: esen
+Structures: 44 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_esen.json
+Freqs dir: ip_variants_freqs_esen
+
+Loading calculator: engine=esen, model=default
+Initializing eSEN calculator with model: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML/fairchem_models/esen_30m_omat.pt...
+eSEN using CPU only: False
+ESEN calculator initialized.
+Calculator loaded: OCPCalculator
+
+[1/44] idx=1: LiF (high_sym_unstable)
+  FAILED: cannot reshape array of size 120 into shape (8,2,3)
+
+[2/44] idx=2: LiF (literature_stable)
+  FAILED: cannot reshape array of size 240 into shape (8,8,3)
+
+[3/44] idx=3: LiF (literature_stable)
+  FAILED: operands could not be broadcast together with shapes (160,3) (16,3) 
+
+[4/44] idx=4: LiF (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,8,3)
+
+[5/44] idx=5: LiF (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,8,3)
+
+[6/44] idx=6: LiF (literature_stable)
+  FAILED: cannot reshape array of size 480 into shape (8,8,3)
+
+[7/44] idx=7: LiF (literature_stable)
+  FAILED: cannot reshape array of size 960 into shape (8,4,3)
+
+[8/44] idx=8: LiF (literature_stable)
+  omega_min=-3.0780, I_p_1=0.013040, Omega_p_1=0.114194, I_p_2=0.334381, soft_frac=0.0015, time=3.8s
+
+[9/44] idx=9: LiF (anomaly)
+  FAILED: cannot reshape array of size 480 into shape (8,8,3)
+
+[10/44] idx=10: LiF (anomaly)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[11/44] idx=11: LiF (anomaly)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[12/44] idx=12: CsPbI3 (ga_discovered)
+  FAILED: operands could not be broadcast together with shapes (80,3) (40,3) 
+
+[13/44] idx=13: CsPbI3 (literature_quasi)
+  FAILED: cannot reshape array of size 480 into shape (8,10,3)
+
+[14/44] idx=14: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 288 into shape (8,20,3)
+
+[15/44] idx=15: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 576 into shape (8,20,3)
+
+[16/44] idx=16: CsPbI3 (literature_stable)
+  FAILED: cannot reshape array of size 264 into shape (8,20,3)
+
+[17/44] idx=17: CsPbI3 (ga_discovered)
+  FAILED: operands could not be broadcast together with shapes (160,3) (88,3) 
+
+[18/44] idx=18: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 1056 into shape (8,40,3)
+
+[19/44] idx=19: CsPbI3 (ga_discovered)
+  FAILED: cannot reshape array of size 1056 into shape (8,20,3)
+
+[20/44] idx=20: CsPbI3 (ga_discovered)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[21/44] idx=21: CsPbI3 (literature_stable)
+  FAILED: cannot reshape array of size 528 into shape (8,20,3)
+
+[22/44] idx=22: HfO2 (high_sym_unstable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[23/44] idx=23: HfO2 (literature_stable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[24/44] idx=24: HfO2 (literature_quasi)
+  omega_min=-3.9574, I_p_1=0.154156, Omega_p_1=0.392628, I_p_2=1.086773, soft_frac=0.0355, time=6.3s
+
+[25/44] idx=25: HfO2 (literature_stable)
+  FAILED: cannot reshape array of size 1056 into shape (8,12,3)
+
+[26/44] idx=26: HfO2 (ga_discovered)
+  omega_min=-1.6680, I_p_1=0.006001, Omega_p_1=0.077467, I_p_2=0.105884, soft_frac=0.0046, time=6.2s
+
+[27/44] idx=27: HfO2 (ga_discovered)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[28/44] idx=28: HfO2 (literature_stable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[29/44] idx=29: HfO2 (literature_stable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[30/44] idx=30: HfO2 (literature_quasi)
+  omega_min=-3.0151, I_p_1=0.043825, Omega_p_1=0.209345, I_p_2=0.430532, soft_frac=0.0165, time=6.1s
+
+[31/44] idx=31: HfO2 (literature_quasi)
+  omega_min=-3.5237, I_p_1=0.123791, Omega_p_1=0.351839, I_p_2=0.842408, soft_frac=0.0355, time=19.8s
+
+[32/44] idx=32: HfO2 (literature_stable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[33/44] idx=33: HfO2 (literature_stable)
+  FAILED: cannot reshape array of size 528 into shape (8,12,3)
+
+[34/44] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  FAILED: operands could not be broadcast together with shapes (88,3) (176,3) 
+
+[35/44] idx=35: Bi2Sn2O7 (literature_stable)
+  FAILED: [Errno 39] Directory not empty: 'phonon_temp_ip'
+
+[36/44] idx=36: Bi2Sn2O7 (ga_discovered)
+  omega_min=-74.3318, I_p_1=22.711973, Omega_p_1=4.765708, I_p_2=198.637746, soft_frac=0.1120, time=38.7s
+
+[37/44] idx=37: Bi2Sn2O7 (ga_discovered)
+  FAILED: cannot reshape array of size 480 into shape (1,176,3)
+
+[38/44] idx=38: Bi2Sn2O7 (ga_discovered)
+  FAILED: cannot reshape array of size 528 into shape (1,352,3)
+
+[39/44] idx=39: Bi2Sn2O7 (literature_stable)
+  FAILED: 'NoneType' object is not subscriptable
+
+[40/44] idx=40: Bi2Sn2O7 (literature_stable)
+  FAILED: 'NoneType' object is not subscriptable
+
+[41/44] idx=41: Bi2Sn2O7 (ga_discovered)
+  omega_min=-3.5243, I_p_1=0.104300, Omega_p_1=0.322955, I_p_2=0.708430, soft_frac=0.0372, time=175.2s
+
+[42/44] idx=42: Bi2Sn2O7 (literature_stable)
+  omega_min=-4.0260, I_p_1=0.120918, Omega_p_1=0.347733, I_p_2=0.862481, soft_frac=0.0361, time=176.4s
+
+[43/44] idx=43: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.6223, I_p_1=0.103037, Omega_p_1=0.320993, I_p_2=0.754774, soft_frac=0.0338, time=174.6s
+
+[44/44] idx=44: CsPbI3 (high_sym_unstable)
+  omega_min=-0.7380, I_p_1=0.040000, Omega_p_1=0.200000, I_p_2=0.114357, soft_frac=0.1938, time=3.4s
+
+============================================================
+Completed: 10/44
+Results: ip_variants_esen.json
+Raw freqs: ip_variants_freqs_esen/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.6GiB
+Total CPU Time                           - CPU_Time         : 06:34:56
+Execution Time                           - Wall_Time        : 00:49:22
+total programme cpu time                 - Total_CPU        : 02:00:43
+Total_CPU / CPU_Time  (%)                - ETA              : 30%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 1-02:19:44
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

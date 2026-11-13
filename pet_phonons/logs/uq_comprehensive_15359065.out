@@ -1,0 +1,113 @@
+============================================
+Comprehensive UQ validation run
+Job ID: 15359065
+Date: Thu Aug 27 17:31:47 CEST 2026
+Python: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python
+PYTHONPATH: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/01_codebase/VibroML:
+============================================
+
+Loading MACE I_curv results...
+  Loaded MACE I_curv for 105 structures from /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/omega_inst_full_mace.json
+
+Loading PET-MAD calculator...
+
+[1/105] LiF (benchmark) ω=-6.070 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/001_LiF_benc_LiFsimplecubic
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 57.1s | min_freq=-18.5787 THz, I_curv=142.1241289784601 THz², max_std=5.3835 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (1 entries)
+
+[2/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/002_LiF_benc_top_4_iter2_sample10_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000993 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 77.6s | min_freq=-0.0 THz, I_curv=0.0009381147859391452 THz², max_std=1.4315 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (2 entries)
+
+[3/105] LiF (benchmark) ω=-0.910 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/003_LiF_benc_unique_13_iter1_sample58_LiFsimplecubic_
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 38.5s | min_freq=-0.0 THz, I_curv=0.06405169473976245 THz², max_std=0.7214 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (3 entries)
+
+[4/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/004_LiF_benc_top_4_iter4_sample88_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000640 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 54.6s | min_freq=-0.5415 THz, I_curv=0.0 THz², max_std=1.0436 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (4 entries)
+
+[5/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/005_LiF_benc_top_2_iter2_sample2_LiFsimplecubic_energ
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000725 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 59.5s | min_freq=-0.0 THz, I_curv=0.0045152736907969155 THz², max_std=1.2602 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (5 entries)
+
+[6/105] LiF (benchmark) ω=-8.730 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/006_LiF_benc_unique_1_iter1_sample12_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000893 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 94.8s | min_freq=-4.0461 THz, I_curv=0.2787528593648947 THz², max_std=2.1375 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (6 entries)
+
+[7/105] LiF (benchmark) ω=-0.000 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/007_LiF_benc_top_1_iter2_sample4_LiFsimplecubic_energ
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000000 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 40.1s | min_freq=-0.0 THz, I_curv=0.04649862433021179 THz², max_std=2.523 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (7 entries)
+
+[8/105] LiF (benchmark) ω=-0.411 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/008_LiF_benc_top_1_iter4_sample40_LiFsimplecubic_ener
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000307 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 42.0s | min_freq=-0.087 THz, I_curv=0.0 THz², max_std=1.7888 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (8 entries)
+
+[9/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/009_LiF_benc_unique_9_iter2_sample67_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000748 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+  Step 3: Computing I_curv on uniform (6, 6, 6) mesh...
+  DONE in 79.4s | min_freq=-0.2606 THz, I_curv=0.022275780910922013 THz², max_std=1.1591 THz
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (9 entries)
+
+[10/105] LiF (benchmark) ω=-0.023 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/010_LiF_benc_top_5_iterfinal_sample5_LiFsimplecubic_e
+  Step 1: Symmetry-constrained relaxation with PET-MAD...
+    Sym-constrained relaxed: fmax=0.000369 eV/A
+  Step 2: Running vibroml.main --phonon-uq (plots + UQ stats)...
+
+Resources Used
+
+Total Memory used                        - MEM              : 5.2GiB
+Total CPU Time                           - CPU_Time         : 01:18:56
+Execution Time                           - Wall_Time        : 00:09:52
+total programme cpu time                 - Total_CPU        : 11:04.017
+Total_CPU / CPU_Time  (%)                - ETA              : 14%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 05:15:44
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

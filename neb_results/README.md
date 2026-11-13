@@ -4,7 +4,7 @@ Nudged elastic band (NEB) minimum-energy pathways driven by MACE-OMAT-0
 (medium), eSEN-30M-OMat, and UMA-m-1p1 and verified by single-point DFT (VASP
 PBE) calculations across the benchmark systems, corresponding to main-text
 Section "Evaluating Phase Transition Pathways" and Supplementary Section S9
-(Figures S13--S19).
+(Figures S14--S20).
 
 ## Contents
 
@@ -22,6 +22,6 @@ Section "Evaluating Phase Transition Pathways" and Supplementary Section S9
 - `dft_perp_force_analysis/` — DFT static single points on the MLIP-NEB
   images decomposed into path-parallel and path-perpendicular force
   components (`decompose_forces.py`, `perp_force_summary.csv`,
-  `perp_force_per_image.csv`), the data behind SI Table S12. VASP input
+  `perp_force_per_image.csv`), the data behind SI Table S13. VASP input
   files and licensed POTCARs are not distributed; `run_all_vasp.sh`
   documents the execution workflow.

@@ -1,0 +1,43 @@
+Restricted to idx [34, 39]: 2 structure(s) selected
+Engine: mace
+Structures: 2 benchmark
+Q-mesh: [6, 6, 6]
+Output: ip_variants_mace_sc222.json
+Freqs dir: ip_variants_freqs_mace_sc222
+
+Loading calculator: engine=mace, model=medium-omat-0
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+CUDA is available. Using GPU for MACE calculation.
+Initializing MACE calculator on device: cuda...
+Using model under Academic Software License (ASL) license, see https://github.com/gabor1/ASL 
+ To use this model you accept the terms of the license.
+Using Materials Project MACE for MACECalculator with /gpfs/home/acad/ucl-modl/rgouvea/.cache/mace/maceomat0mediummodel
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+Using head default out of ['default']
+MACE calculator initialized.
+Calculator loaded: MACECalculator
+
+[1/2] idx=34: Bi2Sn2O7 (high_sym_unstable)
+  omega_min=-4.4043, I_p_1=0.304388, Omega_p_1=0.551714, I_p_2=1.417244, soft_frac=0.0773, time=83.6s
+
+[2/2] idx=39: Bi2Sn2O7 (literature_stable)
+  omega_min=-3.0367, I_p_1=0.061236, Omega_p_1=0.247458, I_p_2=0.513882, soft_frac=0.0249, time=375.9s
+
+============================================================
+Completed: 2/2
+Results: ip_variants_mace_sc222.json
+Raw freqs: ip_variants_freqs_mace_sc222/
+
+Resources Used
+
+Total Memory used                        - MEM              : 1.9GiB
+Total CPU Time                           - CPU_Time         : 01:07:44
+Execution Time                           - Wall_Time        : 00:08:28
+total programme cpu time                 - Total_CPU        : 19:54.396
+Total_CPU / CPU_Time  (%)                - ETA              : 29%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 04:30:56
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+

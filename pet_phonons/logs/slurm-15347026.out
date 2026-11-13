@@ -1,0 +1,207 @@
+=== UQ Validation Batch ===
+Date: Thu Aug 27 01:40:03 CEST 2026
+Node: cna049
+Job ID: 15347026
+CPUs: 8, GPUs: 1
+Python: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/bin/python
+
+
+[1/105] LiF (benchmark) ω=-6.070 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/001_LiF_benc_LiFsimplecubic
+  DONE in 55.1s | min_freq=-0.0 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (1 entries)
+
+[2/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/002_LiF_benc_top_4_iter2_sample10_LiFsimplecubic_ener
+  DONE in 106.1s | min_freq=-0.047 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (2 entries)
+
+[3/105] LiF (benchmark) ω=-0.910 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/003_LiF_benc_unique_13_iter1_sample58_LiFsimplecubic_
+  DONE in 44.7s | min_freq=-0.0539 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (3 entries)
+
+[4/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/004_LiF_benc_top_4_iter4_sample88_LiFsimplecubic_ener
+  DONE in 94.9s | min_freq=-1.1557 THz, soft_frac=0.8%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (4 entries)
+
+[5/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/005_LiF_benc_top_2_iter2_sample2_LiFsimplecubic_energ
+  DONE in 94.5s | min_freq=-0.109 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (5 entries)
+
+[6/105] LiF (benchmark) ω=-8.730 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/006_LiF_benc_unique_1_iter1_sample12_LiFsimplecubic_e
+  DONE in 96.7s | min_freq=-1.5363 THz, soft_frac=0.9%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (6 entries)
+
+[7/105] LiF (benchmark) ω=-0.000 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/007_LiF_benc_top_1_iter2_sample4_LiFsimplecubic_energ
+  DONE in 60.6s | min_freq=-0.5139 THz, soft_frac=1.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (7 entries)
+
+[8/105] LiF (benchmark) ω=-0.411 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/008_LiF_benc_top_1_iter4_sample40_LiFsimplecubic_ener
+  DONE in 60.2s | min_freq=-0.2544 THz, soft_frac=0.3%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (8 entries)
+
+[9/105] LiF (benchmark) ω=-0.000 THz, 11 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/009_LiF_benc_unique_9_iter2_sample67_LiFsimplecubic_e
+  DONE in 95.0s | min_freq=-0.2648 THz, soft_frac=0.2%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (9 entries)
+
+[10/105] LiF (benchmark) ω=-0.023 THz, 7 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/010_LiF_benc_top_5_iterfinal_sample5_LiFsimplecubic_e
+  DONE in 61.5s | min_freq=-0.0956 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (10 entries)
+
+[11/105] LiF (benchmark) ω=-16.229 THz, 5 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/011_LiF_benc_top_1_iterfinal_sample1_LiFsimplecubic_e
+  DONE in 45.8s | min_freq=-0.0547 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (11 entries)
+
+[12/105] CsPbI3 (benchmark) ω=-0.704 THz, 8 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/012_CsPbI3_benc_unique_3_iter1_sample9_CsPbI3_energy_m2p
+  DONE in 70.2s | min_freq=-0.6525 THz, soft_frac=2.5%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (12 entries)
+
+[13/105] CsPbI3 (benchmark) ω=-0.820 THz, 13 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/013_CsPbI3_benc_unique_16_iter1_sample18_CsPbI3_energy_m
+  DONE in 114.3s | min_freq=-0.3193 THz, soft_frac=0.2%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (13 entries)
+
+[14/105] CsPbI3 (benchmark) ω=-0.160 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/014_CsPbI3_benc_top_1_iter2_sample12_CsPbI3_energy_m2p81
+  DONE in 225.1s | min_freq=-0.1631 THz, soft_frac=0.5%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (14 entries)
+
+[15/105] CsPbI3 (benchmark) ω=-0.213 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/015_CsPbI3_benc_unique_1_iter2_sample98_CsPbI3_energy_m2
+  DONE in 225.1s | min_freq=-0.5969 THz, soft_frac=1.7%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (15 entries)
+
+[16/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/016_CsPbI3_benc_top_2_iter1_sample4_CsPbI3_energy_m2p825
+  DONE in 258.8s | min_freq=-0.0 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (16 entries)
+
+[17/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/017_CsPbI3_benc_top_1_iterfinal_sample1_CsPbI3_energy_m2
+  DONE in 224.3s | min_freq=-0.1716 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (17 entries)
+
+[18/105] CsPbI3 (benchmark) ω=-0.135 THz, 43 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/018_CsPbI3_benc_top_4_iter5_sample56_CsPbI3_energy_m2p82
+  DONE in 555.4s | min_freq=-0.0417 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (18 entries)
+
+[19/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/019_CsPbI3_benc_top_3_iter5_sample18_CsPbI3_energy_m2p82
+  DONE in 224.1s | min_freq=-0.3935 THz, soft_frac=0.5%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (19 entries)
+
+[20/105] CsPbI3 (benchmark) ω=-1.060 THz, 13 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/020_CsPbI3_benc_top_1_iter2_sample1_CsPbI3_energy_m2p831
+  DONE in 115.5s | min_freq=-0.6352 THz, soft_frac=1.7%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (20 entries)
+
+[21/105] CsPbI3 (benchmark) ω=-0.000 THz, 23 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/021_CsPbI3_benc_top_1_iter5_sample1_CsPbI3_energy_m2p840
+  DONE in 222.3s | min_freq=-0.0848 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (21 entries)
+
+[22/105] HfO2 (benchmark) ω=-4.270 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/022_HfO2_benc_HfO2_Fm3m_relaxed
+  DONE in 76.1s | min_freq=-5.6779 THz, soft_frac=4.9%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (22 entries)
+
+[23/105] HfO2 (benchmark) ω=-2.577 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/023_HfO2_benc_unique_6_iter4_sample68_HfO2_Fm3m_energy
+  DONE in 76.5s | min_freq=-1.8999 THz, soft_frac=1.9%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (23 entries)
+
+[24/105] HfO2 (benchmark) ω=-2.592 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/024_HfO2_benc_top_2_iter2_sample20_HfO2_Fm3m_energy_m1
+  DONE in 76.5s | min_freq=-2.9551 THz, soft_frac=3.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (24 entries)
+
+[25/105] HfO2 (benchmark) ω=-0.658 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/025_HfO2_benc_unique_4_iter5_sample97_HfO2_Fm3m_energy
+  FAILED (exit 1) in 39.0s
+  stderr: /gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/gpfs/scratch/acad/htforft/rgouvea/conda_envs/orb_env/lib/python3.11/site-packages/google/protobuf/runtime_versio
+
+[26/105] HfO2 (benchmark) ω=-0.001 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/026_HfO2_benc_unique_3_iter1_sample28_HfO2_Fm3m_energy
+  DONE in 76.2s | min_freq=-1.7225 THz, soft_frac=1.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (25 entries)
+
+[27/105] HfO2 (benchmark) ω=-0.000 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/027_HfO2_benc_unique_2_iter1_sample37_HfO2_Fm3m_energy
+  DONE in 149.0s | min_freq=-0.137 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (26 entries)
+
+[28/105] HfO2 (benchmark) ω=-0.001 THz, 27 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/028_HfO2_benc_unique_1_iter2_sample63_HfO2_Fm3m_energy
+  DONE in 273.3s | min_freq=-1.6939 THz, soft_frac=0.2%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (27 entries)
+
+[29/105] HfO2 (benchmark) ω=-1.362 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/029_HfO2_benc_top_5_iter3_sample6_HfO2_Fm3m_energy_m10
+  DONE in 132.2s | min_freq=-0.9931 THz, soft_frac=0.5%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (28 entries)
+
+[30/105] HfO2 (benchmark) ω=-2.000 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/030_HfO2_benc_top_4_iter3_sample76_HfO2_Fm3m_energy_m1
+  DONE in 84.4s | min_freq=-1.3987 THz, soft_frac=2.6%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (29 entries)
+
+[31/105] HfO2 (benchmark) ω=-1.245 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/031_HfO2_benc_top_3_iter3_sample36_HfO2_Fm3m_energy_m1
+  DONE in 149.4s | min_freq=-0.7571 THz, soft_frac=0.1%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (30 entries)
+
+[32/105] HfO2 (benchmark) ω=-2.390 THz, 9 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/032_HfO2_benc_top_2_iter1_sample43_HfO2_Fm3m_energy_m1
+  DONE in 77.6s | min_freq=-0.7518 THz, soft_frac=2.4%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (31 entries)
+
+[33/105] HfO2 (benchmark) ω=-0.001 THz, 15 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/033_HfO2_benc_top_5_iterfinal_sample5_HfO2_Fm3m_energy
+  DONE in 132.3s | min_freq=-1.7957 THz, soft_frac=0.9%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (32 entries)
+
+[34/105] Bi2Sn2O7 (benchmark) ω=-4.150 THz, 91 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/034_Bi2Sn2O7_benc_Sn2Bi2O7_relaxed
+  DONE in 1023.1s | min_freq=-1.6043 THz, soft_frac=0.7%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (33 entries)
+
+[35/105] Bi2Sn2O7 (benchmark) ω=-3.098 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/035_Bi2Sn2O7_benc_top_1_iterfinal_sample1_Sn2Bi2O7_energy_
+  DONE in 626.1s | min_freq=-0.0081 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (34 entries)
+
+[36/105] Bi2Sn2O7 (benchmark) ω=-4.089 THz, 47 atoms, sc=2x2x2
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/036_Bi2Sn2O7_benc_unique_9_sg_P2_1_energy_m6p004968_primit
+  DONE in 625.1s | min_freq=-0.0402 THz, soft_frac=0.0%
+  Summary saved: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_summary.csv (35 entries)
+
+[37/105] Bi2Sn2O7 (benchmark) ω=-3.407 THz, 179 atoms, sc=1x1x1
+  Output: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/pet_phonons/uq_validation_runs/037_Bi2Sn2O7_benc_top_1_iter1_sample35_Sn2Bi2O7_energy_m6p
+[2026-08-27T03:40:02.005] error: *** JOB 15347026 ON cna049 CANCELLED AT 2026-08-27T03:40:02 DUE TO TIME LIMIT ***
+
+Resources Used
+
+Total Memory used                        - MEM              : 7.7GiB
+Total CPU Time                           - CPU_Time         : 16:00:00
+Execution Time                           - Wall_Time        : 02:00:00
+total programme cpu time                 - Total_CPU        : 04:33:25
+Total_CPU / CPU_Time  (%)                - ETA              : 28%
+Number of alloc CPU                      - NCPUS            : 8
+Number of Mobilized Resources per Job    - NCPUS_EQUIV_PJOB : 32
+Mobilized Resources x Execution Time     - R_Wall_Time      : 2-16:00:00
+CPU_Time / R_Wall_Time (%)               - ALPHA            : 25%
+Energy (Joules)                                             : unknown
+
