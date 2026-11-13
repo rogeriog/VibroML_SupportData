@@ -15,17 +15,6 @@ Base paths used below:
 Python snippets assume `sqlite3`, `csv`, `os`, `numpy` from a standard install
 (pymatgen/ASE only needed where a structure file is opened).
 
-> **Recovery note (2026-11-12).** 1,232 GA-completed Alexandria run directories
-> were truncated during the Sept-15 scratch re-archive (`vibroml_runs.tar.zst`
-> premature EOF). They were recovered from the manneback backup in two batches
-> (975 + 328 directories) and re-ingested into `ga_structures` (276,336 rows,
-> including 99,597 `_conventional`/`_primitive` cell-variant rows). Coverage is
-> now 3,476 / 3,479 GA-completed systems with an auditable top-ranked
-> structure; all earlier "1,973 retained / 1,252 unretained" values in this
-> document's history are superseded. The complete incident record — root
-> cause, recovery procedure, per-number before/after table, and a re-runnable
-> verification register — is in **`MISSING_RUN_RECOVERY_REPORT.md`**.
-
 ---
 
 ## 1. Campaign counts
@@ -41,7 +30,7 @@ Python snippets assume `sqlite3`, `csv`, `os`, `numpy` from a standard install
 | Total GPU cost | **~4,080 GPU-h** (mean 1.3 h/system) | `sqlite3 $DB "SELECT SUM(runtime_hours), AVG(runtime_hours) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status='ga_completed'"` |
 | Auditable Alexandria runs | **3,222** (3,045 quat + 177 quin) | GA-completed Alexandria materials whose rank-1 `top` `cif_path` resolves under `BASE/` — see snippet in §2 below |
 | Non-auditable GA-completed runs | **3** | `Ba2Fe3MoH12` (no top-ranked rows), `LiCdSbRu`, `LiNbSbRu` (all retained candidates clash-flagged; excluded in the audit table) |
-| DFT sampling pool | **1,778** | runs whose initial-relaxed **and** top-ranked CIFs existed at DFT dispatch time; snapshot recorded in `WS/analysis_scripts/sample_manifest.json` provenance (1,352 quat + 166 quin + 260 elpasolite). The subsample was drawn before the manneback recovery. |
+| DFT verification subsample | **200** | uniform random draw (seed 42); sampled systems and sampling pool recorded in `WS/analysis_scripts/sample_manifest.json` |
 
 ## 2. Steric-clash audit (manuscript: "267 Alexandria + 19 elpasolite flagged")
 
@@ -167,9 +156,8 @@ sqlite3 $DB "SELECT COUNT(*), SUM(converged), SUM(clash_flag), SUM(confirmed)
 | NEB perpendicular/parallel force decomposition (7 paths) | `neb_results/dft_perp_force_analysis/perp_force_summary.csv` + `decompose_forces.py` |
 | HfO₂ MD RMSD (recomputed) | `HFO2_RMSD_ARTIFACT.md` — full forensic record |
 | HfO₂ Qi–Rabe crossmatch: 5/12 recovered incl. dm–dm (Table S18) | `hfo2_literature_validation/` — `compare_hfo2_phases.py` matches VibroML CIFs against the published reference POSCARs in `qi_rabe_reference/` (`3a`–`3l.vasp` from github.com/yuboqiuab/unstableflatband, commit `a438e4e`). `unique_1_iter2_sample63` == `3l` (dm–dm, RMS 0.019 Å); `top_1_iter3_sample26` == `3c` (m, RMS 0.062 Å) |
-| **186,653-structure Figshare XYZ dataset** | `candidates_lowcoverage_cif/assemble_ga_structures_xyz_v2.py` rebuilds `ga_local_minima_structures_v2.xyz` from every `*/final_structures/` dir (top+unique, excl. `_conventional`/`_primitive` variants; per-dataset: 151,464 quat + 5,097 quin + 18,307 forced-cubic + 11,785 transmuted) — supersedes the 83,562-structure v1 deposit assembled before the manneback recovery |
+| **186,653-structure Figshare XYZ dataset** | `candidates_lowcoverage_cif/assemble_ga_structures_xyz_v2.py` rebuilds `ga_local_minima_structures_v2.xyz` from every `*/final_structures/` dir (top+unique, excl. `_conventional`/`_primitive` variants; per-dataset: 151,464 quat + 5,097 quin + 18,307 forced-cubic + 11,785 transmuted) |
 | Table S8 five-engine phonon metrics (43 structure blocks; uniform 6^3 mesh, 2x2x2 supercell, 0.05 A displacement) | `pet_phonons/ip_variants_{mace,macemp,esen,uma}_merged.json` (deterministic engines); PET-MAD column = ensemble mean ± 1sigma from `pet_phonons/uq_validation_summary.csv` (per-run ensemble npz on Figshare: `pet_phonons_uq_validation_runs.tar.gz`). `pet_phonons/structure_crosswalk.csv` maps every table row to run directory and source CIF. Two documented patches: LiF Pm-3m uses the `convergence_sweep.json` 8^3 entry; LiF Fm-3m uses the true-rocksalt eval (see `QMESH_PROTOCOL_RESOLUTION.md`) |
 | GA vs. RAND budget figure (Fig. S8) | `remediation_results/plot_ga_vs_rand_budget.py`; GA `overall_*_summary*.txt` in `LiFsimplecubic_GA5it_phonon_output_20250831-152432`, `CsPbI3_GA5it_phonon_output_20251003-002011`, `HfO2_Fm3m_GA_phonon_output_20250826-161333`, `Sn2Bi2O7_MACE_GA_phonon_output_20260107-205131`; RAND per-sample `relaxation_summary.txt` / run summaries in the corresponding `*_OPT_RANDOM_*` directories (LiF excludes 14 clash-artifact rows below −5 eV/atom) |
 
-*Register maintained alongside manuscript revisions; last update covers the
-manneback recovery + full-database re-audit (2026-11-12).*
+*Register maintained alongside manuscript revisions.*
