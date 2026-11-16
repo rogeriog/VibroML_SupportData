@@ -25,7 +25,8 @@ artifacts cited in the SI text and the table caption.
   run never reached final-structure selection, so no UMA-GA lowest-energy
   candidate exists for `CuN`.
 
-For the Table S13 NEB force components (`--` for the `ZnCu` and `ZrCu`
-MACE-OMAT paths): the original external-VASP OUTCARs were not retained,
-and the 63-image static rerun archive covered 7 of the 9 paths; see
-`neb_results/` and the Table S13 caption.
+For the Table S13 NEB force components: the ZnCu and ZrCu MACE-OMAT
+OUTCARs were later recovered from the original nic5 VASP run tree and
+all nine paths are now decomposed; see
+`neb_results/dft_perp_force_analysis/` (OUTCARs, script, per-image and
+per-path CSVs) and the Table S13 caption.
