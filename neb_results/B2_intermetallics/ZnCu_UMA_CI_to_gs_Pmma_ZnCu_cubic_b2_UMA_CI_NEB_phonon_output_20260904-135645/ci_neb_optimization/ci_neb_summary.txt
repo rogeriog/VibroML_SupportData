@@ -1,0 +1,32 @@
+--- CI-NEB Optimization Summary ---
+Analysis Date: 2026-09-04 14:39:40
+
+Method: CI-NEB
+Initial structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/B2_intermetallics/DFT_verify_B2vibroml/dft_inputs/cubic_b2/ZnCu_cubic_b2.cif
+Final structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/B2_intermetallics/cross_model_validation/ga_ground_states/ZnCu_ESEN_ground_state_primitive.cif
+Number of intermediate images: 7
+Spring constant: 5.0 eV/Å²
+Force tolerance: 0.01 eV/Å
+Maximum iterations: 2000
+Climbing image start iteration: 50
+
+Results:
+  Converged: False
+  Final max force: 0.028670 eV/Å
+  Iterations completed: 2000
+  Optimization time: 2536.67 seconds
+
+Energy and Force Profile Along Path:
+------------------------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force       Type        
+------------------------------------------------------------------------------------------
+0        -10.073239      0.000000           0.000000        0.000000        Initial     
+1        -9.990817       0.082423           0.001224        0.000594        Intermediate
+2        -9.763420       0.309820           0.055991        0.015751        Intermediate
+3        -9.415254       0.657985           0.068382        0.020096        Intermediate
+4        -8.087885       1.985355           0.002887        0.001430        Climbing    
+5        -9.231204       0.842035           3.895008        1.182874        Intermediate
+6        -9.947858       0.125381           0.000078        0.000031        Intermediate
+7        -10.017497      0.055742           0.000049        0.000015        Intermediate
+8        -10.070665      0.002574           0.000555        0.000173        Final       
+------------------------------------------------------------------------------------------

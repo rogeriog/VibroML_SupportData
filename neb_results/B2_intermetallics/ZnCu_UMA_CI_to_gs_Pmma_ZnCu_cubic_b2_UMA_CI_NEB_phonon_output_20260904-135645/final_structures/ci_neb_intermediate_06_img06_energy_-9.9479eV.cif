@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Cu2Zn2
+_chemical_formula_sum              "Cu2 Zn2"
+_cell_length_a       3.6110441474050328
+_cell_length_b       3.9123233586545716
+_cell_length_c       3.9771124615090945
+_cell_angle_alpha    89.99999144510579
+_cell_angle_beta     90.00000211062556
+_cell_angle_gamma    90.00000346221437
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cu  Cu1       1.0  0.512168446745628  0.18268100100749018  0.17927425858157253  1.0000
+  Cu  Cu2       1.0  0.5121671702344023  0.682682277935337  0.6792784071108331  1.0000
+  Zn  Zn1       1.0  0.012166811311627604  0.6826816507024189  0.17927888112941745  1.0000
+  Zn  Zn2       1.0  0.012167690051235969  0.18268257839658333  0.6792759159717187  1.0000

@@ -1,0 +1,31 @@
+--- Standard NEB Optimization Summary ---
+Analysis Date: 2026-09-04 13:28:09
+
+Method: Standard NEB
+Initial structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/B2_intermetallics/DFT_verify_B2vibroml/dft_inputs/cubic_b2/ZrCu_cubic_b2.cif
+Final structure: /gpfs/scratch/acad/htforft/rgouvea/vibroml_runs/02_runs_and_data/examples_VibroML/B2_intermetallics/cross_model_validation/ga_ground_states/ZrCu_ESEN_ground_state_primitive.cif
+Number of intermediate images: 7
+Spring constant: 5.0 eV/Å²
+Force tolerance: 0.01 eV/Å
+Maximum iterations: 2000
+
+Results:
+  Converged: False
+  Final max force: 0.297569 eV/Å
+  Iterations completed: 2000
+  Optimization time: 2685.14 seconds
+
+Energy and Force Profile Along Path:
+---------------------------------------------------------------------------
+Image    Energy (eV)     Rel. Energy (eV)   Total Force     Max Force      
+---------------------------------------------------------------------------
+0        -100.037471     0.750201           0.000023        0.000003       
+1        -100.114343     0.673329           0.108090        0.009690       
+2        -100.102388     0.685285           1.370392        0.123463       
+3        -99.183421      1.604251           1.193950        0.111859       
+4        -99.318094      1.469578           1.588240        0.183757       
+5        -98.325904      2.461768           2.365637        0.273618       
+6        -100.468265     0.319407           1.045203        0.130082       
+7        -100.717611     0.070062           0.052526        0.007108       
+8        -100.787673     0.000000           0.007772        0.000872       
+---------------------------------------------------------------------------

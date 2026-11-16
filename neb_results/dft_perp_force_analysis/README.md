@@ -1,56 +1,67 @@
-# NEB Perpendicular-Force Decomposition (GMR item F)
+# NEB force decomposition (SI Table S13)
 
-Reviewer request: "add the perpendicular force component, or at least the
-endpoint forces, next to the maximum total force" in SI Table S12.
+Decomposition of the residual DFT forces on MLIP-generated NEB images into
+path-parallel and path-perpendicular components, in the 3N configuration
+space. This produces the `F_perp^DFT`, `F_par^DFT`, and `F_end^DFT` columns
+of SI Table S13 for all nine B2 NEB paths (CuN / ZnCu / ZrCu x
+MACE-OMAT / eSEN / UMA).
 
 ## Status
 
-- `dft_inputs/neb_images_to_gs/` — 63 VASP input dirs (POSCAR/INCAR/KPOINTS/
-  POTCAR), extracted from `vibroml_runs/dft_neb_statics_to_gs.tar.gz`.
-  These are the same MLIP-NEB geometries used for Table S12.
-- The original OUTCARs were not retained, so force vectors must be recomputed.
-- No VASP installation exists on Lucia; these single points ran on an
-  external machine previously.
+Complete. All nine paths (81 image statics) were decomposed; Table S13 has
+no missing entries.
 
-## Workflow
+- Seven path groups (CuN x 3 engines, ZnCu/ZrCu x eSEN/UMA) came from the
+  archived static single points in
+  `vibroml_runs/dft_neb_statics_to_gs.tar.gz`.
+- The two MACE-OMAT groups (`ZnCu_MACE_to_gs`, `ZrCu_MACE_to_gs`) were
+  recovered from the original VASP run tree on nic5, where they were stored
+  under the earlier naming `ZnCu_MACE_poly02_Pmma` and
+  `ZrCu_MACE_poly01_P2_1`. Endpoint identity was verified by structure
+  matching against the eSEN `to_gs` groups (RMS ~ 0.03 A, different cell
+  setting) and by reproducing the Table S13 scalars exactly:
+  ZnCu/MACE E_b^DFT = 448 meV/atom and F_max^DFT = 0.30 eV/A;
+  ZrCu/MACE E_b^DFT = 59 meV/atom and F_max^DFT = 0.57 eV/A.
 
-1. Copy `dft_inputs/` + `run_all_vasp.sh` to a machine with `vasp_std`.
-2. `bash run_all_vasp.sh 24` — runs/skips the 63 statics (resumable).
-3. Return the tree (only `OUTCAR` needed per image dir).
-4. `python decompose_forces.py` — writes:
-   - `perp_force_per_image.csv` — per-image 3N norms of the total,
-     path-parallel, and path-perpendicular DFT force plus max per-atom total.
-   - `perp_force_summary.csv` — per-path `F_maxatom_tot`,
-     `F_3N_tot_max_interior`, `F_perp_3N_max_interior`, `F_endpoint_max`
-     (columns destined for SI Table S12).
+## Contents
 
-## Method
+- `decompose_forces.py` — parser + decomposition script.
+- `neb_images_to_gs/` — the two recovered MACE-OMAT groups only
+  (18 image dirs with `OUTCAR`, `POSCAR`, `INCAR`, `KPOINTS`).
+  `vasprun.xml`/`CONTCAR`/`OSZICAR` are omitted for size; `OUTCAR` is all
+  the analysis needs. The seven other groups' OUTCARs are retained in the
+  working tree (`vibroml_runs/02_runs_and_data/dft_neb_perp_analysis/`),
+  not duplicated here.
+- `perp_force_per_image.csv` — per-image norms: `F_tot_3N`, `F_par_3N`,
+  `F_perp_3N`, `F_max_per_atom`, `F_perp_max_per_atom`,
+  `F_par_max_per_atom`.
+- `perp_force_summary.csv` — per-path summary: `F_maxatom_tot`,
+  `F_perp_max_per_atom`, `F_perp_3N_max_interior`, `F_par_max_per_atom`,
+  `F_endpoint_max`.
+- `run_all_vasp.sh` — the batch script originally used to run the statics.
 
-Interior image i: tangent t_i = (R_{i+1} − R_{i−1}) normalized in the 3N
-configuration space; F_par = (F·t̂)t̂, F_perp = F − F_par. Endpoint images
-report the unprojected residual (the full force should vanish there).
+## Method and table conventions
 
-## What is needed for the paper
+Interior image i: path tangent t_i = (R_{i+1} - R_{i-1}) normalized in the
+3N configuration space; F_par_vec = (F.t_hat)t_hat, F_perp_vec = F - F_par_vec.
+Endpoint images report the unprojected residual (the full force should
+vanish there).
 
-**Manuscript locations affected:**
-- `tables/tableS_neb_comprehensive.tex` (SI Table S12) — currently shows
-  only `F_max^DFT` (total) and `F_max^MLIP`. Two columns will be added:
-  `F_perp^DFT` (max perpendicular residual over interior images) and
-  `F_end^DFT` (max residual at endpoint images).
-- SI Section S9 text (~SI line 514) — the sentence asserting that the
-  perpendicular component vanishes on an exact MEP will be backed by the
-  numbers rather than asserted.
-- `response_to_referees.tex` item F — point-by-point reply citing the new
-  columns.
+Mapping to Table S13 columns:
 
-**Numbers consumed per path (7 paths: CuN/ZnCu/ZrCu × MACE/eSEN/UMA):**
-- `perp_force_summary.csv` columns: `F_maxatom_tot` (existing table
-  column, recomputed as a cross-check against the published values
-  1.87/0.37/0.59/0.30/0.79/1.19/0.57/0.40/0.37 eV/Å),
-  `F_perp_3N_max_interior` (new `F_perp^DFT` column),
-  `F_endpoint_max` (new `F_end^DFT` column).
+- `F_perp^DFT` = `F_perp_max_per_atom`: max over interior images of the
+  largest per-atom norm of F_perp_vec.
+- `F_par^DFT` = `F_par_max_per_atom`: max over interior images of the
+  largest per-atom norm of F_par_vec.
+- `F_end^DFT` = `F_endpoint_max`: max 3N norm of the residual at the two
+  endpoint images.
 
-**What must come back:** `OUTCAR` from each of the 63 image dirs
-(image_00..image_08 under each of the 7 path dirs). If only a partial run
-is feasible, the 14 endpoint images (image_00 and image_08 per path)
-satisfy the reviewer's minimum ask ("or at least the endpoint forces").
+All published values (F_max^DFT cross-check, F_perp, F_par, F_end)
+reproduce from `perp_force_summary.csv` at two decimals for the full
+9-path table.
+
+## Usage
+
+`python decompose_forces.py` inside the working-tree analysis directory
+(`vibroml_runs/02_runs_and_data/dft_neb_perp_analysis/`), which contains
+all nine path groups under `dft_inputs/neb_images_to_gs/`.

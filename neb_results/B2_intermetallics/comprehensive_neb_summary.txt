@@ -1,0 +1,12 @@
+================================================================================
+Comprehensive B2 NEB Summary
+Date: 2026-08-28 15:10:54
+Engines: ['esen']
+================================================================================
+
+
+--- CuN ---
+Key                                         SG       E_poly    Barrier   Conv   Iter  N_atoms
+CuN_ESEN_poly01                           Amm2    -5.076862    -0.1472  False    200        4
+CuN_ESEN_poly02                          F-43m    -5.067087    -0.0191   True    111        2
+CuN_ESEN_poly03                         P6_3mc    -5.063686    -0.4342  False    200        8
