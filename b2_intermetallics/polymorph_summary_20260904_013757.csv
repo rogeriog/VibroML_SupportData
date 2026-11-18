@@ -1,0 +1,13 @@
+material,run_name,formula,n_atoms,energy,energy_per_atom,status
+CuN,CuN_ESEN_rank02_Amm238_nprim4,CuN,4,-20.18319954,-5.045799885,completed
+CuN,CuN_ESEN_rank03_F-43m216_nprim2,CuN,2,-10.08162536,-5.04081268,completed
+CuN,CuN_ESEN_rank04_P6_3mc186_nprim8,CuN,8,-40.24862695,-5.03107836875,completed
+CuN,CuN_ESEN_rank05_Pmn2_131_nprim8,CuN,8,-40.1995387,-5.0249423375,completed
+CuN,CuN_ESEN_rank06_P6_3mc186_nprim4,CuN,4,-20.05257172,-5.01314293,completed
+CuN,CuN_ESEN_rank08_Pnma62_nprim8,CuN,8,-40.25841749,-5.03230218625,completed
+CuN,CuN_ESEN_rank11_Cm8_nprim8,CuN,8,-40.16927399,-5.02115924875,completed
+CuN,CuN_ESEN_rank12_Ama240_nprim4,CuN,4,-20.08825575,-5.0220639375,completed
+CuN,CuN_MACE_rank07_P6_3mc186_nprim4,CuN,4,-20.05255849,-5.0131396225,completed
+CuN,CuN_MACE_rank09_Amm238_nprim4,CuN,4,-20.18320288,-5.04580072,completed
+CuN,CuN_MACE_rank10_Cmc2_136_nprim4,CuN,4,-20.10174647,-5.0254366175,completed
+CuN,CuN_reference_rank01_Pm-3m221_nprim2,CuN,2,-9.26206432,-4.63103216,completed

@@ -1,0 +1,8 @@
+material,run_name,formula,n_atoms,energy,energy_per_atom,status
+ZnCu,ZnCu_ESEN_rank04_Pmma51_nprim4,ZnCu,4,-10.04599949,-2.5114998725,completed
+ZnCu,ZnCu_ESEN_rank06_Pm-3m221_nprim2,ZnCu,2,-5.01723875,-2.508619375,completed
+ZnCu,ZnCu_MACE_rank02_Pmma51_nprim4,ZnCu,4,-10.04596905,-2.5114922625,completed
+ZnCu,ZnCu_MACE_rank03_P4mmm123_nprim2,ZnCu,2,-5.01334684,-2.50667342,completed
+ZnCu,ZnCu_MACE_rank05_Pnma62_nprim8,ZnCu,8,-20.03326176,-2.50415772,completed
+ZnCu,ZnCu_MACE_rank07_Imma74_nprim8,ZnCu,8,-20.03653329,-2.50456666125,completed
+ZnCu,ZnCu_reference_rank01_Pm-3m221_nprim2,ZnCu,2,-5.01723882,-2.50861941,completed

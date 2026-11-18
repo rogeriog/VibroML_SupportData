@@ -1,0 +1,13 @@
+material,run_name,formula,n_atoms,energy,energy_per_atom,status
+ZrCu,ZrCu_ESEN_rank02_P2_1c14_nprim16,ZrCu,16,-100.53422727,-6.283389204375,completed
+ZrCu,ZrCu_ESEN_rank03_P-12_nprim8,ZrCu,8,-50.17475343,-6.27184417875,completed
+ZrCu,ZrCu_ESEN_rank06_P2_14_nprim16,ZrCu,16,-100.28882781,-6.268051738125,completed
+ZrCu,ZrCu_ESEN_rank09_P4nmm129_nprim4,ZrCu,4,-25.04797598,-6.261993995,completed
+ZrCu,ZrCu_ESEN_rank10_C2m12_nprim8,ZrCu,8,-50.00058717,-6.25007339625,completed
+ZrCu,ZrCu_ESEN_rank12_C2m12_nprim16,ZrCu,16,-99.9350175,-6.24593859375,completed
+ZrCu,ZrCu_MACE_rank04_P-12_nprim8,ZrCu,8,-50.17490994,-6.2718637425,completed
+ZrCu,ZrCu_MACE_rank05_P2_1c14_nprim16,ZrCu,16,-100.28874197,-6.268046373125,completed
+ZrCu,ZrCu_MACE_rank07_Cmcm63_nprim4,ZrCu,4,-25.0266533,-6.256663325,completed
+ZrCu,ZrCu_MACE_rank08_P4nmm129_nprim4,ZrCu,4,-25.04796652,-6.26199163,completed
+ZrCu,ZrCu_MACE_rank11_Cmcm63_nprim8,ZrCu,8,-50.00749419,-6.25093677375,completed
+ZrCu,ZrCu_reference_rank01_Pm-3m221_nprim2,ZrCu,2,-12.47432907,-6.237164535,completed

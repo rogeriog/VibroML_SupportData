@@ -1,0 +1,70 @@
+--- Phonon Run Summary ---
+Structure Formula: Cu2Zn2
+Total Number of Atoms: 4
+Engine Used: mace
+Units: THz
+Supercell Size: (3, 3, 3)
+Displacement Delta: 0.03
+Fmax for Relaxation: 0.001
+Most Negative Frequency (overall): -0.0000 THz
+
+--- Validated Stability Metrics (fixed 6x6x6 mesh) ---
+Soft-mode fraction (soft_frac): 0.000000
+I_curv (p=1): 0.000000 THz²
+Omega_inst (sqrt(I_curv)): 0.000000 THz
+Modes: 2592 total, 0 imaginary, 0 excluded (Gamma acoustic)
+Time Taken for Phonon Analysis: 11.41 seconds
+
+Energy of Structure: -10.087714 eV
+Energy per Atom: -2.521928 eV/atom
+
+--- Top 5 Softest Modes Found at Special K-points ---
+Mode 1:
+   Label: G
+   Coordinate (q-point): [0.0, 0.0, 0.0]
+   Frequency: 6.6547 THz
+   Band Index: 11
+
+Mode 2:
+   Label: R
+   Coordinate (q-point): [0.5, 0.5, 0.5]
+   Frequency: 6.5381 THz
+   Band Index: 11
+
+Mode 3:
+   Label: U
+   Coordinate (q-point): [0.5, 0.0, 0.5]
+   Frequency: 6.4042 THz
+   Band Index: 11
+
+Mode 4:
+   Label: Y
+   Coordinate (q-point): [0.0, 0.5, 0.0]
+   Frequency: 6.3301 THz
+   Band Index: 11
+
+Mode 5:
+   Label: S
+   Coordinate (q-point): [0.5, 0.5, 0.0]
+   Frequency: 6.1763 THz
+   Band Index: 11
+
+Path of K-points:
+  G: 0.0000
+  X: 1.1633
+  S: 1.8958
+  Y: 3.0591
+  G: 3.7915
+  Z: 4.4911
+  U: 5.6544
+  R: 6.3869
+  T: 7.5502
+  Z: 8.2827
+  Y: 8.2827
+  T: 8.9823
+  U: 8.9823
+  X: 9.6818
+  S: 9.6818
+  R: 10.3814
+
+Space Group: Not available (symmetry analysis file not found).
