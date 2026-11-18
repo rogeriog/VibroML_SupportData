@@ -25,7 +25,7 @@ confirming dynamical stability.
 
 The ZnCu–MACE-OMAT entry comes from a GA run launched with a 3×3×3
 initial screen; the automatic 2×2×2 sweep terminated at the cubic B2
-parent before launching the GA (see `absence_evidence/` for the run
+parent before launching the GA (see `zncu_mace_screen_termination/` for the run
 artifacts cited in the table caption). The CuN–UMA entry is the
 iteration-3 certified structure from the August GA campaign, evaluated
 in its guidance phonon check.
