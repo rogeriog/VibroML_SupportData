@@ -1,0 +1,80 @@
+[
+    {
+        "rank": 1,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_2",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Cm",
+        "num_sites": 10,
+        "volume_A3": 283.426,
+        "formation_energy_per_atom_eV": -1.2137447531921008,
+        "total_energy_per_atom_eV": -5.981679973713766,
+        "total_energy_eV": -59.816799737137664
+    },
+    {
+        "rank": 2,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_3",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 284.967,
+        "formation_energy_per_atom_eV": -1.20908558322843,
+        "total_energy_per_atom_eV": -5.977020803750095,
+        "total_energy_eV": -59.77020803750096
+    },
+    {
+        "rank": 3,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_1",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 286.915,
+        "formation_energy_per_atom_eV": -1.208370986724555,
+        "total_energy_per_atom_eV": -5.97630620724622,
+        "total_energy_eV": -59.763062072462205
+    },
+    {
+        "rank": 4,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_4",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 286.526,
+        "formation_energy_per_atom_eV": -1.208357886391104,
+        "total_energy_per_atom_eV": -5.976293106912769,
+        "total_energy_eV": -59.762931069127696
+    },
+    {
+        "rank": 5,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_5",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 287.102,
+        "formation_energy_per_atom_eV": -1.2083522246130523,
+        "total_energy_per_atom_eV": -5.976287445134718,
+        "total_energy_eV": -59.76287445134718
+    },
+    {
+        "rank": 6,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_29_enum_6",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 289.488,
+        "formation_energy_per_atom_eV": -1.2055927781856806,
+        "total_energy_per_atom_eV": -5.973527998707346,
+        "total_energy_eV": -59.73527998707346
+    }
+]

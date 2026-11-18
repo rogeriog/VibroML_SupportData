@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs24K11Na(InI6)12",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 120,
+        "volume_A3": 6736.92,
+        "formation_energy_per_atom_eV": -1.087994457241603,
+        "total_energy_per_atom_eV": -2.5786982895729933,
+        "total_energy_eV": -309.4437947487592
+    }
+]

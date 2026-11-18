@@ -1,0 +1,54 @@
+[
+    {
+        "rank": 1,
+        "formula": "K3BaZr(TaSe4)3",
+        "source_id": "doped_from_provided_KTaSe3_top1_P2_1_c_0p00meV_enum_1",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 20,
+        "volume_A3": 632.77,
+        "formation_energy_per_atom_eV": -1.1609725907591812,
+        "total_energy_per_atom_eV": -5.6581882123711456,
+        "total_energy_eV": -113.16376424742292
+    },
+    {
+        "rank": 2,
+        "formula": "K3BaZr(TaSe4)3",
+        "source_id": "doped_from_provided_KTaSe3_top1_P2_1_c_0p00meV_enum_3",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 20,
+        "volume_A3": 634.315,
+        "formation_energy_per_atom_eV": -1.1567876599681295,
+        "total_energy_per_atom_eV": -5.654003281580094,
+        "total_energy_eV": -113.08006563160187
+    },
+    {
+        "rank": 3,
+        "formula": "K3BaZr(TaSe4)3",
+        "source_id": "doped_from_provided_KTaSe3_top1_P2_1_c_0p00meV_enum_4",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 20,
+        "volume_A3": 638.38,
+        "formation_energy_per_atom_eV": -1.1520027175989593,
+        "total_energy_per_atom_eV": -5.649218339210924,
+        "total_energy_eV": -112.98436678421848
+    },
+    {
+        "rank": 4,
+        "formula": "K3BaZr(TaSe4)3",
+        "source_id": "doped_from_provided_KTaSe3_top1_P2_1_c_0p00meV_enum_2",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 20,
+        "volume_A3": 637.238,
+        "formation_energy_per_atom_eV": -1.1515833266818074,
+        "total_energy_per_atom_eV": -5.648798948293772,
+        "total_energy_eV": -112.97597896587543
+    }
+]

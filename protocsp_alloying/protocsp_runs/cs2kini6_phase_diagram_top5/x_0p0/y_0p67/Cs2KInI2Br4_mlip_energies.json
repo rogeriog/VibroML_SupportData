@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs2KIn(IBr2)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top5_P-1_fps_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P-1",
+        "num_sites": 40,
+        "volume_A3": 1713.657,
+        "formation_energy_per_atom_eV": -1.2945320893800822,
+        "total_energy_per_atom_eV": -2.8277242439085244,
+        "total_energy_eV": -113.10896975634097
+    }
+]

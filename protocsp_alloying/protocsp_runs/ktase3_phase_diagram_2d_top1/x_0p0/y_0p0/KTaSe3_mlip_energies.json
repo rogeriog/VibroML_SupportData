@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "KTaSe3",
+        "source_id": "provided_KTaSe3_unique_23",
+        "parent_formula": "Unknown",
+        "method": "Manual Base (Exact Match)",
+        "space_group": "P1",
+        "num_sites": 20,
+        "volume_A3": 622.034,
+        "formation_energy_per_atom_eV": -0.9510360476072144,
+        "total_energy_per_atom_eV": -5.5697624619141735,
+        "total_energy_eV": -111.39524923828347
+    }
+]

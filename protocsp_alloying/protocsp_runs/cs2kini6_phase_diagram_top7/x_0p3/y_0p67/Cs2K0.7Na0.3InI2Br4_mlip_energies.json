@@ -1,0 +1,28 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs8K3NaIn4(IBr2)8",
+        "source_id": "doped_from_provided_Cs2KInI6_top7_P2_1c_fps_4",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 40,
+        "volume_A3": 1728.485,
+        "formation_energy_per_atom_eV": -1.2801956717395762,
+        "total_energy_per_atom_eV": -2.8193582727916056,
+        "total_energy_eV": -112.77433091166422
+    },
+    {
+        "rank": 2,
+        "formula": "Cs8K3NaIn4(IBr2)8",
+        "source_id": "doped_from_provided_Cs2KInI6_top7_P2_1c_fps_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 40,
+        "volume_A3": 1736.825,
+        "formation_energy_per_atom_eV": -1.2801417874744494,
+        "total_energy_per_atom_eV": -2.819304388526479,
+        "total_energy_eV": -112.77217554105916
+    }
+]

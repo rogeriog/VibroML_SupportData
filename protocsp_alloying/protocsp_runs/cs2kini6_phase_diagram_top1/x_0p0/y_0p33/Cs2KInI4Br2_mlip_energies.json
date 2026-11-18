@@ -1,0 +1,67 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs2KIn(I2Br)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_4",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "C2",
+        "num_sites": 10,
+        "volume_A3": 532.697,
+        "formation_energy_per_atom_eV": -1.1898736242455694,
+        "total_energy_per_atom_eV": -2.700826543254877,
+        "total_energy_eV": -27.008265432548768
+    },
+    {
+        "rank": 2,
+        "formula": "Cs2KIn(I2Br)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Fmm2",
+        "num_sites": 10,
+        "volume_A3": 533.987,
+        "formation_energy_per_atom_eV": -1.188909108903403,
+        "total_energy_per_atom_eV": -2.6998620279127103,
+        "total_energy_eV": -26.998620279127103
+    },
+    {
+        "rank": 3,
+        "formula": "Cs2KIn(I2Br)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_3",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Cm",
+        "num_sites": 10,
+        "volume_A3": 527.981,
+        "formation_energy_per_atom_eV": -1.1841580073226705,
+        "total_energy_per_atom_eV": -2.695110926331978,
+        "total_energy_eV": -26.95110926331978
+    },
+    {
+        "rank": 4,
+        "formula": "Cs2KIn(I2Br)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_5",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Cm",
+        "num_sites": 10,
+        "volume_A3": 529.775,
+        "formation_energy_per_atom_eV": -1.1812712944127925,
+        "total_energy_per_atom_eV": -2.6922242134221,
+        "total_energy_eV": -26.922242134221
+    },
+    {
+        "rank": 5,
+        "formula": "Cs2KIn(I2Br)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top1_I42m_enum_2",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "I-42m",
+        "num_sites": 10,
+        "volume_A3": 526.3,
+        "formation_energy_per_atom_eV": -1.172598504673383,
+        "total_energy_per_atom_eV": -2.6835514236826903,
+        "total_energy_eV": -26.835514236826903
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "rank": 1,
+        "formula": "KBaZrTaSe6",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_2",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Pmma",
+        "num_sites": 20,
+        "volume_A3": 558.5,
+        "formation_energy_per_atom_eV": -1.2335986079003085,
+        "total_energy_per_atom_eV": -5.6093034368172745,
+        "total_energy_eV": -112.18606873634549
+    },
+    {
+        "rank": 2,
+        "formula": "KBaZrTaSe6",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_4",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Pmma",
+        "num_sites": 20,
+        "volume_A3": 569.68,
+        "formation_energy_per_atom_eV": -1.232237251284248,
+        "total_energy_per_atom_eV": -5.607942080201214,
+        "total_energy_eV": -112.15884160402429
+    },
+    {
+        "rank": 3,
+        "formula": "KBaZrTaSe6",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_1",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Pmmm",
+        "num_sites": 20,
+        "volume_A3": 566.363,
+        "formation_energy_per_atom_eV": -1.2276491728280527,
+        "total_energy_per_atom_eV": -5.603354001745019,
+        "total_energy_eV": -112.06708003490037
+    },
+    {
+        "rank": 4,
+        "formula": "KBaZrTaSe6",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_5",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P4mm",
+        "num_sites": 20,
+        "volume_A3": 571.029,
+        "formation_energy_per_atom_eV": -1.2272102711081034,
+        "total_energy_per_atom_eV": -5.602915100025069,
+        "total_energy_eV": -112.05830200050139
+    },
+    {
+        "rank": 5,
+        "formula": "KBaZrTaSe6",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_3",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Pmmm",
+        "num_sites": 20,
+        "volume_A3": 567.295,
+        "formation_energy_per_atom_eV": -1.2205835269886753,
+        "total_energy_per_atom_eV": -5.596288355905641,
+        "total_energy_eV": -111.92576711811283
+    }
+]

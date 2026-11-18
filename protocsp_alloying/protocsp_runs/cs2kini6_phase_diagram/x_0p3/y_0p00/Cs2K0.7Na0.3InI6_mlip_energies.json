@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs8K3Na(InI6)4",
+        "source_id": "doped_from_manual_provided_Cs2KInI6_rank_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Cmmm",
+        "num_sites": 40,
+        "volume_A3": 2025.259,
+        "formation_energy_per_atom_eV": -1.0496027140838202,
+        "total_energy_per_atom_eV": -2.5442868440975928,
+        "total_energy_eV": -101.77147376390371
+    }
+]

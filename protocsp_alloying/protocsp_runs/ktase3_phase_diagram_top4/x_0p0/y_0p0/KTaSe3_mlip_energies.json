@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "KTaSe3",
+        "source_id": "provided_KTaSe3_top4_P1_5p48meV",
+        "parent_formula": "Unknown",
+        "method": "Manual Base (Exact Match)",
+        "space_group": "P1",
+        "num_sites": 40,
+        "volume_A3": 1310.22,
+        "formation_energy_per_atom_eV": -1.000452729464417,
+        "total_energy_per_atom_eV": -5.619179143771376,
+        "total_energy_eV": -224.76716575085504
+    }
+]

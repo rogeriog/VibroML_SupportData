@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "KTaSe2O",
+        "source_id": "doped_from_provided_KTaSe3_4.277_enum_1",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P4/mmm",
+        "num_sites": 5,
+        "volume_A3": 108.316,
+        "formation_energy_per_atom_eV": -1.3929445835893297,
+        "total_energy_per_atom_eV": -6.310088610325698,
+        "total_energy_eV": -31.550443051628488
+    }
+]

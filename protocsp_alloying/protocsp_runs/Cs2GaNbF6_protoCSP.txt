@@ -1,0 +1,108 @@
+================================================================================
+PROTOCSP: Prototype-based Crystal Structure Prediction
+================================================================================
+Target Composition: Cs2GaNbF6
+Index Path: lemat_formula_indexed
+[DEBUG] Starting guess for Cs2NbGaF6 (Anon: ABC2D6)
+[DEBUG] Loaded 98798 entries for ABC2D6 in 13.3339s
+[DEBUG] Exact string match failed. Trying robust chemical comparison...
+[DEBUG] Strategy 0 Failed completely. Target: 'Cs2NbGaF6'. Top DB Entries: ['Gd6Ge2NO', 'NOPu6Si2', 'MoReTa2W6', 'Gd6In2NO', 'MoNb2ReW6']...
+[DEBUG] Strategy 1: Transmuting top 50 chemically relevant prototypes...
+[DEBUG] Ranking: Target is OXIDE/SALT (Anion Fraction: 60.00%)
+[DEBUG] Ranking: Top candidates -> Cl6Cs2GaNb-agm004472018(Score=3170.1), Br6Cs2GaNb-agm004470206(Score=3168.2), Br6Cs2GaNb-oqmd-6350713(Score=3168.2)
+agm004472018 -4.0166723079999995 Cl6Cs2GaNb
+agm004470206 -3.6402090289999998 Br6Cs2GaNb
+oqmd-6350713 -3.6401600000000003 Br6Cs2GaNb
+agm004476443 -3.2471076969999997 Cs2GaI6Nb
+agm004484754 -5.105220507 F6GaNbRb2
+agm004475229 -5.103657228 AlCs2F6Nb
+agm004474742 -5.087830297 Cs2F6NbTl
+agm004966229 -5.0722681345 Cs2F6NbTl
+oqmd-6409679 -5.0490200000000005 Cs2F6GaV
+oqmd-9128330 -5.03346 Cs2F6NbTl
+agm004475886 -4.983700916 Cs2F6GaV
+agm004957429 -5.33516144 ClCs2F6Nb
+agm004954656 -5.290140779 BrCs2F6Nb
+agm004475351 -5.20854472 ClCs2F6Nb
+agm004475065 -5.138760413 Cs2F6NbS
+agm004474828 -5.097397143 Cs2F6NbSe
+agm004475731 -5.0195095940000005 Cs2F6NbP
+agm004475720 -4.3489332140000005 Cs2F6GaP
+agm004474938 -4.124878256000001 Cs2F6GaS
+agm004475631 -4.0921457850000005 Cs2F6GaO
+agm004475340 -3.9482875010000003 ClCs2F6Ga
+agm004476386 -3.255479586 Cs2FI6Nb
+agm004476377 -2.402123208 Cs2FGaI6
+agm004474729 -5.6336503669999995 Cs2F6HfNb
+agm004475942 -5.601081662 Cs2F6NbY
+agm004474813 -5.5980161950000005 Cs2F6NbSc
+agm004475847 -5.581262908 Cs2F6NbTi
+agm004474740 -5.568732133999999 Cs2F6NbTa
+agm004475165 -5.547275603 Cs2F6NbZr
+agm004475455 -5.505289243 CrCs2F6Nb
+agm004475896 -5.448149878000001 Cs2F6NbV
+agm004474741 -5.327572225 Cs2F6NbTc
+agm004474870 -5.317936528 Cs2F6NbSr
+agm004474983 -5.290803033 Cs2F6GaSc
+agm004474726 -5.2893384900000004 BaCs2F6Nb
+agm004474738 -5.274225106 Cs2F6NbRu
+oqmd-6409704 -5.24503 Cs2F6GaY
+agm004475611 -5.243839618 Cs2F6LiNb
+agm004474733 -5.207569277999999 Cs2F6MoNb
+agm004475837 -5.1825526449999995 Cs2F6GaTi
+agm004474734 -5.175606106 Cs2F6NbOs
+agm004965619 -5.171286287 Cs2F6GaTi
+agm004474736 -5.141552222 Cs2F6NbPt
+agm004474743 -5.136503491 Cs2F6NbW
+agm004474942 -5.106016896 Cs2F6NbSi
+agm004485119 -5.082426171 CsF6NbRb2
+agm004474735 -5.0711078579999995 Cs2F6NbPb
+agm005506603 -5.069696315 CsF6K2Nb
+agm004474739 -5.057528889 Cs2F6NbSb
+oqmd-8728536 -5.02886 CsF6NbRb2
+[DEBUG] Strategy 1 generated 50 candidates in 0.0184s
+[DEBUG] Finalizing 50 candidates...
+[DEBUG] Returning top 5 unique candidates.
+
+================================================================================
+GENERATION COMPLETE (5 candidates in 20.79s)
+
+
+Generated Structures (Ranked):
+[1] Formula: Cs2NbGaF6
+    Source ID: transmuted_from_agm004472018
+    Initial Space Group (Parent): None
+    Space Group: Fm-3m
+    Volume: 321.350 Å³
+
+[2] Formula: Cs2NbGaF6
+    Source ID: transmuted_from_agm004470206
+    Initial Space Group (Parent): None
+    Space Group: Fm-3m
+    Volume: 368.670 Å³
+
+[3] Formula: Cs2NbGaF6
+    Source ID: transmuted_from_oqmd-6350713
+    Initial Space Group (Parent): None
+    Space Group: Fm-3m
+    Volume: 365.415 Å³
+
+[4] Formula: Cs2NbGaF6
+    Source ID: transmuted_from_agm004476443
+    Initial Space Group (Parent): None
+    Space Group: Fm-3m
+    Volume: 445.792 Å³
+
+[5] Formula: Cs2NbGaF6
+    Source ID: transmuted_from_agm004484754
+    Initial Space Group (Parent): None
+    Space Group: Fm-3m
+    Volume: 194.960 Å³
+
+
+Saving 5 structures to ./generated_structures/
+  [1] Saved: Cs2GaNbF6_transmutation_transmuted_from_agm004472018_rank_1.cif
+  [2] Saved: Cs2GaNbF6_transmutation_transmuted_from_agm004470206_rank_2.cif
+  [3] Saved: Cs2GaNbF6_transmutation_transmuted_from_oqmd-6350713_rank_3.cif
+  [4] Saved: Cs2GaNbF6_transmutation_transmuted_from_agm004476443_rank_4.cif
+  [5] Saved: Cs2GaNbF6_transmutation_transmuted_from_agm004484754_rank_5.cif

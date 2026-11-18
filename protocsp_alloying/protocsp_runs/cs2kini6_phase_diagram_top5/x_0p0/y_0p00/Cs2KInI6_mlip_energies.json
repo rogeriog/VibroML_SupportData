@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs2KInI6",
+        "source_id": "provided_Cs2KInI6_top5_P-1",
+        "parent_formula": "Unknown",
+        "method": "Manual Base (Exact Match)",
+        "space_group": "P-1",
+        "num_sites": 40,
+        "volume_A3": 1960.555,
+        "formation_energy_per_atom_eV": -1.0883590485486452,
+        "total_energy_per_atom_eV": -2.577072732038828,
+        "total_energy_eV": -103.08290928155311
+    }
+]

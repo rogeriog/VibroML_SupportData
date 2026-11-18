@@ -1,0 +1,28 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs4KNa(InI6)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top6_Fmm2_enum_2",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 40,
+        "volume_A3": 2014.353,
+        "formation_energy_per_atom_eV": -1.062483035371203,
+        "total_energy_per_atom_eV": -2.563137611908564,
+        "total_energy_eV": -102.52550447634256
+    },
+    {
+        "rank": 2,
+        "formula": "Cs4KNa(InI6)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top6_Fmm2_enum_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "Amm2",
+        "num_sites": 40,
+        "volume_A3": 2018.368,
+        "formation_energy_per_atom_eV": -1.061547586588713,
+        "total_energy_per_atom_eV": -2.562202163126074,
+        "total_energy_eV": -102.48808652504296
+    }
+]

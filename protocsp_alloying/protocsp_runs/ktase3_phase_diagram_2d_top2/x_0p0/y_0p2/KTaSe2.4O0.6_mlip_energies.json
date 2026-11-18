@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "K2Ta2Se5O",
+        "source_id": "doped_from_provided_KTaSe3_unique_27_enum_1",
+        "parent_formula": "KTaSe3",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P1",
+        "num_sites": 10,
+        "volume_A3": 283.622,
+        "formation_energy_per_atom_eV": -1.2137105876878174,
+        "total_energy_per_atom_eV": -5.981645808209477,
+        "total_energy_eV": -59.816458082094776
+    }
+]

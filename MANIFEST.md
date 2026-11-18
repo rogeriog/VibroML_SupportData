@@ -29,6 +29,7 @@ the companion Figshare deposit (`https://doi.org/10.6084/m9.figshare.34790283`).
 | **SI Sec. S8, Table S12** (B2 intermetallic phonon metrics) | `b2_intermetallics/` | `b2_metrics_<System>_<Engine>_*/`, `absence_evidence/` (run artifacts for the two absent engine--compound rows) |
 | **SI Sec. S9, Table S13, Figs. S13--S19** (NEB pathways) | `neb_results/` | `B2_intermetallics/` (complete MLIP NEB outputs incl. image CIFs), `*_neb_summary.txt`, `vasp_plots_and_neb_data/`, `plot_comparison_DFT_MLIP_neb_paths.py`, `dft_perp_force_analysis/` (all 9 B2 paths decomposed) |
 | **SI Sec. S11, Tables S14--S17** (Remediation settings & timing) | `remediation_results/` | `compile_timing.py`, `vibroml_timing_table.csv` |
+| **Alloying solid-solution maps** (Cs2KInI6 & KTaSe3 combined panels, phase diagrams, phonon heatmaps) | `protocsp_alloying/` | `cs2kini6_phase_diagram_data.csv`, `ktase3_phase_diagram_data.csv`, `*_phonon_data.csv`, `plot_*_complete.py` (exact figure scripts), `extract_*_data.py`, `protocsp_runs/` (raw `*_mlip_energies.json` per composition-polymorph), interactive `*_3d.html` |
 | **SI Sec. S16, Tables S18--S19** (HfO2 literature validation) | `hfo2_literature_validation/` | `HfO2_SG*.cif`, `compare_hfo2_phases.py` |
 | **186,653 GA local-minima XYZ dataset & Explorer blob store** | Figshare (`10.6084/m9.figshare.34790283`) | `ga_local_minima_structures_v2.xyz.gz`, `vibroml_explorer_bundle.tar.gz` |
 | **Missing-run incident record** | `MISSING_RUN_RECOVERY_REPORT.md` | Root cause, recovery, before/after audit values, verification register |

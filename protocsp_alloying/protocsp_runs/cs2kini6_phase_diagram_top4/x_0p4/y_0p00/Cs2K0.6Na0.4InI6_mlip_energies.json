@@ -1,0 +1,15 @@
+[
+    {
+        "rank": 1,
+        "formula": "Cs4KNa(InI6)2",
+        "source_id": "doped_from_provided_Cs2KInI6_top4_P-3_enum_1",
+        "parent_formula": "Cs2KInI6",
+        "method": "Manual Base Doping (Target Size: ~20)",
+        "space_group": "P-1",
+        "num_sites": 40,
+        "volume_A3": 2050.9,
+        "formation_energy_per_atom_eV": -1.0651429676336042,
+        "total_energy_per_atom_eV": -2.5657975441709633,
+        "total_energy_eV": -102.63190176683852
+    }
+]
