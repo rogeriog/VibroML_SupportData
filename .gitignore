@@ -43,3 +43,7 @@ vibroml_explorer_bundle.tar.gz
 # Internal backups
 *.bak.db
 cluster_operations_directive.md
+
+# Internal author-resolution working notes (kept locally, not for public repo)
+*RESOLUTION.md
+*_RESOLUTION.md
