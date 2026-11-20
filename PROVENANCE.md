@@ -105,10 +105,13 @@ corrected energy of the substitute from the same run.
 | mean E_hull | **0.185 → 0.093 eV/atom** |
 | median E_hull | **180 → 89 meV/atom** |
 | within 50 meV/atom of hull | **18.4%** (~575) |
+| at or below hull (post-GA `e_above_hull` ≤ 0) | **39 (1.2%)** |
 
 The uncorrected reference values across all GA-completed Alexandria systems
-with energy records (kept in SI S15 for provenance): mean **−112**,
-median **−86** meV/atom.
+with energy records (N = 3,163, kept in SI S15 for provenance): mean **−112**,
+median **−86** meV/atom; **206 systems (6.5%)** at or below the hull — most of
+these apparent crossings are flagged structures and disappear once
+integrity-passing substitutes are used.
 
 The non-Γ soft-mode check (manuscript/response "64% zero imaginary modes at
 non-Γ points"): `rescan_nongamma_modes.py` loads the top-1
