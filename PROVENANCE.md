@@ -25,7 +25,7 @@ Python snippets assume `sqlite3`, `csv`, `os`, `numpy` from a standard install
 | Met cutoff without GA (`stable_no_ga`) | **3,137** (47.7%) | `sqlite3 $DB "SELECT COUNT(*) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status='stable_no_ga'"` |
 | Entered GA | **3,437** | `sqlite3 $DB "SELECT COUNT(*) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status IN ('ga_completed','ga_incomplete','failed_early','never_ran')"` |
 | GA-completed | **3,225** | `sqlite3 $DB "SELECT COUNT(*) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status='ga_completed'"` |
-| Elpasolite GA-completed | **254** (136 forced-cubic + 118 transmuted) | `sqlite3 $DB "SELECT dataset, COUNT(*) FROM materials WHERE dataset LIKE 'elpasolite%' AND run_status='ga_completed' GROUP BY dataset"` |
+| Elpasolite GA-completed (reported set) | **245** (129 forced-cubic + 116 transmuted) | restricted to the 200-composition campaign: `sqlite3 $DB "SELECT material_name,dataset FROM materials WHERE dataset LIKE 'elpasolite%' AND run_status='ga_completed'"`, keep runs whose composition (name prefix before `_manual_base`/`_transmutation`/`_database`) is in `whitespace_data/elpasolite_draw200.json`. The DB holds 254 completed rows for 208 comp-names: the extra rows are 4 pre-campaign pilot runs under legacy unsorted names (`K2ZnFeI6`≡`K2FeZnI6`, `Li2CuCrCl6`≡`Li2CrCuCl6`) and 5 completed runs of the 6 appended first-submission compositions (`elpasolite_sample_200.json` lists 206 = the 200 seed-42 draw + 6 appended originals) |
 | Unique GA polymorphs | **156,671** (mean 49/system, max 190) | `sqlite3 $DB "SELECT SUM(ga_unique_structures), AVG(ga_unique_structures), MAX(ga_unique_structures) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status='ga_completed'"` |
 | Total GPU cost | **~4,080 GPU-h** (mean 1.3 h/system) | `sqlite3 $DB "SELECT SUM(runtime_hours), AVG(runtime_hours) FROM materials WHERE dataset IN ('quaternary','quintenary') AND run_status='ga_completed'"` |
 | Audited GA-completed runs | **3,225** (all of them) | every `ga_completed` Alexandria run is covered by the geometric-integrity audit below; `Ba2Fe3MoH12` was recovered into the audited set after the Part-C database ingest |
@@ -72,9 +72,9 @@ EOF
 | Claim | Value |
 |---|---|
 | Alexandria clash-flagged | **269 / 3,225 = 8.3%** (266 quat + 3 quin) |
-| Elpasolite clash-flagged | **19 / 254 = 7.5%** (12 + 7) |
+| Elpasolite clash-flagged | **19 / 245 = 7.8%** (12 + 7) |
 | Alexandria coherence-flagged | **64** (60 quat + 4 quin) |
-| Elpasolite coherence-flagged | **23** (15 + 8) |
+| Elpasolite coherence-flagged | **23 / 245 = 9.4%** (15 + 8) |
 | Both flags | **29** |
 | Substituted, clash audit | **245** (226 Alex + 19 elp; best clash-free candidate from the same run) |
 | Substituted, coherence audit | **84** (61 Alex + 23 elp) |
@@ -157,7 +157,7 @@ sqlite3 $DB "SELECT COUNT(*), SUM(converged), SUM(clash_flag), SUM(confirmed)
 
 | Claim | Source file(s) |
 |---|---|
-| Elpasolite: 254 runs, mean ΔE −240 meV/atom | `DB`: `SELECT AVG(energy_reduction_vs_initial_eV_per_atom) FROM materials WHERE dataset LIKE 'elpasolite%' AND run_status='ga_completed'` |
+| Elpasolite (245-run core set): 240/242 evaluable runs at `f_soft<2%` (99%), median ΔE −271 meV/atom (forced-cubic) / −174 (transmuted), mean ΔE −234 | same query as the campaign-count row restricted to `elpasolite_draw200.json`; audited medians substitute flagged winners with the registry energies (`corrected_clash_systems.csv` `best_clean_eV`, `coherence_substitutions.csv` `substitute_energy_eV_per_atom`) before `best − initial_relaxed` |
 | B2 phonon metrics (9 deposited engine×compound pairs) | `b2_intermetallics/` (see its README; Table S12 rows) |
 | NEB perpendicular/parallel force decomposition (9 paths) | `neb_results/dft_perp_force_analysis/perp_force_summary.csv` + `decompose_forces.py` |
 | HfO₂ Qi–Rabe crossmatch: 5/12 recovered incl. dm–dm (Table S18) | `hfo2_literature_validation/` — `compare_hfo2_phases.py` matches VibroML CIFs against the published reference POSCARs in `qi_rabe_reference/` (`3a`–`3l.vasp` from github.com/yuboqiuab/unstableflatband, commit `a438e4e`). `unique_1_iter2_sample63` == `3l` (dm–dm, RMS 0.019 Å); `top_1_iter3_sample26` == `3c` (m, RMS 0.062 Å) |
