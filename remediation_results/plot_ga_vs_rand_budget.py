@@ -181,7 +181,7 @@ for ax, (name, spec) in zip(axes, RUNS.items()):
     ax.set_title(name, fontsize=14)
     ax.set_xlabel('successful relaxations', fontsize=11)
     ax.set_ylabel('best energy found (eV/atom)', fontsize=11)
-    ax.legend(fontsize=9, loc='lower right')
+    ax.legend(fontsize=9, loc='upper right')
     if spec['ylim']:
         ax.set_ylim(*spec['ylim'])
     ax.tick_params(labelsize=10)
