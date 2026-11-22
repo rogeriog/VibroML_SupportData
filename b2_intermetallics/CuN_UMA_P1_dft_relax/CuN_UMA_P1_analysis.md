@@ -3,8 +3,9 @@
 ## Headline
 
 The UMA-discovered rank-1 CuN polymorph (P1, Cu32N32) relaxes under the
-standard VibroML two-stage DFT workflow to **-5.1132** eV/atom,
-i.e. **67.4 meV/atom below the previous DFT ground state (Amm2)**
+standard VibroML two-stage DFT workflow to **-5.1129** eV/atom
+(stage-2, converged: `reached required accuracy`, max |F| = 0.009 eV/A),
+i.e. **67.1 meV/atom below the previous DFT ground state (Amm2)**
 and **48.2 meV/atom below B2**. It remains space group **P1** after
 relaxation at all symprecs tested (0.1 / 0.05 / 0.01) — a genuine
 triclinic local minimum, not a strained higher-symmetry structure.
@@ -31,8 +32,8 @@ triclinic local minimum, not a strained higher-symmetry structure.
 |---|---|
 | Stage-1 final TOTEN (F, sigma=0.05) | -5.1132 eV/atom |
 | Stage-1 final E(sigma->0) | -5.1126 eV/atom |
-| Stage-2 final TOTEN (F, sigma=0.01) | in progress (expected ~+0.5 meV/atom vs stage 1) |
-| Stage-2 final E(sigma->0) | in progress |
+| Stage-2 final TOTEN (F, sigma=0.01) | -5.1129 eV/atom |
+| Stage-2 final E(sigma->0) | -5.1128 eV/atom |
 | vs Amm2 stage-2 (-5.0458) | -67.4 meV/atom |
 | vs B2 stage-2 (-4.6310) | -48.2 meV/atom |
 | vs UMA MLIP (-5.1347) | +21.5 meV/atom |
@@ -73,17 +74,24 @@ structure containing **N2 dumbbells**:
 | -5.0131 | 0 | 3.20 | 3.20 | P63mc (alt) |
 | -4.6310 | 0 | - | - | B2 |
 
-- 2 N-N pairs at 1.12-1.14 A = N~N triple-bond distance: pernitride-like
-  N2 molecular units embedded in the lattice.
+- 2 N-N pairs at 1.12-1.14 A = nearly molecular N2 units (free N2 is
+  1.10 A; bound pernitride N2 dumbbells are typically 1.3-1.5 A)
+  embedded in the lattice.
 - Cu-Cu minimum 2.49 A ~ fcc-Cu nearest-neighbour distance (2.56 A):
   partial Cu clustering accompanies N2 formation.
 - Energy bookkeeping: ~67 meV/atom x 64 atoms ~ 4.3 eV ~ 2.2 eV per N2
   dumbbell — consistent with N-N bond formation driving the gain.
-- Stability vs elemental decomposition: still a bound CuN compound
-  (far below the Cu + 1/2 N2 asymptote), not incipient phase
-  separation. A formal formation-energy/hull number requires elemental
-  Cu and N2 references and is out of scope of this single-structure
-  verification.
+- Stability vs elemental decomposition: correction to earlier text.
+  The P1 basin lies ~+6.9 eV/atom ABOVE the Cu + 1/2 N2 asymptote
+  (fcc-Cu -3.72 + 1/2 N2 -8.28 ~ -12.0 eV/atom vs -5.113 eV/atom),
+  i.e. CuN is massively unstable to elemental decomposition. The basin
+  is a converged local minimum, but the nearly molecular N-N
+  distances, weak Cu coordination of the N2 units, and Cu-rich
+  clustering are consistent with incipient decomposition toward Cu and
+  N2. Whether it is better described as a metastable
+  dinitrogen-bearing nitride or an incipient-decomposition
+  intermediate is an interpretation a static relaxation cannot settle;
+  both are consistent with the structure.
 
 ## Interpretation
 
@@ -112,10 +120,10 @@ The P1 finding does not invalidate the B2 -> Amm2 NEB study; it
 reinforces the choice of endpoint.
 
 - The P1 is a **different material class** from the nitride
-  polymorphs: it contains N2 molecular dumbbells and partial Cu
-  clustering, i.e. a pernitride-like structure. Amm2, and every other
-  polymorph in the verification set, are conventional nitrides
-  (isolated N3-).
+  polymorphs: it contains nearly molecular N2 units and partial Cu
+  clustering, consistent with incipient decomposition toward Cu and
+  N2. Amm2, and every other polymorph in the verification set, are
+  conventional nitrides (isolated N3-).
 - A B2 -> P1 transition would require **wholesale chemical
   reconstruction**: breaking the nitride framework, pairing N atoms
   into N~N units, and re-aggregating Cu. That is a different physical
@@ -127,20 +135,23 @@ reinforces the choice of endpoint.
   polymorph space was richer than expected, and the lowest-energy
   *nitride* (Amm2) remains the correct endpoint for the
   displacement-class transition studied in Tables S12/S13. The P1
-  belongs to a separate chemical basin (pernitride-like), reachable
-  only through a reconstructive mechanism that deserves separate
-  treatment if pursued at all.
+  belongs to a separate chemical basin outside the nitride polymorph
+  family, reachable only through a reconstructive mechanism that
+  deserves separate treatment if pursued at all.
 - Suggested one-liner for the response/text: "The subsequently
-  identified P1 structure belongs to a distinct pernitride-like
-  chemical class (N2 dumbbells + Cu clustering); its formation from B2
+  identified P1 structure sits outside the nitride polymorph family
+  (nearly molecular N2 units + Cu clustering, consistent with
+  incipient decomposition toward Cu and N2); its formation from B2
   entails reconstructive chemistry rather than the displacive pathways
   analysed here, so Amm2 remains the appropriate ground-state endpoint
   for the nitride-class transitions studied."
 
 ## Status note
 
-Values reported are stage-1 (EDIFF 2e-5, sigma=0.05) finals at ionic
-step 29+ (energy flat for ~10 steps). The stage-2 tighten
-(EDIFF=1e-6, sigma=0.01) is running and historically shifts these
-numbers by ~+0.5 meV/atom; the summary row can be refreshed from the
-stage-2 job OUTCAR on completion without affecting any conclusion.
+Stage-2 tighten (EDIFF=1e-6, sigma=0.01) completed: 89 ionic steps,
+`reached required accuracy`, max |F| = 0.009 eV/A. Final energy
+-5.1129 eV/atom (+0.33 meV/atom vs the stage-1 value), confirming the
+basin as a converged triclinic local minimum; the N-N dumbbell
+(1.124/1.142 A) and Cu-clustering metrics are unchanged. The
+DFT-relaxed geometry is deposited as
+`CuN_UMA_P1_64atom_dft_relaxed.cif`.

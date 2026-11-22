@@ -52,7 +52,22 @@ header (`POTCAR:` TITEL lines).
 
 The three loose `polymorph_summary_*.csv` files list
 `material, run_name, formula, n_atoms, energy, energy_per_atom, status`
-for every relaxed polymorph. The DFT-relaxed lowest-energy structures
-are Amm2 (CuN, −5.0458 eV/atom), Pmma (ZnCu, −2.5115 eV/atom), and
-$P2_1/c$ (ZrCu, −6.2834 eV/atom); the cubic B2 references relax to
+for every relaxed polymorph. Within the conventional nitride and
+intermetallic polymorph families, the DFT-relaxed lowest-energy
+structures are Amm2 (CuN, −5.0458 eV/atom), Pmma (ZnCu, −2.5115 eV/atom),
+and $P2_1/c$ (ZrCu, −6.2834 eV/atom); the cubic B2 references relax to
 −4.6310, −2.5086, and −6.2372 eV/atom respectively.
+
+## CuN UMA $P1$ 64-atom basin
+
+`CuN_UMA_P1_dft_relax/` contains the DFT relaxation of UMA's rank-1
+CuN candidate, a 64-atom triclinic structure outside the nitride
+polymorph family. It relaxes to −5.1129 eV/atom (stage-2, converged to
+EDIFFG −0.01; max residual force 0.009 eV/Å), 67 meV/atom below Amm2,
+and contains nearly molecular N2 units (two N–N pairs at 1.12–1.14 Å,
+near the N≡N triple-bond distance) with partial Cu clustering
+(minimum Cu–Cu 2.49 Å), consistent with incipient decomposition toward
+Cu and N2. `CuN_UMA_P1_analysis.md` in that directory documents the
+settings, energetics, and structural analysis; the DFT-relaxed
+geometry is deposited as `CuN_UMA_P1_64atom_dft_relaxed.cif`
+(`CuN_UMA_P1_64atom.cif` is the UMA input structure).
