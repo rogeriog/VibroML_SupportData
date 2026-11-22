@@ -82,13 +82,15 @@ structure containing **N2 dumbbells**:
 - Energy bookkeeping: ~67 meV/atom x 64 atoms ~ 4.3 eV ~ 2.2 eV per N2
   dumbbell — consistent with N-N bond formation driving the gain.
 - Stability vs elemental decomposition: correction to earlier text.
-  The P1 basin lies ~+6.9 eV/atom ABOVE the Cu + 1/2 N2 asymptote
-  (fcc-Cu -3.72 + 1/2 N2 -8.28 ~ -12.0 eV/atom vs -5.113 eV/atom),
-  i.e. CuN is massively unstable to elemental decomposition. The basin
-  is a converged local minimum, but the nearly molecular N-N
-  distances, weak Cu coordination of the N2 units, and Cu-rich
-  clustering are consistent with incipient decomposition toward Cu and
-  N2. Whether it is better described as a metastable
+  Every CuN polymorph lies far above the Cu + 1/2 N2 asymptote
+  (fcc-Cu -3.72 + 1/2 N2 -8.28 ~ -12.0 eV/atom vs -5.113 eV/atom for
+  the P1), i.e. the composition is decomposition-prone in general;
+  this does not by itself single out the P1. What distinguishes the
+  P1 from all other candidates is structural: it is the only one in
+  which the decomposition products' motifs are already present
+  inside a converged local minimum — N2 units at nearly free-molecule
+  bond lengths with weak Cu coordination, and Cu–Cu contacts near the
+  metallic distance. Whether it is better described as a metastable
   dinitrogen-bearing nitride or an incipient-decomposition
   intermediate is an interpretation a static relaxation cannot settle;
   both are consistent with the structure.
